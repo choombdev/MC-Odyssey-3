@@ -1,0 +1,311 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/resources/bgod.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -110
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\resources\HoverResource.png
+  backgroundnormal = config\resources\ButtonResource.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -109
+  action = movebutton
+  y = 58
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 136
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\resources\HoverResource.png
+  backgroundnormal = config\resources\ButtonResource.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -109
+  action = movebutton
+  y = 81
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 136
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\resources\HoverResource.png
+  backgroundnormal = config\resources\ButtonResource.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -110
+  action = movebutton
+  y = -31
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\resources\HoverResource.png
+  backgroundnormal = config\resources\ButtonResource.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -109
+  action = movebutton
+  y = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 136
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\resources\HoverResource.png
+  backgroundnormal = config\resources\ButtonResource.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 7e7741e7-6491-4f31-921b-20fbf865ef911657889648801
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = ef73149c-7a11-4efb-8d8f-e0eb4b1a194c1657889648809
+  y = 224
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 6523f37b-ce02-4354-815f-a4f1c0285ccf1657889648809
+  y = 246
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 3cae1922-f661-4e8c-af95-9c5f46c90df61657889648809
+  y = 166
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 7e75de91-14d7-4d73-ab14-113d137ce7ee1657889648809
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = db2d1f6c-6bee-48df-a01d-5ea4092e08001657889648809
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\resources\DiscordHover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 30
+  width = 20
+  actionid = 2b41a4d3-d70a-403b-975a-e15d119212b61657889950053
+  action = addbutton
+  y = 35
+  backgroundnormal = config\resources\DiscordButton.png
+  value = https://discord.gg/JzSydC6UMR
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\resources\RedditHover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 30
+  width = 20
+  actionid = d1ec610e-6744-4142-82d9-a4840e994c401657889996850
+  action = addbutton
+  y = 58
+  backgroundnormal = config\resources\RedditButton.png
+  value = https://github.com/YahiaTGF/MC-Odyssey-2
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\resources\GithubHover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 31
+  width = 20
+  actionid = 4ef64230-b41c-429f-b9c6-828f3c8c2e791657890001482
+  action = addbutton
+  y = 81
+  backgroundnormal = config\resources\GithubButton.png
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\resources\bisectHover.png
+  label =    Create your own server!
+  loopbackgroundanimations = true
+  x = -110
+  width = 160
+  actionid = 142513b2-265b-4677-a1b3-391877c395d11657890511267
+  action = addbutton
+  y = 13
+  backgroundnormal = config\resources\bisect.png
+  value = bisecthosting.com/odyssey
+  height = 20
+}
+

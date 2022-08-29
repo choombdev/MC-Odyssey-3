@@ -1,0 +1,19 @@
+
+["Config category"]
+	#Set the clients minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable.
+	#Range: 2500 ~ 25000
+	minimumClient = 8000
+	#Set the clients maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended is 6000mb then set this to ~8000mb
+	#Range: 2500 ~ 60000
+	maximumClient = 14000
+	#Set the servers minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable.
+	#Range: 2500 ~ 25000
+	minimumServer = 5000
+	#Set the servers maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended is 6000mb then set this to ~8000mb
+	#Range: 2500 ~ 600000
+	maximumServer = 600000
+	#Disable the memory warnings, default = false
+	disableWarnings = false
+	#Set the help message for changing ram allocation, you can use html here e.g. for setting a link to a wiki page
+	helpfullinkmessage = "See <a href='https://github.com/choombdev/MC-Odyssey-3/wiki/'>https://github.com/choombdev/MC-Odyssey-3/wiki</a> on how to change your memory settings and optimize the pack."
+

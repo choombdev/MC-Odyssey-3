@@ -1,0 +1,212 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/resources/bgod.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -123
+  action = movebutton
+  y = -26
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\resources\HoverResource.png
+  backgroundnormal = config\resources\ButtonResource.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -20
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=400382%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\resources\hoverresource.png
+  backgroundnormal = config\resources\buttonresource.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -121
+  action = movebutton
+  y = 46
+}
+
+customization {
+  identifier = %id=502382%
+  width = 198
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\resources\HoverResource.png
+  backgroundnormal = config\resources\ButtonResource.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -123
+  action = movebutton
+  y = -49
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\resources\HoverResource.png
+  backgroundnormal = config\resources\ButtonResource.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -122
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=400346%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\resources\hoverresource.png
+  backgroundnormal = config\resources\buttonresource.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\resources\DiscordHover.png
+  label =  
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 558
+  width = 20
+  actionid = 240e240b-66d3-4bb5-af3f-ac8c63413d441639926015619
+  action = addbutton
+  y = 315
+  backgroundnormal = config\resources\DiscordButton.png
+  value = https://discord.gg/JzSydC6UMR
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\resources\GithubHover.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 558
+  width = 20
+  actionid = f24d4054-6b54-46da-830a-088df069381f1639926104142
+  action = addbutton
+  y = 291
+  backgroundnormal = config\resources\GithubButton.png
+  value = https://github.com/YahiaTGF/MC-Odyssey-2
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\resources\RedditHover.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 558
+  width = 20
+  actionid = ab7dab25-c455-4a67-9e91-5b84d200d4851639926193613
+  action = addbutton
+  y = 268
+  backgroundnormal = config\resources\RedditButton.png
+  value = https://www.reddit.com/r/MCOdyssey/
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\resources\bisectHover.png
+  label = Create your own Server
+  loopbackgroundanimations = true
+  x = -122
+  width = 199
+  actionid = 3273c2c7-1805-4662-bf0f-ea554e6d99691640854563657
+  action = addbutton
+  y = 22
+  backgroundnormal = config\resources\Bisect.png
+  value = 
+  height = 20
+}
+
