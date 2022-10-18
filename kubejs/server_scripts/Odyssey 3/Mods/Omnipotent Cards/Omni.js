@@ -1,4 +1,4 @@
-// This script was made by Choomb for MC Odyssey 2, reusing it without explicit permission is not allowed.
+// This script was made by choombdev for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
     event.remove({id:'omni_card:prototype_core'})
     event.shaped('omni_card:prototype_core', [

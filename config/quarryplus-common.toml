@@ -23,6 +23,9 @@
 	removeFrameAfterQuarryIsRemoved = false
 	#Allow quarries to work in claimed chunk(FTB Chunks).
 	allowWorkInClaimedChunkByFBTChunks = false
+	#The range limit(unit: blocks) of ChunkDestroyer. Set -1 or 0 to remove limitation.
+	#Range: > -1
+	chunkDestroyerLimit = -1
 
 #QuarryPlus Machines. Set true to enable machine or item.
 [machines]

@@ -8,4 +8,6 @@ repairRecipe = true
 #Max durability of wand.
 #Range: > 1
 wandDurability = 255
+#Range: > -2147483648
+defaultLightColor = -683
 

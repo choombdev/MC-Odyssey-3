@@ -14,7 +14,7 @@
 	#Allowed Values: BLACKLIST, WHITELIST
 	dimensionPermission = "BLACKLIST"
 	#A list of entities that are blacklisted/whitelisted for champions
-	entitiesList = []
+	entitiesList = ["minecraft:slime", "minecraft:silverfish"]
 	#Set whether the entities list is a blacklist or whitelist
 	#Allowed Values: BLACKLIST, WHITELIST
 	entitiesPermission = "BLACKLIST"

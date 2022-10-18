@@ -8,6 +8,7 @@
 	debugLevel = 0
 
 	#Villager Related Settings.
+	#Note: Any changes to villagers requires a full reboot to be applied due to how Minecraft/Forge registers trades.
 	[common.villagers]
 		#Whether the wandering trader will have additional trades that allow you to buy misc items with money.
 		addCustomWanderingTrades = true
@@ -78,4 +79,16 @@
 		diamond = ["minecraft:chests/buried_treasure", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure", "minecraft:chests/end_city_treasure"]
 		#Chests that will occasionally spawn copper -> netherite coins.
 		netherite = []
+
+	#Crafting Settings.
+	[common.crafting]
+		#Whether Network Traders can be crafted.
+		#Disabling will not remove any existing Network Traders from the world, nor prevent their use.
+		#Disabling does NOT disable the recipes of Network Upgrades or the Trading Terminals.
+		#/reload required for changes to take effect.
+		allowNetworkTraderCrafting = true
+		#Whether Trader Interface blocks can be crafted.
+		#Disabling will not remove any existing Trader Interfaces from the world, nor prevent their use.
+		#/reload required for changes to take effect.
+		allowTraderInterfaceCrafting = true
 

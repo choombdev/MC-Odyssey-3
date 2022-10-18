@@ -3,28 +3,33 @@
 onEvent('recipes', event =>{
 
  // Registering List of Materials
- materials = ['aluminum', 'lead', 'nickel', 'osmium', 'platinum', 'silver', 'tin', 'uranium', 'zinc', 'iridium']
+ var materials = ['aluminum', 'lead', 'nickel', 'osmium', 'platinum', 'silver', 'tin', 'uranium', 'zinc', 'iridium', 'steel', 'invar', 'electrum', 'bronze', 'enderium', 'lumium', 'signalum', 'constantan', 'brass', 'sapphire']
 
  // Looping through Materials
- for (material in materials) { 
-    // Forge Dictionaries
-    event.replaceOutput({}, '#forge:ingots/' + material,  'alltheores:'+ material + '_ingot')
-    event.replaceOutput({}, '#forge:ores/' + material,  'alltheores:'+ material + '_ore')
-    event.replaceOutput({}, '#forge:gears/' + material,  'alltheores:'+ material + '_gear')
-    event.replaceOutput({}, '#forge:shards/' + material,  'alltheores:'+ material + '_shard')
-    event.replaceOutput({}, '#forge:crystals/' + material,  'alltheores:'+ material + '_crystal')
-    event.replaceOutput({}, '#forge:clumps/' + material,  'alltheores:'+ material + '_clump')
-    event.replaceOutput({}, '#forge:dirty_dusts/' + material,  'alltheores:dirty_'+ material + '_dust')
-    event.replaceOutput({}, '#forge:dusts/' + material,  'alltheores:'+ material + '_dust')
-    event.replaceOutput({}, '#forge:plates/' + material,  'alltheores:'+ material + '_plate')
-    event.replaceOutput({}, '#forge:nuggets/' + material,  'alltheores:'+ material + '_nugget')
-    event.replaceOutput({}, '#forge:storage_blocks/' + material,  'alltheores:'+ material + '_block')
-    event.replaceOutput({}, '#forge:raw_ores/' + material,  'alltheores:raw_'+ material)
-    event.replaceOutput({}, '#forge:raw_materials/' + material,  'alltheores:raw_'+ material)
+ for (let material in materials) {
+   // Forge Dictionaries
+    ReplaceItem('#forge:ingots/' + material,  'alltheores:'+ material + '_ingot')
+    ReplaceItem('#forge:ores/' + material,  'alltheores:'+ material + '_ore')
+    ReplaceItem('#forge:gears/' + material,  'alltheores:'+ material + '_gear')
+    ReplaceItem('#forge:shards/' + material,  'alltheores:'+ material + '_shard')
+    ReplaceItem('#forge:crystals/' + material,  'alltheores:'+ material + '_crystal')
+    ReplaceItem('#forge:clumps/' + material,  'alltheores:'+ material + '_clump')
+    ReplaceItem('#forge:dirty_dusts/' + material,  'alltheores:dirty_'+ material + '_dust')
+    ReplaceItem('#forge:dusts/' + material,  'alltheores:'+ material + '_dust')
+    ReplaceItem('#forge:plates/' + material,  'alltheores:'+ material + '_plate')
+    ReplaceItem('#forge:nuggets/' + material,  'alltheores:'+ material + '_nugget')
+    ReplaceItem('#forge:storage_blocks/' + material,  'alltheores:'+ material + '_block')
+    ReplaceItem('#forge:raw_ores/' + material,  'alltheores:raw_'+ material)
+    ReplaceItem('#forge:raw_materials/' + material,  'alltheores:raw_'+ material)
 
     // Rogue Mods
-    event.replaceOutput({}, 'exnihilosequentia:' + material + '_ingot',  'alltheores:'+ material + '_ingot')
-
-
+    ReplaceItem('exnihilosequentia:' + material + '_ingot',  'alltheores:'+ material + '_ingot')
  }
+
+
+ function ReplaceItem(x,y) {
+   if ( !Item.of(y).isEmpty() || !Item.of(x).isEmpty() ){
+      event.replaceOutput({},x,y)}
+   }
+
 })

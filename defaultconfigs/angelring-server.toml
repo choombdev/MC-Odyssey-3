@@ -9,31 +9,31 @@
 	TicksPerDrain = 50
 	#Define how much FE the Energetic Angel Ring will drain every tick while flying.
 	#Range: > 1
-	EnergeticFEPerTick = 150
+	EnergeticFEPerTick = 175
 	#Define how much FE the Energetic Angel Ring can store.
 	#Range: > 1
 	EnergeticFECapacity = 3000000
 	#Define how much FE the Leadstone Angel Ring will drain every tick while flying.
 	#Range: > 1
-	LeadstoneFEPerTick = 250
+	LeadstoneFEPerTick = 300
 	#Define how much FE the Leadstone Angel Ring can store.
 	#Range: > 1
 	LeadstoneFECapacity = 2500000
 	#Define how much FE the Hardened Angel Ring will drain every tick while flying.
 	#Range: > 1
-	HardenedFEPerTick = 200
+	HardenedFEPerTick = 250
 	#Define how much FE the Hardened Angel Ring can store.
 	#Range: > 1
 	HardenedFECapacity = 5000000
 	#Define how much FE the Reinforced Angel Ring will drain every tick while flying.
 	#Range: > 1
-	ReinforcedFEPerTick = 100
+	ReinforcedFEPerTick = 150
 	#Define how much FE the Reinforced Angel Ring can store.
 	#Range: > 1
 	ReinforcedFECapacity = 8000000
 	#Define how much FE the Resonant Angel Ring will drain every tick while flying.
 	#Range: > 1
-	ResonantFEPerTick = 50
+	ResonantFEPerTick = 100
 	#Define how much FE the Resonant Angel Ring can store.
 	#Range: > 1
 	ResonantFECapacity = 16000000

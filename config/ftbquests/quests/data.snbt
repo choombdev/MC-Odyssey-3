@@ -1,0 +1,148 @@
+{
+	version: 13
+	default_reward_team: false
+	default_consume_items: false
+	default_autoclaim_rewards: "disabled"
+	default_quest_shape: "circle"
+	default_quest_disable_jei: false
+	emergency_items: [{
+		id: "akashictome:tome"
+		Count: 1b
+		tag: {
+			"akashictome:is_morphing": 1b
+			"akashictome:data": {
+				storagenetwork: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "storagenetwork:network_book"
+					}
+				}
+				industrialforegoing: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				integratedtunnels: {
+					Count: 1b
+					id: "integrateddynamics:on_the_dynamics_of_integration"
+				}
+				ftbquests: {
+					Count: 1b
+					id: "ftbquests:book"
+				}
+				pneumaticcraft: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+				advancedperipherals: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "advancedperipherals:manual"
+					}
+				}
+				apotheosis: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				simpleplanes: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "simpleplanes:planes_book"
+					}
+				}
+				engineersdecor: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "engineersdecor:engineersdecor_manual"
+					}
+				}
+				elementalcraft: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "elementalcraft:element_book"
+					}
+				}
+				bigreactors: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+				byg: {
+					Count: 1b
+					id: "byg:biomepedia"
+					tag: {
+						"akashictome:displayName": {
+							text: "{\"translate\":\"item.byg.biomepedia\"}"
+						}
+						"akashictome:is_morphing": 1b
+						display: {
+							Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.byg.biomepedia\"}]}"
+						}
+					}
+				}
+				botania: {
+					id: "botania:lexicon"
+					Count: 1b
+				}
+				ars_nouveau: {
+					Count: 1b
+					id: "ars_nouveau:worn_notebook"
+				}
+				bloodmagic: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				thermal: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+				mysticalagriculture: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+				cyclic: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+			}
+		}
+	}]
+	emergency_items_cooldown: 300
+	drop_loot_crates: false
+	loot_crate_no_drop: {
+		passive: 4000
+		monster: 600
+		boss: 0
+	}
+	disable_gui: false
+	grid_scale: 0.5d
+	pause_game: false
+	lock_message: ""
+}

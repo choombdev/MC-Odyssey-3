@@ -1,4 +1,4 @@
-ignoreUpdate:138
+ignoreUpdate:144
 updateNotification:true
 differentiateByServerAddress:true
 netherlikeCaveMapAllowed:true
@@ -30,8 +30,9 @@ onlyCurrentMapWaypoints:false
 minZoomForLocalWaypoints:0.0
 arrowColour:-2
 minimapRadar:true
-pacPlayers:true
 renderWaypoints:true
+partialYTeleportation:true
+pacPlayers:true
 displayClaims:true
 claimsOpacity:80
 globalVersion:1
