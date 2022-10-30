@@ -1,0 +1,1195 @@
+{
+	id: "5B012313E1B7E424"
+	group: "5F6E7F2E61EE5FB6"
+	order_index: 1
+	filename: "spellcaster"
+	title: "Spellcaster"
+	icon: "ars_nouveau:dominion_wand"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Omni Cards"
+			x: 7.5d
+			y: -2.5d
+			description: ["The Omni Cards mod helps you become an actual Card Magician with very simple spellcasting involved."]
+			id: "5C91902B5B6437CE"
+			tasks: [{
+				id: "78BAECCF5F6F1F9C"
+				type: "item"
+				item: "omni_card:blank_card"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "5BF1254A8D2697D1"
+			tasks: [{
+				id: "184E6A9A19F54C3E"
+				type: "item"
+				item: "omni_card:flame_card"
+			}]
+			rewards: [
+				{
+					id: "22C49150F3A2D9F9"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "1BA7CE227E695E05"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "0F3B3583343ABE66"
+			tasks: [{
+				id: "19FEC601B961905C"
+				type: "item"
+				item: "omni_card:torrent_card"
+			}]
+			rewards: [
+				{
+					id: "34D7C92BA9134FAC"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "5ADC44BFD6AB795E"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "710401D6CE97ED66"
+			tasks: [{
+				id: "67E9556ACD5BAB9F"
+				type: "item"
+				item: "omni_card:thunder_card"
+			}]
+			rewards: [
+				{
+					id: "530CCEC163AB163F"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2EA46F9E826E1021"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "6FB9AEFD59B6D04A"
+			tasks: [{
+				id: "7D697F42D09FFEBF"
+				type: "item"
+				item: "omni_card:bramble_card"
+			}]
+			rewards: [
+				{
+					id: "7E28F996CB18F761"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3BC833336874DDF9"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "083185A7C656EAA9"
+			tasks: [{
+				id: "780B5777457C3F56"
+				type: "item"
+				item: "omni_card:earth_card"
+			}]
+			rewards: [
+				{
+					id: "13C9D4451CFCC84D"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "1A531EB607B9B2A3"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "778F94FCF98D7428"
+			tasks: [{
+				id: "2BAABC903281ED50"
+				type: "item"
+				item: "omni_card:end_card"
+			}]
+			rewards: [
+				{
+					id: "605B6F8B2E673930"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2BB1575ED68DC3EF"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			dependencies: ["61B321205DBB2807"]
+			id: "71BBAB78AC69A657"
+			tasks: [{
+				id: "2AA06B04B085B412"
+				type: "item"
+				item: "omni_card:field_card"
+			}]
+			rewards: [
+				{
+					id: "7562079104C8C316"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "4A2B8141174D469E"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -6.0d
+			dependencies: ["2CD08B5B746601DC"]
+			id: "1CDA3F2F1C08BFCE"
+			tasks: [{
+				id: "2617B85D7BDC0F7F"
+				type: "item"
+				item: "omni_card:purification_card"
+			}]
+			rewards: [
+				{
+					id: "5ED35139642FB33E"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "38D65EAE431C7BD4"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -1.0d
+			dependencies: ["733B0AA6079CDA85"]
+			id: "0D83CA3CFC671F53"
+			tasks: [{
+				id: "2146FC125D8F1962"
+				type: "item"
+				item: "omni_card:seal_card"
+			}]
+			rewards: [
+				{
+					id: "1A8C1E1F7FAD8295"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "7E34FFD685A03EC4"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -2.5d
+			dependencies: ["6C6C1B6199515769"]
+			id: "53E28052695DEC9B"
+			tasks: [{
+				id: "64C474BD13AF6E2A"
+				type: "item"
+				item: "omni_card:sunny_card"
+			}]
+			rewards: [
+				{
+					id: "38D1D27BB0B599D3"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "7B6A5739FAA02BD5"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -4.5d
+			dependencies: ["2C673A5739337C61"]
+			id: "280FA87F1D55B6E8"
+			tasks: [{
+				id: "06699E40100AA698"
+				type: "item"
+				item: "omni_card:rainy_card"
+			}]
+			rewards: [
+				{
+					id: "04D1901FC4BE7BE0"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "07EBE9AC8F8D9B8B"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			dependencies: ["5A2A3C557D868059"]
+			id: "3D91575DA17AC94A"
+			tasks: [{
+				id: "314FBF9D7DDB66D8"
+				type: "item"
+				item: "omni_card:thunderstorm_card"
+			}]
+			rewards: [
+				{
+					id: "3B80DD8464D2651B"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "62B5F669915C157F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "2C6C614171964348"
+			tasks: [{
+				id: "0198DBF0A4D4BDB2"
+				type: "item"
+				item: "omni_card:bloom_core"
+			}]
+			rewards: [
+				{
+					id: "506193A602F7D9DA"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7995C86CD0EAE22E"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "5A2A3C557D868059"
+			tasks: [{
+				id: "19864017EEFED5A2"
+				type: "item"
+				item: "omni_card:thunderstorm_core"
+			}]
+			rewards: [
+				{
+					id: "071C40F4EE9CB076"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2781F9CC5B54BA6B"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -4.5d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "2C673A5739337C61"
+			tasks: [{
+				id: "73C0DD5691DB9E32"
+				type: "item"
+				item: "omni_card:rainy_core"
+			}]
+			rewards: [
+				{
+					id: "7B6B259C8E1D5FF6"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "02F1BC078BE3F6B2"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -2.5d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "6C6C1B6199515769"
+			tasks: [{
+				id: "71201BE30B8DCBBC"
+				type: "item"
+				item: "omni_card:sunny_core"
+			}]
+			rewards: [
+				{
+					id: "16C15F6C13B2B700"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0DCDB59F775F0E46"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "733B0AA6079CDA85"
+			tasks: [{
+				id: "4DACD65058DC9E8F"
+				type: "item"
+				item: "omni_card:seal_core"
+			}]
+			rewards: [
+				{
+					id: "7EF5A353B721F397"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3CBC11055E7B3C09"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "61B321205DBB2807"
+			tasks: [{
+				id: "725408B0330BD99F"
+				type: "item"
+				item: "omni_card:field_core"
+			}]
+			rewards: [
+				{
+					id: "2C080D62436E9C2C"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "4FEB1F1B4CCB121D"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			dependencies: ["5C91902B5B6437CE"]
+			id: "2CD08B5B746601DC"
+			tasks: [{
+				id: "2781279A9546165C"
+				type: "item"
+				item: "omni_card:purification_core"
+			}]
+			rewards: [
+				{
+					id: "0E2F1ED6E7902EDC"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0090C5D0EFD87B6A"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 1.0d
+			dependencies: ["2C6C614171964348"]
+			id: "53594AC8840D665F"
+			tasks: [{
+				id: "1552C9CCBB7EA7DF"
+				type: "item"
+				item: "omni_card:bloom_card"
+			}]
+			rewards: [
+				{
+					id: "3F2940D91E976674"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "2E08D442D4A5852D"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			title: "Ars Nouveau"
+			x: 5.0d
+			y: 4.0d
+			subtitle: "Wizardry 101"
+			description: [
+				"Ars Nouveau is the predecessor to Ars Magika, focusing more on the spellcasting aspect of it. The mod also has a very in-depth Patchouli guide, a book called the 'Worn Notebook', if you need more information than this questline, make sure to check it out!"
+				"Spells work in a simple way, you select the target, what the spell should do and modifiers then you're done!"
+				"Example: Selecting Projectile + Harm shoots harming rays while selecting Self + Heal allows you to heal yourself."
+			]
+			id: "0FB81CEF554E254B"
+			tasks: [{
+				id: "5E4E6B37B56A0AEC"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "3272419AA2EEBD75"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "3A6DBA22F6B95501"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "6728D94C25A44D6B"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			subtitle: "Magebloom Fiber"
+			dependencies: ["27B3D02DB1F370E8"]
+			id: "541A150D180F27CB"
+			tasks: [{
+				id: "5B420D23FCD94203"
+				type: "item"
+				item: "ars_nouveau:magebloom_fiber"
+			}]
+			rewards: [
+				{
+					id: "3B15C022D67B528C"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "59367F19988BA12E"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 6.5d
+			subtitle: "Fiery String"
+			dependencies: ["541A150D180F27CB"]
+			id: "4C48CA72578BDBFD"
+			tasks: [{
+				id: "4A9BD8843E8EF2A1"
+				type: "item"
+				item: "ars_nouveau:blaze_fiber"
+			}]
+			rewards: [
+				{
+					id: "6285D24C66FBB9E5"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7F279A3E1D299890"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 6.5d
+			subtitle: "Teleport-y string."
+			dependencies: ["4C48CA72578BDBFD"]
+			id: "206DB5DBF951E74D"
+			tasks: [{
+				id: "59BBA2F834C6BAAA"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+			}]
+			rewards: [
+				{
+					id: "4AF8F5BCE7782735"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "166270A69B07A858"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			subtitle: "Magic Seeds"
+			description: ["After getting Magebloom, you can start to create different armors, each of which gives you a bonus on Mana and spellcasting."]
+			dependencies: ["3A943EF61B153D73"]
+			id: "27B3D02DB1F370E8"
+			tasks: [{
+				id: "4559BE23A10B208C"
+				type: "item"
+				item: "ars_nouveau:magebloom_crop"
+			}]
+			rewards: [
+				{
+					id: "4944D70D84A92099"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "6ABE51D863353661"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			description: ["The Enchanting Apparatus is used to make most of the items in Ars Nouveau."]
+			dependencies: ["284E5776B0530A5B"]
+			id: "3A943EF61B153D73"
+			tasks: [
+				{
+					id: "01A17BC0DDFB67E6"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "5B8F85849C7F0339"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "0927DE47A41DB455"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+				}
+			]
+			rewards: [{
+				id: "5563C00F17B8EAF2"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			description: ["Source Gems are the heart of almost everything Ars Nouveau, you'll need to get alot of them. Luckily, once you've got a source of.. source, you'll be able to create them in the Imbuement Chamber by placing Lapis or Amethyst inside and waiting."]
+			dependencies: [
+				"3EB2044908D3F9D3"
+				"5655220D49A62C42"
+			]
+			id: "284E5776B0530A5B"
+			tasks: [{
+				id: "273D5DF30115228D"
+				type: "item"
+				item: "ars_nouveau:source_gem"
+			}]
+			rewards: [{
+				id: "4EEC113555104BD7"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			dependencies: ["0F79D835A33F2C5A"]
+			id: "623290E548B63DC5"
+			tasks: [{
+				id: "20360C537090796D"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "44DD40365FAE07E6"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "4BE7EE0E4E5E87CE"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 9.5d
+			dependencies: ["29E7006C6F866154"]
+			id: "64A9E0B243999E69"
+			tasks: [{
+				id: "7629EC7EDB52285B"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [
+				{
+					id: "4B752718AA39C2B9"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "1C2F281F3F1BAAC8"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			subtitle: "Isn't this the spellcasting chapter?"
+			description: ["Ritual Brazier, alongside Arcane Pedestals, allows you to perform Rituals that usually spawn bosses or mobs required for progressing."]
+			dependencies: ["623290E548B63DC5"]
+			id: "29E7006C6F866154"
+			tasks: [{
+				id: "2BE4DF2F609C848C"
+				type: "item"
+				item: "ars_nouveau:ritual_brazier"
+			}]
+			rewards: [
+				{
+					id: "23961EB55233A88E"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "69438EB9A39CAED1"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			description: ["Helps find magical creatures or/and amethyst!"]
+			dependencies: ["0FB81CEF554E254B"]
+			id: "3EB2044908D3F9D3"
+			tasks: [{
+				id: "29DB2BE1A34B2968"
+				type: "item"
+				item: {
+					id: "ars_nouveau:dowsing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "40D329042342B9AD"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			description: ["Sped up by nearby Source Jars, the Imbuement Chamber is the fastest way to passively make Source Gems."]
+			dependencies: ["0F79D835A33F2C5A"]
+			id: "5655220D49A62C42"
+			tasks: [{
+				id: "340AFD4689A3E15C"
+				type: "item"
+				item: "ars_nouveau:imbuement_chamber"
+			}]
+			rewards: [{
+				id: "171674CAEA870903"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			dependencies: ["0FB81CEF554E254B"]
+			id: "0F79D835A33F2C5A"
+			tasks: [{
+				id: "2075B8A10E9CCB8F"
+				type: "item"
+				item: "ars_nouveau:source_jar"
+			}]
+			rewards: [{
+				id: "708CEE1E70C33BB4"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.0d
+			dependencies: ["4C48CA72578BDBFD"]
+			id: "085698D79742D8F3"
+			tasks: [
+				{
+					id: "58D45216CD660782"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33529EB2B26DCF0F"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05142BD7EDF83CAA"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A8C36C440AB8EC4"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1474931103BD9F08"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "00FAAAAB6C77A373"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 8.0d
+			dependencies: ["206DB5DBF951E74D"]
+			id: "18B7A9FAD726FBC5"
+			tasks: [
+				{
+					id: "02E5D1E70EECE453"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B898E2AA8C65E40"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7AC0AAE270F56718"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39D16AE900CF239C"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5198C3E859B212BB"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "2292B193A2AC1990"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 8.0d
+			dependencies: ["541A150D180F27CB"]
+			id: "36ED325A2E82AABC"
+			tasks: [
+				{
+					id: "2617FBA44220B71D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5559FB7BC0F5B7BC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17201955EC0BCD33"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3AA9024197BE2406"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4ECDC59E16D33CB5"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "09030F21FB399E62"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			subtitle: "Nature Power"
+			description: ["Powered by the growing and harvesting of nearby crops."]
+			dependencies: ["284E5776B0530A5B"]
+			id: "061C3A64DB6F6978"
+			tasks: [{
+				id: "5C21769192A46108"
+				type: "item"
+				item: "ars_nouveau:agronomic_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "7F68AC84F75002ED"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7B445E0F9B657B15"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 9.0d
+			subtitle: "Fire Power"
+			description: ["Powered by nearby hot sources."]
+			dependencies: ["284E5776B0530A5B"]
+			id: "17ED9BFBB8D73432"
+			tasks: [{
+				id: "5A0D2B52842E76B2"
+				type: "item"
+				item: "ars_nouveau:volcanic_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "5EEFC6414EC5C5FE"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2DD1BCC2BE8443D5"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			subtitle: "Potion Power"
+			description: [
+				"Powered by consumption of potions from a potion jar."
+				"Potions Jars carry up to 100 potions within them."
+			]
+			dependencies: ["284E5776B0530A5B"]
+			id: "1CBDC44C077592DA"
+			tasks: [
+				{
+					id: "318AA15D31A8B833"
+					type: "item"
+					item: "ars_nouveau:alchemical_sourcelink"
+				}
+				{
+					id: "4754DB661B6C909E"
+					type: "item"
+					item: "ars_nouveau:potion_jar"
+				}
+			]
+			rewards: [
+				{
+					id: "7C680CA77931AAF2"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "67AAC303B34BABDD"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 9.0d
+			subtitle: "Cycle of Life.. Power"
+			description: ["Powered by death or breeding of mobs nearby."]
+			dependencies: ["284E5776B0530A5B"]
+			id: "17BB0ED2A158ACF3"
+			tasks: [{
+				id: "0075F433CECAA1D4"
+				type: "item"
+				item: "ars_nouveau:vitalic_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "2F41FB017BEA7268"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "4CFD0281878FAF76"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 10.0d
+			subtitle: "Soup Power"
+			description: ["Generates Source from nearby food."]
+			dependencies: ["284E5776B0530A5B"]
+			id: "1D6FCF5751D7D801"
+			tasks: [{
+				id: "451FD2F9FA6A010E"
+				type: "item"
+				item: "ars_nouveau:mycelial_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "52BECB0990D93552"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7A61D63C759512B7"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			subtitle: "Creating Spells"
+			description: [
+				"To create Glyphs, you need a  Scribe's Table!"
+				"Right click the table with your Spellbook and select the Glyph, it'll show you what ingredients you need to be able to create it. "
+				"You can also use a Parchment Paper, select a spell on your spellbook and copy the spell to the parchment."
+			]
+			dependencies: ["0FB81CEF554E254B"]
+			id: "607F41F9DA44C552"
+			tasks: [
+				{
+					id: "1E19AC7895817FFC"
+					type: "item"
+					item: "ars_nouveau:scribes_table"
+				}
+				{
+					id: "3219008D7FECE22E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:spell_parchment"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "524FE832C3D40F02"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			subtitle: "Creep"
+			description: [
+				"Placing a Scryer's Parchment on an Arcane Pedestal next to a Scrying Orb allows you to basically build your own 'cameras' around the world."
+				"You need to first right click a scry crystal (The Camera) with the Parchment."
+			]
+			dependencies: ["284E5776B0530A5B"]
+			id: "04F8497D8309EE97"
+			tasks: [
+				{
+					id: "289EC8C66CED0FC4"
+					type: "item"
+					item: {
+						id: "ars_nouveau:scryer_scroll"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "69936DC87DC42BFA"
+					type: "item"
+					item: "ars_nouveau:scryers_oculus"
+				}
+				{
+					id: "494208AFB5EDCD5C"
+					type: "item"
+					item: "ars_nouveau:scryers_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "1D549779CC601E6C"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "4DBAB20A7209D5CE"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+	]
+}

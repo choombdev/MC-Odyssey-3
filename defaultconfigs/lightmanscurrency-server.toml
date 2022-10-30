@@ -13,6 +13,9 @@
 	canMintCoins = false
 	#Determines whether or not coins can be melted back into their source material in the Coin Minting Machine.
 	canMeltCoins = false
+	#Whether illegally broken traders (such as being replaced with /setblock, or modded machines that break blocks) will safely eject their block/contents into a temporary storage area for the owner to collect safely.
+	#If disabled, illegally broken traders will throw their items on the ground, and can thus be griefed by modded machines.
+	ejectIllegalBreaks = true
 
 	#Specific Coin Minting Settings.
 	[server.coin_minting]
@@ -114,6 +117,9 @@
 		#The maximum number of days an auction can be carried out.
 		#Range: > 1
 		maxDuration = 30
+		#The minimum number of days an auction can be carried out.
+		#Range: > 0
+		minDuration = 0
 
 	#Discord bot settings. Requires lightmansdiscord v0.0.3.0+ to use.
 	[server.discord]
@@ -121,4 +127,21 @@
 		channel = "000000000000000000"
 		#Prefix for currency commands.
 		prefix = "!"
+		#Whether the !search command should limit its search results to only Network Traders, or if it should list all traders.
+		limitSearchToNetwork = true
+
+		#Bot notification options.
+		[server.discord.notifications]
+			#Whether a notification will appear in the currency bot channel when a Network Trader is created.
+			#Notification will have a 60 second delay to allow them time to customize the traders name, etc.
+			networkTraderBuilt = true
+			#Whether a notification will appear in the currency bot channel when an Auction is created in the Auction House.
+			auctionHouseCreated = true
+			#Whether a notification will appear in the currency bot channel when a Persistent Auction is created automatically.
+			#Requires that auction house creation notifications also be enabled.
+			auctionHousePersistentCreations = true
+			#Whether a notification will appear in the currency bot channel when an Auction is cancelled in the Auction House.
+			auctionHouseCancelled = false
+			#Whether a notification will appear in the currency bot channel when an Auction is completed and had a bidder.
+			auctionHouseWon = true
 

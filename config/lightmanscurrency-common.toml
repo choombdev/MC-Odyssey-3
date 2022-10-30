@@ -7,6 +7,18 @@
 	#Range: 0 ~ 3
 	debugLevel = 0
 
+	#Crafting Settings.
+	[common.crafting]
+		#Whether Network Traders can be crafted.
+		#Disabling will not remove any existing Network Traders from the world, nor prevent their use.
+		#Disabling does NOT disable the recipes of Network Upgrades or the Trading Terminals.
+		#/reload required for changes to take effect.
+		allowNetworkTraderCrafting = true
+		#Whether Trader Interface blocks can be crafted.
+		#Disabling will not remove any existing Trader Interfaces from the world, nor prevent their use.
+		#/reload required for changes to take effect.
+		allowTraderInterfaceCrafting = true
+
 	#Villager Related Settings.
 	#Note: Any changes to villagers requires a full reboot to be applied due to how Minecraft/Forge registers trades.
 	[common.villagers]
@@ -39,15 +51,15 @@
 		#Whether coins can be dropped by entities that were spawned by the vanilla spawner.
 		enableSpawnerEntityDrops = false
 		#Entities that will occasionally drop copper coins.
-		copper = ["minecraft:slime", "minecraft:silverfish"]
+		copper = ["minecraft:blaze", "minecraft:ghast", "minecraft:witch", "minecraft:hoglin", "minecraft:piglin_brute", "minecraft:piglin", "minecraft:zombified_piglin", "minecraft:evoker", "minecraft:vindicator", "minecraft:pillager", "minecraft:ravager", "minecraft:slime", "minecraft:silverfish", "minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider", "minecraft:husk", "minecraft:stray", "minecraft:magma_cube", "minecraft:zombie_villager", "minecraft:drowned"]
 		#Entities that will occasionally drop copper -> iron coins.
-		iron = ["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider", "minecraft:husk", "minecraft:stray", "minecraft:magma_cube", "minecraft:zombie_villager", "minecraft:drowned"]
+		iron = ["minecraft:guardian", "minecraft:phantom", "minecraft:enderman", "minecraft:wither_skeleton", "minecraft:shulker"]
 		#Entities that will occasionally drop copper -> gold coins.
-		gold = ["minecraft:guardian", "minecraft:elder_guardian", "minecraft:phantom", "minecraft:blaze", "minecraft:ghast", "minecraft:witch", "minecraft:hoglin", "minecraft:piglin_brute", "minecraft:piglin", "minecraft:zombified_piglin"]
+		gold = ["minecraft:elder_guardian"]
 		#Entities that will occasionally drop copper -> emerald coins.
-		emerald = ["minecraft:enderman", "minecraft:evoker", "minecraft:vindicator", "minecraft:pillager", "minecraft:ravager", "minecraft:shulker"]
+		emerald = []
 		#Entities that will occasionally drop copper -> diamond coins.
-		diamond = ["minecraft:wither_skeleton"]
+		diamond = []
 		#Entities that will occasionally drop copper -> netherite coins.
 		netherite = []
 		#Entities that will drop a large amount of copper coins.
@@ -57,38 +69,26 @@
 		#Entities that will drop a large amount of copper -> gold coins.
 		boss_gold = []
 		#Entities that will drop a large amount of copper -> emerald coins.
-		boss_emerald = ["minecraft:warden"]
+		boss_emerald = ["minecraft:warden", "minecraft:wither"]
 		#Entities that will drop a large amount of copper -> diamond coins.
 		boss_diamond = ["minecraft:ender_dragon"]
 		#Entities that will drop a large amount of copper -> netherite coins.
-		boss_netherite = ["minecraft:wither"]
+		boss_netherite = []
 
 	#Chest loot settings.
 	[common.chest_loot]
 		#Whether coins can spawn in chests Does not effect entity loot drops.
 		enableChestLoot = true
 		#Chests that will occasionally spawn copper coins.
-		copper = ["minecraft:chests/underwater_ruin_small", "minecraft:chests/underwater_ruin_big"]
+		copper = ["minecraft:chests/stronghold_crossing", "minecraft:chests/stronghold_corridor", "minecraft:chests/stronghold_library", "minecraft:chests/ancient_city", "minecraft:chests/underwater_ruin_small", "minecraft:chests/underwater_ruin_big", "minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/simple_dungeon", "minecraft:chests/ruined_portal"]
 		#Chests that will occasionally spawn copper -> iron coins.
-		iron = []
+		iron = ["minecraft:chests/buried_treasure", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure", "minecraft:chests/end_city_treasure"]
 		#Chests that will occasionally spawn copper -> gold coins.
-		gold = ["minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/simple_dungeon", "minecraft:chests/ruined_portal"]
+		gold = []
 		#Chests that will occasionally spawn copper -> emerald coins.
-		emerald = ["minecraft:chests/stronghold_crossing", "minecraft:chests/stronghold_corridor", "minecraft:chests/stronghold_library", "minecraft:chests/ancient_city"]
+		emerald = []
 		#Chests that will occasionally spawn copper -> diamond coins.
-		diamond = ["minecraft:chests/buried_treasure", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure", "minecraft:chests/end_city_treasure"]
+		diamond = []
 		#Chests that will occasionally spawn copper -> netherite coins.
 		netherite = []
-
-	#Crafting Settings.
-	[common.crafting]
-		#Whether Network Traders can be crafted.
-		#Disabling will not remove any existing Network Traders from the world, nor prevent their use.
-		#Disabling does NOT disable the recipes of Network Upgrades or the Trading Terminals.
-		#/reload required for changes to take effect.
-		allowNetworkTraderCrafting = true
-		#Whether Trader Interface blocks can be crafted.
-		#Disabling will not remove any existing Trader Interfaces from the world, nor prevent their use.
-		#/reload required for changes to take effect.
-		allowTraderInterfaceCrafting = true
 

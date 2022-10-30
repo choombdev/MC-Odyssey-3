@@ -10,15 +10,16 @@
     "ttsMode": "PRESS",
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
-    "fluidMode": "SOURCE_ONLY",
+    "fluidMode": "NONE",
     "reachDistance": 0.0,
-    "debug": false
+    "debug": false,
+    "hintOverlayToggle": false
   },
   "overlay": {
-    "overlayPosX": 1.0,
+    "overlayPosX": 0.0,
     "overlayPosY": 1.0,
     "overlayScale": 1.0217391,
-    "overlayAnchorX": 1.0,
+    "overlayAnchorX": 0.0,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,

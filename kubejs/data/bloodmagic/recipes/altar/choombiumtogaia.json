@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "kubejs:choombium_ingot"
+  },
+  "output": {
+    "item": "botania:gaia_ingot"
+  },
+  "upgradeLevel": 5,
+  "altarSyphon": 7500,
+  "consumptionRate": 35,
+  "drainRate": 35
+}

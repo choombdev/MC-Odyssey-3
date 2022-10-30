@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "kubejs:bottled_fire"
+  },
+  "output": {
+    "item": "twilightforest:fiery_blood"
+  },
+  "upgradeLevel": 1,
+  "altarSyphon": 500,
+  "consumptionRate": 10,
+  "drainRate": 10
+}

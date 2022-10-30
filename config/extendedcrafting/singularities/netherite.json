@@ -1,0 +1,10 @@
+{
+  "name": "Netherite",
+  "colors": [
+    "26181B",
+    "0D0D0D"
+  ],
+  "ingredient": {
+    "item": "minecraft:netherite_ingot"
+  }
+}

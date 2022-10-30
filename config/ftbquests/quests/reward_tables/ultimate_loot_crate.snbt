@@ -1,0 +1,118 @@
+{
+	id: "761AF611E6C11626"
+	order_index: 2
+	title: "Ultimate Loot Crate"
+	icon: {
+		id: "sophisticatedstorage:gold_chest"
+		Count: 1b
+		tag: {
+			mainColor: 16701501
+			accentColor: 8439583
+		}
+	}
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "cyclic:charm_magicdefense"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_creeper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_ultimate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:ender_bag", weight: 50 }
+		{ item: "solarflux:sp_6" }
+		{
+			item: {
+				id: "cyclic:charm_luck"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_boostpotion"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_antipotion"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_wing"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ae2:wireless_terminal", weight: 15 }
+		{ item: "ae2:cell_component_1k", count: 6, weight: 60 }
+		{ item: "ae2:cell_component_64k" }
+		{ item: "ae2:cell_component_4k", count: 2, weight: 50 }
+		{ item: "paraglider:heart_container", count: 8, weight: 30 }
+		{ item: "paraglider:spirit_orb", count: 16, weight: 40 }
+		{ item: "advgenerators:turbine_rotor_tier5", count: 8, weight: 30 }
+		{ item: "ironfurnaces:upgrade_netherite", count: 4, weight: 60 }
+		{ item: "ironfurnaces:upgrade_obsidian2", count: 6, weight: 50 }
+		{ item: "kubejs:choomburgert4" }
+		{ item: "minecraft:nether_star", count: 2, weight: 5 }
+		{ item: "minecraft:netherite_block", weight: 30 }
+		{
+			item: {
+				id: "lightmanscurrency:wallet_netherite"
+				Count: 1b
+				tag: {
+					AutoConvert: 1b
+				}
+			}
+			weight: 50
+		}
+		{ item: "lightmanscurrency:coin_netherite", count: 2, weight: 15 }
+		{ item: "nameless_trinkets:unknown_fragment", count: 32, weight: 6 }
+		{ item: "advgenerators:advanced_pressure_valve", count: 6, weight: 17 }
+		{ item: "cgm:workbench" }
+		{ item: "advgenerators:turbine_rotor_tier4", count: 16, weight: 20 }
+		{ item: "kubejs:choomburgert3", count: 9, weight: 50 }
+		{ item: "byg:pendorite_ingot", count: 10, weight: 30 }
+		{ item: "kubejs:choombium_ingot", count: 4, weight: 5 }
+		{ item: "sophisticatedbackpacks:netherite_backpack", weight: 55 }
+		{ item: "thermal:rose_gold_ingot", count: 6, weight: 15 }
+		{ item: "redstone_arsenal:flux_ingot", count: 4 }
+		{ item: "redstone_arsenal:obsidian_rod", count: 4, weight: 50 }
+		{ item: "hostilenetworks:deep_learner" }
+		{ item: "refinedstorageaddons:wireless_crafting_grid" }
+	]
+}

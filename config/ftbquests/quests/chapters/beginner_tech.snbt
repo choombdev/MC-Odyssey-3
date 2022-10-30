@@ -1,0 +1,3320 @@
+{
+	id: "5B8CF35A640DCE18"
+	group: "06C9C569CAAAC914"
+	order_index: 0
+	filename: "beginner_tech"
+	title: "Beginner Tech "
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -11.5d
+			y: -10.0d
+			subtitle: "Makes zero sense but it works."
+			description: ["With drippers, you can automate some blocks like Stone, Gravel or Sand."]
+			id: "2B7AF631D8647CD0"
+			tasks: [{
+				id: "01F4B3C0E22EDC23"
+				type: "item"
+				item: "ftbdripper:dripper"
+			}]
+			rewards: [{
+				id: "049337944C71A284"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			title: "Flux Networks"
+			x: -6.5d
+			y: -4.0d
+			subtitle: "Wireless Energy"
+			description: [
+				"Ever wanted to create a whole new base near your original base but don't want to connect cables to it? Well, Flux Networks is here to help you!"
+				"Simply throw Redstone atop Bedrock, place an Obsidian block above and click on it."
+			]
+			id: "7A2EEC94450C846B"
+			tasks: [{
+				id: "3147CE5ED0347628"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "7AF1BC61E4FEFF33"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 16
+				}
+				{
+					id: "79DD8E96EEB75E25"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			subtitle: "Heart of Flux Networks"
+			dependencies: ["7A2EEC94450C846B"]
+			id: "0D5B1642935A134C"
+			tasks: [{
+				id: "5E48E7EAC7680B14"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+			rewards: [{
+				id: "4E644ED0DE3301B3"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+				count: 8
+			}]
+		}
+		{
+			x: -8.0d
+			y: -5.5d
+			description: ["After you select your network, you can feed power into your network using this."]
+			dependencies: ["352078BD8EE79923"]
+			id: "31FCB518E2638FC3"
+			tasks: [{
+				id: "7BD0DB2C06F3A5D9"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [
+				{
+					id: "72DAB966D53C3FA0"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "6EF982EDA56743C3"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -6.5d
+			description: ["After you select your network, you can take power from the network using this block."]
+			dependencies: ["352078BD8EE79923"]
+			id: "2F3B4BE1F41F5247"
+			tasks: [{
+				id: "2427077DBC6DB70E"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [
+				{
+					id: "260DB3733BF67495"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "3A4BCB85AF910F26"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -6.5d
+			subtitle: "Start of something great."
+			description: ["Once you've got a 'battery' set up, you can finally use Flux Networks!"]
+			dependencies: ["0D5B1642935A134C"]
+			id: "352078BD8EE79923"
+			tasks: [{
+				id: "6A56ABA0448CB299"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "788676FF347E603F"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3ADE7322FFBD0743"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			subtitle: "Wireless Charging "
+			description: ["As long as your system is chunkloaded, you can select slots in your inventory (Hand, Armor, Curio) and enable auto charging!"]
+			dependencies: ["0D5B1642935A134C"]
+			id: "082616627AAED0DB"
+			tasks: [{
+				id: "1C582D8B20FABC19"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [
+				{
+					id: "711E1381ED1299C2"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "40FDE5E936A02E83"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -7.5d
+			subtitle: "More Power"
+			dependencies: ["352078BD8EE79923"]
+			id: "36267A157E293252"
+			tasks: [{
+				id: "5E25D29D293011B0"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "4D11832894B4F5F9"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "4EB80C857FE5EC7D"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -7.5d
+			subtitle: "Even More Power"
+			dependencies: ["36267A157E293252"]
+			id: "4A2822F97590583D"
+			tasks: [{
+				id: "6775C2B8B5A7099E"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "48B3A5935F18F8C6"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+				{
+					id: "3575E040D08FE874"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			title: "Solar Flux Reborn"
+			x: -10.5d
+			y: -1.0d
+			subtitle: "Clean Energy"
+			description: ["Clean renewable energy, best paired with a battery."]
+			id: "0F0AA7A45900CAF1"
+			tasks: [{
+				id: "40C01F62E72BF0F8"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [
+				{
+					id: "52132D55920B8F13"
+					type: "item"
+					item: "solarflux:mirror"
+					count: 6
+				}
+				{
+					id: "2F3D48161DF3571F"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			dependencies: ["0F0AA7A45900CAF1"]
+			id: "20D22A78AA5032EC"
+			tasks: [{
+				id: "52D3DC3397CC06F9"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [
+				{
+					id: "1EE4F6FE41C5D8BD"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0BB7ADFE85E2DF22"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			dependencies: ["20D22A78AA5032EC"]
+			id: "2DA8ABAB73F57311"
+			tasks: [{
+				id: "3E1BDB0907E5AE92"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			rewards: [
+				{
+					id: "16890C9C77236316"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "05DC1719CD88FD7B"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			dependencies: ["2DA8ABAB73F57311"]
+			id: "07B007D06752A37C"
+			tasks: [{
+				id: "076199334236492B"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			rewards: [
+				{
+					id: "73BF826AAA6088E7"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "32A968B54C89131D"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			dependencies: ["07B007D06752A37C"]
+			id: "2BEC392A3621CE56"
+			tasks: [{
+				id: "29B49C75535F86CE"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			rewards: [
+				{
+					id: "658331C9A5AD0E59"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "47F3009D8287E975"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -3.0d
+			dependencies: ["2BEC392A3621CE56"]
+			id: "72A6E9B0DCBF09E6"
+			tasks: [{
+				id: "30D178E3A3E31608"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			rewards: [
+				{
+					id: "3C3FFCA6C869C2C7"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "2456A66F2DBF2D11"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -3.0d
+			dependencies: ["72A6E9B0DCBF09E6"]
+			id: "0A25A4E7B0AC80AE"
+			tasks: [{
+				id: "6E263BCD453CFF04"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+			rewards: [
+				{
+					id: "1AB30A9FCBEEBDEE"
+					type: "loot"
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "0449D9198587497F"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -2.0d
+			dependencies: ["0A25A4E7B0AC80AE"]
+			id: "2DBFCFFD9FACD74A"
+			tasks: [{
+				id: "0307DF2B341FE42B"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			rewards: [
+				{
+					id: "7480F3E3690E3E0B"
+					type: "loot"
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "19F0D9A0304A2214"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Pipez"
+			x: -11.0d
+			y: -6.0d
+			subtitle: "Transportation"
+			description: [
+				"One of many pipe options in Odyssey 3 is the Pipez mod, one you will probably be using alot."
+				"To be able to use it though, you'll need a wrench as with it, you can shift-rightclick the direction closest to your input storage and extract items/fluids/gas/energy from it!"
+			]
+			id: "0B1903D0DC17AC0F"
+			tasks: [{
+				id: "6BB850F40036BD49"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+			rewards: [{
+				id: "421FBBD5D140011B"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -6.0d
+			dependencies: ["0B1903D0DC17AC0F"]
+			id: "11376256A8D20D14"
+			tasks: [{
+				id: "6C87667E08F6C7F8"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+			rewards: [
+				{
+					id: "2016697846F31D4E"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "2744DC41EE6FAF75"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -5.0d
+			dependencies: ["0B1903D0DC17AC0F"]
+			id: "7277A5A23953F486"
+			tasks: [{
+				id: "2B7679EED02A7237"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+			rewards: [
+				{
+					id: "7EF01032786473B0"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "5721B152C7681C20"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -7.0d
+			dependencies: ["0B1903D0DC17AC0F"]
+			id: "03247F51A5B144A1"
+			tasks: [{
+				id: "528EC98898466BA7"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+			rewards: [
+				{
+					id: "6F2D6807FD0D5961"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "26C6146D9C0E843C"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -8.0d
+			dependencies: ["0B1903D0DC17AC0F"]
+			id: "043CFAE101302979"
+			tasks: [{
+				id: "40087381E9CE3E8A"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+			rewards: [
+				{
+					id: "29BA72CF848B57C8"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "2077458D8DAADC97"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -7.0d
+			dependencies: [
+				"7277A5A23953F486"
+				"11376256A8D20D14"
+				"043CFAE101302979"
+				"03247F51A5B144A1"
+			]
+			id: "035C0302E2622A66"
+			tasks: [{
+				id: "40ECB47E9294B0A3"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+			rewards: [
+				{
+					id: "0B6EF3C1AB6D6EDE"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "7BCDC2F435FEFC8A"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -5.0d
+			dependencies: ["0B1903D0DC17AC0F"]
+			id: "1F9B492D024D520D"
+			tasks: [{
+				id: "36C2EBB70B9F4DC4"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			rewards: [{
+				id: "7316B789C85D2BD9"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -4.0d
+			dependencies: ["1F9B492D024D520D"]
+			id: "7EB4898E93F8C110"
+			tasks: [{
+				id: "56E53BBA5C154837"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+			rewards: [
+				{
+					id: "1F0B5118F53BEF39"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "5119B0822C6222BD"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -3.5d
+			dependencies: ["7EB4898E93F8C110"]
+			id: "05CEE1DD60BA0271"
+			tasks: [{
+				id: "5FE2F6DF8A1F3196"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0B518067DD9698E9"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "2F65D33E0FAF43C9"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -3.5d
+			dependencies: ["05CEE1DD60BA0271"]
+			id: "0181B547F0FEDBCC"
+			tasks: [{
+				id: "0B180DE050054E7E"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+			rewards: [
+				{
+					id: "19FA829F7EDDE21A"
+					type: "loot"
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "7041CFE8CAC4F681"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: -10.5d
+			subtitle: "Your very own Multimeter"
+			description: ["With this, you can calculate the RF input (and output), just place it between two cables and you're set!"]
+			size: 1.5d
+			id: "1E463AB00EF0FE70"
+			tasks: [{
+				id: "2A14D9059ACDCBBC"
+				type: "item"
+				item: "energymeter:meter"
+			}]
+			rewards: [
+				{
+					id: "0E1ABCFA5BE6CF20"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "7D99589151AB2789"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			title: "XNet"
+			x: -7.5d
+			y: -9.0d
+			subtitle: "I know you're scared of this mod."
+			description: [
+				"This mod might seem hard at first but once you get to know it, you probably won't use any mod but it."
+				"XNet lets you configure a mini-network of sorts, selecting where your inputs come from and where they go."
+				"I can't possibly explain it in quests so I recommend checking youtube tutorials, there's alot."
+			]
+			id: "0EFE599C8DAD0432"
+			tasks: [{
+				id: "13C5E4C15584FAFF"
+				type: "item"
+				item: "xnet:controller"
+			}]
+			rewards: [
+				{
+					id: "7D5D5622C9657676"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0AE632A8CE2B315E"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -9.5d
+			subtitle: "Connecting your connectors."
+			description: ["Like with Simple Storage Networks, this simply connects connectors to your system but they aren't necessary."]
+			dependencies: ["0EFE599C8DAD0432"]
+			id: "2DBB19C52B9FA046"
+			tasks: [{
+				id: "68772469B36DA921"
+				type: "item"
+				item: "xnet:netcable_red"
+			}]
+			rewards: [
+				{
+					id: "7F1CB09076A04099"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "41701CFFF5BA2A0B"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -11.0d
+			subtitle: "Connecting your machines."
+			description: ["With the Connectors, you can connect machines, storage systems or basically anything with input/output to your system."]
+			dependencies: ["2DBB19C52B9FA046"]
+			id: "44B464D2E797CE4C"
+			tasks: [{
+				id: "3B6E23E1BD3AAD0F"
+				type: "item"
+				item: "xnet:connector_red"
+			}]
+			rewards: [
+				{
+					id: "13A50CA0CC9B3B11"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "6A25EE940A72C1BB"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			title: "Welcome to Create!"
+			x: 0.5d
+			y: 2.5d
+			subtitle: "Blocks can move now?"
+			description: [
+				"You can almost do everything with create while making sure it looks beautiful. It's multiblocks, moving blocks and logic is simply beautiful."
+				"I'll attempt to guide you through most of the mod in this questline, I'll leave out some of the decoration blocks but they can easily be found using @create in JEI."
+				"Andesite Alloys are basically the starting block in Create, without it, you won't be able to do anything."
+			]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "5B76D0938DCEC4DF"
+			tasks: [{
+				id: "1B0138D3B79A714A"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [
+				{
+					id: "7262FE41A9126CCA"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 16
+				}
+				{
+					id: "33FB9CF0C346C06F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Casing the joint"
+			description: ["Used in many recipes, Andesite Casings can be made by right clicking stripped wood with an Andesite Alloy!"]
+			dependencies: ["5B76D0938DCEC4DF"]
+			id: "65F100E1B2D20F7C"
+			tasks: [{
+				id: "5FC8731E98E1C0B0"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [
+				{
+					id: "1CA1080FC0204067"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 8
+				}
+				{
+					id: "0D3244608FCF841A"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "7A9767A77663EF10"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "Making Plates"
+			description: [
+				"And not the fine china kind! The mechanical press crushes anything placed directly below it, or on a belt/depot below it."
+				""
+			]
+			dependencies: ["65F100E1B2D20F7C"]
+			id: "779EB57F52100665"
+			tasks: [{
+				id: "78C910E36F46DEFA"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "627327B9D29AF737"
+				type: "loot"
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			subtitle: "Manpower"
+			description: [
+				"In the event you need 256 SU worth of power on demand, or just a quick rotation, use a hand crank!"
+				"Disclaimer: Hand cranks take hunger to use and are not a suitable replacement for long term power, please feed your basement dwellers"
+			]
+			dependencies: ["7298DAA0AC1978D9"]
+			id: "2E6E4D7991D80AD5"
+			tasks: [{
+				id: "1951C41D5D994E81"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "First Source of Rotation"
+			description: [
+				"One of the best and easiest sources of Rotation, when water is flowing around a wheel, it generates Rotation."
+				"{image:odyssey3:textures/block/waterwheelquest.png width:200 height:100 align:1}"
+				"Above is a picture of one of the most optimal water wheels."
+				"Another more Tile-able design involves soul sand, see if you can figure it out!"
+				"(You will know if it worked if it generates 320 SU)"
+			]
+			dependencies: [
+				"2F74CB7F1EB63C57"
+				"7298DAA0AC1978D9"
+			]
+			id: "7F85707906AA5F74"
+			tasks: [
+				{
+					id: "63E91A7D0711ED63"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "5FD646626142DE08"
+					type: "item"
+					title: "Any #minecraft:wooden_slabs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:wooden_slabs"
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "43169546D4FB8E0C"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Not a Mineshaft..."
+			description: [
+				"Shafts are the most basic form of moving rotational energy through your factories."
+				"Most blocks will have a shaft shaped opening on one side where they can recieve said power, and can even transfer power through them if it has 2!"
+			]
+			dependencies: ["5B76D0938DCEC4DF"]
+			id: "1518E82DF8F27E21"
+			tasks: [{
+				id: "44420EDA58AA2CDE"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [{
+				id: "35752192F9D72510"
+				type: "item"
+				item: "create:shaft"
+				count: 16
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			subtitle: "Rotation but small...."
+			description: ["Cogwheels are very pretty, but do more than look good! placing multiple next to each other can invert the direction of rotation, and can power components that require cogwheel input such as the mixer!"]
+			dependencies: ["1518E82DF8F27E21"]
+			id: "128DB53D83A333B5"
+			tasks: [{
+				id: "29DB830A8C53E236"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [{
+				id: "18CD952A31EC6ADD"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 3
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "Rotation but big!"
+			description: [
+				"Large cogwheels don't just look cool, they can be used to modify the rotation of your shafts! Placing them at right angles to each other can turn the rotation 90 degrees, and placing them next to each other can reverse the rotation direction!"
+				"{image:odyssey3:textures/block/cogwheelsquest.png width:200 height:100 align:1}"
+				"Large Cogwheels, when alternated with Small Cogwheels, increase or decrease the speed of your rotation! Power goes into the small wheel to slow it down, and into the big wheel to speed it up!"
+			]
+			dependencies: ["1518E82DF8F27E21"]
+			id: "2F74CB7F1EB63C57"
+			tasks: [{
+				id: "5EF7C94F2F3776E5"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [{
+				id: "221DEA397A4827D1"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 4
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: ["Most blocks in Create have this feature called \"Ponder\" which lets you view how each block functions, simply hold W while hovering over them to get a detailed tutorial on the block and its functions."]
+			id: "4E98A344893EEB5F"
+			tasks: [{
+				id: "0E1EF19C50E0A306"
+				type: "checkmark"
+				title: "Ponder"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			subtitle: "Not foodsafe."
+			description: ["There are a lot of things you can do with iron plates!"]
+			dependencies: ["779EB57F52100665"]
+			size: 2.0d
+			id: "4FBDAF9C7D687AC9"
+			tasks: [{
+				id: "3A3C26B5AE3F4B6B"
+				type: "item"
+				item: "alltheores:iron_plate"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			subtitle: "Farming"
+			description: ["Alongside processing seeds and dyes, the Millstone can process Wheat and turn it into Dough which can either be smelted into Bread or used to create Slime Balls!"]
+			dependencies: ["128DB53D83A333B5"]
+			id: "4620103602F47457"
+			tasks: [{
+				id: "11FA2D9B5B28A2D2"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [
+				{
+					id: "71608D690DC678CE"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2CA8F45221BE3EBB"
+					type: "item"
+					item: "create:dough"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			subtitle: "Mechanical Blender!"
+			description: [
+				"Used in making potions, mixing items and creating Dough."
+				"Odyssey 3 introduces many custom recipes to the Mixer, so make sure to *create* one!"
+			]
+			dependencies: ["4FBDAF9C7D687AC9"]
+			id: "53DD4927C55B9BBF"
+			tasks: [
+				{
+					id: "4977EA6AF069F4FD"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "44484C0B1B0504C3"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "141424BAD8CDC458"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "69AE59FFE8D4065B"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+					count: 5
+				}
+				{
+					id: "5BDC6056573E2402"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			subtitle: "Magician's Apprentice"
+			description: [
+				"Mechanical saws do what you think they do, they chop wood! placed on a contraption they will automatically fell any trees they come into contact with!"
+				"Alternatively you can use them in the factory to strip and cut logs into planks, or cut blocks into slabs!"
+			]
+			dependencies: ["4FBDAF9C7D687AC9"]
+			id: "3AF6870F91A4815F"
+			tasks: [{
+				id: "12906915C040F9F5"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "18A72B040D67F879"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			subtitle: "No it isnt a chimeny... kinda"
+			description: ["The chute works similarly to a hopper, but can be wrenched to see inside. You can place them at an angle to make diagonal chutes, and even power them with an encased fan to move items upwards!"]
+			dependencies: ["4FBDAF9C7D687AC9"]
+			id: "5D01A1040C3F8FD6"
+			tasks: [{
+				id: "6857FAEB89AB1EFA"
+				type: "item"
+				item: "create:chute"
+			}]
+			rewards: [{
+				id: "0D5050C05135C7A2"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 4
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			subtitle: "Odyssey's Number 2 Fan"
+			description: [
+				"The Encased fan allows automation of Smelting, Haunting, Watering and other items. Simply power it using Rotation and place your liquid (or block) of choice infront of it."
+				"Below is an example of a simple furnace, made from Lava, A Depot and a Fan."
+				"{image:odyssey3:textures/block/encasedfanquest.png width:200 height:100 align:1}"
+			]
+			dependencies: ["4FBDAF9C7D687AC9"]
+			id: "01ECC2A2A1FCBBBB"
+			tasks: [{
+				id: "1F6F33278E0D97CC"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "02C9A2A963D1C04E"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "Hold still"
+			description: [
+				"Depots can hold up to a stack of items, very useful for systems that need items to sit still for a while"
+				"You can also use these with funnels to turn vaults into easy access item pickups!"
+			]
+			dependencies: ["65F100E1B2D20F7C"]
+			id: "51B7041FBAEA733F"
+			tasks: [{
+				id: "101B51BF01F0E9EC"
+				type: "item"
+				item: "create:depot"
+			}]
+			rewards: [{
+				id: "263512E14C439703"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 3
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			subtitle: "They see me rollin', they hatin'"
+			description: ["Rolling Mill turns metals into rods or wires depending on if you insert the metal itself (rods) or a sheet/plate (wire)."]
+			dependencies: ["4FBDAF9C7D687AC9"]
+			id: "383691F8415E73BE"
+			tasks: [{
+				id: "0AB491A4F1C71FD3"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "540FD7ABEDD50E40"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -10.5d
+			subtitle: "Not to be confused with toilet paper...."
+			description: ["Sand paper is used to polish rose quartz!"]
+			id: "577D5B5F5BFBF1F1"
+			tasks: [{
+				id: "52A52A863C1C69CF"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "71993D7EA0A18C03"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -10.5d
+			subtitle: "Pretty!"
+			description: ["Polishing these crystals will allow you to make a very important component"]
+			dependencies: ["577D5B5F5BFBF1F1"]
+			id: "192E7B24A42443E9"
+			tasks: [{
+				id: "7A8CCF9920CB53EE"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+			rewards: [{
+				id: "06A14E5815C4B1D6"
+				type: "item"
+				item: "create:rose_quartz"
+				count: 15
+			}]
+		}
+		{
+			x: 4.0d
+			y: -10.5d
+			subtitle: "The electrical age!"
+			description: ["An important item used in crafting later on in Create!"]
+			dependencies: ["192E7B24A42443E9"]
+			id: "7462BCD8E47ABAF7"
+			tasks: [{
+				id: "1C300728F50A1668"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [
+				{
+					id: "17741E8CE058BE63"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3227AEC441827A71"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -15.0d
+			subtitle: "Industrial Glue!"
+			description: ["Super Glue sticks blocks to each other to ensure they move together, this is useful for making sure your contraption sticks together while moving!"]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "5EC70058EC04CC8C"
+			tasks: [{
+				id: "614D794223D077FC"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "24259A72CB342A5C"
+				type: "loot"
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -15.0d
+			subtitle: "1900s Elevators"
+			description: ["One of the many blocks used to create Elevators!"]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "70925E51874CE3ED"
+			tasks: [{
+				id: "48FB712560B975B3"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [
+				{
+					id: "44EBFB8F0387DFB5"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "58BD0FE00172A4DB"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			subtitle: "Clean Energy"
+			description: ["With sails and Windmill bearing, you can use Wind to create Rotation!"]
+			dependencies: ["7298DAA0AC1978D9"]
+			id: "559EBE9BCEBDC97C"
+			tasks: [
+				{
+					id: "21CF0E8DC17D9408"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "65AD6715F882C5A8"
+					type: "item"
+					item: "create:white_sail"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "09200D09EFC89BD7"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "2AEB1A19CDE58234"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			subtitle: "Automated Farms!"
+			description: ["This block allows for auto harvesting of many crops, and even replants seeds!"]
+			dependencies: ["4FBDAF9C7D687AC9"]
+			id: "5DFDE3EBA6541888"
+			tasks: [{
+				id: "557C989D3AD43B53"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "1BA2812A9A57C916"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			subtitle: "hehehe...."
+			description: ["The plough will uproot any smaller blocks it runs over! useful for destroying old railways. When a mob comes into contact with a moving one, it gets flung away!"]
+			dependencies: ["4FBDAF9C7D687AC9"]
+			id: "025BEE3F5ED802BA"
+			tasks: [{
+				id: "0235D64799BB8057"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+			rewards: [{
+				id: "42E66944DE7D2339"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			subtitle: "Moving Items in Style"
+			description: ["Moving things from point A to point B in create is done through belts, simply place two shafts and wrap a belt between them!"]
+			dependencies: ["1518E82DF8F27E21"]
+			id: "616A7EA15E05C79B"
+			tasks: [{
+				id: "4EEE373E122FF1B5"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "165EAB7A1AA40DCD"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			subtitle: "Poke"
+			description: [
+				"The Deployer can automate anything that a human could do! it has 2 modes, right clicking, and left clicking, and can hold an item in its hands!"
+				"I recomend pondering for a full display on what it can do"
+			]
+			dependencies: [
+				"26DE2021658E808F"
+				"7462BCD8E47ABAF7"
+			]
+			id: "202D48CF72AE7517"
+			tasks: [{
+				id: "6FB57D6D23621341"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "7EE1F2C3085916BB"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			subtitle: "Gotta catch... one?"
+			description: [
+				"To begin heating your mixtures, you'll need to get a Blaze Burner."
+				"Once you get the Empty version, simply right click a blaze to capture it."
+			]
+			dependencies: ["4FBDAF9C7D687AC9"]
+			id: "73D6C0964ED667D0"
+			tasks: [{
+				id: "0238AA13A572324A"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [
+				{
+					id: "1931F0495DB38301"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "1F9D9C1CA8782B59"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			description: ["You can create brass through Create by using a heated mixer and inserting the required Ingots inside!"]
+			dependencies: [
+				"73D6C0964ED667D0"
+				"2AE81656A5753F3D"
+				"53DD4927C55B9BBF"
+			]
+			size: 2.0d
+			id: "26DE2021658E808F"
+			tasks: [{
+				id: "29763D5CC23202AB"
+				type: "item"
+				item: "alltheores:brass_ingot"
+			}]
+			rewards: [{
+				id: "0A77F4E6FD7530BA"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 3
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			subtitle: "Building your very own Sewers"
+			description: [
+				"Create has it's own Fluid Pipes as well, ones that can be used to transport fluids from the Fluid Tank to other tanks or blocks (like the Mixer)."
+				"With a Valve Handle and a Fluid Valve you can turn on or off the flow of fluids."
+			]
+			dependencies: ["2AE81656A5753F3D"]
+			id: "03FEAEB02ECA6E1D"
+			tasks: [
+				{
+					id: "12133F84B051E729"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "1691AAD658B4B5F9"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+				{
+					id: "7EE3B66CA57A459F"
+					type: "item"
+					item: "create:fluid_tank"
+				}
+				{
+					id: "549692094D4DA283"
+					type: "item"
+					title: "Any #create:valve_handles"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:valve_handles"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7A42BD8B0521E146"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "02FC7B80C6166CD4"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			id: "2AE81656A5753F3D"
+			tasks: [{
+				id: "00032924BB2C0861"
+				type: "item"
+				item: "minecraft:copper_ingot"
+			}]
+			rewards: [{
+				id: "7E7728DC383E7C04"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 5
+			}]
+		}
+		{
+			x: -0.5d
+			y: -8.0d
+			subtitle: "Advanced Casing!"
+			dependencies: ["26DE2021658E808F"]
+			id: "56B72C2645E5CB97"
+			tasks: [{
+				id: "4370E30C49232D3B"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [
+				{
+					id: "0FD9AF953604A9FF"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "0CF04012F03AF303"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -8.0d
+			subtitle: "Extreme Crafting Tables"
+			description: ["These large scale machines allow you to craft even bigger recipies! placing the right items in the right slots and powering it with a redstone signal will send the items down the path, make sure it ends up in the right shape at the end and it will craft your item!"]
+			dependencies: ["56B72C2645E5CB97"]
+			id: "4C5F3866279BDD02"
+			tasks: [{
+				id: "35A36111A33F4284"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [
+				{
+					id: "7579DA5154C8CEDA"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "7B52B5AA044D4F65"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -11.0d
+			subtitle: "Ripoff Inserters"
+			description: [
+				"Using a mechanical arm, you can move items from one area to another, right click blocks to set them as inputs or outputs, and the arm will grab items and move them around!"
+				"I recomend pondering to learn more!"
+			]
+			dependencies: [
+				"56B72C2645E5CB97"
+				"6FEE7543D4C14C37"
+			]
+			id: "033E82EFA8ECE6DA"
+			tasks: [{
+				id: "645A8ED62BE2CC0D"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [
+				{
+					id: "6B58B41DC0072F0F"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "5449775A530058F9"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -9.5d
+			subtitle: "Like Clockwork!"
+			description: ["Some of the hardest components to make, but very rewarding! These gate some very advanced blocks, so be sure to automate a few!"]
+			dependencies: ["202D48CF72AE7517"]
+			id: "6FEE7543D4C14C37"
+			tasks: [{
+				id: "591D15157907580D"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [
+				{
+					id: "438C3E3805B31BD8"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "0627086830DF4D6E"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			subtitle: "Airport Scanner "
+			description: [
+				"Tunnels are great at decorating your belts, and can even split an item away from a stack of items!"
+				"Their limitations are covered by its brass upgrade."
+			]
+			dependencies: ["5B76D0938DCEC4DF"]
+			id: "0EF13559695C95A5"
+			tasks: [{
+				id: "601AF0B1D1DC239F"
+				type: "item"
+				item: "create:andesite_tunnel"
+			}]
+			rewards: [{
+				id: "758966081996E27B"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 4
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			subtitle: "Hoppers but better!"
+			description: [
+				"Funnels are your bread and butter item moving block in create, attaching them to the side of blocks can either output or input items automatically!"
+				"A wrench can be used to change modes, and redstone can be applied to disable them. However these funnels are limited to outputting one item at a time, and cannot be filtered."
+			]
+			dependencies: ["5B76D0938DCEC4DF"]
+			id: "3229AE98D475272C"
+			tasks: [{
+				id: "1700032B36D768D7"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+			rewards: [{
+				id: "2170C68C30FC7804"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			subtitle: "Osha Approved!"
+			description: ["The Engineer's Goggles let you see all sorts of information about the blocks you look at! very handy for building large systems."]
+			dependencies: ["4942F7FC93F460D3"]
+			id: "1CBDF2BF5CA06899"
+			tasks: [{
+				id: "17FF30AA543C9F66"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			subtitle: "Always carry one!"
+			description: ["The Wrench allows you to rotate and modify blocks without having to remove them!"]
+			dependencies: ["4942F7FC93F460D3"]
+			id: "0B854CCEA050F3A3"
+			tasks: [{
+				id: "347E458A5C1E2D7D"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "4F2ED4CE1A31E7BB"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "Bling!"
+			description: ["Gold plates are needed for some useful tools"]
+			dependencies: ["779EB57F52100665"]
+			id: "4942F7FC93F460D3"
+			tasks: [{
+				id: "6E64FA22F70E4102"
+				type: "item"
+				item: "alltheores:gold_plate"
+			}]
+			rewards: [{
+				id: "0DDB245D013474A2"
+				type: "loot"
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			subtitle: "Funnel but Cooler^2"
+			description: ["Bigger, better and filter-able versions of the Andesite Funnels."]
+			dependencies: [
+				"26DE2021658E808F"
+				"7462BCD8E47ABAF7"
+			]
+			id: "1FB2CA95223DEA51"
+			tasks: [{
+				id: "00223F510272FBC3"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+			rewards: [
+				{
+					id: "57E5A7C0FC0B2404"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "4A1D55B794B50046"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "3FFC441DE30DC5D9"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -8.0d
+			subtitle: "ACTUAL Airport Security."
+			description: ["Bigger, better and filterable version of the Andesite Tunnel."]
+			dependencies: [
+				"26DE2021658E808F"
+				"7462BCD8E47ABAF7"
+			]
+			id: "4067AFB5B080EE10"
+			tasks: [{
+				id: "3552F4A171944640"
+				type: "item"
+				item: "create:brass_tunnel"
+			}]
+			rewards: [
+				{
+					id: "1A2A84C85527A18B"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "334AE9155AB0FFF2"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "436B4FB1D2E0D706"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			subtitle: "Filter out that waste!"
+			description: ["Use a bucket on this pipe to restrict what flows through it!"]
+			dependencies: [
+				"26DE2021658E808F"
+				"03FEAEB02ECA6E1D"
+			]
+			id: "73DD6F75A9DA8AE5"
+			tasks: [{
+				id: "6A8DAA575B2A9BB7"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [
+				{
+					id: "71FAEBEE76312A20"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "0D1ABB6F7C0DDC5F"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			subtitle: "Hopper but Cooler^2"
+			description: ["Filterable Chute"]
+			dependencies: [
+				"26DE2021658E808F"
+				"7462BCD8E47ABAF7"
+			]
+			id: "4F231D2721B8DE26"
+			tasks: [{
+				id: "002034FC158E3418"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+			rewards: [
+				{
+					id: "06EC5E714AE23FCD"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "4D0DB66E121F0B76"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "3F436DE867A7736B"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -11.5d
+			subtitle: "ClackClackClackClack"
+			description: ["These boards display text in a very satisfying way, use dye and name tags to set text!"]
+			dependencies: ["7462BCD8E47ABAF7"]
+			id: "087E3F6F2DDB3424"
+			tasks: [{
+				id: "08EB97F6FC666970"
+				type: "item"
+				item: "create:display_board"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -17.5d
+			subtitle: "Getting dizzy at this point."
+			description: ["Literal. Giant. Clocks."]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "58E089A6817139BA"
+			tasks: [{
+				id: "465B368CA8C532D1"
+				type: "item"
+				item: "create:clockwork_bearing"
+			}]
+			rewards: [
+				{
+					id: "47AC99958AEDBCBE"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "6458DC37F5F3A16C"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -12.5d
+			subtitle: "Linking it up!"
+			description: ["These display links can monitor various items, and send the resulting data to many outputs! Compatable outputs include signs, display boards, books, and much more!"]
+			dependencies: ["087E3F6F2DDB3424"]
+			id: "18B4F166F55C4E3D"
+			tasks: [{
+				id: "1494D202615E1C2E"
+				type: "item"
+				item: "create:display_link"
+			}]
+			rewards: [{
+				id: "24E1C4AE032537C0"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			subtitle: "Rotational Control"
+			description: [
+				""
+				"These lovely blocks allow you to set a sequence of instructions to be performed when redstone is applied! there are tons of uses for these in moving contraptions, use your imagination!"
+			]
+			dependencies: ["56B72C2645E5CB97"]
+			id: "0FEB5B8B3FEE8DCB"
+			tasks: [{
+				id: "561D83644E2A41AC"
+				type: "item"
+				item: "create:sequenced_gearshift"
+			}]
+			rewards: [
+				{
+					id: "1B00E680A010EE57"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "3199A93E1BA815FA"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -9.0d
+			subtitle: "Finally, Wireless Redstone."
+			description: [
+				"Using these handy links, you can send redstone signals wirelessly! set the channels on the transmitting end, and match them on the recieving end, shift right click the link to toggle modes!"
+				"There exists an upgrade for these too, allowing you to control them with a remote :)"
+			]
+			dependencies: ["56B72C2645E5CB97"]
+			id: "6AC0BF7B9D375E08"
+			tasks: [{
+				id: "5453CB88F8A0A573"
+				type: "item"
+				item: "create:redstone_link"
+			}]
+			rewards: [{
+				id: "5AF8455E9E27F9C1"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: -11.5d
+			subtitle: "I see you."
+			description: ["An alternate version of the observer, you can set it to watch belts, pipes, chests, and so much more!"]
+			dependencies: ["7462BCD8E47ABAF7"]
+			id: "1247BD531039B376"
+			tasks: [{
+				id: "2ACD4CD93BDEC97C"
+				type: "item"
+				item: "create:content_observer"
+			}]
+			rewards: [{
+				id: "0F422656E249AE97"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -11.0d
+			subtitle: "Spin it up!"
+			description: ["A very handy component, apply rotation to the cogwheel or the base, and customize the speed and direction of the output! (negative numbers supported)"]
+			dependencies: ["6FEE7543D4C14C37"]
+			id: "781212621FF717B1"
+			tasks: [{
+				id: "45CE729A2FEB21D7"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [
+				{
+					id: "5019947A59A6C593"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "26F4190C775B8F7F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Don't stress it!"
+			description: [
+				"The Stress-o-meter can be used to monitor the power in a rotation system, and tell you how much more power you have avaliable!"
+				"Using goggles you can see a more detailed breakdown of power."
+			]
+			dependencies: ["65F100E1B2D20F7C"]
+			id: "58CB64E93ADABFE0"
+			tasks: [{
+				id: "587B42232A6DE3E8"
+				type: "item"
+				item: "create:stressometer"
+			}]
+			rewards: [
+				{
+					id: "5449153B23D0FB6B"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+					count: 4
+				}
+				{
+					id: "0798920306536A65"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			subtitle: "Do you know how fast you were going?"
+			description: ["Speedometers tell you how fast a given section of shaft is rotating"]
+			dependencies: ["65F100E1B2D20F7C"]
+			id: "6C0BE62563A62391"
+			tasks: [{
+				id: "594F10C295F19AB6"
+				type: "item"
+				item: "create:speedometer"
+			}]
+			rewards: [
+				{
+					id: "18E3D97CA2A41F65"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+					count: 4
+				}
+				{
+					id: "557B9EA112313453"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			subtitle: "Mining in style!"
+			description: ["The mechanical drill can be used to break blocks directly infront of it! It can even be used on a moving contraption to make a tunnel bore!"]
+			dependencies: ["4FBDAF9C7D687AC9"]
+			id: "6B879AA17EF2CBE6"
+			tasks: [{
+				id: "15D19E7966C32D53"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "0EF8C3BC84435489"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			subtitle: "Feed your fiery friend!"
+			description: ["Blaze cakes will temporarily superheat the blaze that eats it, allowing for more recipies using the mixer!"]
+			dependencies: ["53DD4927C55B9BBF"]
+			id: "760744C624687E96"
+			tasks: [{
+				id: "527B839066BAE439"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "6DFB937740099724"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			description: ["With Schematic and Quill, you can create new schematics."]
+			dependencies: ["283A52FC528A136B"]
+			id: "2752A8EB3F519850"
+			tasks: [{
+				id: "1CAA070B0A5F16CA"
+				type: "item"
+				item: "create:schematic_and_quill"
+			}]
+			rewards: [
+				{
+					id: "344974ECC69F06AC"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "0E1287053657B12C"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: ["Using an empty schematic and the schematic table, you can load any schematics saved on your computer."]
+			dependencies: ["283A52FC528A136B"]
+			id: "1B150662B9DE7F8F"
+			tasks: [{
+				id: "1FE9DF28D0DDF3EF"
+				type: "item"
+				item: "create:schematic_table"
+			}]
+			rewards: [
+				{
+					id: "176A9705D3B29A7B"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "2310099C70C1A186"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			subtitle: "Explosive Construction!"
+			description: ["Fed with Gunpowder and building blocks, the Schematicanon will automatically build your schematics."]
+			dependencies: ["283A52FC528A136B"]
+			id: "0B1CBA380B0E6D29"
+			tasks: [{
+				id: "75D2CBD363389298"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+			rewards: [
+				{
+					id: "3DA8D4590FA5C120"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "423672A19AECA04C"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			description: ["In Create, you can save structures to schematic files, and load schematic files for building them again."]
+			id: "283A52FC528A136B"
+			tasks: [{
+				id: "634CA8E2FA47C5DA"
+				type: "checkmark"
+				title: "Schematics"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			subtitle: "Ore processing!"
+			description: [
+				"After you make two crushers, just make sure not to fall in them."
+				"Crushers help, well, crush items and can be used to process ore, or do most recipies the millstone can"
+			]
+			dependencies: ["4C5F3866279BDD02"]
+			id: "4D5AAC44BE3EDA95"
+			tasks: [{
+				id: "01D5F183AAC5D663"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "1E1E9971215AA8E1"
+					type: "loot"
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "74E293C48578E468"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+			]
+		}
+		{
+			title: "Trains with Create!"
+			x: 2.0d
+			y: -11.25d
+			subtitle: "Chugga Chugga CHOO CHOO!!!"
+			description: [
+				"Making rails is cheap, but requires a deployer, might be worth setting up a rail factory!"
+				"Rails can be curved, S bend, or even sloped! Right click an existing rail to begin placing your track, any green square on the ground is a valid location to end that track."
+				"Holding an item in your offhand will place it under your track to make it look pretty!"
+			]
+			dependencies: ["202D48CF72AE7517"]
+			size: 1.5d
+			id: "433A5085EE9B7987"
+			tasks: [{
+				id: "71CF223B4155CFF2"
+				type: "item"
+				item: "create:track"
+			}]
+			rewards: [
+				{
+					id: "15C84DD08B8534E9"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "12A4923B9C460814"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -13.5d
+			subtitle: "Support club."
+			description: [
+				"Holding Girders in your off-hand allows you to support Train tracks."
+				"You can do this with any solid blocks as well."
+			]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "61E477AFA8D5847F"
+			tasks: [{
+				id: "5D2E83333CC41E66"
+				type: "item"
+				item: "create:metal_girder"
+			}]
+			rewards: [{
+				id: "45D23DC67BAD99F1"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -13.0d
+			subtitle: "Building a train!"
+			description: ["With a station in build mode, use these on the blue marked tracks to add Bogeys, and right click with a wrench to toggle the styles!"]
+			dependencies: ["433A5085EE9B7987"]
+			id: "7B437C4561A4D26B"
+			tasks: [{
+				id: "57B1DB69525E9BD4"
+				type: "item"
+				item: "create:railway_casing"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -15.0d
+			subtitle: "Second most important part of a train system."
+			description: [
+				"Place down a train station while selecting the direction of the train"
+				"Once you've finished, click on Create a Train."
+				"Place a train casing on the blue rail to create a 'Bogey' "
+				"You can now begin to connect, modify and build upon the 'Bogeys' to create your very own train."
+			]
+			dependencies: ["7B437C4561A4D26B"]
+			id: "27A4E0AB6F7B96A2"
+			tasks: [{
+				id: "56C6B26B05503CAE"
+				type: "item"
+				item: "create:track_station"
+			}]
+			rewards: [
+				{
+					id: "30140D268F78C12A"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "568E324B0E147326"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -13.0d
+			subtitle: "Choo Choo!"
+			description: [
+				"With the Train Controller, you can actually begin to drive your train."
+				"Once you've finished building your train and added a seat, a controller and the blocks you want to the bogeys, go back and click 'Assemble Train'."
+				"Make sure you glue the controller, otherwise it won't work."
+			]
+			dependencies: ["7B437C4561A4D26B"]
+			id: "0FA165E26A8ABFB4"
+			tasks: [{
+				id: "5EEA4EAC5B3AA024"
+				type: "item"
+				item: "create:controls"
+			}]
+			rewards: [
+				{
+					id: "5ACDF88355E60774"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "6C657FA0C6079F7E"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -13.5d
+			subtitle: "Chairs!"
+			description: ["Please do sit down while on a moving contraption, unless you want to risk falling off!"]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "14F2211A3AB9D39D"
+			tasks: [{
+				id: "1BA3485425FE77F0"
+				type: "item"
+				title: "Any #create:seats"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:seats"
+					}
+				}
+			}]
+			rewards: [{
+				id: "04BE9E4D7B4E2C68"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -16.0d
+			subtitle: "Actual Choo Choos!"
+			description: [
+				"Once your train is assembled and you've right clicked the controllers, hold sprint to ChooChoo."
+				"To add a steam whistle to your train, you need to place a mini steam boiler with a whistle on it! Pressing sprint will activate any whistles on your train while it is driving!"
+				"Multiple whistle blocks connected together will deepen the pitch, try combining multiple pitches to make a chord!"
+			]
+			dependencies: ["27A4E0AB6F7B96A2"]
+			id: "417A19FBE20A98BD"
+			tasks: [
+				{
+					id: "02269666593F46A2"
+					type: "item"
+					item: "create:steam_whistle"
+				}
+				{
+					id: "723797B1A84583A4"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "3C3C57BBE61E59FF"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "19287F4B64CFD81A"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -14.0d
+			subtitle: "Detecting Trains"
+			description: ["Letting out a redstone signal if it spots a train passing."]
+			dependencies: ["7B437C4561A4D26B"]
+			id: "51E199E129B096A1"
+			tasks: [{
+				id: "7005B2A8FF8C36B5"
+				type: "item"
+				item: "create:track_observer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -14.0d
+			subtitle: "Making sure trains don't hit each other."
+			description: [
+				"Train signals help you seperate sections of rail. Trains will not enter a rail segment that is occupied by another train, so use these wisely!"
+				"Check Ponder for more information!"
+			]
+			dependencies: ["7B437C4561A4D26B"]
+			id: "3503D7A44D37F62D"
+			tasks: [{
+				id: "40B8713739B60A7F"
+				type: "item"
+				item: "create:track_signal"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -13.0d
+			subtitle: "Cat Conductor?!"
+			description: ["Grab an animal and seat it in a train chair before handing it a Train Schedule, now you've got yourself a Conductor!"]
+			dependencies: ["7B437C4561A4D26B"]
+			id: "50479419DFD97B5E"
+			tasks: [{
+				id: "3B8CFF5BEAEDC998"
+				type: "item"
+				item: "create:schedule"
+			}]
+			rewards: [{
+				id: "6E72990A56BA2519"
+				type: "loot"
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			title: "RF - Create Integration!"
+			x: 6.5d
+			y: -8.0d
+			subtitle: "Now we can make some real power."
+			description: [
+				"With the Create Additions addon, you can convert RF to Rotation Force and vice versa!"
+				"The Electric Motor creates Rotation from RF."
+			]
+			dependencies: [
+				"26DE2021658E808F"
+				"383691F8415E73BE"
+			]
+			id: "3D2C441F5EEC9FDF"
+			tasks: [{
+				id: "63B7ABB640FBBD5C"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [
+				{
+					id: "236C9417D556FDFE"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "3100D61EC019B997"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -8.5d
+			subtitle: "Actual Dynamos"
+			description: ["The Alternator, on the other hand, creates RF from Rotation"]
+			dependencies: ["3D2C441F5EEC9FDF"]
+			id: "17AE22AB4D31DC1E"
+			tasks: [{
+				id: "6414A5E3F9810E87"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [
+				{
+					id: "33A7E45E1D743F1D"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "7FBBA7E4D5A6AAC2"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -7.5d
+			subtitle: "IE who?"
+			description: ["Just like in Immersive Engineering, you've got your basic battery and wire-connectors here!"]
+			dependencies: ["3D2C441F5EEC9FDF"]
+			id: "141A290CD72DD548"
+			tasks: [
+				{
+					id: "0E02F80BDE4DE9A3"
+					type: "item"
+					item: "createaddition:accumulator"
+				}
+				{
+					id: "0647C2162F921234"
+					type: "item"
+					item: "createaddition:connector"
+				}
+			]
+			rewards: [
+				{
+					id: "3CDF5AE86B8174E8"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "36147483BE2C853F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -12.0d
+			subtitle: "Hammerin' Time (again)"
+			description: [
+				"Other than easily making plates, the Engineer's hammer allows you to build Immersive Engineerings very fancy multiblocks."
+				"Immersive Engineering has ALOT of multiblocks, most of which are hard to mention here, I advice writing @ImmersiveEngineering in JEI and scrolling to the very bottom to see a list of them!"
+			]
+			id: "5AF01F87EBB3037D"
+			tasks: [{
+				id: "6286631BE93CFEBD"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -15.0d
+			subtitle: "Better Iron"
+			description: ["Making steel is easy, simply place iron and an equal amount of coke right below it to start and just.. leave it. It'll create steel after a while and give a slag bi-product."]
+			dependencies: ["07E18BB0C56B3A19"]
+			id: "3F4581FE0AC20444"
+			tasks: [{
+				id: "7B2F0F2E0B40202A"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -13.5d
+			subtitle: "Not that kind of coke."
+			description: [
+				"Coke is a better version of Coal, usually used for better heating or, most importantly, creation of Steel in the Blast Furnace!"
+				"Creosete oil is also a biproduct of the creation which is used to create Treated Wood."
+			]
+			dependencies: ["5AF01F87EBB3037D"]
+			id: "07E18BB0C56B3A19"
+			tasks: [{
+				id: "5A8AE47A5938EF5E"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -17.0d
+			subtitle: "Most Important Ingot in Modded Minecraft"
+			description: ["Most mods need steel to even get into them, so, you'll need ALOT of these."]
+			dependencies: ["3F4581FE0AC20444"]
+			size: 1.5d
+			id: "6BD5B95A5D039893"
+			tasks: [{
+				id: "42A94986A41F89BC"
+				type: "item"
+				item: "alltheores:steel_ingot"
+				count: 16L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -17.0d
+			description: ["Lava on one side, Water on the other and you've got yourself a slow passive RF generation."]
+			dependencies: [
+				"6BD5B95A5D039893"
+				"750100863925662C"
+				"6D9756D83A3888C7"
+			]
+			id: "723A8799580B9AA2"
+			tasks: [{
+				id: "613A242D2B7BA0D0"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -15.0d
+			description: ["These are actual wires, they're used to transfer electricity!"]
+			dependencies: ["2B47C5C4A61F7C1C"]
+			id: "750100863925662C"
+			tasks: [{
+				id: "79797656DF14D199"
+				type: "item"
+				item: "immersiveengineering:wire_copper"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -13.5d
+			subtitle: "Just one wire from a whole sheet?"
+			description: ["Used to create wires from sheets."]
+			dependencies: ["5AF01F87EBB3037D"]
+			id: "2B47C5C4A61F7C1C"
+			tasks: [{
+				id: "4F3A11A1BC769A37"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -17.0d
+			description: ["A battery that only takes LV."]
+			dependencies: ["723A8799580B9AA2"]
+			id: "311B40A839BD48E0"
+			tasks: [{
+				id: "22F0AED5C7D51FA6"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -15.0d
+			description: ["Connectors and Relays, the first is placed at the output and input while the second is placed between them."]
+			dependencies: ["2B47C5C4A61F7C1C"]
+			id: "6D9756D83A3888C7"
+			tasks: [
+				{
+					id: "41C265B33A74D252"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "7650B805A8CD2A14"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -13.5d
+			description: ["Moving items in style (or, you know, needed in multiblocks)."]
+			dependencies: ["5AF01F87EBB3037D"]
+			id: "324093536E45E7A6"
+			tasks: [{
+				id: "66B00DFCD302F401"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+		}
+		{
+			title: "The Metal Press"
+			x: -8.0d
+			y: -15.0d
+			description: [
+				"An addon to JEI allows us to check Multiblocks from IE rather easily, so, test it out by checking the Metal Press out!"
+				"Metal Press allows you to press ingots into plates for cheap."
+			]
+			dependencies: ["3BA717168D589434"]
+			id: "7A2B7AE861DA4EA7"
+			tasks: [{
+				id: "065590518EBCCF3D"
+				type: "item"
+				item: "immersiveengineering:mold_plate"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -15.0d
+			description: ["An Engineer's crafting table, allows creation of mold, cloches and other items."]
+			dependencies: ["07E18BB0C56B3A19"]
+			id: "3BA717168D589434"
+			tasks: [{
+				id: "3998D08A448C1611"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -18.5d
+			subtitle: "Faster Steel Production"
+			description: ["Remember to check JEI for a guide on how to build this!"]
+			dependencies: ["6BD5B95A5D039893"]
+			id: "5DFC60067C2BBA4C"
+			tasks: [
+				{
+					id: "76A526CF02C7DE79"
+					type: "item"
+					item: "immersiveengineering:blastfurnace_preheater"
+					count: 2L
+				}
+				{
+					id: "4ED025652EB99F2C"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "344A61F5DF4FEF8B"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -13.5d
+			subtitle: "Auto-Creosete"
+			description: ["If you've got a Coke Furnace up and running, you'll need to transport the Creosete to another tank to make sure it's fully automated, use this!"]
+			dependencies: ["5AF01F87EBB3037D"]
+			id: "4F5EA38E2C310B5E"
+			tasks: [
+				{
+					id: "032F9E319189F968"
+					type: "item"
+					item: "immersiveengineering:fluid_pump"
+				}
+				{
+					id: "254480E76424FAEE"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 6L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -16.5d
+			subtitle: "Easier Planting"
+			description: [
+				"In one block, you can create an entire farm!"
+				"You need to provide energy, water alongside the seed and soil and watch it work!"
+			]
+			dependencies: ["3BA717168D589434"]
+			id: "033F0172C188AB17"
+			tasks: [{
+				id: "02D306A81A10FC83"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -12.5d
+			subtitle: "... Like a ribbon baby."
+			id: "03D422211D306E88"
+			tasks: [{
+				id: "00529D027E0B56DC"
+				type: "item"
+				item: "cyclic:rotator"
+			}]
+			rewards: [
+				{
+					id: "156EBCD37E66154C"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0D56A7036E7F4EDD"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -12.0d
+			id: "13C6F1B6CCDD83F2"
+			tasks: [{
+				id: "52F13E87950AAA01"
+				type: "item"
+				item: "cyclic:packager"
+			}]
+			rewards: [
+				{
+					id: "19B9CA3D9932CBA5"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "1CDBC95E2B139297"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -12.5d
+			id: "54361072512C68C6"
+			tasks: [{
+				id: "5F9498F57C3334B0"
+				type: "item"
+				item: "cyclic:dropper"
+			}]
+			rewards: [
+				{
+					id: "2BACE92D07C4102B"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "5450368C4C0E049A"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -13.5d
+			description: ["Automatic Tree Farm!"]
+			id: "373E081E63E02A41"
+			tasks: [{
+				id: "27C3B8956155936B"
+				type: "item"
+				item: "cyclic:forester"
+			}]
+			rewards: [
+				{
+					id: "29EB0C01606D9EC5"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "1073AD6A523D0321"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -13.5d
+			description: ["Automatic Cobblestone Generation made simple."]
+			id: "7A300D4B8D20D999"
+			tasks: [{
+				id: "4B887BF96B3C0776"
+				type: "item"
+				item: "cyclic:miner"
+			}]
+			rewards: [
+				{
+					id: "6BFABE696FD08553"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "5B8DFC43AB0A7635"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -12.5d
+			subtitle: "Poor Man's Void Hopper"
+			id: "5688CEF22C3C2602"
+			tasks: [{
+				id: "0FC6A01B80253779"
+				type: "item"
+				item: "cyclic:collector"
+			}]
+			rewards: [
+				{
+					id: "6C82E6160F8528C0"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "629CAC200277DC0F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -14.5d
+			id: "37F01346BC331F91"
+			tasks: [{
+				id: "537206A8EF98E18B"
+				type: "item"
+				item: "cyclic:placer_fluid"
+			}]
+			rewards: [
+				{
+					id: "3F52DD460C3816A7"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0CC6B30B44CF410D"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -14.5d
+			id: "107831D484511ED2"
+			tasks: [{
+				id: "378F7DDA522CAA32"
+				type: "item"
+				item: "cyclic:collector_fluid"
+			}]
+			rewards: [
+				{
+					id: "1BB94698586BA75A"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0A388D790B236A30"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -15.5d
+			description: ["Automatic Farms!"]
+			id: "32845660D62B2EA1"
+			tasks: [{
+				id: "13FDD094334DE681"
+				type: "item"
+				item: "cyclic:harvester"
+			}]
+			rewards: [
+				{
+					id: "6DF898A6635079F3"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "06304AB2B8E3D45B"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -13.5d
+			id: "5DA59DB3A6932445"
+			tasks: [{
+				id: "6CD3D7BFA3D8C3C0"
+				type: "item"
+				item: "cyclic:placer"
+			}]
+			rewards: [
+				{
+					id: "4DE179DC530CEF9F"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2751B44E63398A34"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -14.5d
+			description: ["Ever wanted to have something right click for you?"]
+			id: "2358FFC57116166F"
+			tasks: [{
+				id: "6D6F670F23847088"
+				type: "item"
+				item: "cyclic:user"
+			}]
+			rewards: [
+				{
+					id: "0248E5B9D65B43E5"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "545CA81A6351400C"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -15.5d
+			description: ["Melts items into their liquid counterparts."]
+			id: "5B43320648A9FFA1"
+			tasks: [{
+				id: "66B8FD8505D11126"
+				type: "item"
+				item: "cyclic:melter"
+			}]
+			rewards: [
+				{
+					id: "1F22EDF009430F55"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "70B191D11AF664A6"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -15.5d
+			description: ["Solidifes liquids into their solid counterparts,  sometimes combining them to create something new."]
+			dependencies: ["5B43320648A9FFA1"]
+			id: "5681C09C8680A87D"
+			tasks: [{
+				id: "1D837CEA4085E1C7"
+				type: "item"
+				item: "cyclic:solidifier"
+			}]
+			rewards: [
+				{
+					id: "0A7448661D310C90"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "4009FBEEA45F8A9A"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -16.5d
+			description: ["Tool Repairs have never been easier."]
+			id: "618C26E78B0526F5"
+			tasks: [{
+				id: "585F58EC216F2F5A"
+				type: "item"
+				item: "cyclic:anvil"
+			}]
+			rewards: [
+				{
+					id: "4591E8EC461DE56F"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "7506332D00346947"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -14.0d
+			subtitle: "You spin me right round.."
+			description: ["Can rotate whoever stands on it, dont get sick now!"]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "528F760F049FE984"
+			tasks: [{
+				id: "3BF108A301511F54"
+				type: "item"
+				item: "create:turntable"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			subtitle: "Actually moving the fluid"
+			description: [
+				"You may notice the pipes do not automatically move the fluid, you need to power mechanical pumps to do that! Note: pumps have a maximum range, so it may be wise to have multiple handy"
+				""
+				"Pumps move fluid based on the incoming rotation direction and speed, in case its rotating the wrong way, you can use a wrench to flip it!"
+			]
+			dependencies: [
+				"03FEAEB02ECA6E1D"
+				"128DB53D83A333B5"
+			]
+			id: "129DE40AA87A0066"
+			tasks: [{
+				id: "0CB44419E9B3151B"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+			rewards: [{
+				id: "44E5BF45C12E65EA"
+				type: "choice"
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -15.5d
+			subtitle: "Pretty things go here"
+			description: ["The next few quests are just some pretty blocks to consider, and this doesnt even cover them all!"]
+			id: "2B1CAB86F8690881"
+			tasks: [{
+				id: "72AD850B1BAA2B1B"
+				type: "checkmark"
+				title: "Decor!"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			id: "7298DAA0AC1978D9"
+			tasks: [{
+				id: "67439BC18EC1CC04"
+				type: "checkmark"
+				title: "Power sources!"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			subtitle: "Major power!"
+			description: ["Depending on fluid intake, heat, and size, these boilers can output MASSIVE amounts of power, try superheated blaze burners for best effect!"]
+			dependencies: [
+				"7298DAA0AC1978D9"
+				"03FEAEB02ECA6E1D"
+			]
+			id: "58B4A7A1DA4E7011"
+			tasks: [
+				{
+					id: "4D88E9C83E5D7956"
+					type: "item"
+					item: "create:steam_engine"
+				}
+				{
+					id: "5233E60B179F80D6"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "174FD8E3702ABB0C"
+				type: "loot"
+				table_id: 6662433201225807513L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -17.0d
+			subtitle: "Rotato-Potato"
+			description: ["These allow you to rotate anything that is attached to it, make a spinning door, or a cool turntable!"]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "226D32075C82B8E4"
+			tasks: [{
+				id: "549F665265BF6245"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+			rewards: [{
+				id: "6BCD3C36BB000A48"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -16.0d
+			subtitle: "Puuuuuuush!"
+			description: ["Mechanical pistons (and their sticky variants) allow you to push contraptions around!"]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "017A4B9BDB7A15FE"
+			tasks: [
+				{
+					id: "089F9B6977F0997C"
+					type: "item"
+					item: "create:mechanical_piston"
+				}
+				{
+					id: "3EB896EF5DF7EF15"
+					type: "item"
+					item: "create:piston_extension_pole"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -17.0d
+			subtitle: "Trams-mit power"
+			description: ["Allows for moving contraptions on a pole, can power the carriage to allow it to transmit rotation through the system instead, Ponder for more details!"]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "3991880C90C8B3E5"
+			tasks: [
+				{
+					id: "4EDEA7167D9EA264"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+				{
+					id: "7DD4DC64260EEBB8"
+					type: "item"
+					item: "create:gantry_shaft"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "5F66539248BFB830"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			subtitle: "Thirsty rope"
+			description: ["Can be used to drain fluid far below itself, if dipped in a source more than 1000 buckets deep, it will harvest infinite fluid!"]
+			dependencies: ["03FEAEB02ECA6E1D"]
+			id: "2BEA2AFB94CECC03"
+			tasks: [{
+				id: "17EFAC554CB0820D"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+			rewards: [
+				{
+					id: "4CC8519C0C072B0F"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "6E3A95BA75DD6539"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			subtitle: "Not from Fallout"
+			description: ["Item vaults are great at storing bulk amounts of items, however you cannot access it by hand, if you want to take stuff out, i recomend a funnel and a depot on the side!"]
+			dependencies: ["4FBDAF9C7D687AC9"]
+			id: "51ABA40FFBA2A4E6"
+			tasks: [{
+				id: "0A08F1DF18438FBF"
+				type: "item"
+				item: "create:item_vault"
+			}]
+			rewards: [{
+				id: "1D97B6F2BD0EE713"
+				type: "item"
+				item: "create:item_vault"
+				count: 3
+			}]
+		}
+		{
+			x: 8.0d
+			y: -14.0d
+			subtitle: "Functional while moving!"
+			description: ["These pretty ladders come with a nice hook on the top, and function while moving!"]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "7930419C1A99C0CF"
+			tasks: [
+				{
+					id: "0C8E3D596692DDEA"
+					type: "item"
+					item: "create:copper_ladder"
+				}
+				{
+					id: "3527A288D4E54A2A"
+					type: "item"
+					item: "create:brass_ladder"
+				}
+				{
+					id: "2877B1A0B2A616FD"
+					type: "item"
+					item: "create:andesite_ladder"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -16.0d
+			subtitle: "[] {}} ()"
+			description: ["Brackets are perfect for decorating cogs and shafts!"]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "319384AB8F0F6180"
+			tasks: [
+				{
+					id: "0F32F7F99F185E41"
+					type: "item"
+					item: "create:wooden_bracket"
+				}
+				{
+					id: "58238BF1D8454F46"
+					type: "item"
+					item: "create:metal_bracket"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -17.5d
+			subtitle: "Mini trains"
+			description: ["Want trains but dont want the big rails? make contraptions on minecarts instead!"]
+			dependencies: ["2B1CAB86F8690881"]
+			id: "3A294DA7FC3CDC8F"
+			tasks: [{
+				id: "4E64152295DD6E41"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [{
+				id: "535088CC6833D9F5"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+	]
+}

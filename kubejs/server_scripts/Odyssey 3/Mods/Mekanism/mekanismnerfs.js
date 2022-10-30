@@ -4,6 +4,7 @@
 
   // Circuits
   // Advanced Circuit
+  event.remove({output: 'mekanism:advanced_control_circuit'})
   event.shaped('mekanism:advanced_control_circuit', [
     'PGP',
     'CAC',
@@ -14,6 +15,7 @@
       A: 'mekanism:alloy_infused'
     })
   // Elite Circuit
+  event.remove({output: 'mekanism:elite_control_circuit'})
   event.shaped('mekanism:elite_control_circuit', [
     'PGP',
     'CAC',
@@ -25,6 +27,7 @@
     C: 'mekanism:alloy_reinforced'
   })
   // Ultimate Circuit
+  event.remove({output: 'mekanism:ultimate_control_circuit'})
   event.shaped('mekanism:ultimate_control_circuit', [
     'PGP',
     'CAC',
@@ -37,6 +40,7 @@
   })
   // Blocks
   // Steel Casing
+  event.remove({output: 'mekanism:steel_casing'})
   event.shaped('mekanism:steel_casing', [
     'SBS',
     'BGB',

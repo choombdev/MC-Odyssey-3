@@ -1,0 +1,17 @@
+{
+	id: "2E323C670F6C8C2C"
+	group: "6DF8677B3198265F"
+	order_index: 0
+	filename: "the_bounty_hunter"
+	title: "The Bounty Hunter"
+	icon: {
+		id: "botania:terra_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

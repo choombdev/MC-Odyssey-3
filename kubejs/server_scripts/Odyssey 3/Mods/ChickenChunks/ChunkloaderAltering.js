@@ -1,6 +1,7 @@
 // This script was made by choombdev for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
  // Chunkloader 
+ event.remove({output: 'chickenchunks:chunkloader'})
  event.shaped('chickenchunks:chunk_loader',
  [
     'GGG',

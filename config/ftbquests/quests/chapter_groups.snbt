@@ -1,3 +1,9 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "4A849C7B2E846156", title: "Basics" }
+		{ id: "06C9C569CAAAC914", title: "Technology" }
+		{ id: "6FA6C0E3C628858D", title: "Adventuring" }
+		{ id: "5F6E7F2E61EE5FB6", title: "Magic" }
+		{ id: "6DF8677B3198265F", title: "Trophy Hunter" }
+	]
 }

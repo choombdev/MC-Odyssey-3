@@ -9,7 +9,7 @@
       "table": [
         "minecraft:chests/spawn_bonus_chest"
       ],
-      "chance": 0.7692308
+      "chance": 0.07692308
     },
     {
       "table": [
@@ -30,7 +30,7 @@
         "minecraft:chests/stronghold_corridor",
         "minecraft:chests/woodland_mansion"
       ],
-      "chance": 0.1923077
+      "chance": 0.01923077
     },
     {
       "table": [
@@ -70,7 +70,7 @@
         "minecraft:chests/bastion_hoglin_stable",
         "minecraft:chests/desert_pyramid"
       ],
-      "chance": 0.15384616
+      "chance": 0.0015384616
     }
   ]
 }

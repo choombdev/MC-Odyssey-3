@@ -1,0 +1,259 @@
+{
+	id: "5C75B7B28AD53699"
+	order_index: 1
+	title: "Advanced Loot Crate"
+	icon: {
+		id: "sophisticatedstorage:iron_chest"
+		Count: 1b
+		tag: {
+			mainColor: 8991416
+			accentColor: 8991416
+		}
+	}
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "minecraft:conduit", weight: 15 }
+		{ item: "minecraft:lava_bucket", weight: 65 }
+		{ item: "minecraft:netherite_scrap", weight: 5 }
+		{ item: "artifacts:bunny_hoppers", weight: 40 }
+		{ item: "cyclic:hopper_gold", weight: 40 }
+		{ item: "ars_nouveau:source_gem", count: 64, weight: 22 }
+		{ item: "energymeter:meter", weight: 55 }
+		{ item: "cyclic:apple_lofty_stature", count: 7, weight: 32 }
+		{
+			item: {
+				id: "cyclic:charm_attack_speed"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 35
+		}
+		{
+			item: {
+				id: "ironjetpacks:thruster"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:gold"
+				}
+			}
+			count: 6
+			weight: 20
+		}
+		{
+			item: {
+				id: "ironjetpacks:jetpack"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:iron"
+					Throttle: 1.0d
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "apotheosis:ender_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+					entity_data: { }
+				}
+			}
+			weight: 30
+		}
+		{ item: "paraglider:spirit_orb", count: 6, weight: 4 }
+		{ item: "industrialforegoing:pink_slime", count: 4, weight: 10 }
+		{ item: "ironfurnaces:upgrade_diamond", count: 6, weight: 55 }
+		{ item: "ironfurnaces:upgrade_crystal", count: 5, weight: 40 }
+		{ item: "industrialforegoing:mob_imprisonment_tool", weight: 30 }
+		{ item: "advgenerators:turbine_rotor_tier2", count: 10, weight: 25 }
+		{ item: "advgenerators:turbine_rotor_tier4", count: 4, weight: 20 }
+		{ item: "nameless_trinkets:unknown_fragment", count: 10, weight: 6 }
+		{ item: "lightmanscurrency:coin_emerald", count: 6, weight: 20 }
+		{ item: "extendedcrafting:black_iron_ingot", weight: 25 }
+		{ item: "byg:pendorite_ingot", weight: 20 }
+		{ item: "thermal:upgrade_augment_2", count: 7, weight: 18 }
+		{ item: "redstone_arsenal:flux_nugget", weight: 3 }
+		{ item: "mekanism:basic_control_circuit", count: 10, weight: 45 }
+		{ item: "mekanism:advanced_tier_installer", weight: 60 }
+		{ item: "ae2:fluix_crystal", count: 10, weight: 20 }
+		{ item: "mekanism:basic_tier_installer", count: 3, weight: 50 }
+		{ item: "mekanism:upgrade_stone_generator", weight: 90 }
+		{ item: "ae2:silicon", count: 32, weight: 60 }
+		{ item: "ae2:certus_quartz_crystal", count: 32, weight: 45 }
+		{ item: "quark:bottled_cloud", count: 32, weight: 30 }
+		{
+			item: {
+				id: "adhooks:web_launcher"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 55
+		}
+		{ item: "minecraft:golden_apple", count: 32, weight: 25 }
+		{ item: "minecraft:glow_ink_sac", count: 32, weight: 20 }
+		{ item: "artifacts:villager_hat", weight: 60 }
+		{ item: "artifacts:cloud_in_a_bottle", weight: 13 }
+		{ item: "artifacts:power_glove", weight: 20 }
+		{ item: "artifacts:everlasting_beef", weight: 20 }
+		{ item: "artifacts:whoopee_cushion", weight: 56 }
+		{ item: "farmersdelight:shepherds_pie_block", weight: 60 }
+		{ item: "farmersdelight:pasta_with_meatballs", count: 16, weight: 60 }
+		{ item: "solarflux:photovoltaic_cell_3", count: 9, weight: 25 }
+		{ item: "compressium:cobblestone_3", weight: 60 }
+		{ item: "compressium:gravel_2", weight: 60 }
+		{ item: "compressium:iron_1", weight: 55 }
+		{ item: "compressium:clay_2", weight: 50 }
+		{ item: "gobber2:gobber2_globette", weight: 15 }
+		{
+			item: {
+				id: "cyclic:charm_invisible"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 30
+		}
+		{
+			item: {
+				id: "cyclic:charm_water"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 25
+		}
+		{
+			item: {
+				id: "cyclic:charm_starvation"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 15
+		}
+		{
+			item: {
+				id: "cyclic:charm_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "cyclic:heart", count: 3, weight: 12 }
+		{ item: "cyclic:heart_empty", weight: 15 }
+		{
+			item: {
+				id: "cyclic:flippers"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 25
+		}
+		{
+			item: {
+				id: "cyclic:prospector"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 30
+		}
+		{ item: "cyclic:inventory_cake", weight: 30 }
+		{ item: "create:experience_nugget", count: 6, weight: 20 }
+		{ item: "create:honeyed_apple", weight: 50 }
+		{ item: "create:goggles", weight: 30 }
+		{ item: "create:analog_lever", weight: 45 }
+		{ item: "create:train_door", weight: 40 }
+		{ item: "create:schedule", weight: 40 }
+		{ item: "create:spout", weight: 40 }
+		{ item: "twilightforest:maze_map_focus", weight: 30 }
+		{ item: "dimstorage:dim_wall", count: 8, weight: 15 }
+		{ item: "waystones:waystone", weight: 20 }
+		{ item: "solarflux:photovoltaic_cell_4", count: 4, weight: 80 }
+		{
+			item: {
+				id: "appmek:chemical_storage_cell_4k"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "angelring:itemdiamondring" }
+		{ item: "pipez:universal_pipe", count: 32, weight: 120 }
+		{ item: "storagedrawers:emerald_storage_upgrade", count: 16, weight: 110 }
+		{ item: "mekanism:upgrade_speed", count: 8, weight: 90 }
+		{ item: "mekanism:upgrade_energy", count: 8, weight: 90 }
+		{ item: "mekanism:elite_tier_installer", weight: 5 }
+		{ item: "mekanism:teleportation_core" }
+		{
+			item: {
+				id: "lctech:battery"
+				Count: 1b
+				tag: {
+					Battery: 100000
+				}
+			}
+			weight: 15
+		}
+		{ item: "lightmanscurrency:terminal", weight: 100 }
+		{ item: "advgenerators:turbine_tier3", count: 9, weight: 80 }
+		{ item: "advgenerators:turbine_rotor_tier4", count: 4, weight: 50 }
+		{
+			item: {
+				id: "cgm:pistol"
+				Count: 1b
+				tag: {
+					AmmoCount: 16
+				}
+			}
+		}
+		{ item: "lightmanscurrency:coin_diamond" }
+		{ item: "industrialforegoing:plastic", count: 9, weight: 90 }
+		{ item: "industrialforegoing:pink_slime_ingot" }
+		{ item: "industrialforegoing:machine_frame_simple", count: 3, weight: 30 }
+		{ item: "exmachinis:gold_upgrade", count: 3, weight: 60 }
+		{ item: "hostilenetworks:overworld_prediction" }
+		{ item: "farmersrespite:rose_hip_tea", count: 3, weight: 80 }
+		{ item: "refinedstorage:improved_processor", count: 9, weight: 40 }
+		{ item: "refinedstorage:construction_core", count: 9, weight: 50 }
+		{ item: "refinedstorage:destruction_core", count: 9, weight: 50 }
+		{ item: "redstone_arsenal:flux_ingot", count: 2 }
+		{
+			item: {
+				id: "refinedstorage:16k_storage_disk"
+				Count: 1b
+				tag: {
+					Id: [I;
+						667506221
+						-1654699091
+						-1518149714
+						-1005876475
+					]
+				}
+			}
+			weight: 15
+		}
+		{ item: "redstone_arsenal:flux_plating", weight: 16 }
+		{ item: "mysticalagriculture:tertium_growth_accelerator", count: 7, weight: 15 }
+		{ item: "bloodmagic:blankrune", count: 32, weight: 80 }
+		{ item: "exnihilosequentia:flint_mesh", weight: 33 }
+		{ item: "quantumquarryplus:quarry_framw", weight: 44 }
+		{ item: "waystones:waystone", weight: 60 }
+		{ item: "mysticalagriculture:imperium_growth_accelerator", count: 3, weight: 50 }
+		{ item: "biggerreactors:blutonium_ingot", count: 16, weight: 70 }
+		{ item: "twilightforest:steeleaf_ingot", count: 9, weight: 80 }
+	]
+}

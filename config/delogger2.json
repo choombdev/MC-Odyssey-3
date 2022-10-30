@@ -18,7 +18,8 @@
     "net.minecraft.world.level.chunk.storage.ChunkSerializer",
     "net.minecraft.client.renderer.block.model.BlockModel",
     "net.minecraft.client.renderer.texture.TextureAtlas",
-    "net.minecraft.world.level.storage.loot.LootTable"
+    "net.minecraft.world.level.storage.loot.LootTable",
+    "[FTBLibrary-ItemSearch/INFO] [FTB Library/]: Done updating item list"
   ],
   "ignoredExceptions": [
     "com.mojang.authlib.exceptions.AuthenticationUnavailableException"

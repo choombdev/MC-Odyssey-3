@@ -11,7 +11,7 @@
   })
   event.shaped('3x tconstruct:dragon_scale', [
     'S  ',
-    'S ',
+    'S  ',
     'SSS'
   ], {
     S: 'mysticalagriculture:dragon_egg_essence'

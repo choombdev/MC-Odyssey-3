@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "thermal:netherite_gear"
+  },
+  "output": {
+    "item": "gobber2:gobber2_globette"
+  },
+  "upgradeLevel": 2,
+  "altarSyphon": 5000,
+  "consumptionRate": 20,
+  "drainRate": 20
+}

@@ -1,0 +1,1818 @@
+{
+	id: "7695D49C9EB52EF3"
+	group: "4A849C7B2E846156"
+	order_index: 0
+	filename: "introduction_to_odyssey_3"
+	title: "Introduction to Odyssey 3"
+	icon: "kubejs:choomburgert1"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Odyssey 3!"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "We all start somewhere."
+			description: [
+				"Welcome to Odyssey 3!"
+				"We're extremely glad you're giving the pack a try and hope you'll enjoy it, as usual, we'll start off with collecting 16 logs of any wood you can find."
+				"In Odyssey 3, we use FTB Ultimine, a better alternative to Vein Miner!"
+			]
+			size: 3.0d
+			id: "3CDDD86E0792B205"
+			tasks: [{
+				id: "335E82B5E915A32D"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "72659BEF85DEF4FF"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+					count: 5
+				}
+				{
+					id: "4BB3A90FAC5ED741"
+					type: "item"
+					item: "kubejs:choomburgert1"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "The Odyssey Economy!"
+			x: -5.0d
+			y: 0.0d
+			subtitle: "What is this weird coin I just got?"
+			description: ["Well friend, head over to the Currency tab to learn more about Lightman's Currency, Odyssey 3's choice of Currency mod!"]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "474B12D261B7F996"
+			tasks: [{
+				id: "58C454E823B30907"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+			rewards: [{
+				id: "0F680BF6450FE0C6"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			description: [
+				"After you've built your base, you have to start decorating it!"
+				"This sub-quest will briefly show you what decoration mods we have in the pack."
+			]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "7B49EC4B6BBE78A6"
+			tasks: [{
+				id: "3EE32CEC5958141C"
+				type: "checkmark"
+				title: "Decorating your base!"
+			}]
+		}
+		{
+			title: "Macaws"
+			x: -8.0d
+			y: -1.0d
+			subtitle: "3D Minecraft"
+			description: ["Macaw's mods contain a whole lot of new blocks to add to your building itself, whether that is windows, doors, pipes or bridges, the mod has it all! Check it out in JEI by searching for @mcw"]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "230E88C95ED757CC"
+			tasks: [{
+				id: "5643819C52DD02C3"
+				type: "item"
+				item: "mcwwindows:window_base"
+			}]
+			rewards: [
+				{
+					id: "0CB8E7F11A563B77"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "48E6649654485D75"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			subtitle: "Your blocks but fancier."
+			description: ["Have you ever looked at Marble and thought, yuck, that looks ugly. Well, with Chipped (A remake of Chisel), you can maybe make it less ugly."]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "15866D1CA9724E0D"
+			tasks: [{
+				id: "4ACEB5C2562BA3F0"
+				type: "item"
+				item: "chipped:mechanist_workbench"
+			}]
+			rewards: [
+				{
+					id: "0B3FA1C5FA4B4251"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "5EAFE00291EA5438"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			title: "Chisel and Bits"
+			x: -7.0d
+			y: -3.5d
+			subtitle: "Miniature art"
+			description: ["Have you ever seen those crazy miniature builds in Minecraft (or real life)? This is your chance at creating them!"]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "46A3E9A927E745E0"
+			tasks: [
+				{
+					id: "36DDDCD2EF7DF20D"
+					type: "item"
+					title: "Any #chiselsandbits:chisel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "chiselsandbits:chisel"
+						}
+					}
+				}
+				{
+					id: "444055EDDEF32600"
+					type: "item"
+					item: {
+						id: "chiselsandbits:bit_bag"
+						Count: 1b
+						tag: {
+							Inventory: { }
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4FBBC291FBDF155A"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "137EE3342AE0243F"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			title: "MrCrayFish's Furniture Mod"
+			x: -6.0d
+			y: -3.5d
+			subtitle: "The Classics"
+			description: [
+				"An Odyssey pack is not complete without MrCrayFish, the classical furniture mod."
+				"To check what it has to offer, search @cfm in JEI."
+			]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "01ECD6D55383B91D"
+			tasks: [{
+				id: "60047897A2FD02F1"
+				type: "item"
+				item: {
+					id: "cfm:spatula"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6F1E007C89DA0768"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "7690979B7E7AF6BE"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			title: "Builder's Craft (and Quark)"
+			x: -6.0d
+			y: -0.5d
+			subtitle: "Vertical Slabs?"
+			description: [
+				"Ever wanted Vertical Slabs? Well, here they are!"
+				"Quark and Builder's Craft both offer a large collection of blocks that can be used for Decoration."
+			]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "422F5539D1AC3EE6"
+			tasks: [{
+				id: "77A943411758D104"
+				type: "item"
+				title: "Any #quark:vertical_slab"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:vertical_slab"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3E81A1C0EDCE79BF"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "568B0E8336B45ECB"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			title: "Supplementaries"
+			x: -5.0d
+			y: -3.0d
+			subtitle: "Clock Blocks"
+			description: ["Whether you want a small globe, a working clock block or more, Supplementaries offers items that just fit right."]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "3352132EC5C74B91"
+			tasks: [{
+				id: "34A164CC66C34547"
+				type: "item"
+				item: "supplementaries:checker_block"
+			}]
+			rewards: [
+				{
+					id: "22CE063CE2E15368"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "6836A9B93F14DA2E"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			title: "Immersive Posts"
+			x: -7.0d
+			y: -0.5d
+			subtitle: "Lighting your City"
+			description: ["If you're planning on building a small city and need light posts for your roads, this is the mod for you!"]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "7E8229A3D4BA2689"
+			tasks: [{
+				id: "4C9805CE7F9164D0"
+				type: "item"
+				item: "immersiveposts:postbase"
+			}]
+			rewards: [
+				{
+					id: "0DDEE6D4C15B5F2F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "683E9F5190668A9E"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			subtitle: "Sand.. but better."
+			description: ["Ever thought your current Sugarcane production is too slow? Well, with Snad, you'll reach height limit sugarcanes within a more reasonable time!"]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "69DCD96BB1C02FE7"
+			tasks: [{
+				id: "6FE953C35319B8A2"
+				type: "item"
+				item: "snad:snad"
+			}]
+			rewards: [{
+				id: "565DDA400335B91D"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			subtitle: "Soul Sand but Better."
+			description: ["Same as before, this time, Nether Warts!"]
+			dependencies: ["69DCD96BB1C02FE7"]
+			id: "269678AE8E076851"
+			tasks: [{
+				id: "6FA51E1D1CEBD596"
+				type: "item"
+				item: "snad:suol_snad"
+			}]
+			rewards: [{
+				id: "280D7D4E89DC21F5"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			subtitle: "Camping!"
+			description: ["If you're out in the wild and night suddenly dawns on you, you either re-set your spawnpoint or go through it, with the Comforts mod, you can use sleeping bags that skip the night but don't set your spawnpoint!"]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "4EAA0CDBB03D5EB9"
+			tasks: [{
+				id: "6030F98B14DADBB9"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+			rewards: [{
+				id: "6A33F3F960CEB8C7"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			title: "Elevators!"
+			x: -4.5d
+			y: -2.0d
+			subtitle: "I miss openblocks.."
+			description: ["A simple block, you jump on it you go up, you sneak on it you go down."]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "5C222AC96D851E5E"
+			tasks: [{
+				id: "74DA53C23D6CE200"
+				type: "item"
+				title: "Any #elevatorid:elevators"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+			}]
+			rewards: [{
+				id: "23BCFA4FB770A67D"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 8
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "-Insert Jojo Reference-"
+			description: ["The more time this bottle spends in your inventory, the more time you can skip with it!"]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "3156A62E7C362617"
+			tasks: [{
+				id: "13C48C8F67C47A36"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "24092C77A9585B46"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "27D5E0EDEE5D3211"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			subtitle: "DimChests but with colors."
+			description: ["Color-coded Dimensional Chests, to lock them though you'll need to rightclick the lock with a diamond!"]
+			dependencies: ["5E511BE75D85D699"]
+			id: "6F0C5F84B19655E8"
+			tasks: [{
+				id: "6CC1C31E9B975E03"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+			rewards: [
+				{
+					id: "67DAE18BA76FDA2C"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "59A056697F3C2CAE"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			subtitle: "EnderChests but without colors."
+			description: ["Simple as putting down the chest, turning it private in the GUI, selecting a number."]
+			dependencies: ["5E511BE75D85D699"]
+			id: "15FCACC65F1D843A"
+			tasks: [{
+				id: "3C70CC86E1D20DCE"
+				type: "item"
+				item: "dimstorage:dimensional_chest"
+			}]
+			rewards: [
+				{
+					id: "51086C8AAAFBF86D"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "64F23F4B87D474A5"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			description: ["Odyssey 3 has two mods that help with transporting your resources from point A to B!"]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "5E511BE75D85D699"
+			tasks: [{
+				id: "10F4B236980529B2"
+				type: "checkmark"
+				title: "Wireless Storage"
+			}]
+		}
+		{
+			title: "Construction Wand"
+			x: -3.5d
+			y: 2.5d
+			subtitle: "Builder Wands!"
+			description: ["If you're too lazy, this should help you fill in large areas rather easily! The stone one though is a bit more limited than it's counterparts."]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "326B13F273B7BD5F"
+			tasks: [{
+				id: "55D3FD33890FAE97"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "63955FD723F0D33D"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["326B13F273B7BD5F"]
+			id: "6B833E5931747418"
+			tasks: [{
+				id: "21CC857E32853EEF"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "62DBA303FFA20FF4"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2071F1489D430BDA"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "1E62EEEEDF33DF39"
+					type: "item"
+					item: {
+						id: "constructionwand:iron_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			dependencies: ["6B833E5931747418"]
+			id: "79E2DF02736F238E"
+			tasks: [{
+				id: "5679AB167986A4A3"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "25DA67DA761FE4C3"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "16BFA0C06471B8F7"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 15
+				}
+			]
+		}
+		{
+			title: "Infinity Wand"
+			x: -6.0d
+			y: 4.0d
+			subtitle: "Infinite Building!"
+			dependencies: ["79E2DF02736F238E"]
+			id: "291ED2363BB97104"
+			tasks: [{
+				id: "1A311E11093468AC"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4571A3BE07DE0FB1"
+					type: "loot"
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "058C0BC23566B993"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			subtitle: "Builder Wands with shapes!"
+			description: [
+				"As soon as you have a source of RF/FE, you should definitely give this a try."
+				"Building Gadgets allow you to do so much work in such little time."
+			]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "00E83FC7D4F65D1F"
+			tasks: [{
+				id: "626635C7DC541E7F"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							data: { }
+							state: {
+								Name: "minecraft:air"
+							}
+							serializer: "buildinggadgets:dummy_serializer"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0FFC4C0DF32DF078"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3E577A13B97FDD9A"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			subtitle: "Breaking what you've built."
+			description: ["By the same developer, this mod allows you to break blocks!"]
+			dependencies: ["00E83FC7D4F65D1F"]
+			id: "5FFE55273B8CB66B"
+			tasks: [{
+				id: "28B7BE98A96504CC"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget_simple"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4CFF80B40E063DCA"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "2F49B1F1AEDE99CC"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			subtitle: "Space-saver."
+			description: ["Instead of having to carry 20 different Wrenches on you at all times, you can just add them all to your Morph-O-Wand and automatically equip it when you're looking at a block uses a specific wrench!"]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "79A340C8CEE105AC"
+			tasks: [{
+				id: "7A86D451316F7B3D"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+			rewards: [{
+				id: "1ADF36BA71B93E1D"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 4
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			subtitle: "Block Manipulation"
+			description: ["With the FramedBlocks mod, you can basically turn any block into stairs, slabs, doors or maybe even slopes."]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "4B4EE343C8FA0E41"
+			tasks: [{
+				id: "115B248EDE178729"
+				type: "item"
+				item: "framedblocks:framed_cube"
+			}]
+			rewards: [
+				{
+					id: "7F8C0AE3DD477464"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "6786ABB28DD162DC"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			subtitle: "Loading Chunks as if you're there."
+			description: [
+				"Chunks don't load when you're not near them, so, make this instead!"
+				"Remember though, Odyssey 3 uses a mod called LimitedChunkLoading, meaning you can't keep your chunks loaded on a server for more than 6 hours."
+			]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "07151ED599EE3CAF"
+			tasks: [{
+				id: "1EE9C79C50D3025D"
+				type: "item"
+				item: "chickenchunks:chunk_loader"
+			}]
+			rewards: [
+				{
+					id: "2BC57B4EE42E3042"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "1E8D90B9E5179EB2"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			subtitle: "Glowstone Gun"
+			description: ["This wand shoots invisible lights that, unless you're holding this wand, are walk through!"]
+			dependencies: ["2EF4E62723EE9206"]
+			id: "6A24D844A86E0BA6"
+			tasks: [{
+				id: "42D4566C8FEC34FC"
+				type: "item"
+				item: {
+					id: "lightingwand:wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "64C9D0C1040559EC"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+					count: 2
+				}
+				{
+					id: "0F63E8061AB50020"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			subtitle: "Torch Gun"
+			description: ["Unlike the Lighting Wand, this one shoots actual torches."]
+			dependencies: ["2EF4E62723EE9206"]
+			id: "3FB8046337D1B77D"
+			tasks: [{
+				id: "317AEA92239D7C2A"
+				type: "item"
+				item: {
+					id: "cyclic:torch_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "21C1BAF34C34F9A2"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "51A0FB8181D35567"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			subtitle: "Go Away Hostiles"
+			description: ["This Torch blocks Hostile Mob spawns in a region around it while also providing light."]
+			dependencies: ["2EF4E62723EE9206"]
+			id: "0BE9050EFF78EEC8"
+			tasks: [{
+				id: "02BE91FA5449DE59"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [
+				{
+					id: "03BF21959C252CF0"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "23F36A4E32AD1814"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			subtitle: "Go Away Mobs"
+			description: ["This Block blocks any mob spawns near it."]
+			dependencies: ["2EF4E62723EE9206"]
+			id: "62E7A723FA788F82"
+			tasks: [{
+				id: "33FB1A00CD75975C"
+				type: "item"
+				item: "torchmaster:dreadlamp"
+			}]
+			rewards: [
+				{
+					id: "097142BEB8821566"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "0E619307B51EACE1"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			subtitle: "Hip Lantern"
+			description: ["With Dynamic Lights installed, you can easily place a lantern into your Curio slots to always have light around you!"]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "2EF4E62723EE9206"
+			tasks: [{
+				id: "6629AA7E903C6486"
+				type: "item"
+				item: "minecraft:lantern"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			subtitle: "Finding Mobs"
+			description: ["After charging this, you'll be able to locate mobs using filters!"]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "19715AE1FE3ACC78"
+			tasks: [{
+				id: "50BC4CB8922DEA7E"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			rewards: [
+				{
+					id: "74C69A28CEB52861"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "5E47E8C8C468DC5C"
+					type: "item"
+					item: "scannable:blank_module"
+				}
+			]
+		}
+		{
+			title: "For the Adventurer inside you!"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Too many Compasses."
+			description: ["Odyssey 3 has two Compass mods, this mini-questline introduces you to them!"]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "53EF789DFABB8D61"
+			tasks: [{
+				id: "12936A5D665017AA"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+			rewards: [{
+				id: "31763E3E94F249CE"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			subtitle: "Finding Structures"
+			description: ["Select the structure you want and... it shows up."]
+			dependencies: ["53EF789DFABB8D61"]
+			id: "57C31DCFE3E6FE0D"
+			tasks: [{
+				id: "5FDBCB5C80545884"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "69D508520BDB8F31"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "13C5E9A79E0BA037"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			subtitle: "Finding Biomes"
+			description: ["Select a biome you're looking for, read up on it's stats and head there!"]
+			dependencies: ["53EF789DFABB8D61"]
+			id: "5EAF5BAB64349DEF"
+			tasks: [{
+				id: "432950D6B5C164AC"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "254EA57ED976281E"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7D31C8BA8C25B346"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 2.5d
+			subtitle: "Checking TPS!"
+			description: ["Getting block lag? Hit CTRL+TAB and find your TPS out rather quickly (instead of having to type in /spark TPS!)"]
+			id: "6D2D11C9422AD7FB"
+			tasks: [{
+				id: "5F0E126829DD9C30"
+				type: "checkmark"
+				title: "Player Menu"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.5d
+			subtitle: "Walking Encyclopedia"
+			description: ["The Akashic Tome mod allows you to carry all your books in just one book. If you ever lose it, make sure to check out the 'Emergency Items' button in the Quests tab."]
+			id: "1D749028F8F62CCD"
+			tasks: [{
+				id: "05A45250E4F53660"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			description: ["More on this in the Digital Storage Questline."]
+			dependencies: ["53EF789DFABB8D61"]
+			id: "63137A801749EA63"
+			tasks: [{
+				id: "7D840EA7637C34D5"
+				type: "item"
+				item: "ae2:sky_compass"
+			}]
+			rewards: [
+				{
+					id: "60B6783194118E7C"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "55DE0888C9583449"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			title: "Iron Furnaces"
+			x: 0.5d
+			y: -1.5d
+			subtitle: "This isn't an Iron Furnace?"
+			description: ["Well, we all start somewhere."]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "1D6B9A3E51B5C3E5"
+			tasks: [{
+				id: "2C4608B5D1E72A54"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "6DF7DC7F3DD605DA"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+				}
+				{
+					id: "38E7558F019E6818"
+					type: "item"
+					item: "minecraft:coal"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Speed"
+			description: [
+				"The Iron Furnace is the first of many furnaces, once you unlock it, you'll be able to use Augments."
+				"This Furnace is 40 Ticks faster than Stone"
+			]
+			dependencies: ["1D6B9A3E51B5C3E5"]
+			id: "37271D988A1AA676"
+			tasks: [{
+				id: "19556A17496B6806"
+				type: "item"
+				item: "ironfurnaces:upgrade_iron"
+			}]
+			rewards: [
+				{
+					id: "59C0D3368DF0FC05"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "3BCDC1E63FA8C2CB"
+					type: "item"
+					item: "thermal:coal_coke"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "More Speed"
+			description: ["This Furnace is 80 Ticks faster than Stone"]
+			dependencies: ["37271D988A1AA676"]
+			id: "55F958C478B986B0"
+			tasks: [{
+				id: "24E139CDCDB728C1"
+				type: "item"
+				item: "ironfurnaces:upgrade_gold"
+			}]
+			rewards: [
+				{
+					id: "791034CF3E18B964"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7A0E64C72642F663"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			subtitle: "Even More Speed"
+			description: ["This Furnace is 120 Ticks faster than Stone"]
+			dependencies: ["55F958C478B986B0"]
+			id: "6541AF58DA1C5A0F"
+			tasks: [{
+				id: "6B37ED055723494A"
+				type: "item"
+				item: "ironfurnaces:upgrade_diamond"
+			}]
+			rewards: [
+				{
+					id: "107DD1FADA0DC586"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7CB208F81A26A58F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			subtitle: "Faster!"
+			description: [
+				"Other than being transparent, "
+				"This Furnace is 160 Ticks faster than Stone"
+			]
+			dependencies: ["6541AF58DA1C5A0F"]
+			id: "2BFB0354C24B2778"
+			tasks: [{
+				id: "6E50E40B3ACBA9A7"
+				type: "item"
+				item: "ironfurnaces:upgrade_crystal"
+			}]
+			rewards: [
+				{
+					id: "7EA25CB78F42D9E5"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "3F17B0D0AC8EFFCD"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			subtitle: "Even Faster (but careful)"
+			description: ["Other than being TNT Proof, This Furnace is 180 Ticks faster than Stone"]
+			dependencies: ["2BFB0354C24B2778"]
+			id: "1169F4DB9A0B7BF5"
+			tasks: [{
+				id: "6FECF39D4794527A"
+				type: "item"
+				item: "ironfurnaces:upgrade_obsidian2"
+			}]
+			rewards: [
+				{
+					id: "790A9F1E763CE5E6"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "50681084AD0AEFDC"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			subtitle: "Ore time!"
+			description: ["This augment will allow recipes from the vanilla blast furnace to cook twice as fast, with the cost of restricting the recipes to that of the blast furnace. "]
+			hide_dependency_lines: true
+			dependencies: ["37271D988A1AA676"]
+			id: "313F3898482C392F"
+			tasks: [{
+				id: "5D33EB895729589E"
+				type: "item"
+				item: "ironfurnaces:augment_blasting"
+			}]
+			rewards: [
+				{
+					id: "079F871076263363"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "553D28FA46B58A7A"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			subtitle: "Cooking Time!"
+			description: ["This augment will allow recipes from the vanilla smoker to cook twice as fast, with the cost of restricting the recipes to that of the smoker. "]
+			hide_dependency_lines: true
+			dependencies: ["37271D988A1AA676"]
+			id: "232CFE45F683DD07"
+			tasks: [{
+				id: "2030C9BD3775A3DF"
+				type: "item"
+				item: "ironfurnaces:augment_smoking"
+			}]
+			rewards: [
+				{
+					id: "7CDEC61199531087"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "289B6244FE7875E9"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			subtitle: "Early RF Generation"
+			description: ["This augment converts the furnace into a generator, any fuel burned will generate energy."]
+			hide_dependency_lines: true
+			dependencies: ["37271D988A1AA676"]
+			id: "5A25619E7CAD4752"
+			tasks: [{
+				id: "3EEF88C4205C51B7"
+				type: "item"
+				item: "ironfurnaces:augment_generator"
+			}]
+			rewards: [
+				{
+					id: "4DD3DDBFD5499948"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "01F3F87538D6B3C6"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			subtitle: "I can quit, don't worry."
+			description: ["This augment will allow recipes to cook twice as fast, with the cost of having the furnace burn up twice the amount of fuel."]
+			hide_dependency_lines: true
+			dependencies: ["37271D988A1AA676"]
+			id: "7D3290405D61E286"
+			tasks: [{
+				id: "1603A80A85C1D9FD"
+				type: "item"
+				item: "ironfurnaces:augment_speed"
+			}]
+			rewards: [
+				{
+					id: "4D732C27C61E92CA"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "12E866D54DB0CADC"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			subtitle: "Ecologically Friendly"
+			description: ["This augment will make all recipes take 25% longer, however, this augment heats up the furnace twice as much, making it 100% more fuel efficient. "]
+			hide_dependency_lines: true
+			dependencies: ["37271D988A1AA676"]
+			id: "74B425EBE667DAD9"
+			tasks: [{
+				id: "43C4D8DBD29720F0"
+				type: "item"
+				item: "ironfurnaces:augment_fuel"
+			}]
+			rewards: [
+				{
+					id: "703F85A51767C275"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+				{
+					id: "79EDBFFE7365D390"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -10.0d
+			subtitle: "Now we're done."
+			description: ["This Furnace is 195 Ticks faster than Stone"]
+			dependencies: ["1169F4DB9A0B7BF5"]
+			id: "6CBD58E13648DC1E"
+			tasks: [{
+				id: "6FA87CE115D9D0DF"
+				type: "item"
+				item: "ironfurnaces:upgrade_netherite"
+			}]
+			rewards: [
+				{
+					id: "6B71364BF62CF192"
+					type: "loot"
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "11526BFFA3C6DEF4"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			subtitle: "Mekanism, Who?"
+			description: ["Just like Mekanism, make Smelting Factories at home!"]
+			dependencies: ["5A25619E7CAD4752"]
+			hide: true
+			hide_text_until_complete: true
+			id: "4616848AA8D8F6BA"
+			tasks: [{
+				id: "14DEF287FBE3A6DE"
+				type: "item"
+				item: "ironfurnaces:augment_factory"
+			}]
+			rewards: [{
+				id: "1A8C9775BA7C0226"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Protect yourself in style."
+			description: [
+				"With Crayfish Gun Mod, you can create your very own arsenal of weaponry with materials you're well acquainted with."
+				"More on this later on in the Gear quest."
+			]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "56E0452EBEEB1586"
+			tasks: [{
+				id: "1A84EBB3ADB32F43"
+				type: "item"
+				item: "cgm:workbench"
+			}]
+			rewards: [
+				{
+					id: "3E4768A7F45C1A6B"
+					type: "item"
+					item: "lightmanscurrency:coinpile_diamond"
+				}
+				{
+					id: "38C9D01B2E775D10"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			title: "Mob Grinding Utilities"
+			x: 6.5d
+			y: -0.5d
+			subtitle: "Fancy."
+			description: ["Now, time to build your very own Mob Spawner."]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "0CCC6306AC69E64C"
+			tasks: [{
+				id: "26F200C961268AEF"
+				type: "item"
+				item: {
+					id: "mob_grinding_utils:monocle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			subtitle: "Totally Legal DNA Gathering"
+			description: ["To begin making better dirt, you'll need to collect some DNA, any mob works."]
+			dependencies: ["0CCC6306AC69E64C"]
+			id: "6DBDC9FAE57BE207"
+			tasks: [{
+				id: "54F3A007AFED1EC8"
+				type: "item"
+				item: "mob_grinding_utils:mob_swab"
+			}]
+			rewards: [{
+				id: "67841353AE527799"
+				type: "item"
+				item: "mob_grinding_utils:mob_swab_used"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			subtitle: "GOOD ENDING"
+			description: ["Through some healthy food items, you can make your egg lay gold!"]
+			dependencies: ["6DBDC9FAE57BE207"]
+			id: "0FA557DE484A1CB8"
+			tasks: [{
+				id: "61C53AAAFF2CF0BF"
+				type: "item"
+				item: "mob_grinding_utils:nutritious_chicken_feed"
+			}]
+			rewards: [
+				{
+					id: "004F87756B526D06"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "6A2B2078E214F889"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			subtitle: "EVIL ENDING"
+			description: ["Through some 'evil' components, you'll be able to poison your chicken and create a rotten egg."]
+			dependencies: ["6DBDC9FAE57BE207"]
+			id: "6840C500016B0AAD"
+			tasks: [{
+				id: "1DF29259A0F0180F"
+				type: "item"
+				item: "mob_grinding_utils:gm_chicken_feed_cursed"
+			}]
+			rewards: [
+				{
+					id: "107CAA6AB0E001CB"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2A3FD9F4215F1E9D"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			subtitle: "Cursed Dirt"
+			description: ["Remember Extra Utilities' Cursed Earth? This is just that!"]
+			dependencies: ["6840C500016B0AAD"]
+			id: "31495BEB883BF520"
+			tasks: [{
+				id: "1D60478628B2AB71"
+				type: "item"
+				item: "mob_grinding_utils:rotten_egg"
+			}]
+			rewards: [{
+				id: "50B0E1577642B8DC"
+				type: "loot"
+				table_id: 6662433201225807513L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			subtitle: "Not-Cursed Earth"
+			description: ["The opposite of Cursed Earth is the Blessed Earth? Well, this spawns good mobs."]
+			dependencies: ["0FA557DE484A1CB8"]
+			id: "1C97DE77BE0CA6C8"
+			tasks: [{
+				id: "090676B0E104A65A"
+				type: "item"
+				item: "mob_grinding_utils:golden_egg"
+			}]
+			rewards: [{
+				id: "5D338C2C58C4A425"
+				type: "loot"
+				table_id: 6662433201225807513L
+			}]
+		}
+		{
+			title: "XP Collection and Dispersal"
+			x: 8.0d
+			y: -0.5d
+			subtitle: "I'm not going to comment on the color."
+			description: ["A safer (and more useful) way to store your Experience is through the Singularity Tanks!"]
+			dependencies: ["0CCC6306AC69E64C"]
+			id: "302183888864908A"
+			tasks: [
+				{
+					id: "75C320909896B3B2"
+					type: "item"
+					item: "mob_grinding_utils:tank_sink"
+				}
+				{
+					id: "432F565B4368BD83"
+					type: "item"
+					item: "mob_grinding_utils:tank"
+				}
+				{
+					id: "1B5DF59A2002D41F"
+					type: "item"
+					item: "mob_grinding_utils:xp_tap"
+				}
+			]
+			rewards: [
+				{
+					id: "7FAB311E112E1345"
+					type: "item"
+					item: "industrialforegoing:essence_bucket"
+				}
+				{
+					id: "5CC73EDF1C0DC591"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			subtitle: "The Classics 2.0"
+			description: ["Very Basic spikes, not exactly extraordinary."]
+			dependencies: ["0CCC6306AC69E64C"]
+			id: "7DCD5E949B9805D0"
+			tasks: [{
+				id: "560831F551E3BC98"
+				type: "item"
+				item: "mob_grinding_utils:spikes"
+			}]
+			rewards: [
+				{
+					id: "4B319E1E3478E347"
+					type: "item"
+					item: "mob_grinding_utils:spikes"
+				}
+				{
+					id: "49BF40C0416D7EA7"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			subtitle: "Grinding Factory"
+			description: ["With a little redstone, this heavily moddable block grinds anything that stands above it until it dies, allowing it to also drop EXP."]
+			dependencies: ["7DCD5E949B9805D0"]
+			id: "465DCB85B5C012C1"
+			tasks: [{
+				id: "3DF088DDC4C103D6"
+				type: "item"
+				item: "mob_grinding_utils:saw"
+			}]
+			rewards: [
+				{
+					id: "14D3FE5DF6785E68"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "0B2DA98172EDB151"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			subtitle: "Wireless Hoppers"
+			description: ["Easily collect your EXP and Items without setting up an annoying hopper system!"]
+			dependencies: ["465DCB85B5C012C1"]
+			id: "4720499DE91EABE7"
+			tasks: [{
+				id: "52C5DD30369F2588"
+				type: "item"
+				item: "mob_grinding_utils:absorption_hopper"
+			}]
+			rewards: [
+				{
+					id: "4837638070198D80"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "3F855DEEF44054B5"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			subtitle: "Odyssey's Biggest Fan"
+			description: ["Push mobs away (but please be careful)"]
+			dependencies: ["465DCB85B5C012C1"]
+			id: "0A2A70A71F3E69E6"
+			tasks: [{
+				id: "116DDDCFCBF167B1"
+				type: "item"
+				item: "mob_grinding_utils:fan"
+			}]
+			rewards: [
+				{
+					id: "749E0C10046CAD27"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "42F4F95A72089E8D"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			subtitle: "Hasbro Trademark"
+			description: ["You can easily create your own 'mini spawner' by automating Jelly Babies"]
+			dependencies: ["302183888864908A"]
+			id: "072975129DE8F3B6"
+			tasks: [{
+				id: "6E18F40E7D0DB8C3"
+				type: "item"
+				item: "mob_grinding_utils:xpsolidifier"
+			}]
+			rewards: [
+				{
+					id: "35B3D1C9DF36464E"
+					type: "item"
+					item: "mob_grinding_utils:solid_xp_baby"
+				}
+				{
+					id: "63D3D023AC1301B6"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			subtitle: "Forcefield."
+			description: ["No more Enderman Teleportation!"]
+			dependencies: ["465DCB85B5C012C1"]
+			id: "47A8809A7820802C"
+			tasks: [{
+				id: "21E6F3C0FC21723C"
+				type: "item"
+				item: "mob_grinding_utils:ender_inhibitor_on"
+			}]
+			rewards: [
+				{
+					id: "3AAA41E81F2334E2"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "04B21D72F3F5B028"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			subtitle: "Fake Mob Spawner"
+			description: ["Once you get your hand on a mob spawner, somehow, you can begin using this!"]
+			dependencies: ["072975129DE8F3B6"]
+			id: "5622AFEE82F575E9"
+			tasks: [{
+				id: "042F9323C4F7ADB0"
+				type: "item"
+				item: "mob_grinding_utils:entity_spawner"
+			}]
+			rewards: [{
+				id: "207DC0D65B0AB421"
+				type: "loot"
+				table_id: 6662433201225807513L
+			}]
+		}
+		{
+			title: "Apotheosis"
+			x: 0.5d
+			y: 0.5d
+			description: [
+				"Apotheosis adds ALOT of things, whether it's bosses, new Potion mechanics or Unlimited Sugarcane, it has it all."
+				"But, we're focusing a bit more on the Affixes today."
+				"Affixes are enchanted tools with extra properties, most of which appear in lootchests, with them, you can do alot."
+				"For starters, Gems, you can find those as well in chests and, when your tool has an 'Empty Socket' on it, you can apply the gem for a buff!"
+				""
+			]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "257632F7BA215832"
+			tasks: [{
+				id: "33385F4C80C6B7B8"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: [
+				"With enough Rarity Materials, place down the Reforger and surround it with bookshelves, just like with an Enchanting Table, then stock up on EXP. "
+				"Insert Gem Dust, Your tool and the Rarity Material of choice (Numbers vary!) and create a brand new random affix!"
+			]
+			dependencies: ["38ABD76DD7E98624"]
+			id: "7AD7F62B81730AFB"
+			tasks: [{
+				id: "5776FF33B2C4ADEA"
+				type: "item"
+				item: "apotheosis:reforging_table"
+			}]
+			rewards: [
+				{
+					id: "063A83B9D260BBF6"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "127005C5D3FBB7B1"
+					type: "item"
+					item: "apotheosis:epic_material"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			description: ["Now, if you've got an issue with your Affixes being too weak, you can always salvage them into Rarity Materials which in return can create a better item."]
+			dependencies: ["1E28EAFC658F9116"]
+			id: "38ABD76DD7E98624"
+			tasks: [{
+				id: "049E23752A18311F"
+				type: "item"
+				item: "apotheosis:salvaging_table"
+			}]
+			rewards: [
+				{
+					id: "7E12F2EBA11622F7"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "03D8807F068A7B1D"
+					type: "item"
+					item: "apotheosis:rare_material"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "Crushin'"
+			description: ["Throw down a gem and, well, drop an anvil on it. Fun."]
+			dependencies: ["257632F7BA215832"]
+			id: "1E28EAFC658F9116"
+			tasks: [{
+				id: "4937373060B1F27B"
+				type: "item"
+				item: "apotheosis:gem_dust"
+			}]
+			rewards: [
+				{
+					id: "539987B208DA6A33"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "17ACF7F087880337"
+					type: "item"
+					item: "apotheosis:common_material"
+				}
+			]
+		}
+	]
+}

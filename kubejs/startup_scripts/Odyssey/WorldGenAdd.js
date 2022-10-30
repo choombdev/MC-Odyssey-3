@@ -1,30 +1,13 @@
 // This script was made by Choomb for MC Odyssey 3, reusing it without explicit permission is not allowed.
-onEvent('worldgen.add', event => {
-  event.addOre(ore => {
-    ore.block = 'kubejs:choombium_ore'
-    ore.spawnsIn.blacklist = false
-    ore.spawnsIn.values =  ['minecraft:endstone']
-    ore.biomes.blacklist = false
-    ore.biomes.values = ['minecraft:the_end']
-    ore.clusterMaxSize = 1 
-    ore.clusterCount = 1
-    ore.minHeight = 0 
-    ore.maxHeight = 64 
-    ore.squared = true 
-    ore.chance = 10 
-  })
 
-  event.addOre(ore => {
-    ore.block = 'minecraft:nether_quartz_ore'
-    ore.spawnsIn.blacklist = false
-    ore.spawnsIn.values =  ['minecraft:netherrack']
-    ore.biomes.blacklist = false
-    ore.biomes.values = ['minecraft:the_nether']
-    ore.clusterMaxSize = 15 
-    ore.clusterCount = 10
-    ore.minHeight = 0 
-    ore.maxHeight = 128 
-    ore.squared = true 
-    ore.chance = 25 
-  })
+onEvent('worldgen.add', event => {
+	event.addOre((ore) => {
+      ore.id = 'kubejs:choombium_ore'
+      ore.biomes = "^end"
+      ore.addTarget('minecraft:end_stone', 'kubejs:choombium_ore')
+      ore.count([1,3])
+      ore.size= 2
+      ore.chance = 150
+
+	})
 })

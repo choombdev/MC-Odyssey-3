@@ -1,0 +1,20 @@
+{
+    "type": "bloodmagic:soulforge",
+    "input0": {
+      "item": "essentials:animal_feed"
+    },
+    "input1": {
+      "item": "ars_nouveau:end_fiber"
+    },
+    "input2": {
+      "item": "botania:manasteel_block"
+    },
+    "input3": {
+      "item": "cyclic:soulstone"
+    },
+    "output": {
+      "item": "minecraft:cow_spawn_egg"
+    },
+    "minimumDrain": 80.0,
+    "drain": 10
+  }

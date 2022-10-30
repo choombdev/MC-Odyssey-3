@@ -1,0 +1,2960 @@
+{
+	id: "2F62BE0F8DA9CB9D"
+	group: "5F6E7F2E61EE5FB6"
+	order_index: 0
+	filename: "ritual_wizard"
+	title: "Ritual Wizard"
+	icon: "bloodmagic:altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -1.0d
+			id: "51E1B9DD39FAD8E4"
+			tasks: [{
+				id: "76AA837E93FF683F"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+			rewards: [{
+				id: "27848B42CC464E0C"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 12.0d
+			dependencies: ["1E0E206932A42B80"]
+			id: "7123C9B688428EC7"
+			tasks: [{
+				id: "02E98D61B379441F"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "770D53E25DD76EA5"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 10
+				}
+				{
+					id: "2DB8929A7AAA8F78"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["0B8D89BCBE4D3E19"]
+			id: "7E82445249D83176"
+			tasks: [{
+				id: "1E7400EC7D8A8095"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "73DB4F0E02837E71"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["51E1B9DD39FAD8E4"]
+			id: "0B8D89BCBE4D3E19"
+			tasks: [{
+				id: "62233E6FBD83D305"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "646B9EE6039FBB61"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["0B8D89BCBE4D3E19"]
+			id: "509E2A55C6D0D0A8"
+			tasks: [{
+				id: "4227843DB34A5D4B"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "00F409CFD5844C34"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["0B8D89BCBE4D3E19"]
+			id: "4AFCAE23061D34B7"
+			tasks: [{
+				id: "67B13D207358393F"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "5B60EC749343C806"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["509E2A55C6D0D0A8"]
+			id: "69639A3062CF6424"
+			tasks: [{
+				id: "06A7003ED703736A"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7054ECCA95B0AD9C"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["509E2A55C6D0D0A8"]
+			id: "1B7E7F671F6CA12C"
+			tasks: [{
+				id: "7497D6DCDF7CFC30"
+				type: "item"
+				item: "botania:livingrock"
+				count: 16L
+			}]
+			rewards: [{
+				id: "1BA4B01128771744"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["0B8D89BCBE4D3E19"]
+			id: "20A3A0873F0BC88D"
+			tasks: [{
+				id: "5090F13F55276732"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+			rewards: [{
+				id: "68FF5A4CD4D2EE60"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["509E2A55C6D0D0A8"]
+			id: "71642E2402521E98"
+			tasks: [{
+				id: "4ED02974AAE1764B"
+				type: "item"
+				item: "botania:livingwood_log"
+				count: 16L
+			}]
+			rewards: [{
+				id: "778216CD001B0E48"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			dependencies: [
+				"4EC7CD11417B5BE4"
+				"4C97F62F83473722"
+				"4FCC88C370E0EAFC"
+			]
+			dependency_requirement: "one_completed"
+			id: "1A2EB0A413ED5FEC"
+			tasks: [{
+				id: "00B156867027191D"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [
+				{
+					id: "6F1CDB862191A061"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 15
+				}
+				{
+					id: "72429482B866D55E"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			dependencies: ["7E82445249D83176"]
+			id: "4EC7CD11417B5BE4"
+			tasks: [{
+				id: "60F7D0494997F13B"
+				type: "item"
+				item: "botania:mana_diamond"
+				count: 2L
+			}]
+			rewards: [{
+				id: "5704745E0F40CFDE"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["1A2EB0A413ED5FEC"]
+			id: "336A225882B38F22"
+			tasks: [{
+				id: "6CEA35153C688B2F"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
+			rewards: [{
+				id: "40B3B5CDB5D7501B"
+				type: "item"
+				item: "lightmanscurrency:coin_gold"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["336A225882B38F22"]
+			id: "41970937D1F05578"
+			tasks: [{
+				id: "0FD2E3EA2503BBB5"
+				type: "item"
+				item: "botania:aura_ring"
+			}]
+			rewards: [{
+				id: "7E7E7F0AEA0B1538"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 20
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["41970937D1F05578"]
+			id: "285716221B649ECE"
+			tasks: [{
+				id: "5F7882C37921FFC4"
+				type: "item"
+				item: "botania:aura_ring_greater"
+			}]
+			rewards: [
+				{
+					id: "24A6A0C433E1F5E8"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 5
+				}
+				{
+					id: "0205532C8531BD5F"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 10.5d
+			dependencies: [
+				"336A225882B38F22"
+				"125B8645EAC4EA30"
+				"3B54C48D94B87E60"
+				"758B33B77BCD21DD"
+				"2868DA86DC711365"
+			]
+			id: "1E0E206932A42B80"
+			tasks: [{
+				id: "48DBEFCA8ADCCD26"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+			rewards: [{
+				id: "2C68EF8506FEF82D"
+				type: "item"
+				item: "lightmanscurrency:coin_gold"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.5d
+			dependencies: ["1A2EB0A413ED5FEC"]
+			id: "125B8645EAC4EA30"
+			tasks: [{
+				id: "27F2843D8F7E72D6"
+				type: "item"
+				item: "botania:rune_water"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3671885977BC16EC"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 15
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			dependencies: ["1A2EB0A413ED5FEC"]
+			id: "3B54C48D94B87E60"
+			tasks: [{
+				id: "3AF047985F837761"
+				type: "item"
+				item: "botania:rune_earth"
+				count: 2L
+			}]
+			rewards: [{
+				id: "051E782D6DFD7C98"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 15
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			dependencies: ["1A2EB0A413ED5FEC"]
+			id: "758B33B77BCD21DD"
+			tasks: [{
+				id: "34228E22839915ED"
+				type: "item"
+				item: "botania:rune_air"
+				count: 2L
+			}]
+			rewards: [{
+				id: "152FE1D46AB92426"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 15
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["1A2EB0A413ED5FEC"]
+			id: "2868DA86DC711365"
+			tasks: [{
+				id: "17BD6CD0DA98077C"
+				type: "item"
+				item: "botania:rune_fire"
+				count: 2L
+			}]
+			rewards: [{
+				id: "01780B6BF95460D3"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 15
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["7E82445249D83176"]
+			id: "3A84C7F2F2943471"
+			tasks: [{
+				id: "5713E9B51C73E38E"
+				type: "item"
+				item: "botania:spark"
+				count: 2L
+			}]
+			rewards: [{
+				id: "15838944BB090FDD"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			subtitle: "Starter Mana Flower"
+			dependencies: ["0B8D89BCBE4D3E19"]
+			id: "1F4C38D48A7B1BEC"
+			tasks: [{
+				id: "05E1754938DD6A54"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "48DBFEA073263A1B"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.5d
+			dependencies: ["7123C9B688428EC7"]
+			id: "548BCB6A5B55A50D"
+			tasks: [{
+				id: "222E4B10D16F5B4F"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2731DA7D67FCD2A8"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 5
+				}
+				{
+					id: "30E9CFA2E221B3E1"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 12.5d
+			dependencies: ["7123C9B688428EC7"]
+			id: "0DF8111336A2E2A1"
+			tasks: [{
+				id: "486F21B61E6537B6"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+						mana: 9999
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41921D0FC8FD1296"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 5
+				}
+				{
+					id: "5B7E00C121ECE131"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			title: "The Portal to Alfheim"
+			x: -1.5d
+			y: 14.0d
+			dependencies: ["7123C9B688428EC7"]
+			id: "4E6C178FABB3FE3C"
+			tasks: [
+				{
+					id: "4C9996A63B301109"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "7958499C7E15E741"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "5DD7ABB0917FAA35"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "727A60E6D766EB94"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 10
+				}
+				{
+					id: "1BE9F3BD48697C9A"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 16.0d
+			dependencies: ["4E6C178FABB3FE3C"]
+			id: "1BA4E9D1BF743757"
+			tasks: [{
+				id: "030C29FA0649B3C9"
+				type: "item"
+				item: "botania:dragonstone"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "74534C25392AC555"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+				{
+					id: "3F55C91EB070360F"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 15.0d
+			dependencies: ["4E6C178FABB3FE3C"]
+			id: "4821424125FAB9D4"
+			tasks: [{
+				id: "76FC56F5C43BAA72"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "4B95E310D6F543AB"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "7E6AD306BEA8174F"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 17.0d
+			dependencies: [
+				"4821424125FAB9D4"
+				"4B34EF89009F1F78"
+			]
+			id: "142F7B9DA7E9DF98"
+			tasks: [{
+				id: "59482A7C02B4DDBC"
+				type: "item"
+				item: "botania:gaia_pylon"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "447A58D15830A41D"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 4
+				}
+				{
+					id: "0559886F06328984"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 15.0d
+			dependencies: ["4E6C178FABB3FE3C"]
+			id: "4B34EF89009F1F78"
+			tasks: [{
+				id: "4E25B44B6315F848"
+				type: "item"
+				item: "botania:pixie_dust"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "61869042A743CE51"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "1A4B3FDFCECF8A63"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 18.5d
+			dependencies: ["142F7B9DA7E9DF98"]
+			id: "02D4D3E970649214"
+			tasks: [{
+				id: "26825584532C5828"
+				type: "kill"
+				icon: "botania:gaia_head"
+				entity: "botania:doppleganger"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2EAF38DED1ABFFA8"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+					count: 5
+				}
+				{
+					id: "392C1EAF4974E5F3"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "45AE7BE8CEBCB354"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "29C0B4B6A69E8242"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			subtitle: "Converts item to one another"
+			dependencies: ["7E82445249D83176"]
+			id: "0F0461FF6F28975C"
+			tasks: [{
+				id: "6971F047EC1FE9C9"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+			rewards: [{
+				id: "30EAEE481F1406FD"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			subtitle: "Duplicating but not really duplicating"
+			dependencies: ["0F0461FF6F28975C"]
+			id: "778DE0AB48204363"
+			tasks: [{
+				id: "113AC655D5B23D3D"
+				type: "item"
+				item: "botania:conjuration_catalyst"
+			}]
+			rewards: [
+				{
+					id: "76437414ABA0E9D8"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+				{
+					id: "5EB84A5EFD66240A"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			dependencies: ["7E82445249D83176"]
+			id: "4C97F62F83473722"
+			tasks: [{
+				id: "0BF97F07708F2B72"
+				type: "item"
+				item: "botanicalmachinery:mana_emerald"
+				count: 2L
+			}]
+			rewards: [{
+				id: "5D68839A6A8EAC96"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			dependencies: ["7E82445249D83176"]
+			id: "4FCC88C370E0EAFC"
+			tasks: [{
+				id: "57BDD3785765F812"
+				type: "item"
+				item: "botania:mana_pearl"
+				count: 2L
+			}]
+			rewards: [{
+				id: "295134C8EAF1120D"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			dependencies: ["7123C9B688428EC7"]
+			id: "4494052BD32AA7DB"
+			tasks: [
+				{
+					id: "4DF19FA9D6CECA14"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ED7CCF95741CD73"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "669FA4F6033606A6"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55AFA995AC3C78B2"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1431610FC443B17A"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+				{
+					id: "02FECE093CB45E75"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 14.0d
+			dependencies: ["4E6C178FABB3FE3C"]
+			id: "02B080FBF19F8275"
+			tasks: [{
+				id: "7DDB545A4D51E2E9"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "65E1F336123F13AC"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "053D5E2745DD578C"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 14.0d
+			subtitle: "Somehow you stuffed a whole portal in one block!"
+			dependencies: ["4E6C178FABB3FE3C"]
+			id: "1702CDF43A18C02F"
+			tasks: [{
+				id: "35D5C1BC0299DE9A"
+				type: "item"
+				item: "botanicalmachinery:alfheim_market"
+			}]
+			rewards: [
+				{
+					id: "1B88B2A2A8D865A4"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+				{
+					id: "67CE9B43F95B2BD8"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			dependencies: ["1E0E206932A42B80"]
+			id: "0F82F555839782E9"
+			tasks: [{
+				id: "687824A9C5C99FA7"
+				type: "item"
+				item: "botanicalmachinery:industrial_agglomeration_factory"
+			}]
+			rewards: [
+				{
+					id: "20D0D4F987335D3B"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "6CFC2C5DA345B3E5"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			title: "Blood Magic"
+			x: -7.5d
+			y: 17.5d
+			subtitle: "R.I.P your fingers."
+			description: [
+				"To get started, put down the Altar and begin pricking your fingers until you have no more fingers, dropping blood into the Altar."
+				"Make sure to fill it up before we get to create things."
+				"To check how to build some multiblocks, check out the Patchouli Guide!"
+			]
+			size: 1.5d
+			id: "383160478E3FCAB1"
+			tasks: [
+				{
+					id: "1B3C4A50FA5FE8DE"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+				{
+					id: "41D2DC01CD93ADF1"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "674F78ECFE17E929"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+				}
+				{
+					id: "04762C75B257B686"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 17.5d
+			description: ["The Base of Sigils"]
+			dependencies: ["383160478E3FCAB1"]
+			id: "1459412E29C6C667"
+			tasks: [{
+				id: "5BE049DF4D4C0432"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [{
+				id: "1115C8FF36FB737F"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 16.0d
+			subtitle: "Battery O' Blood"
+			description: ["After right clicking to link it, the orb will be able to carry blood (as well as take your health to add lifepoints to your 'soul network')"]
+			dependencies: ["383160478E3FCAB1"]
+			id: "53FEC66C655977FF"
+			tasks: [{
+				id: "64BEEAB44BE2D4C6"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "4DE1216EC9C9955C"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 19.0d
+			description: ["Throw a snare at a mob before killing them (They have to have white particles) and they'll drop their will."]
+			dependencies: ["383160478E3FCAB1"]
+			id: "578C46C46E2B8933"
+			tasks: [{
+				id: "048C5591AB9D4214"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+			rewards: [{
+				id: "7272DFA4560857A3"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 16.5d
+			description: ["First sigil of many, this lets you read what how much LP your altar has."]
+			dependencies: ["27FC4B0834276659"]
+			id: "24C525FCC6A1EA99"
+			tasks: [{
+				id: "1AF1E2C73DE89992"
+				type: "item"
+				item: "bloodmagic:divinationsigil"
+			}]
+			rewards: [
+				{
+					id: "2F73CEE6693BD744"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2EBDD34457FFD7F8"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 16.5d
+			subtitle: "Full Metal Alchemist"
+			description: ["Taking LP from your Orb and crafting items."]
+			dependencies: [
+				"1459412E29C6C667"
+				"53FEC66C655977FF"
+			]
+			id: "0AA8CF7A0B779EC3"
+			tasks: [{
+				id: "6B51D81EEEFE0FA3"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [{
+				id: "57A1BBF6F2D020E7"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 16.5d
+			description: [
+				"Rituals and stuff."
+				"Right click the ashes on the ground to create a white drawing, one you change with recipes to craft Sigils and other tools."
+			]
+			dependencies: ["0AA8CF7A0B779EC3"]
+			id: "27FC4B0834276659"
+			tasks: [{
+				id: "7675EDB53B758A62"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5CAC95ABFE7C3050"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 18.0d
+			dependencies: [
+				"1459412E29C6C667"
+				"578C46C46E2B8933"
+			]
+			id: "39179CFD67122726"
+			tasks: [{
+				id: "45819CDCBDFAC731"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "796EBA09CAA241B5"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 18.0d
+			description: ["Similar to the Orb, this fills up with Will instead of Blood."]
+			dependencies: ["39179CFD67122726"]
+			id: "71B7A360B875759F"
+			tasks: [{
+				id: "4E7F9981CEC04CDE"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "65A42EA0E9250D64"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 18.0d
+			description: [
+				"A more powerful version of the Iron Sword that powers up with the more will you have in your gem."
+				"The Sentient Sword also makes it so mobs automatically drop will, no need for a Snare."
+			]
+			dependencies: ["71B7A360B875759F"]
+			id: "17E41D8D6550A1C1"
+			tasks: [{
+				id: "6334C55BBE4F1A09"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2691FBFBAD03C91E"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2901A0FBE611157F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 19.0d
+			dependencies: ["71B7A360B875759F"]
+			id: "58B91450FFC41613"
+			tasks: [{
+				id: "7C80B34A38A43138"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemlesser"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "08AEA9F65B0DFB33"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "129C89797993A998"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 13.0d
+			dependencies: ["728D95F736A4F260"]
+			id: "3845A1D4726D2406"
+			tasks: [{
+				id: "2B00A9987EFA86CD"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemcommon"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "110DDE4ADB9B11D7"
+				type: "item"
+				item: "lightmanscurrency:coinpile_gold"
+			}]
+		}
+		{
+			x: -17.0d
+			y: 13.0d
+			dependencies: ["410FB16BAFB94AAE"]
+			id: "31FBDD95C88E976D"
+			tasks: [{
+				id: "28A7150D2E839154"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemgreater"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4C547BD98624A8F4"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "526392406282B79F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
+				}
+			]
+		}
+		{
+			title: "Tier 2 Blood Altar"
+			x: -9.5d
+			y: 14.5d
+			dependencies: ["53FEC66C655977FF"]
+			id: "5EDBF338D9E766BE"
+			tasks: [{
+				id: "4E7C35E8AB4D257E"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 9L
+			}]
+			rewards: [{
+				id: "306127B69554C021"
+				type: "item"
+				item: "lightmanscurrency:coinpile_gold"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 14.5d
+			subtitle: "Sacrifice Others"
+			description: [""]
+			dependencies: ["5EDBF338D9E766BE"]
+			id: "5AD8CC69B538E8C5"
+			tasks: [{
+				id: "5DA63D09292E6DA1"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [
+				{
+					id: "7E5F92E12DE02927"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "67F7194933CCF700"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			title: "Tier 3"
+			x: -11.5d
+			y: 14.5d
+			dependencies: ["5EDBF338D9E766BE"]
+			id: "728D95F736A4F260"
+			tasks: [
+				{
+					id: "63C3FFA82FD3BFE0"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 20L
+				}
+				{
+					id: "56F668DDD82058E6"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+				{
+					id: "4733E0D4FB36BA60"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "464E545423970A5D"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0ACF41711685A870"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 13.0d
+			dependencies: ["5EDBF338D9E766BE"]
+			id: "4490B450FFD3B663"
+			tasks: [{
+				id: "3AEB3D9861E2549E"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+			rewards: [
+				{
+					id: "62822BDBEC4E86F1"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "5B7E8E7A8B0DADE6"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 13.0d
+			dependencies: ["728D95F736A4F260"]
+			id: "68A0944364A5276C"
+			tasks: [{
+				id: "0B71AC67C1FC39D7"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [
+				{
+					id: "0523EA912ACF68DE"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "6A683BD61B46E600"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 13.0d
+			dependencies: ["410FB16BAFB94AAE"]
+			id: "60F80E0BA00EAD5C"
+			tasks: [{
+				id: "6D5BCA569AE0B4C9"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+			rewards: [
+				{
+					id: "31E6AB882D1EB981"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "2E068FAC01336983"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
+				}
+			]
+		}
+		{
+			x: -19.0d
+			y: 13.0d
+			dependencies: ["7B3336DAA0EFC51A"]
+			id: "220A274AA3B355EB"
+			tasks: [{
+				id: "4ADF6D0C528A0DE7"
+				type: "item"
+				item: "bloodmagic:archmagebloodorb"
+			}]
+			rewards: [
+				{
+					id: "6A95A90BCBBD2546"
+					type: "loot"
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "0CAE634D5272A57E"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 14.5d
+			dependencies: ["728D95F736A4F260"]
+			id: "1F63BC84BD3B1854"
+			tasks: [
+				{
+					id: "45CC584B3B3480FF"
+					type: "item"
+					item: "bloodmagic:ritualdiviner"
+				}
+				{
+					id: "64E17D2D0D36A7F3"
+					type: "item"
+					item: {
+						id: "bloodmagic:airscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34DB65E76292A914"
+					type: "item"
+					item: {
+						id: "bloodmagic:firescribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33BBD65B856773BB"
+					type: "item"
+					item: {
+						id: "bloodmagic:earthscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "618444DED06FEF37"
+					type: "item"
+					item: {
+						id: "bloodmagic:waterscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "281C17C01D574BD6"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "1F1E26B47EC513F4"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			title: "Edge of the Hidden Realm"
+			x: -15.0d
+			y: 14.5d
+			description: [
+				"Using the Patchouli Guide and the items from the last quest, create and start the ritual to be able to proceed further in the mod!"
+				"This Ritual takes you to the Demon Realm where you can find many useful items, including the Tau Fruit,  one that'll let you create Blood Bricks."
+			]
+			dependencies: ["1F63BC84BD3B1854"]
+			id: "526E7A2ECC8C9683"
+			tasks: [{
+				id: "5986C9D5CD9DB9E1"
+				type: "item"
+				item: "bloodmagic:ritualstone"
+				count: 36L
+			}]
+			rewards: [
+				{
+					id: "0BEC71722D0F15F6"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "4549B5392181A115"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			title: "Tier 4"
+			x: -16.5d
+			y: 14.5d
+			dependencies: ["526E7A2ECC8C9683"]
+			id: "410FB16BAFB94AAE"
+			tasks: [
+				{
+					id: "60597FF4AC2ACC95"
+					type: "item"
+					item: "bloodmagic:bloodstonebrick"
+					count: 4L
+				}
+				{
+					id: "628DAF635BD50BAE"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 12L
+				}
+				{
+					id: "7AE54775AF270555"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+			]
+			rewards: [
+				{
+					id: "413CE63148E23133"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "2A903458FCAD9F4F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
+				}
+			]
+		}
+		{
+			title: "Tier 5"
+			x: -19.0d
+			y: 14.5d
+			description: ["The Final Tier!"]
+			dependencies: ["410FB16BAFB94AAE"]
+			id: "7B3336DAA0EFC51A"
+			tasks: [
+				{
+					id: "386E070AFC2A36A2"
+					type: "item"
+					item: "bloodmagic:dungeon_metal"
+					count: 4L
+				}
+				{
+					id: "42FDC1DDF62B44C7"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 52L
+				}
+			]
+			rewards: [
+				{
+					id: "0A89A02A7CF3BBF3"
+					type: "loot"
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "60588E27B7DD1449"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 13.0d
+			description: ["Found in the dungeon, Demonite is an ore you'll find useful later on."]
+			dependencies: ["526E7A2ECC8C9683"]
+			id: "5743E0A2C3E4073E"
+			tasks: [{
+				id: "405CB03A8687E73A"
+				type: "item"
+				item: "bloodmagic:dungeon_ore"
+			}]
+			rewards: [
+				{
+					id: "2B8ADEDDA41A2A8C"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7223312DD4C7E41B"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 4.5d
+			subtitle: "You're telling me these orbs aren't a bug?"
+			description: [
+				"If you're curious on how to harness the strange floating orbs in your world that appear in random places, well, Elemental Craft!"
+				"You can find Inert Crystals in either Ore form or by Sieving for it."
+			]
+			id: "61A564509BEA1498"
+			tasks: [{
+				id: "74062FBB752BF939"
+				type: "item"
+				item: "elementalcraft:inert_crystal"
+			}]
+			rewards: [{
+				id: "64B5BB54C8521419"
+				type: "item"
+				item: "elementalcraft:contained_crystal"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 3.0d
+			description: ["Connecting elemental blocks."]
+			dependencies: ["61A564509BEA1498"]
+			id: "1788D30875BFBA7E"
+			tasks: [{
+				id: "4F1612E585190F00"
+				type: "item"
+				item: "elementalcraft:elementpipe_impaired"
+			}]
+			rewards: [{
+				id: "628E5C362A4FEB11"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.5d
+			description: [
+				"There must be a container below every machinery for it to function."
+				"Extractor, on the other hand, extracts those strange orbs in your world."
+			]
+			dependencies: ["1788D30875BFBA7E"]
+			id: "45058F7BBF9F7599"
+			tasks: [
+				{
+					id: "5C8725CD2DBAAAE4"
+					type: "item"
+					item: "elementalcraft:small_container"
+				}
+				{
+					id: "14720EDE6E0D327B"
+					type: "item"
+					item: "elementalcraft:extractor"
+				}
+			]
+			rewards: [{
+				id: "4D42BD81EFB342CF"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 0.0d
+			description: ["Remember to place atop a container, this allows you to do the starting recipes for the mod."]
+			dependencies: ["45058F7BBF9F7599"]
+			id: "377CCCAE650900A0"
+			tasks: [{
+				id: "2092D2C10849F806"
+				type: "item"
+				item: "elementalcraft:infuser"
+			}]
+			rewards: [{
+				id: "65C699817F81B8A4"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -2.0d
+			dependencies: ["377CCCAE650900A0"]
+			id: "3B5DE9DB44043B83"
+			tasks: [{
+				id: "7BEFC832BDC7FA55"
+				type: "item"
+				item: "elementalcraft:firecrystal"
+			}]
+			rewards: [
+				{
+					id: "72918D67A621BF76"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "359756FBE2FFE320"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -2.0d
+			dependencies: ["377CCCAE650900A0"]
+			id: "5647857647D9CB68"
+			tasks: [{
+				id: "2A179A3D270F31F6"
+				type: "item"
+				item: "elementalcraft:watercrystal"
+			}]
+			rewards: [
+				{
+					id: "2EC2BAA8303293E9"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3477117EC8CAC368"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -2.0d
+			dependencies: ["377CCCAE650900A0"]
+			id: "19FD6D5676462AD7"
+			tasks: [{
+				id: "0D94DB5D0F5DB629"
+				type: "item"
+				item: "elementalcraft:earthcrystal"
+			}]
+			rewards: [
+				{
+					id: "69209F5B217519A5"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "09A1A329663BE502"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -2.0d
+			dependencies: ["377CCCAE650900A0"]
+			id: "0E9307427BCFA134"
+			tasks: [{
+				id: "7D5E237C33361253"
+				type: "item"
+				item: "elementalcraft:aircrystal"
+			}]
+			rewards: [
+				{
+					id: "2C3412118E46A44A"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "076C7DCE8F7926D8"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -3.5d
+			dependencies: ["5647857647D9CB68"]
+			id: "6E5DFD113BF72470"
+			tasks: [{
+				id: "51D47AC78CDA526A"
+				type: "item"
+				item: "elementalcraft:drenched_iron_ingot"
+			}]
+			rewards: [
+				{
+					id: "6862CB52F68AD18A"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "616072BFEB89F1D2"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -3.5d
+			dependencies: ["3B5DE9DB44043B83"]
+			id: "0534144A7FBF7962"
+			tasks: [{
+				id: "22FDEE98F3C615C1"
+				type: "item"
+				item: "elementalcraft:burnt_glass"
+			}]
+			rewards: [
+				{
+					id: "6B0854AAEB7E1BE3"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "6FE6C78E645301A6"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -3.5d
+			dependencies: ["0E9307427BCFA134"]
+			id: "1280EBF089924AE2"
+			tasks: [{
+				id: "7DD092A7C8861BDE"
+				type: "item"
+				item: "elementalcraft:whiterock"
+			}]
+			rewards: [
+				{
+					id: "6B1D5B848D102A61"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2714C0E83A099EBF"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -5.0d
+			description: ["Bigger Storage!"]
+			dependencies: [
+				"4EB6D039F4CA9F6E"
+				"1280EBF089924AE2"
+				"0534144A7FBF7962"
+				"62B45838EE2E93BF"
+				"6E5DFD113BF72470"
+			]
+			id: "3EBC51AF632AC3DD"
+			tasks: [{
+				id: "48A01A0856E1CE54"
+				type: "item"
+				item: "elementalcraft:container"
+			}]
+			rewards: [
+				{
+					id: "77EB027E3BB92790"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "633C5F881CD6877F"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -6.5d
+			description: ["Element Binder is used to create customized crafting recipes."]
+			dependencies: ["3EBC51AF632AC3DD"]
+			id: "263CCF9FDAF70244"
+			tasks: [{
+				id: "521535B34E429331"
+				type: "item"
+				item: "elementalcraft:binder"
+			}]
+			rewards: [
+				{
+					id: "3946BAC00992E155"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3B6134A47C9CE203"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -3.5d
+			dependencies: ["6E5DFD113BF72470"]
+			id: "4EB6D039F4CA9F6E"
+			tasks: [{
+				id: "3BBDF880D293281A"
+				type: "item"
+				item: "elementalcraft:elementpipe"
+			}]
+			rewards: [
+				{
+					id: "4EBD0794196C8DD7"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0C4D0AD9E53B42B3"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -3.5d
+			dependencies: ["19FD6D5676462AD7"]
+			id: "62B45838EE2E93BF"
+			tasks: [{
+				id: "0D24115BE2D1BF23"
+				type: "item"
+				item: "elementalcraft:air_silk"
+			}]
+			rewards: [
+				{
+					id: "503E819F4E4285F7"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "114ABBB6C53ABC09"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -8.0d
+			dependencies: ["263CCF9FDAF70244"]
+			id: "365A230EE3F54798"
+			tasks: [{
+				id: "06237492DDF6E781"
+				type: "item"
+				item: "elementalcraft:swift_alloy_ingot"
+			}]
+			rewards: [
+				{
+					id: "4EA47BCEF397220F"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "1E6540540B32DB68"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -6.5d
+			description: ["Important crafting ingredient."]
+			dependencies: ["263CCF9FDAF70244"]
+			id: "04E7E5B17CDDB447"
+			tasks: [{
+				id: "48DAF82FF7B2C8B2"
+				type: "item"
+				item: "elementalcraft:hardened_handle"
+			}]
+			rewards: [
+				{
+					id: "131F5C496E5BA53F"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "4CBE6EB34F289C8C"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -10.0d
+			description: ["With four pedestals surrounding it, ones connected to it's elements, you can begin creating pure crystals."]
+			dependencies: ["365A230EE3F54798"]
+			id: "1500336CC17F11D6"
+			tasks: [
+				{
+					id: "107CDA18D183646A"
+					type: "item"
+					item: "elementalcraft:pureinfuser"
+				}
+				{
+					id: "6AED34C8689FE9CF"
+					type: "item"
+					item: "elementalcraft:pedestal_fire"
+				}
+				{
+					id: "59A6BF3B8BAAB74D"
+					type: "item"
+					item: "elementalcraft:pedestal_water"
+				}
+				{
+					id: "5A2DA20E6DA5C70C"
+					type: "item"
+					item: "elementalcraft:pedestal_earth"
+				}
+				{
+					id: "3CCCBADEFFCF6ED5"
+					type: "item"
+					item: "elementalcraft:pedestal_air"
+				}
+			]
+			rewards: [
+				{
+					id: "18D16DCFAABAAFAD"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "2769411210443D63"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -12.0d
+			dependencies: ["1500336CC17F11D6"]
+			id: "551AD6158B149BCC"
+			tasks: [{
+				id: "644780E8BAAEDD91"
+				type: "item"
+				item: "elementalcraft:purecrystal"
+			}]
+			rewards: [
+				{
+					id: "551DC4A65B88A9E4"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "3C010DE5C1D81F73"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -14.0d
+			subtitle: "Hot!"
+			dependencies: ["551AD6158B149BCC"]
+			id: "58875A18C7314717"
+			tasks: [{
+				id: "61906FC07263E5B6"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+			}]
+			rewards: [
+				{
+					id: "4018ACD41A0066FF"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "0762C31E87C0DC4F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -6.5d
+			dependencies: ["263CCF9FDAF70244"]
+			id: "190BD96635D4B988"
+			tasks: [{
+				id: "264364A9BAF3F325"
+				type: "item"
+				item: "elementalcraft:springaline_shard"
+			}]
+			rewards: [
+				{
+					id: "563C5EEA407977E0"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "4F69CD48A7679C60"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -14.0d
+			dependencies: ["58875A18C7314717"]
+			id: "42F78356B5CBFEFB"
+			tasks: [{
+				id: "3A8E4CBC9A514593"
+				type: "item"
+				item: "elementalcraft:extractor_improved"
+			}]
+			rewards: [
+				{
+					id: "19FD8A956856918C"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "5FE2672DD2C4B2D2"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+				{
+					id: "3710A6E62C40971F"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -15.5d
+			description: ["Uses Fire Element instead of Fuel."]
+			dependencies: ["58875A18C7314717"]
+			id: "483920DD407F6791"
+			tasks: [
+				{
+					id: "382320811AD41A2E"
+					type: "item"
+					item: "elementalcraft:fireblastfurnace"
+				}
+				{
+					id: "1449D273647013DF"
+					type: "item"
+					item: "elementalcraft:firefurnace"
+				}
+			]
+			rewards: [
+				{
+					id: "61DF8AEB06D32027"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "777D509A263DE985"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+				{
+					id: "230DBEAD33F4DFF4"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -15.5d
+			description: ["Allows for ore processing."]
+			dependencies: ["58875A18C7314717"]
+			id: "3E46C1ACDE61D637"
+			tasks: [{
+				id: "75EA82232C4A11A9"
+				type: "item"
+				item: "elementalcraft:purifier"
+			}]
+			rewards: [
+				{
+					id: "75719413EB24CB0C"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "1AAE3C55A46BC6F4"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+				{
+					id: "5F83576DC278DE92"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -14.0d
+			dependencies: ["58875A18C7314717"]
+			id: "255E0DF4CF15E03F"
+			tasks: [{
+				id: "5A822BAF723F5B89"
+				type: "item"
+				item: "elementalcraft:binder_improved"
+			}]
+			rewards: [
+				{
+					id: "056204F92A55FE1B"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "637A62FD6CBCC422"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+				{
+					id: "325C0EF88B997805"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -5.0d
+			description: [
+				"Add a scroll to the desk then keep adding crystals for better spell chances!"
+				"To cast them, you'll need a Focus."
+			]
+			dependencies: ["3EBC51AF632AC3DD"]
+			id: "744AAA6094A42D99"
+			tasks: [
+				{
+					id: "286832E743869D47"
+					type: "item"
+					item: "elementalcraft:spell_desk"
+				}
+				{
+					id: "311D5F73DF403C3A"
+					type: "item"
+					item: "elementalcraft:scroll_paper"
+				}
+			]
+			rewards: [
+				{
+					id: "3B2CFD7B563725B2"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3DB0CA93AA953474"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			title: "Battery!"
+			x: -8.5d
+			y: -5.0d
+			dependencies: ["3EBC51AF632AC3DD"]
+			id: "2C3B39926962EE81"
+			tasks: [{
+				id: "69C0D62AF4EF83C6"
+				type: "item"
+				title: "Any #curios:element_holder"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "curios:element_holder"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53D32D7272B1B401"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "510DEE11BFCC72DD"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 10.0d
+			subtitle: "The Forbidden Arcana"
+			description: [
+				"Very dangerous drug, use it at your own discretion. (ONLY IN THE PACK)"
+				"The fruit grants you visions and, if thrown on logs/netherite blocks then burnt with flint and steel, you'll get the 'purple flames', which'll help you start things off."
+				"Remember to check the Patchouli Book for more!"
+			]
+			id: "751DC9CBAC7ED9F8"
+			tasks: [{
+				id: "56EE4263ABF2156E"
+				type: "item"
+				item: "occultism:datura_seeds"
+			}]
+			rewards: [
+				{
+					id: "3F1D63B6A1E7206B"
+					type: "item"
+					item: "occultism:datura"
+				}
+				{
+					id: "294DE83B099733E0"
+					type: "item"
+					item: {
+						id: "occultism:dictionary_of_spirits"
+						Count: 1b
+						tag: {
+							"modonomicon:book_id": "occultism:dictionary_of_spirits"
+						}
+					}
+				}
+				{
+					id: "3D890056279F6C27"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "occultism:dictionary_of_spirits"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 10.0d
+			subtitle: "Away in the fire, you go."
+			description: ["You'll need alot of these to get started."]
+			dependencies: ["751DC9CBAC7ED9F8"]
+			id: "52C02556FA48F0D9"
+			tasks: [
+				{
+					id: "05F1D8AB2FBF0FB1"
+					type: "item"
+					item: "occultism:spirit_attuned_gem"
+				}
+				{
+					id: "1B61E738E38A24CA"
+					type: "item"
+					item: "occultism:otherstone"
+				}
+				{
+					id: "34A28BAEAF863B0E"
+					type: "item"
+					item: "occultism:otherworld_sapling"
+				}
+				{
+					id: "3F08D5F5962121EE"
+					type: "item"
+					item: "occultism:purified_ink"
+				}
+			]
+			rewards: [
+				{
+					id: "7C1FCD159C989C30"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+				}
+				{
+					id: "77B5F9EE49D6CFA8"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 10.0d
+			subtitle: "Finding Otherworldly Items."
+			description: [
+				"Some blocks around you are otherworldly, you just can't see it yet, you have to open your third eye first but this will work for now."
+				"Demon Dream does the same thing."
+			]
+			dependencies: ["52C02556FA48F0D9"]
+			id: "304B5D5EAA4A8FEF"
+			tasks: [{
+				id: "2D3D27CD60670863"
+				type: "item"
+				item: {
+					id: "occultism:divination_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "79D8195F144A3509"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 10.0d
+			description: ["Killing Animals to get tallow!"]
+			dependencies: ["304B5D5EAA4A8FEF"]
+			id: "79C294246A4EC630"
+			tasks: [{
+				id: "78EB7D4A96B35FE8"
+				type: "item"
+				item: {
+					id: "occultism:butcher_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C1B9CAD24D0D10C"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -13.5d
+			y: 10.0d
+			subtitle: "Now we're starting."
+			description: [""]
+			dependencies: ["79C294246A4EC630"]
+			id: "049744726138BDE8"
+			tasks: [{
+				id: "4A5A164376B0A028"
+				type: "item"
+				item: "occultism:candle_white"
+			}]
+			rewards: [{
+				id: "5EAEB60C5BBFF290"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -15.0d
+			y: 10.0d
+			description: ["Drawing Runes to do Rituals."]
+			dependencies: ["049744726138BDE8"]
+			id: "3564C4A6F0126B8C"
+			tasks: [{
+				id: "7D362D8321FB09A9"
+				type: "item"
+				item: "occultism:chalk_white_impure"
+			}]
+			rewards: [
+				{
+					id: "5CB4FECBDA4BE7CD"
+					type: "item"
+					item: "occultism:brush"
+				}
+				{
+					id: "4B8B9275939301C4"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "1FB30903EBAD69F7"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 8.5d
+			description: ["With Chalks, you can finally start doing Rituals. I can't go in depth with all Rituals in the mod so, check Patchouli out!"]
+			dependencies: ["3564C4A6F0126B8C"]
+			id: "6D0F0EE5323BE097"
+			tasks: [{
+				id: "39A46478AA2D1AD3"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "13A7E0BD631664BF"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 7.5d
+			dependencies: ["6D0F0EE5323BE097"]
+			id: "724939D98DC2778F"
+			tasks: [{
+				id: "230DCD0277D8CE41"
+				type: "item"
+				item: "occultism:sacrificial_bowl"
+			}]
+			rewards: [
+				{
+					id: "0F48FFAC9B517684"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "57FEACB9A6286ACA"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 6.5d
+			dependencies: ["724939D98DC2778F"]
+			id: "439EA07AABE9D18C"
+			tasks: [{
+				id: "0729956990331772"
+				type: "item"
+				item: "occultism:golden_sacrificial_bowl"
+			}]
+			rewards: [
+				{
+					id: "072E56495055D789"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "5C0F4FB8118C4D74"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 7.5d
+			dependencies: ["6D0F0EE5323BE097"]
+			id: "257DE9E0E234D139"
+			tasks: [{
+				id: "450C269C2551610D"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+			}]
+			rewards: [
+				{
+					id: "13E641649BDF7EA3"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0DB74931A25A6F9E"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 6.5d
+			dependencies: ["257DE9E0E234D139"]
+			id: "198073F2A5B9DF95"
+			tasks: [{
+				id: "21347B7FCE88C88A"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [
+				{
+					id: "3C8DEAAE2A4A5644"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "5BA3B0CE93F2E37D"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 8.5d
+			dependencies: ["6D0F0EE5323BE097"]
+			id: "5317337EF1DB0A1F"
+			tasks: [{
+				id: "2B7089FA4FF0AF68"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71AFF84FD032D014"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "49C584872C366506"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 8.5d
+			dependencies: ["6D0F0EE5323BE097"]
+			id: "4C491D4508F73506"
+			tasks: [{
+				id: "6F35DD62B588E2E3"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "15A1D976ED569E18"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "3D230473BB39117A"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 7.0d
+			dependencies: ["6D0F0EE5323BE097"]
+			id: "084EBB9C67CB880D"
+			tasks: [{
+				id: "1849F413CD4EDE01"
+				type: "item"
+				item: {
+					id: "occultism:chalk_red"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4ABD01C016BE3171"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "2C7AF75E465CD15A"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			description: [
+				"Runeforges are found in villages, a Spellmonger found nearby. By placing Vinteum Coated Iron in it (or smelting it) you'll be able to get this ingot."
+				"Get a Codex Arcana with it by trading it with the Spellmonger."
+				"Codex Arcana will help you way more than I'll be able to."
+			]
+			id: "4501C5370CD898C8"
+			tasks: [{
+				id: "5473EE530EB081AE"
+				type: "item"
+				item: "mna:vinteum_ingot"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0189D345FA745F7F"
+				type: "item"
+				item: "mna:guide_book"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			subtitle: "Casting Spells!"
+			description: ["Being Level 1, you can cast only Cantrips. Hit Control + Rightclick while holding the wand to see the list."]
+			dependencies: ["4501C5370CD898C8"]
+			id: "6A425AA9E620381A"
+			tasks: [{
+				id: "7DFF22640E777C6A"
+				type: "item"
+				item: {
+					id: "mna:manaweaver_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "792712E8C7DA9AA7"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			description: ["Use the Transmute Cantrip on Copper to create Transmuted Silver!"]
+			dependencies: ["6A425AA9E620381A"]
+			id: "5CBAB10A484FEADE"
+			tasks: [{
+				id: "615693156A9784AB"
+				type: "item"
+				item: "mna:transmuted_silver"
+			}]
+			rewards: [
+				{
+					id: "4C8FDCB247DCB968"
+					type: "item"
+					item: "mna:transmuted_silver"
+					count: 6
+				}
+				{
+					id: "51ED5A30CBF224DE"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			title: "The Oculus"
+			x: -5.0d
+			y: -4.5d
+			subtitle: ".. Quest?"
+			description: [
+				"Okay, that was both a pun and reality. This block does give you quests to level you up further in Mana and Artifice."
+				"Don't worry if you can't finish them all, most of them are locked for you at the start."
+			]
+			dependencies: ["5CBAB10A484FEADE"]
+			id: "00953E86603B45EC"
+			tasks: [{
+				id: "1672EAF75BD27FD3"
+				type: "item"
+				item: "mna:occulus"
+			}]
+			rewards: [
+				{
+					id: "40AE7B736EE8D4A2"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "569865168C27DB20"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -6.0d
+			subtitle: "Double The Power"
+			description: ["Double the crafting table power."]
+			dependencies: ["00953E86603B45EC"]
+			id: "508EF03BE225AD05"
+			tasks: [{
+				id: "0C712FE8BB935A33"
+				type: "item"
+				item: "mna:magicians_workbench"
+			}]
+			rewards: [
+				{
+					id: "69749626ADD50F54"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3A425A97509304A9"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			subtitle: "Eco Friendly Furnace"
+			dependencies: ["00953E86603B45EC"]
+			id: "6E135EA774922ADF"
+			tasks: [{
+				id: "1A4B835B78B0AD52"
+				type: "item"
+				item: "mna:runeforge"
+			}]
+			rewards: [
+				{
+					id: "52AB2F9BA2B95D98"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3C9FFE2138FF6A20"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			dependencies: ["00953E86603B45EC"]
+			id: "6D5B585F5E921C19"
+			tasks: [{
+				id: "09A71DDA1BA528BA"
+				type: "item"
+				item: "mna:manaweaving_altar"
+			}]
+			rewards: [
+				{
+					id: "2247B5CD5E5257FE"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "1C6FE5A19315C4D5"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			dependencies: ["6A425AA9E620381A"]
+			id: "42CD9BD7E3ED0B6F"
+			tasks: [{
+				id: "7CFB8F7A8B71CFB2"
+				type: "item"
+				item: {
+					id: "mna:wizard_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FBEEF1E195B65B7"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			title: "Spellcasting!"
+			x: -3.0d
+			y: -3.0d
+			description: [
+				"Vellum is created by rightclicking water with Leather, it's needed for spellcasting."
+				"Arcane Ash and the Ink are going to be used to inscribe the spells."
+				"Just like Ars Noveau, you select a target (Self or Touch) and what the spell actually does."
+			]
+			dependencies: ["5CBAB10A484FEADE"]
+			id: "257FF4C5A0BFA9C9"
+			tasks: [
+				{
+					id: "406E0E6E07CA415C"
+					type: "item"
+					item: "mna:inscription_table"
+				}
+				{
+					id: "41DC31AA5117FB10"
+					type: "item"
+					item: "mna:vellum"
+				}
+				{
+					id: "0FD2DB45F8B6DE0D"
+					type: "item"
+					item: {
+						id: "mna:arcanist_ink"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4AB5BAEFA1C399C2"
+					type: "item"
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "064C85F3974FFE0A"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "09C3961CAB08631B"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			description: ["The Spell you create will give you a little grocery list needed to use in a Ritual called the Ritual of Arcana (Check your Codex!)"]
+			dependencies: ["257FF4C5A0BFA9C9"]
+			id: "65C00818EB282E7B"
+			tasks: [{
+				id: "5CD091EFF82F2C2F"
+				type: "checkmark"
+				title: "Ritual Of Arcana"
+			}]
+			rewards: [
+				{
+					id: "63FF6CEA308224D4"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "6B742DBF74446595"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			description: ["This mod has far too much content for me to include here, including Constructs and very in-depth rituals, the Codex Arcana, given to you in the last quest, should help you through the mod if you're going to use it."]
+			dependencies: ["4501C5370CD898C8"]
+			id: "25737A92B4B6C7DF"
+			tasks: [{
+				id: "0AB4B7A8F2F5662A"
+				type: "checkmark"
+				title: "Constructs and More"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			description: ["Creating Constructs!"]
+			dependencies: ["6D5B585F5E921C19"]
+			id: "49B15872FF431881"
+			tasks: [
+				{
+					id: "45731F1F2AA41817"
+					type: "item"
+					item: "minecraft:armor_stand"
+				}
+				{
+					id: "320F1D6FD920C6FE"
+					type: "item"
+					item: "mna:animus_dust"
+				}
+			]
+			rewards: [{
+				id: "50B1667CAD507BB4"
+				type: "item"
+				item: "mna:bell_of_bidding"
+			}]
+		}
+	]
+}

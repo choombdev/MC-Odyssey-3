@@ -1,7 +1,7 @@
 // This script was made by Choomb for Odyssey 3, reusing it without explicit permission is not allowed.
 
 onEvent('item.registry', event => {
-    event.create('nonepizza').displayName('§6None Pizza with Left Beef').tooltip("§5The title says it all")
+  event.create('nonepizza').displayName('§6None Pizza with Left Beef').tooltip("§5The title says it all")
     event.create('choomburittob').displayName('§6Beef Choomburito').tooltip("§6The Delights of a Choomburger in Tortilla.")
     event.create('choomburittoc').displayName('§6Chicken Choomburito').tooltip("§6A Choomburrito but with Chicken, yum yum.")
     event.create('choomburittobe').displayName('§6Bean Choomburito').tooltip("§6Choomburrito for the vegan odyssers")

@@ -5,7 +5,7 @@
       "table": [
         "minecraft:chests/spawn_bonus_chest"
       ],
-      "chance": 0.5
+      "chance": 0
     },
     {
       "table": [
@@ -16,7 +16,7 @@
         "minecraft:chests/village/village_savanna_house",
         "minecraft:chests/village/village_butcher"
       ],
-      "chance": 0.01
+      "chance": 0
     },
     {
       "table": [
@@ -26,7 +26,7 @@
         "minecraft:chests/stronghold_corridor",
         "minecraft:chests/woodland_mansion"
       ],
-      "chance": 0.125
+      "chance": 0
     },
     {
       "table": [
@@ -34,13 +34,13 @@
         "minecraft:chests/village/village_toolsmith",
         "minecraft:chests/village/village_weaponsmith"
       ],
-      "chance": 0.035
+      "chance": 0
     },
     {
       "table": [
         "minecraft:chests/bastion_treasure"
       ],
-      "chance": 0.35
+      "chance": 0.005
     },
     {
       "table": [
@@ -49,7 +49,7 @@
         "minecraft:chests/ruined_portal",
         "minecraft:chests/shipwreck_treasure"
       ],
-      "chance": 0.05
+      "chance": 0
     },
     {
       "table": [
@@ -57,7 +57,7 @@
         "minecraft:chests/jungle_temple",
         "minecraft:chests/underwater_ruin_big"
       ],
-      "chance": 0.15
+      "chance": 0
     },
     {
       "table": [
@@ -66,7 +66,7 @@
         "minecraft:chests/bastion_hoglin_stable",
         "minecraft:chests/desert_pyramid"
       ],
-      "chance": 0.1
+      "chance": 0
     }
   ]
 }

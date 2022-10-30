@@ -17,6 +17,48 @@ to make editing this file much easier.
 			"4": [],
 			"5": []
 		},
+		"blue_skies:alchemist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:nightwatcher": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:shoveler": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:stargazer": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:summoner": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:wrangler": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
 		"byg:forager": {
 			"1": [
 				{
@@ -499,13 +541,6 @@ to make editing this file much easier.
 			"5": []
 		},
 		"pneumaticcraft:mechanic": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"silentgear:gear_smith": {
 			"1": [],
 			"2": [],
 			"3": [],

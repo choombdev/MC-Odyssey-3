@@ -2,7 +2,7 @@
 ["Config category"]
 	#Set the clients minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable.
 	#Range: 2500 ~ 25000
-	minimumClient = 8000
+	minimumClient = 6912
 	#Set the clients maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended is 6000mb then set this to ~8000mb
 	#Range: 2500 ~ 60000
 	maximumClient = 14000

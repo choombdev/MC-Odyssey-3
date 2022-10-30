@@ -58,6 +58,7 @@ adminRoleIDs = [    ]
       name = "kick"
       description = "Kicks an player from the Server"
       mcCommand = "kick %player% %reason%"
+      textToSend = ""
       adminOnly = true
       hidden = false
 
@@ -75,6 +76,7 @@ adminRoleIDs = [    ]
       name = "stop"
       description = "Stops the server"
       mcCommand = "stop"
+      textToSend = ""
       adminOnly = true
       hidden = false
 args = [    ]
@@ -83,6 +85,7 @@ args = [    ]
       name = "kill"
       description = "Kills an Player or Entity"
       mcCommand = "kill %target%"
+      textToSend = ""
       adminOnly = true
       hidden = false
 
@@ -140,6 +143,8 @@ IMC_modIdBlacklist = [  "examplemod"  ]
   # If whitelist is on, this can NOT be disabled
   # DOES NOT WORK IN OFFLINE MODE!
   enableLinking = true
+  # Set Discord nicknames to match Minecraft usernames when linked
+  shouldNickname = false
   # Role ID of an role an player should get when he links his discord account
   # Leave as 0 to disable
   linkedRoleID = "0"
@@ -149,6 +154,8 @@ IMC_modIdBlacklist = [  "examplemod"  ]
   whitelistMode = false
   # Adding Role IDs here will require the players to have at least ONE of these roles to link account
 requiredRoles = [    ]
+  # Adding setting keys to this array will prevent thoose settings to be changed
+  # They will still show up in the list though
 settingsBlacklist = [    ]
 
     # Allows you to configure the default values of some personal settings
@@ -178,11 +185,11 @@ settingsBlacklist = [    ]
   # Enable the /discord command to show an custom message with invite URL?
   enabled = true
   # The message displayed when typing /discord in the server chat
-  message = "Join our discord! http://discord.gg/myserver"
+  message = "Join our discord!  https://discord.gg/JzSydC6UMR"
   # The message shown when hovering the /discord command message
   hoverMessage = "Click to open the invite url"
   # The url to open when clicking the /discord command text
-  inviteURL = "http://discord.gg/myserver"
+  inviteURL = " https://discord.gg/JzSydC6UMR"
 # The command log channel is an channel where every command execution gets logged
 [commandLog]
   # Channel ID for the command log channel

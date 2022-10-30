@@ -1,0 +1,11 @@
+{
+	id: "103AAB1EE72B85F8"
+	group: "6FA6C0E3C628858D"
+	order_index: 0
+	filename: "exploration"
+	title: "Exploration"
+	icon: "minecraft:spyglass"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

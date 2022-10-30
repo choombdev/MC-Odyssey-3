@@ -23,7 +23,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -176
+  y = -65
 }
 
 customization {
@@ -36,7 +36,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -107
+  y = 4
 }
 
 customization {
@@ -65,7 +65,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -130
+  y = -19
 }
 
 customization {
@@ -80,7 +80,7 @@ customization {
   orientation = mid-centered
   x = 4
   action = movebutton
-  y = -153
+  y = -42
 }
 
 customization {
@@ -88,7 +88,7 @@ customization {
   orientation = mid-centered
   x = 4
   action = movebutton
-  y = -130
+  y = -19
 }
 
 customization {
@@ -97,15 +97,15 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = opengui
-  x = 378
+  x = -102
   width = 100
   actionid = dfa32e9b-3d72-4b35-9aee-5df7d370b9011665099853574
   action = addbutton
-  y = 117
+  y = -42
   label = Modlist
   value = com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen
   height = 20

@@ -1,0 +1,324 @@
+{
+	id: "4A3A1B87DBC07B1F"
+	order_index: 0
+	title: "Basic Loot Crate"
+	icon: "blue_skies:bluebright_chest"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "pamhc2crops:beanitem", count: 16, weight: 10 }
+		{ item: "pamhc2crops:lettuceitem", count: 16, weight: 10 }
+		{ item: "pamhc2crops:cactusfruititem", count: 16, weight: 10 }
+		{ item: "pamhc2crops:bakedcassavaitem", count: 8, weight: 10 }
+		{ item: "byg:mud_ball", count: 32, weight: 15 }
+		{ item: "cookingforblockheads:oven" }
+		{ item: "cookingforblockheads:cooking_table" }
+		{ item: "cookingforblockheads:heating_unit" }
+		{ item: "cookingforblockheads:ice_unit" }
+		{ item: "minecraft:bundle" }
+		{ item: "minecraft:diamond", weight: 5 }
+		{ item: "minecraft:raw_iron", count: 16, weight: 8 }
+		{ item: "ironfurnaces:upgrade_iron", count: 4, weight: 20 }
+		{ item: "ironfurnaces:upgrade_gold", count: 4, weight: 15 }
+		{ item: "minecraft:emerald", count: 4, weight: 3 }
+		{ item: "minecraft:bucket", count: 5, weight: 16 }
+		{ item: "infernalexp:music_disc_soul_spunk", weight: 5 }
+		{ item: "infernalexp:music_disc_flush", weight: 5 }
+		{
+			item: {
+				id: "ironjetpacks:thruster"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:copper"
+				}
+			}
+			count: 4
+			weight: 5
+		}
+		{ item: "ironjetpacks:basic_coil" }
+		{ item: "advgenerators:iron_frame", count: 64, weight: 12 }
+		{ item: "ironjetpacks:strap", weight: 40 }
+		{ item: "paraglider:heart_container" }
+		{ item: "paraglider:paraglider", weight: 15 }
+		{ item: "nameless_trinkets:unknown_fragment" }
+		{ item: "farmingforblockheads:market", weight: 44 }
+		{ item: "minecraft:end_rod", count: 12, weight: 12 }
+		{ item: "minecraft:enchanting_table" }
+		{ item: "minecraft:anvil", weight: 16 }
+		{
+			item: {
+				id: "minecraft:beehive"
+				Count: 1b
+				tag: { }
+			}
+			weight: 14
+		}
+		{ item: "minecraft:lodestone" }
+		{ item: "minecraft:respawn_anchor" }
+		{ item: "vanillatweaks:fried_egg", count: 16, weight: 55 }
+		{
+			item: {
+				id: "constructionwand:stone_wand"
+				Count: 1b
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			weight: 44
+		}
+		{
+			item: {
+				id: "lightingwand:wand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 32
+		}
+		{ item: "torchmaster:megatorch", count: 2, weight: 25 }
+		{
+			item: {
+				id: "tconstruct:earth_slime_sling"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 15
+		}
+		{ item: "fluxnetworks:flux_dust", count: 32, weight: 7 }
+		{ item: "essentials:sorting_hopper", weight: 15 }
+		{
+			item: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			weight: 15
+		}
+		{
+			item: {
+				id: "explorerscompass:explorerscompass"
+				Count: 1b
+				tag: { }
+			}
+			weight: 15
+		}
+		{ item: "buildinggadgets:construction_paste_container_t1", weight: 15 }
+		{ item: "thermal:bitumen", count: 16, weight: 15 }
+		{ item: "thermal:apple_block", weight: 50 }
+		{ item: "thermal:potato_block", weight: 50 }
+		{ item: "sophisticatedbackpacks:backpack", weight: 15 }
+		{ item: "simpleplanes:propeller", count: 5, weight: 41 }
+		{ item: "simpleplanes:plane_workbench", weight: 31 }
+		{ item: "mob_grinding_utils:mob_swab", weight: 55 }
+		{ item: "mob_grinding_utils:spikes", weight: 50 }
+		{ item: "farmersdelight:stove", weight: 60 }
+		{
+			item: {
+				id: "farmersdelight:skillet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 65
+		}
+		{
+			item: {
+				id: "farmersdelight:flint_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{ item: "farmersdelight:cooking_pot", weight: 60 }
+		{ item: "compressium:cobblestone_2", weight: 55 }
+		{ item: "hole_filler_mod:throwable_hole_filler", count: 8, weight: 80 }
+		{ item: "artifacts:golden_hook", weight: 15 }
+		{ item: "xnet:netcable_red", count: 32, weight: 30 }
+		{ item: "exnihilothermal:basalz_doll" }
+		{ item: "exnihilothermal:blitz_doll" }
+		{ item: "exnihilothermal:blizz_doll" }
+		{ item: "mysticalagriculture:inferium_essence", count: 64, weight: 60 }
+		{ item: "mysticalagriculture:prosperity_shard", count: 64, weight: 50 }
+		{ item: "artifacts:umbrella" }
+		{ item: "tconstruct:pig_iron_ingot", count: 4 }
+		{ item: "comforts:sleeping_bag_white" }
+		{ item: "create:shaft", count: 16 }
+		{ item: "dimstorage:dimensional_chest" }
+		{ item: "storagenetwork:kabel", count: 16 }
+		{ item: "mysticalagriculture:choombium_essence" }
+		{ item: "reliquary:witch_hat" }
+		{
+			item: {
+				id: "reliquary:void_tear"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							amount: 0
+							filter: {
+								id: "minecraft:air"
+								Count: 0b
+								tag: {
+									data_model: { }
+								}
+							}
+						}]
+					}
+				}
+			}
+		}
+		{ item: "tconstruct:grout", count: 64 }
+		{ item: "pamhc2foodextended:cornmealitem", count: 7 }
+		{ item: "pamhc2foodextended:cookedtofaconitem", count: 7 }
+		{ item: "chipped:botanist_workbench" }
+		{ item: "farmersrespite:coffee_beans", count: 32 }
+		{ item: "mob_grinding_utils:solid_xp_baby" }
+		{ item: "chipped:glassblower" }
+		{ item: "mob_grinding_utils:tank" }
+		{ item: "mob_grinding_utils:absorption_hopper" }
+		{
+			item: {
+				id: "cyclic:crystal_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "chipped:loom_table" }
+		{
+			item: {
+				id: "cyclic:charm_world"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:fire_scepter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:glove_climb"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:crafting_bag"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 9
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{ item: "cyclic:magic_net" }
+		{
+			item: {
+				id: "cyclic:charm_venom"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:emerald_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "pamhc2foodextended:fishtacoitem", count: 8 }
+		{
+			item: {
+				id: "cyclic:fire_killer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:lunchbox"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 7
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:stirrups_reverse"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:stirrups"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:ender_pearl_mounted"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:heart" }
+		{
+			item: {
+				id: "cyclic:shield_leather"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:shears_obsidian"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:carbon_paper" }
+	]
+}

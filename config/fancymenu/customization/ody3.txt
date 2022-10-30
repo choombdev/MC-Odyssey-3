@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = config/resources/bgod.png
+  path = config/resources/bgod2.png
   action = texturizebackground
 }
 
@@ -31,9 +31,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
-  x = -110
+  x = -86
   action = movebutton
-  y = -9
+  y = 19
 }
 
 customization {
@@ -65,9 +65,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
-  x = -109
+  x = -86
   action = movebutton
-  y = 58
+  y = 86
 }
 
 customization {
@@ -89,9 +89,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = -109
+  x = -86
   action = movebutton
-  y = 81
+  y = 109
 }
 
 customization {
@@ -118,9 +118,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = -110
+  x = -86
   action = movebutton
-  y = -31
+  y = -2
 }
 
 customization {
@@ -142,9 +142,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
-  x = -109
+  x = -86
   action = movebutton
-  y = 35
+  y = 63
 }
 
 customization {
@@ -248,11 +248,11 @@ customization {
   backgroundhovered = config\resources\DiscordHover.png
   label = 
   loopbackgroundanimations = true
-  x = 30
+  x = 54
   width = 20
   actionid = 2b41a4d3-d70a-403b-975a-e15d119212b61657889950053
   action = addbutton
-  y = 35
+  y = 63
   backgroundnormal = config\resources\DiscordButton.png
   value = https://discord.gg/JzSydC6UMR
   height = 20
@@ -265,13 +265,13 @@ customization {
   backgroundhovered = config\resources\RedditHover.png
   label = 
   loopbackgroundanimations = true
-  x = 30
+  x = 54
   width = 20
   actionid = d1ec610e-6744-4142-82d9-a4840e994c401657889996850
   action = addbutton
-  y = 58
+  y = 86
   backgroundnormal = config\resources\RedditButton.png
-  value = https://github.com/YahiaTGF/MC-Odyssey-2
+  value = https://www.reddit.com/r/MCOdyssey/
   height = 20
 }
 
@@ -282,13 +282,13 @@ customization {
   backgroundhovered = config\resources\GithubHover.png
   label = 
   loopbackgroundanimations = true
-  x = 31
+  x = 55
   width = 20
   actionid = 4ef64230-b41c-429f-b9c6-828f3c8c2e791657890001482
   action = addbutton
-  y = 81
+  y = 109
   backgroundnormal = config\resources\GithubButton.png
-  value = 
+  value = https://www.github.com/choombdev/mc-odyssey-3
   height = 20
 }
 
@@ -299,13 +299,43 @@ customization {
   backgroundhovered = config\resources\bisectHover.png
   label =    Create your own server!
   loopbackgroundanimations = true
-  x = -110
+  x = -86
   width = 160
   actionid = 142513b2-265b-4677-a1b3-391877c395d11657890511267
   action = addbutton
-  y = 13
+  y = 41
   backgroundnormal = config\resources\bisect.png
-  value = bisecthosting.com/odyssey
+  value = https://www.bisecthosting.com/odyssey
   height = 20
+}
+
+customization {
+  path = config/resources/logooddy.png
+  orientation = mid-centered
+  x = -72
+  width = 131
+  action = addtexture
+  actionid = c3b8bee5-5b49-4e13-8064-5956a83a760b1666827859987
+  y = -139
+  height = 132
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 0.6
+  source = Background made by aanneliesee
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -101
+  width = 112
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d83c93a4-921f-4307-b77c-116474657b8c1666970160723
+  y = -7
+  alignment = left
+  height = 6
 }
 

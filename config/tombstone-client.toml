@@ -14,7 +14,7 @@
 	#Shows shield particles on villager [false/true|default:true]
 	show_shield_particle = true
 	#Allows the ghost to appear around you during Halloween [false/true|default:true]
-	allow_halloween_ghost = true
+	allow_halloween_ghost = false
 	#Shows only the elapsed minecraft days since the death on graves [false/true|default:false]
 	date_in_mc_time = false
 	#Display or not the messages of gain of points in knowledge of death [false/true|default:true]
@@ -77,4 +77,6 @@
 	#Defines the font to use in Tombstone's screens (only for english, french and spanish languages) [FANTASY/VANILLA|default:FANTASY]
 	#Allowed Values: FANTASY, VANILLA
 	font_rule = "FANTASY"
+	#Prevent night vision from flashing when less than 5 seconds left [false/true|default:true]
+	no_blinking_nightvision = true
 

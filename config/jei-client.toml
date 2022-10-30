@@ -5,9 +5,9 @@
 	#Display search bar in the center
 	CenterSearch = false
 	#Set low-memory mode (makes search very slow, but uses less RAM)
-	LowMemorySlowSearchEnabled = false
+	LowMemorySlowSearchEnabled = true
 	#Enable cheating items into the hotbar by using the shift+number keys.
-	CheatToHotbarUsingHotkeysEnabled = false
+	CheatToHotbarUsingHotkeysEnabled = true
 	#How items should be handed to you
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
 	GiveMode = "MOUSE_PICKUP"
@@ -29,7 +29,7 @@
 	ModNameSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Tooltips (prefix: #)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	TooltipSearchMode = "ENABLED"
+	TooltipSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Tag Names (prefix: $)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	TagSearchMode = "REQUIRE_PREFIX"
@@ -59,7 +59,7 @@
 	MaxRows = 32
 	#Max number of columns shown
 	#Range: 4 ~ 100
-	MaxColumns = 9
+	MaxColumns = 14
 	#Horizontal alignment of the ingredient grid inside the available area
 	#Allowed Values: LEFT, CENTER, RIGHT
 	HorizontalAlignment = "RIGHT"
@@ -78,7 +78,7 @@
 	MaxRows = 16
 	#Max number of columns shown
 	#Range: 4 ~ 100
-	MaxColumns = 9
+	MaxColumns = 10
 	#Horizontal alignment of the ingredient grid inside the available area
 	#Allowed Values: LEFT, CENTER, RIGHT
 	HorizontalAlignment = "LEFT"

@@ -39,13 +39,4 @@ onEvent('recipes', event =>{
     C: 'pamhc2crops:lettuceitem'
   })
 
-  event.shaped('kubejs:nonepizza', [
-    'BBS',
-    'BBS',
-    'BSS'
-  ], {
-    S: 'farmersdelight:wheat_dough',
-    B: 'pamhc2foodcore:groundbeefitem'
-  })
-
 })

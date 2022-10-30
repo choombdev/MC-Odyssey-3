@@ -1,0 +1,20 @@
+{
+    "type": "bloodmagic:soulforge",
+    "input0": {
+      "item": "minecraft:fire_charge"
+    },
+    "input1": {
+      "item": "ars_nouveau:end_fiber"
+    },
+    "input2": {
+      "item": "botania:manasteel_block"
+    },
+    "input3": {
+      "item": "cyclic:soulstone"
+    },
+    "output": {
+      "item": "minecraft:blaze_spawn_egg"
+    },
+    "minimumDrain": 100.0,
+    "drain": 13
+  }

@@ -15,20 +15,12 @@
   // Nether Star Shards
     // Shard to Essence
     event.shapeless('8x mysticalagriculture:nether_star_essence', ['progressivebosses:nether_star_shard'])
-    event.shapeless('8x mysticalagriculture:nether_star_essence', ['silentgear:nether_star_fragment'])
     event.shapeless('8x mysticalagriculture:nether_star_essence', ['mysticalagradditions:nether_star_shard'])
     // Essence to Shard
     event.shaped('progressivebosses:nether_star_shard', [
       'SSS',
       'S S',
       'SSS'
-    ], {
-      S: 'mysticalagriculture:nether_star_essence'
-    })
-    event.shaped('silentgear:nether_star_fragment', [
-      'SSS',
-      'SSS',
-      'S S'
     ], {
       S: 'mysticalagriculture:nether_star_essence'
     })

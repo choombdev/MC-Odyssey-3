@@ -5,7 +5,7 @@
       "table": [
         "minecraft:chests/spawn_bonus_chest"
       ],
-      "chance": 1.0
+      "chance": 0.5
     },
     {
       "table": [
@@ -16,7 +16,7 @@
         "minecraft:chests/village/village_savanna_house",
         "minecraft:chests/village/village_butcher"
       ],
-      "chance": 0.02
+      "chance": 0.002
     },
     {
       "table": [

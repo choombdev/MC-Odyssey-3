@@ -63,7 +63,7 @@ onEvent('recipes', event => {
     ], {
       G: 'gobber2:gobber2_glob',
       S: 'tconstruct:dragon_scale',
-      X: 'gobber2:gobber2_ingot_end'
+      X: 'gobber2:gobber2_ingot_nether'
     })
     event.remove({output:'gobber2:dragon_elytra'})
     event.shaped('gobber2:dragon_elytra', [

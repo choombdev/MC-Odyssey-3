@@ -9,7 +9,7 @@
       "table": [
         "minecraft:chests/spawn_bonus_chest"
       ],
-      "chance": 1.0
+      "chance": 0.05
     },
     {
       "table": [

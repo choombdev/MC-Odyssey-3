@@ -13,7 +13,7 @@
 	#
 	# If set to true, inventory tabs will use simple buttons that can be placed anywhere on the screen.
 	# Default: false
-	use_simple_inventory_tabs = false
+	use_simple_inventory_tabs = true
 
 	["Inventory Tabs"."Sliding Tabs"]
 		#
@@ -33,5 +33,5 @@
 		#
 		# If set to true, inventory tabs are sorted vertically. If set to false, they are sorted horizontally.
 		# Default: false
-		is_vertical = false
+		is_vertical = true
 

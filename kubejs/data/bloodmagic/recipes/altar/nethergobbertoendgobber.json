@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "gobber2:gobber2_globette_nether"
+  },
+  "output": {
+    "item": "gobber2:gobber2_globette_end"
+  },
+  "upgradeLevel": 4,
+  "altarSyphon": 10000,
+  "consumptionRate": 20,
+  "drainRate": 20
+}

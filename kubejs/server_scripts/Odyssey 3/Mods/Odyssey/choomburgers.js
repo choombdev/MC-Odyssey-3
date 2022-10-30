@@ -30,8 +30,6 @@ onEvent('recipes', event =>{
     Y: 'minecraft:brown_mushroom',
     Z: 'pamhc2foodcore:mayonaiseitem'
   })
-
-
   
   event.shaped('kubejs:choomburgert4', [
     'YYY',
@@ -41,6 +39,20 @@ onEvent('recipes', event =>{
     X: 'kubejs:choomburgert3',
     Y: 'minecraft:nether_star'
   })
+
+  // Creative Choomburger
+
+  event.shaped('kubejs:choomburgert5', [
+    'XXX',
+    'OYP',
+    'XXX'
+  ], {
+    X: 'kubejs:choomburgert4',
+    Y: 'kubejs:ancientingot',
+    O: 'pamhc2crops:roastedonionitem',
+    P: 'pamhc2foodextended:pizzasliceitem'
+  })
+
 
 })
 

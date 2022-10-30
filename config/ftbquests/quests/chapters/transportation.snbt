@@ -1,0 +1,370 @@
+{
+	id: "537ABE0275FF7EFB"
+	group: "6FA6C0E3C628858D"
+	order_index: 2
+	filename: "transportation"
+	title: "Transportation"
+	icon: {
+		id: "simpleplanes:plane"
+		Count: 1b
+		tag: {
+			EntityTag: {
+				material: "minecraft:oak_planks"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Terraria Pylons (kinda)"
+			description: ["Ever wished you could place a block down that teleported you to other similar blocks without costing anything? Well, this is just that. It costs Experience but in negligble amounts."]
+			id: "7AF2848B6181A667"
+			tasks: [{
+				id: "258AB9C04F389793"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [
+				{
+					id: "239A2A748D2E4EF7"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "102493F9A6E19760"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			subtitle: "The Amazing Spectacular Spider"
+			description: ["Unless you've built a miniature New York, the Advanced Hooks mod is going to help you greatly in traversing the 1.18 caves!"]
+			id: "2ACD3F690704A064"
+			tasks: [{
+				id: "13A27FD1D995BF7E"
+				type: "item"
+				item: {
+					id: "adhooks:web_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F0E0EA6EB0AE05C"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["2ACD3F690704A064"]
+			id: "376F0AE70F490C27"
+			tasks: [{
+				id: "0D9B87AFCEA37ECE"
+				type: "item"
+				item: {
+					id: "adhooks:spear_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D81E0635D0667D0"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["376F0AE70F490C27"]
+			id: "10A073AC7F399953"
+			tasks: [{
+				id: "14B1F491973C8C61"
+				type: "item"
+				item: {
+					id: "adhooks:pudge_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57CD794E9BE11A5D"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "45C6A0B790E0760A"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			subtitle: "The Classic"
+			description: ["Catapulting yourself upwards."]
+			id: "6023E5F45B1FD5A0"
+			tasks: [{
+				id: "31F4881B67CEB239"
+				type: "item"
+				item: {
+					id: "tconstruct:earth_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3489489496058217"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			subtitle: "Charge!"
+			description: ["Skyslime sends you flying towards the direction you sling it in."]
+			dependencies: ["6023E5F45B1FD5A0"]
+			id: "568D2BBF0D208D78"
+			tasks: [{
+				id: "0232D8FC17DB77FA"
+				type: "item"
+				item: {
+					id: "tconstruct:sky_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3658360498C5379D"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			subtitle: "Catapulting others"
+			description: ["You can throw away mobs and others using this!"]
+			dependencies: ["568D2BBF0D208D78"]
+			id: "35CFFA01ADE11DFF"
+			tasks: [{
+				id: "5E086D85DD204137"
+				type: "item"
+				item: {
+					id: "tconstruct:ichor_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1948D5A5F430C81B"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			subtitle: "admin please ban"
+			description: ["Now you can teleport through walls, use this responsibly."]
+			dependencies: ["35CFFA01ADE11DFF"]
+			id: "6A5212691C81C12E"
+			tasks: [{
+				id: "271DA2127F6C6B3C"
+				type: "item"
+				item: {
+					id: "tconstruct:ender_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0BCE426723FBCF27"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "0A650A65E842CD62"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["Added (alongside it's sisters) to Traveller boots in a Tinker Anvil grants you slime boots!"]
+			id: "23078DB7F19578D3"
+			tasks: [{
+				id: "58D505EBB5E48355"
+				type: "item"
+				item: "tconstruct:earth_congealed_slime"
+			}]
+			rewards: [{
+				id: "1B2B9FC83FAF7218"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			subtitle: "Poor man's Elytra"
+			description: ["This reminds me of a certain game, not sure which."]
+			id: "75797A3A8C0BBDB5"
+			tasks: [{
+				id: "762D27A75B15EECB"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+			rewards: [{
+				id: "23DA2D4C6DBD553C"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			subtitle: "Big Teleport"
+			description: ["If you're fan of big fancy teleporters, this is definitely yours."]
+			id: "3AF51A69DD74CD7F"
+			tasks: [
+				{
+					id: "703CD64B9209AA31"
+					type: "item"
+					item: "mekanism:teleporter_frame"
+				}
+				{
+					id: "545E8EA34E1BCAF9"
+					type: "item"
+					item: "mekanism:teleporter"
+				}
+			]
+			rewards: [
+				{
+					id: "5BFD6053E9118A4E"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "4599158CF6462923"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			title: "Simple Planes"
+			x: -0.5d
+			y: 4.5d
+			subtitle: "Helikopter Helikopter"
+			description: ["You can now build airplanes and helicopters, use them responsibly."]
+			id: "5D277D67DBACD64D"
+			tasks: [{
+				id: "04964EB61649A6D6"
+				type: "item"
+				item: "simpleplanes:plane_workbench"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			subtitle: "Classics never go wrong."
+			id: "62FF5A21AB9EBA1D"
+			tasks: [{
+				id: "6E01E19AB0588E53"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0459A5E68A92AC42"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "1DEBFBED36385A72"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			title: "Simple Jetpacks"
+			x: -3.5d
+			y: 6.0d
+			subtitle: "Simple Jetpacks"
+			description: ["Simple Jetpacks"]
+			id: "1B00643B4A779A2A"
+			tasks: [{
+				id: "76194BE4251BA27A"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:copper"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FAF6EEEF348911E"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "630CB7682A76C8E5"
+			tasks: [{
+				id: "6C17E3AFAB77AF7C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:warp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "35F6D0DA2C9F3D69"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+	]
+}

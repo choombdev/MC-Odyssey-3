@@ -29,14 +29,7 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}",
-    "forge:shards/{material}",
-    "forge:clumps/{material}",
-    "forge:dirty_dust/{material}",
-    "forge:crystal/{material}"
-
-
-
+    "forge:storage_blocks/raw_{material}"
   ],
   "materials": [
     "aeternium",
@@ -86,8 +79,10 @@
     "tungsten",
     "uranium",
     "zinc",
-    "rose_gold"
+    "rose_gold",
+    "coal"
   ],
+  "priorityOverrides": {},
   "ignoredTags": [],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"

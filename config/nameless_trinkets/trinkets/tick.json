@@ -1,7 +1,7 @@
 {
   "config": {
     "rangeToActivate": 25.0,
-    "entityDamagePercentage": 1.0,
+    "entityDamagePercentage": 0.5,
     "playerDamagePercentage": 5.0,
     "playerHungerPercentage": 10.0
   },
@@ -10,7 +10,7 @@
       "table": [
         "minecraft:chests/spawn_bonus_chest"
       ],
-      "chance": 0.7692308
+      "chance": 0.07692308
     },
     {
       "table": [

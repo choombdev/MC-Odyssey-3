@@ -1,0 +1,1523 @@
+{
+	id: "7D4838B571AB228B"
+	group: "4A849C7B2E846156"
+	order_index: 3
+	filename: "agriculture_and_food"
+	title: "Agriculture and Food"
+	icon: {
+		id: "minecraft:stone_hoe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Kitchen"
+			x: 4.0d
+			y: -2.5d
+			subtitle: "Pls I beg of you, use the sink only for cooking"
+			id: "7991635E07971058"
+			tasks: [
+				{
+					id: "79FC5603823F7734"
+					type: "item"
+					item: "cookingforblockheads:sink"
+				}
+				{
+					id: "5F08C9BAC83D0DB9"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+				{
+					id: "48A623F4ED1477B0"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+					count: 2L
+				}
+				{
+					id: "017BD177FEA2D1F4"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+				{
+					id: "1AB737195C3FDEBB"
+					type: "item"
+					item: "cookingforblockheads:counter"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "53F3A0CFCE86CF00"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 10
+			}]
+		}
+		{
+			title: "Kitchen Upgrade"
+			x: 5.5d
+			y: -3.0d
+			dependencies: ["7991635E07971058"]
+			id: "34FC2869F728AE1F"
+			tasks: [
+				{
+					id: "2803E59D33BFBC71"
+					type: "item"
+					item: "cookingforblockheads:white_kitchen_floor"
+					count: 24L
+				}
+				{
+					id: "2D652AB1016F84D3"
+					type: "item"
+					item: "cookingforblockheads:heating_unit"
+				}
+				{
+					id: "17E13BF6FE638060"
+					type: "item"
+					item: "cookingforblockheads:ice_unit"
+				}
+				{
+					id: "62BA43F560228F35"
+					type: "item"
+					item: "cookingforblockheads:preservation_chamber"
+				}
+				{
+					id: "7D10711A58DA74BB"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+			]
+			rewards: [{
+				id: "3AECE6A7D3D14BF9"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 7
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			id: "78FEDE978D63FC37"
+			tasks: [{
+				id: "2948F7D4DF222BD7"
+				type: "item"
+				item: "bonsaitrees3:bonsaipot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "47013FD16F5F6028"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["1B6866637CFFA8CC"]
+			id: "7F4EBACAE3E8FA9E"
+			tasks: [{
+				id: "1C4524AE595981BF"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+			rewards: [{
+				id: "12BD55C78B915508"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["7F4EBACAE3E8FA9E"]
+			id: "7C838CC79B330D9C"
+			tasks: [{
+				id: "6BAB304921C362B5"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+			rewards: [{
+				id: "0372FF579DFB39BA"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["7C838CC79B330D9C"]
+			id: "6C672F5ED89E9B5D"
+			tasks: [{
+				id: "6B122174ED3721FA"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+			rewards: [{
+				id: "6DE9F6B1B2F9E79A"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 4
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["6C672F5ED89E9B5D"]
+			id: "0464CCFE0EFDC79B"
+			tasks: [{
+				id: "6A6F0355AB694251"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+			rewards: [{
+				id: "36BBB954B34E5613"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 10
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["0464CCFE0EFDC79B"]
+			id: "08FF087B0391F1CA"
+			tasks: [{
+				id: "0A8B4B554F9F4B68"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+			rewards: [
+				{
+					id: "2D2CC248BF2CE526"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "7D8FB4546A0FE93B"
+					type: "choice"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["08FF087B0391F1CA"]
+			id: "2D793F8D69741845"
+			tasks: [{
+				id: "294B71831AAB64D9"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+			rewards: [
+				{
+					id: "2DB313FEF64FD9EC"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+				{
+					id: "1C7847AE982C5EB6"
+					type: "random"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["7F4EBACAE3E8FA9E"]
+			id: "4CB440E37931B6CB"
+			tasks: [{
+				id: "6DD2434010BCF3F1"
+				type: "item"
+				item: "mysticalagriculture:inferium_block"
+			}]
+			rewards: [{
+				id: "3868146D2173E37C"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 20
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "Can be used for farming!"
+			id: "5B107D8120ADEF50"
+			tasks: [{
+				id: "4298DCE193CCEFE2"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "4F20B6CF2850F8FB"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 15
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["1B6866637CFFA8CC"]
+			id: "760E5B5EEBF3AE18"
+			tasks: [
+				{
+					id: "3032F814201ACD9B"
+					type: "item"
+					item: "mysticalagriculture:infusion_altar"
+				}
+				{
+					id: "4B747EDBF9161A22"
+					type: "item"
+					item: "mysticalagriculture:infusion_pedestal"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "446B2F59D588D101"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+				{
+					id: "411C32AEA443660E"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["7F4EBACAE3E8FA9E"]
+			id: "4D9AA329D9C8021B"
+			tasks: [{
+				id: "3B258E7004EEEF17"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+			}]
+			rewards: [{
+				id: "63266A6712EFEACA"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["7C838CC79B330D9C"]
+			id: "58E7D3B06F647774"
+			tasks: [{
+				id: "53AAA356D6AD251B"
+				type: "item"
+				item: "mysticalagriculture:prudentium_farmland"
+			}]
+			rewards: [{
+				id: "1F4ADDDA903C7714"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["6C672F5ED89E9B5D"]
+			id: "760632C4964F17BA"
+			tasks: [{
+				id: "1847E07A1E763E35"
+				type: "item"
+				item: "mysticalagriculture:tertium_farmland"
+			}]
+			rewards: [{
+				id: "1F78BB3EBF683557"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["0464CCFE0EFDC79B"]
+			id: "3595779AC73D0F98"
+			tasks: [{
+				id: "130E7892BB387E0A"
+				type: "item"
+				item: "mysticalagriculture:imperium_farmland"
+			}]
+			rewards: [{
+				id: "0FDF07E897FC3E2E"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 10
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["08FF087B0391F1CA"]
+			id: "240ADC782EBB8CDC"
+			tasks: [{
+				id: "6E02CEC29BA69F3C"
+				type: "item"
+				item: "mysticalagriculture:supremium_farmland"
+			}]
+			rewards: [{
+				id: "022338BDE6BCEAC3"
+				type: "item"
+				item: "lightmanscurrency:coin_gold"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["2D793F8D69741845"]
+			id: "73E8D3B88B396924"
+			tasks: [{
+				id: "469F36D0593F24EA"
+				type: "item"
+				item: "mysticalagradditions:insanium_farmland"
+			}]
+			rewards: [{
+				id: "5B1B2B218542E61B"
+				type: "item"
+				item: "lightmanscurrency:coin_gold"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["7C838CC79B330D9C"]
+			id: "0FB176E77B0BB427"
+			tasks: [{
+				id: "020B66C508013DD7"
+				type: "item"
+				item: "mysticalagriculture:prudentium_block"
+			}]
+			rewards: [{
+				id: "46F86D5FC56EA390"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["6C672F5ED89E9B5D"]
+			id: "2D27B332C641775D"
+			tasks: [{
+				id: "1FD8CD2D4AE07A50"
+				type: "item"
+				item: "mysticalagriculture:tertium_block"
+			}]
+			rewards: [{
+				id: "37B2CBAD747B4D36"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 4
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["0464CCFE0EFDC79B"]
+			id: "283686BAF2864A81"
+			tasks: [{
+				id: "64D6766C20454FC8"
+				type: "item"
+				item: "mysticalagriculture:imperium_block"
+			}]
+			rewards: [{
+				id: "0C162034C15AD480"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 10
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["08FF087B0391F1CA"]
+			id: "1BAE8EC985ACE8C9"
+			tasks: [{
+				id: "3E73646B90D9C1A3"
+				type: "item"
+				item: "mysticalagriculture:supremium_block"
+			}]
+			rewards: [{
+				id: "186C1CBD8C08C855"
+				type: "item"
+				item: "lightmanscurrency:coin_gold"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			dependencies: ["2D793F8D69741845"]
+			id: "55E7F9D89DEA7B8F"
+			tasks: [{
+				id: "26FC3C7ACE374352"
+				type: "item"
+				item: "mysticalagradditions:insanium_block"
+			}]
+			rewards: [{
+				id: "7371A47D72E894A0"
+				type: "item"
+				item: "lightmanscurrency:coin_gold"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["760E5B5EEBF3AE18"]
+			id: "2AAD770C21B867BE"
+			tasks: [
+				{
+					id: "29278DDB6E9917DD"
+					type: "item"
+					item: "mysticalagriculture:soul_extractor"
+				}
+				{
+					id: "552DEE97CF30302D"
+					type: "item"
+					item: "mysticalagriculture:soul_jar"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "6A3CC88B2C5818DE"
+				type: "item"
+				item: "lightmanscurrency:coin_gold"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["4CB440E37931B6CB"]
+			id: "2C77E6ADB7A0C9D7"
+			tasks: [{
+				id: "2A79C92F4BD03ABA"
+				type: "item"
+				item: "mysticalagriculture:inferium_furnace"
+			}]
+			rewards: [{
+				id: "1E6CD9C0FBC8FF31"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["0FB176E77B0BB427"]
+			id: "6351F4FF7059CFB1"
+			tasks: [{
+				id: "678D844A779D2148"
+				type: "item"
+				item: "mysticalagriculture:prudentium_furnace"
+			}]
+			rewards: [{
+				id: "78D6AE4FE988C9EB"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["2D27B332C641775D"]
+			id: "555D6F6FD930A914"
+			tasks: [{
+				id: "12AFE5B9E1CAFCB7"
+				type: "item"
+				item: "mysticalagriculture:tertium_furnace"
+			}]
+			rewards: [{
+				id: "7503B085467696AF"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 12
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			dependencies: ["283686BAF2864A81"]
+			id: "2537C70363835F11"
+			tasks: [{
+				id: "29C938F1FAB29FA0"
+				type: "item"
+				item: "mysticalagriculture:imperium_furnace"
+			}]
+			rewards: [{
+				id: "1F8BA598CEAB007F"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 30
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["1BAE8EC985ACE8C9"]
+			id: "4C4EA85BE67E3B2F"
+			tasks: [{
+				id: "35225662C89750F6"
+				type: "item"
+				item: "mysticalagriculture:supremium_furnace"
+			}]
+			rewards: [
+				{
+					id: "04B0509FA5F6CAF7"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 3
+				}
+				{
+					id: "341348CD2A4161BD"
+					type: "choice"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			dependencies: ["55E7F9D89DEA7B8F"]
+			id: "6ED33E3BCBC2E4C3"
+			tasks: [{
+				id: "3A619D7A2ED66FC3"
+				type: "item"
+				item: "mysticaladaptations:insanium_furnace"
+			}]
+			rewards: [
+				{
+					id: "38460AA3885DB224"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 5
+				}
+				{
+					id: "0E2DA8C67F2051B0"
+					type: "choice"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			dependencies: ["7F4EBACAE3E8FA9E"]
+			id: "793292B4A6E6D9AF"
+			tasks: [
+				{
+					id: "674BFAE221C9E27D"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A3B59D1A1381ADA"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36B08C138A6AA167"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "38E68E4FAF54D022"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "18527C4E0DD2675F"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 45
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["1B6866637CFFA8CC"]
+			id: "5D7FBD2594E07B67"
+			tasks: [{
+				id: "58856C46D75645B9"
+				type: "item"
+				item: "mysticalagriculture:prosperity_ingot"
+				count: 8L
+			}]
+			rewards: [{
+				id: "735908579D94B380"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			dependencies: ["2D793F8D69741845"]
+			id: "5DFE45B42206C309"
+			tasks: [
+				{
+					id: "69844716EDCAC542"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58A3A658E2BF6528"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48D81F36FBE74C67"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47F123BCA711A4D3"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "20814787681A6D4A"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 40
+				}
+				{
+					id: "60F9897A8A0A572A"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			dependencies: ["08FF087B0391F1CA"]
+			id: "4F9413B102D0837A"
+			tasks: [
+				{
+					id: "0DD40352200408D1"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ED552FFDE8E76F1"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A68C807867DCB3B"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6AFC9D3AA5C0114D"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2E1A12CDECE96263"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 32
+				}
+				{
+					id: "3A0C3B823A152DA4"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			dependencies: ["0464CCFE0EFDC79B"]
+			id: "2D37741F615B13FE"
+			tasks: [
+				{
+					id: "633BB6A2274EAAB8"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22F7D70B28FA8041"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "51FF02CB0C8EB308"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C0B865745D4F127"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "31AAAE30B4C658BB"
+				type: "item"
+				item: "lightmanscurrency:coin_gold"
+				count: 20
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			dependencies: ["6C672F5ED89E9B5D"]
+			id: "7999BA3BB49610DC"
+			tasks: [
+				{
+					id: "54567FC18132A09F"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77A18D84B2C37B22"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DB26B710F2E35E2"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "319898506F556749"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "71361A594643CF9B"
+				type: "item"
+				item: "lightmanscurrency:coin_gold"
+				count: 10
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["7C838CC79B330D9C"]
+			id: "02352F9CE63D466C"
+			tasks: [
+				{
+					id: "45BDBB1B9034CBF7"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52B0347CF5E6F859"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "613E4D88DB3F09D9"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4DBAB927E2D04521"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "26AAF23337F2EE8C"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 80
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "1B6866637CFFA8CC"
+			tasks: [{
+				id: "2F2F05376432A2CF"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D0F1BDB2DB2CFEB"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			id: "5BC110D5CC314613"
+			tasks: [{
+				id: "0A4D6EBE36BB629E"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [{
+				id: "54ABFA84CF23F68D"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			title: "Kitchen Appliances"
+			x: 6.5d
+			y: -1.5d
+			id: "0ADD0B139960E1CA"
+			tasks: [
+				{
+					id: "697842E0C4368430"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+				{
+					id: "3278DFE143DD28E5"
+					type: "item"
+					item: {
+						id: "farmersdelight:skillet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66F7155CC1B4314D"
+					type: "item"
+					item: "farmersrespite:kettle"
+				}
+			]
+			rewards: [{
+				id: "1B800B79CAE0B14E"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 7
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			subtitle: "It's a me!"
+			id: "3B8C9244D1E943E3"
+			tasks: [{
+				id: "24FAEE0DE33DDB7C"
+				type: "item"
+				item: "farmersdelight:pasta_with_meatballs"
+			}]
+			rewards: [{
+				id: "5630EBCD01096906"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 15
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			subtitle: "My favorite!"
+			id: "382EB547E639B8FB"
+			tasks: [{
+				id: "61FE1210D22AAA1C"
+				type: "item"
+				item: "farmersdelight:apple_cider"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4F7E8FBD38E13803"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 10
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			id: "3D9260369559AF34"
+			tasks: [{
+				id: "3C56292697D7A37E"
+				type: "item"
+				item: {
+					id: "cyclic:scythe_harvest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5300B52A94B11E67"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "Any seeds/saplings for just 1 emerald!!!"
+			id: "569CF246333EFB43"
+			tasks: [{
+				id: "434D2151AE781A62"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "2638BD98D5042B45"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			subtitle: "Let the knife do the work"
+			id: "3CB3448EF1480340"
+			tasks: [{
+				id: "3922331CE93C385A"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F83A4CB7CA4F8BB"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			id: "3799785A6287A99D"
+			tasks: [{
+				id: "75E11D56E751F6F6"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+			rewards: [{
+				id: "04391E1E13E1E3E8"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			subtitle: "You better hide these from the Cookie Monster"
+			id: "188AE59F3EF07353"
+			tasks: [
+				{
+					id: "5121A052BE4B7B28"
+					type: "item"
+					item: "farmersdelight:sweet_berry_cookie"
+					count: 8L
+				}
+				{
+					id: "2303EDC8194F5D5D"
+					type: "item"
+					item: "farmersdelight:honey_cookie"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "6F664F8117798231"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 15
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			subtitle: "Now with 120% more meat!"
+			id: "775A82ACF829D2C4"
+			tasks: [{
+				id: "0277EDE99EE47633"
+				type: "item"
+				item: "kubejs:choomburgert1"
+				count: 8L
+			}]
+			rewards: [{
+				id: "228847FCFE699378"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			subtitle: "2 Patties > 1 Patty"
+			dependencies: ["775A82ACF829D2C4"]
+			id: "1AE6D8BC354FBC87"
+			tasks: [{
+				id: "30D614BB414504B7"
+				type: "item"
+				item: "kubejs:choomburgert2"
+				count: 4L
+			}]
+			rewards: [{
+				id: "129203A637D551C3"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 6
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			subtitle: "Now without onions!"
+			dependencies: ["1AE6D8BC354FBC87"]
+			id: "1AB8C633653AD36C"
+			tasks: [{
+				id: "7759DD70E466B958"
+				type: "item"
+				item: "kubejs:choomburgert3"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "348F6BD4865148F5"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 5
+				}
+				{
+					id: "08796050F5E47EB6"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "You can almost taste the nether stars"
+			dependencies: ["1AB8C633653AD36C"]
+			id: "6205B38FCEEC8640"
+			tasks: [{
+				id: "47158D809475ABDD"
+				type: "item"
+				item: "kubejs:choomburgert4"
+			}]
+			rewards: [
+				{
+					id: "15944B7A775C013A"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+					count: 5
+				}
+				{
+					id: "2EE0841987E03B6A"
+					type: "random"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			id: "0B0315CF6016B658"
+			tasks: [{
+				id: "1F4CB13C8886155F"
+				type: "item"
+				item: "kubejs:choomburittob"
+			}]
+			rewards: [
+				{
+					id: "41A9A6A7CCEEB936"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 10
+				}
+				{
+					id: "6E65E102D2AD13B6"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "328367C62B05E7CF"
+			tasks: [{
+				id: "17EB6A9991682F39"
+				type: "item"
+				item: "kubejs:choomburittoc"
+			}]
+			rewards: [
+				{
+					id: "1BE48E568BFD5A4F"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 10
+				}
+				{
+					id: "380CBAC644B664AB"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			id: "56B8AEBBCCFD5FA5"
+			tasks: [{
+				id: "59C43D04D95875DA"
+				type: "item"
+				item: "kubejs:choomburittobe"
+			}]
+			rewards: [
+				{
+					id: "6CE8CE28C2BE61E1"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 10
+				}
+				{
+					id: "062E49E06EA3FCFC"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			id: "580048B6D547A01C"
+			tasks: [{
+				id: "113BB9B5EF471924"
+				type: "item"
+				item: "farmersdelight:kelp_roll"
+			}]
+			rewards: [{
+				id: "63F8705385426140"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 10
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			id: "6A071D6ADB114184"
+			tasks: [{
+				id: "7F44343801F22FA2"
+				type: "item"
+				item: "farmersdelight:nether_salad"
+			}]
+			rewards: [{
+				id: "57A1B30619C739FD"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			subtitle: "Yummy sashimi"
+			id: "2A167650D8CD2312"
+			tasks: [{
+				id: "034DEEAEB6908D98"
+				type: "item"
+				item: "farmersdelight:salmon_slice"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0C966B5829190266"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			title: "Kitchen Upgrade Part 2"
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["7991635E07971058"]
+			id: "428C7492CD75BE0C"
+			tasks: [
+				{
+					id: "034A27B75D5A4579"
+					type: "item"
+					item: "pamhc2foodcore:mixingbowlitem"
+				}
+				{
+					id: "73009AB4B6892315"
+					type: "item"
+					item: "pamhc2foodcore:potitem"
+				}
+				{
+					id: "210C2202B1904D82"
+					type: "item"
+					item: "pamhc2foodcore:rolleritem"
+				}
+				{
+					id: "76103CEA02D9A6A2"
+					type: "item"
+					item: "pamhc2foodcore:saucepanitem"
+				}
+				{
+					id: "22EDA2BC19C0092F"
+					type: "item"
+					item: "pamhc2foodcore:skilletitem"
+				}
+			]
+			rewards: [{
+				id: "5D0073FF911751C7"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 10
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			subtitle: "Now with Onions!"
+			dependencies: ["6205B38FCEEC8640"]
+			id: "054B17CC1C6152AF"
+			tasks: [{
+				id: "3C06869551493CEB"
+				type: "item"
+				item: "kubejs:choomburgert5"
+			}]
+			rewards: [
+				{
+					id: "5FBFF5AEA25F5F04"
+					type: "loot"
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "2FE7FE459F921CC2"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+			]
+		}
+		{
+			title: "Kitchen Upgrade Part 2"
+			x: 5.0d
+			y: -4.0d
+			dependencies: ["7991635E07971058"]
+			id: "6E261C0B9FCB9FCD"
+			tasks: [
+				{
+					id: "1AD4AA84BCC3FD78"
+					type: "item"
+					item: {
+						id: "farmersdelight:iron_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A5AB689E1DCDA0A"
+					type: "item"
+					item: "pamhc2foodcore:bakewareitem"
+				}
+				{
+					id: "225CE61991D9C6C8"
+					type: "item"
+					item: "pamhc2foodcore:juiceritem"
+				}
+				{
+					id: "099770177858A080"
+					type: "item"
+					item: "pamhc2foodcore:grinderitem"
+				}
+			]
+			rewards: [{
+				id: "41F20B52DFFF7C2A"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 10
+			}]
+		}
+	]
+}
