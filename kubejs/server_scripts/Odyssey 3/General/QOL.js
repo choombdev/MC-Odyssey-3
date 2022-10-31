@@ -45,16 +45,5 @@ onEvent('recipes', event => {
       A: '#minecraft:logs'
     })
 
-  // Easy Quartz Recipe
-  let rawquartz = 'byg:raw_quartz_block'
-  let quartz = 'minecraft:quartz' 
-  event.recipes.createCrushing(quartz, rawquartz)
-  event.recipes.immersiveengineeringCrusher(quartz, rawquartz)
-  event.recipes.thermal.pulverizer(quartz, rawquartz)
-  event.recipes.mekanismCrushing(quartz, rawquartz)
-  
-  // Quartizite Alternative
-  event.recipes.createCrushing(['minecraft:quartz'.withChance(0.3), 'minecraft:sand'.withChance(0.6)], 'byg:quartzite_sand')
-
   })
   

@@ -625,10 +625,10 @@
 					Count: 1b
 					tag: {
 						state: {
-							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
+							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -976,18 +976,6 @@
 					item: "lightmanscurrency:coinpile_copper"
 				}
 			]
-		}
-		{
-			x: -9.0d
-			y: 2.5d
-			subtitle: "Checking TPS!"
-			description: ["Getting block lag? Hit CTRL+TAB and find your TPS out rather quickly (instead of having to type in /spark TPS!)"]
-			id: "6D2D11C9422AD7FB"
-			tasks: [{
-				id: "5F0E126829DD9C30"
-				type: "checkmark"
-				title: "Player Menu"
-			}]
 		}
 		{
 			x: -9.0d

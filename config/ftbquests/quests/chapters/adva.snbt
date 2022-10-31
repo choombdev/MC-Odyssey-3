@@ -2942,9 +2942,9 @@
 					table_id: 6662433201225807513L
 				}
 				{
-					id: "10F6543D7C76A3D0"
+					id: "171759540E9303F6"
 					type: "item"
-					item: "lightmanscurrency:coin_netherite"
+					item: "lightmanscurrency:coin_diamond"
 				}
 			]
 		}
@@ -3247,7 +3247,7 @@
 				{
 					id: "0EF9C63A2791A89D"
 					type: "item"
-					item: "lightmanscurrency:coin_netherite"
+					item: "lightmanscurrency:coin_diamond"
 				}
 			]
 		}

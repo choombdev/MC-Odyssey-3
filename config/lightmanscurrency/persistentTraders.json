@@ -430,7 +430,7 @@
           "TradeType": "PURCHASE",
           "Price": [
             {
-              "Coin": "lightmanscurrency:coin_emerald",
+              "Coin": "lightmanscurrency:coin_iron",
               "Count": 1
             }
           ],
@@ -441,11 +441,11 @@
           "TradeType": "PURCHASE",
           "Price": [
             {
-              "Coin": "lightmanscurrency:coin_emerald",
+              "Coin": "lightmanscurrency:coin_gold",
               "Count": 6
             },
             {
-              "Coin": "lightmanscurrency:coin_gold",
+              "Coin": "lightmanscurrency:coin_iron",
               "Count": 10
             }
           ],
@@ -456,11 +456,11 @@
           "TradeType": "PURCHASE",
           "Price": [
             {
-              "Coin": "lightmanscurrency:coin_diamond",
+              "Coin": "lightmanscurrency:coin_emerald",
               "Count": 1
             },
             {
-              "Coin": "lightmanscurrency:coin_emerald",
+              "Coin": "lightmanscurrency:coin_gold",
               "Count": 5
             }
           ],
@@ -472,7 +472,7 @@
           "Price": [
             {
               "Coin": "lightmanscurrency:coin_gold",
-              "Count": 5
+              "Count": 6
             }
           ],
           "Quantity": 1000,
@@ -766,11 +766,11 @@
           },
           "Price": [
             {
-              "Coin": "lightmanscurrency:coin_diamond",
+              "Coin": "lightmanscurrency:coin_netherite",
               "Count": 1
             },
             {
-              "Coin": "lightmanscurrency:coin_emerald",
+              "Coin": "lightmanscurrency:coin_diamond",
               "Count": 5
             }
           ]

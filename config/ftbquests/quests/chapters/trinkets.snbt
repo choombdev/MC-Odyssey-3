@@ -393,5 +393,297 @@
 				item: "lightmanscurrency:coin_gold"
 			}]
 		}
+		{
+			x: 0.0d
+			y: -6.5d
+			id: "702C63BAFA08919F"
+			tasks: [{
+				id: "2C3FF51B2A1E44AF"
+				type: "item"
+				item: "kubejs:particle_accelerator"
+			}]
+			rewards: [
+				{
+					id: "4C3377F54AEB836B"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "3593AD967C81B26B"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+				{
+					id: "694BDE991ACC3804"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			id: "4933DFB0FAD379CC"
+			tasks: [{
+				id: "55260B3FE9E33744"
+				type: "item"
+				item: "kubejs:necklaceofshields"
+			}]
+			rewards: [{
+				id: "4CF92D3F9974723F"
+				type: "loot"
+				table_id: 6662433201225807513L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			id: "3F21953D77775E0E"
+			tasks: [{
+				id: "5DCF7C51E20F3EF0"
+				type: "item"
+				item: "kubejs:sacrifice_ring"
+			}]
+			rewards: [
+				{
+					id: "02E88FC53F633B63"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "421A788ABD1182C9"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -8.0d
+			id: "551FB5225E3EAD6B"
+			tasks: [{
+				id: "40AD429321EC9291"
+				type: "item"
+				item: "kubejs:one_ring"
+			}]
+			rewards: [
+				{
+					id: "13E3CAFF72A27A89"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "7FCEF7283EE3B98E"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			id: "3FA973093B29BD4C"
+			tasks: [{
+				id: "0840FEB5142E932D"
+				type: "item"
+				item: "kubejs:ironring"
+			}]
+			rewards: [{
+				id: "175BB8FEFD58228C"
+				type: "loot"
+				table_id: 6662433201225807513L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.5d
+			id: "40A59C33F064FB8F"
+			tasks: [{
+				id: "0B9F443AB0BC737F"
+				type: "item"
+				item: "kubejs:upgradedironring"
+			}]
+			rewards: [
+				{
+					id: "0AE050C065445498"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "1E84FB2DCCA16B89"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -9.5d
+			id: "6C5EFBF11C979124"
+			tasks: [{
+				id: "62A1E30738C631AD"
+				type: "item"
+				item: "kubejs:dwarfcharm"
+			}]
+			rewards: [
+				{
+					id: "4F514AEF353A2D8E"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "47167C929AD177DB"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			id: "128FF273B9DC2EB1"
+			tasks: [{
+				id: "1BC2118E5EDAB89E"
+				type: "item"
+				item: "kubejs:jaroffloating"
+			}]
+			rewards: [
+				{
+					id: "7EFC0F42843F6EB5"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "4186F9E4252BB1C2"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -11.0d
+			id: "0E9A8BC7D31AEE14"
+			tasks: [{
+				id: "664DD46320E53FC1"
+				type: "item"
+				item: "kubejs:flagofwarcry"
+			}]
+			rewards: [
+				{
+					id: "055C3329E6520ED5"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "30D9863E000609F1"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+				{
+					id: "713BC8458B028E71"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -12.5d
+			id: "3234112039BC05F4"
+			tasks: [{
+				id: "1DAE364035C612A1"
+				type: "item"
+				item: "kubejs:avalon"
+			}]
+			rewards: [
+				{
+					id: "4E572B4EB3F9879C"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "783F5C52177005EE"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+				{
+					id: "2CE44B7B8B1F387E"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -12.5d
+			id: "2076F7E98FB83DD0"
+			tasks: [{
+				id: "602EDBA984BFEA60"
+				type: "item"
+				item: "kubejs:wingedhelmet"
+			}]
+			rewards: [
+				{
+					id: "16EEFFEDCFCBEDBA"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "7A52E35F8EB1906C"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -14.0d
+			id: "286C7D9A86D25877"
+			tasks: [{
+				id: "5980E332E12CCA5B"
+				type: "item"
+				item: "kubejs:mermaidsoul"
+			}]
+			rewards: [
+				{
+					id: "0E20D7869198D948"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "526CA81C6B9C7B19"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -14.0d
+			id: "4552444F6627CE43"
+			tasks: [{
+				id: "6A394944E6251547"
+				type: "item"
+				item: "kubejs:lastchance"
+			}]
+			rewards: [
+				{
+					id: "3058074EFD1AACBE"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "7FA5892BDD143A28"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+				{
+					id: "13F29ACA12BAC301"
+					type: "loot"
+					table_id: 6662433201225807513L
+				}
+			]
+		}
 	]
 }
