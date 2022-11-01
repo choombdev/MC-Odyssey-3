@@ -1015,7 +1015,7 @@
 		}
 		{
 			title: "Iron Furnaces"
-			x: 0.5d
+			x: 1.0d
 			y: -1.5d
 			subtitle: "This isn't an Iron Furnace?"
 			description: ["Well, we all start somewhere."]
@@ -1041,7 +1041,7 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: -2.5d
 			subtitle: "Speed"
 			description: [
@@ -1069,7 +1069,7 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: -4.0d
 			subtitle: "More Speed"
 			description: ["This Furnace is 80 Ticks faster than Stone"]
@@ -1095,7 +1095,7 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: -5.5d
 			subtitle: "Even More Speed"
 			description: ["This Furnace is 120 Ticks faster than Stone"]
@@ -1120,7 +1120,7 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: -7.0d
 			subtitle: "Faster!"
 			description: [
@@ -1149,7 +1149,7 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: -8.5d
 			subtitle: "Even Faster (but careful)"
 			description: ["Other than being TNT Proof, This Furnace is 180 Ticks faster than Stone"]
@@ -1304,7 +1304,7 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: -10.0d
 			subtitle: "Now we're done."
 			description: ["This Furnace is 195 Ticks faster than Stone"]
@@ -1727,8 +1727,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.5d
+			x: 5.0d
+			y: 0.5d
 			description: [
 				"With enough Rarity Materials, place down the Reforger and surround it with bookshelves, just like with an Enchanting Table, then stock up on EXP. "
 				"Insert Gem Dust, Your tool and the Rarity Material of choice (Numbers vary!) and create a brand new random affix!"
@@ -1801,6 +1801,22 @@
 					item: "apotheosis:common_material"
 				}
 			]
+		}
+		{
+			title: "Task Screens"
+			x: 1.0d
+			y: -2.5d
+			description: [
+				"Task Screens are finally back!"
+				"They can be used to automatically complete some quests."
+			]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "46B655C67F1E8BA7"
+			tasks: [{
+				id: "7D0546955F2F92E9"
+				type: "item"
+				item: "ftbquests:screen_1"
+			}]
 		}
 	]
 }

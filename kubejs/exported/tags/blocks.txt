@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 29, 2022, 7:27:50 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 1, 2022, 8:22:26 PM
 
 #chipped:black_stained_glass
 - minecraft:black_stained_glass
@@ -267,6 +267,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:white_carpet_18
 - chipped:white_carpet_19
 - chipped:white_carpet_20
+
+#forge:ices/packed
+- minecraft:packed_ice
 
 #c:plantable_blocks
 - byg:lush_farmland
@@ -620,6 +623,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:fern
 - minecraft:large_fern
 - #minecraft:flowers
+
+#createbigcannons:grapeshot_shatterable
+- #createbigcannons:shrapnel_shatterable
+- #createbigcannons:shrapnel_vulnerable
 
 #infernalexp:buried_bone_base_blocks
 - infernalexp:glowdust_sand
@@ -1603,6 +1610,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:arcane_darkstone_pedestal
 - supercircuitmaker:circuit
 - supercircuitmaker:inspector
+- silentgear:raw_azure_silver_block
+- silentgear:raw_crimson_iron_block
 
 #mna:construct_plantable_grass
 - #minecraft:dirt
@@ -3131,6 +3140,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #occultism:netherrack
 - minecraft:netherrack
 
+#forge:storage_blocks/tyrian_steel
+- silentgear:tyrian_steel_block
+
 #chipped:purple_terracotta
 - minecraft:purple_terracotta
 - chipped:purple_terracotta_1
@@ -3437,6 +3449,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #minecraft:ice
 - #minecraft:leaves
 
+#forge:ices/blue
+- minecraft:blue_ice
+
 #elementalcraft:rune_affected/luck
 - elementalcraft:crystallizer
 - elementalcraft:purifier
@@ -3571,6 +3586,56 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - ars_elemental:yellow_archwood_sapling
 - forbidden_arcanus:cherrywood_sapling
 - forbidden_arcanus:mysterywood_sapling
+- pamhc2trees:apple_sapling
+- pamhc2trees:avocado_sapling
+- pamhc2trees:candlenut_sapling
+- pamhc2trees:cherry_sapling
+- pamhc2trees:chestnut_sapling
+- pamhc2trees:gooseberry_sapling
+- pamhc2trees:lemon_sapling
+- pamhc2trees:nutmeg_sapling
+- pamhc2trees:orange_sapling
+- pamhc2trees:peach_sapling
+- pamhc2trees:pear_sapling
+- pamhc2trees:plum_sapling
+- pamhc2trees:walnut_sapling
+- pamhc2trees:spiderweb_sapling
+- pamhc2trees:hazelnut_sapling
+- pamhc2trees:pawpaw_sapling
+- pamhc2trees:soursop_sapling
+- pamhc2trees:almond_sapling
+- pamhc2trees:apricot_sapling
+- pamhc2trees:banana_sapling
+- pamhc2trees:cashew_sapling
+- pamhc2trees:cinnamon_sapling
+- pamhc2trees:coconut_sapling
+- pamhc2trees:date_sapling
+- pamhc2trees:dragonfruit_sapling
+- pamhc2trees:durian_sapling
+- pamhc2trees:fig_sapling
+- pamhc2trees:grapefruit_sapling
+- pamhc2trees:lime_sapling
+- pamhc2trees:mango_sapling
+- pamhc2trees:olive_sapling
+- pamhc2trees:papaya_sapling
+- pamhc2trees:paperbark_sapling
+- pamhc2trees:pecan_sapling
+- pamhc2trees:peppercorn_sapling
+- pamhc2trees:persimmon_sapling
+- pamhc2trees:pistachio_sapling
+- pamhc2trees:pomegranate_sapling
+- pamhc2trees:starfruit_sapling
+- pamhc2trees:vanillabean_sapling
+- pamhc2trees:breadfruit_sapling
+- pamhc2trees:guava_sapling
+- pamhc2trees:jackfruit_sapling
+- pamhc2trees:lychee_sapling
+- pamhc2trees:passionfruit_sapling
+- pamhc2trees:rambutan_sapling
+- pamhc2trees:tamarind_sapling
+- pamhc2trees:maple_sapling
+- pamhc2trees:pinenut_sapling
+- silentgear:netherwood_sapling
 
 #occultism:candles
 - occultism:candle_white
@@ -3698,6 +3763,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:cherrywood_fence
 - forbidden_arcanus:mysterywood_fence
 - forbidden_arcanus:edelwood_fence
+- silentgear:netherwood_fence
 
 #chipped:hay_block
 - minecraft:hay_block
@@ -4450,6 +4516,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:blue_skies/hanging_sign_dusk
 - supplementaries:blue_skies/hanging_sign_maple
 - supplementaries:blue_skies/hanging_sign_cherry
+- supplementaries:silentgear/hanging_sign_netherwood
 - supplementaries:twilightforest/hanging_sign_twilight_oak
 - supplementaries:twilightforest/hanging_sign_canopy
 - supplementaries:twilightforest/hanging_sign_mangrove
@@ -4465,8 +4532,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:tconstruct/hanging_sign_greenheart
 - supplementaries:tconstruct/hanging_sign_skyroot
 - supplementaries:tconstruct/hanging_sign_bloodshroom
-- supplementaries:quark/hanging_sign_azalea
 - supplementaries:quark/hanging_sign_blossom
+- supplementaries:quark/hanging_sign_azalea
 - supplementaries:valhelsia_structures/hanging_sign_lapidified_jungle
 - supplementaries:forbidden_arcanus/hanging_sign_fungyss
 - supplementaries:forbidden_arcanus/hanging_sign_cherrywood
@@ -4486,6 +4553,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:birch_trapdoor_9
 - chipped:birch_trapdoor_10
 - chipped:birch_trapdoor_11
+
+#silentgear:fluffy_blocks
+- silentgear:white_fluffy_block
+- silentgear:orange_fluffy_block
+- silentgear:magenta_fluffy_block
+- silentgear:light_blue_fluffy_block
+- silentgear:yellow_fluffy_block
+- silentgear:lime_fluffy_block
+- silentgear:pink_fluffy_block
+- silentgear:gray_fluffy_block
+- silentgear:light_gray_fluffy_block
+- silentgear:cyan_fluffy_block
+- silentgear:purple_fluffy_block
+- silentgear:blue_fluffy_block
+- silentgear:brown_fluffy_block
+- silentgear:green_fluffy_block
+- silentgear:red_fluffy_block
+- silentgear:black_fluffy_block
 
 #tconstruct:tables
 - tconstruct:crafting_station
@@ -7613,6 +7698,65 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #chipped:dark_oak_log
 - #chipped:warped_stem
 - #chipped:crimson_stem
+- #silentgear:netherwood_logs
+- silentgear:gear_smithing_table
+- silentgear:netherwood_planks
+- silentgear:netherwood_slab
+- silentgear:netherwood_stairs
+- silentgear:netherwood_fence
+- silentgear:netherwood_fence_gate
+- silentgear:netherwood_door
+- silentgear:netherwood_trapdoor
+- functionalstorage:oak_2
+- functionalstorage:spruce_2
+- functionalstorage:birch_2
+- functionalstorage:jungle_2
+- functionalstorage:acacia_2
+- functionalstorage:dark_oak_2
+- functionalstorage:crimson_2
+- functionalstorage:warped_2
+- functionalstorage:framed_2
+- functionalstorage:oak_4
+- functionalstorage:spruce_4
+- functionalstorage:birch_4
+- functionalstorage:jungle_4
+- functionalstorage:acacia_4
+- functionalstorage:dark_oak_4
+- functionalstorage:crimson_4
+- functionalstorage:warped_4
+- functionalstorage:framed_4
+- functionalstorage:oak_1
+- functionalstorage:spruce_1
+- functionalstorage:birch_1
+- functionalstorage:jungle_1
+- functionalstorage:acacia_1
+- functionalstorage:dark_oak_1
+- functionalstorage:crimson_1
+- functionalstorage:warped_1
+- functionalstorage:framed_1
+- createbigcannons:log_cannon_chamber
+- createbigcannons:log_cannon_end
+- createbigcannons:cannon_loader
+- createbigcannons:ram_head
+- createbigcannons:worm_head
+- createbigcannons:cannon_mount
+- createbigcannons:yaw_controller
+- createbigcannons:cannon_drill
+- createbigcannons:cannon_drill_bit
+- createbigcannons:cannon_builder
+- createbigcannons:cannon_builder_head
+- createbigcannons:solid_shot
+- createbigcannons:he_shell
+- createbigcannons:shrapnel_shell
+- createbigcannons:ap_shell
+- createbigcannons:very_small_cast_mould
+- createbigcannons:small_cast_mould
+- createbigcannons:medium_cast_mould
+- createbigcannons:large_cast_mould
+- createbigcannons:very_large_cast_mould
+- createbigcannons:cannon_end_cast_mould
+- createbigcannons:sliding_breech_cast_mould
+- createbigcannons:screw_breech_cast_mould
 
 #chipped:brown_mushroom
 - minecraft:brown_mushroom
@@ -8614,6 +8758,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:bone_block_10
 - chipped:bone_block_11
 
+#forge:storage_blocks/raw_crimson_iron
+- silentgear:raw_crimson_iron_block
+
 #c:sand/white
 - byg:white_sand
 
@@ -9135,6 +9282,43 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #buildinggadgets:blacklist/building
 - #buildinggadgets:blacklist/generic
 
+#createbigcannons:shrapnel_vulnerable
+- #minecraft:planks
+- #minecraft:wooden_slabs
+- #minecraft:wooden_stairs
+- #minecraft:wooden_fences
+- #minecraft:fence_gates
+- #minecraft:logs
+- #minecraft:wooden_doors
+- #minecraft:wooden_trapdoors
+- minecraft:melon
+- minecraft:pumpkin
+- create:belt
+- create:shaft
+- create:cogwheel
+- create:large_cogwheel
+- create:powered_shaft
+- create:gantry_shaft
+- create:andesite_casing
+- create:andesite_encased_cogwheel
+- create:andesite_encased_large_cogwheel
+- create:andesite_encased_shaft
+- create:mechanical_bearing
+- create:mechanical_drill
+- create:mechanical_harvester
+- create:mechanical_mixer
+- create:mechanical_piston
+- create:mechanical_piston_head
+- create:mechanical_plough
+- create:mechanical_press
+- create:mechanical_saw
+- create:sticky_mechanical_piston
+- create:piston_extension_pole
+- create:rope_pulley
+- create:andesite_tunnel
+- create:andesite_belt_funnel
+- create:andesite_funnel
+
 #minecraft:wither_summon_base_blocks
 - minecraft:soul_sand
 - minecraft:soul_soil
@@ -9335,6 +9519,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:purple_wool_19
 - chipped:purple_wool_20
 
+#forge:storage_blocks/crimson_iron
+- silentgear:crimson_iron_block
+
 #chipped:pink_glazed_terracotta
 - minecraft:pink_glazed_terracotta
 - chipped:pink_glazed_terracotta_1
@@ -9416,6 +9603,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #botania:terrasteel_blocks
 - botania:terrasteel_block
 
+#silentgear:prospector_hammer_targets
+- minecraft:ancient_debris
+- #forge:ores
+
 #refinedstorage:storage_blocks/items/262144k
 - extradisks:262144k_storage_block
 
@@ -9441,6 +9632,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:seagrass
 - #minecraft:corals
 - #minecraft:wall_corals
+
+#createbigcannons:shrapnel_shatterable
+- #minecraft:impermeable
+- #forge:glass_panes
+- #minecraft:leaves
+- #minecraft:wool
+- #minecraft:flower_pots
+- minecraft:tripwire
+- create:framed_glass_door
+- create:framed_glass_trapdoor
+- create:rope
 
 #forge:storage_blocks/raw_cloggrum
 - undergarden:raw_cloggrum_block
@@ -9590,6 +9792,57 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:storage_blocks/fluorite
 - mekanism:block_fluorite
+
+#createbigcannons:drill_can_pass_through
+- createbigcannons:log_cannon_chamber
+- createbigcannons:log_cannon_end
+- createbigcannons:wrought_iron_cannon_chamber
+- createbigcannons:cast_iron_cannon_barrel
+- createbigcannons:cast_iron_cannon_chamber
+- createbigcannons:unbored_cast_iron_cannon_barrel
+- createbigcannons:unbored_cast_iron_cannon_chamber
+- createbigcannons:unbored_cast_iron_sliding_breech
+- createbigcannons:bronze_cannon_barrel
+- createbigcannons:bronze_cannon_chamber
+- createbigcannons:unbored_bronze_cannon_barrel
+- createbigcannons:unbored_bronze_cannon_chamber
+- createbigcannons:unbored_bronze_sliding_breech
+- createbigcannons:steel_cannon_barrel
+- createbigcannons:built_up_steel_cannon_barrel
+- createbigcannons:steel_cannon_chamber
+- createbigcannons:built_up_steel_cannon_chamber
+- createbigcannons:thick_steel_cannon_chamber
+- createbigcannons:very_small_steel_cannon_layer
+- createbigcannons:small_steel_cannon_layer
+- createbigcannons:medium_steel_cannon_layer
+- createbigcannons:large_steel_cannon_layer
+- createbigcannons:very_large_steel_cannon_layer
+- createbigcannons:unbored_very_small_steel_cannon_layer
+- createbigcannons:unbored_small_steel_cannon_layer
+- createbigcannons:unbored_medium_steel_cannon_layer
+- createbigcannons:unbored_large_steel_cannon_layer
+- createbigcannons:unbored_very_large_steel_cannon_layer
+- createbigcannons:unbored_steel_sliding_breech
+- createbigcannons:unbored_steel_screw_breech
+- createbigcannons:nethersteel_cannon_barrel
+- createbigcannons:built_up_nethersteel_cannon_barrel
+- createbigcannons:nethersteel_cannon_chamber
+- createbigcannons:built_up_nethersteel_cannon_chamber
+- createbigcannons:thick_nethersteel_cannon_chamber
+- createbigcannons:very_small_nethersteel_cannon_layer
+- createbigcannons:small_nethersteel_cannon_layer
+- createbigcannons:medium_nethersteel_cannon_layer
+- createbigcannons:large_nethersteel_cannon_layer
+- createbigcannons:very_large_nethersteel_cannon_layer
+- createbigcannons:unbored_very_small_nethersteel_cannon_layer
+- createbigcannons:unbored_small_nethersteel_cannon_layer
+- createbigcannons:unbored_medium_nethersteel_cannon_layer
+- createbigcannons:unbored_large_nethersteel_cannon_layer
+- createbigcannons:unbored_very_large_nethersteel_cannon_layer
+- createbigcannons:nethersteel_screw_breech
+- createbigcannons:incomplete_nethersteel_screw_breech
+- createbigcannons:unbored_nethersteel_screw_breech
+- createbigcannons:built_up_cannon
 
 #chipped:yellow_carpet
 - minecraft:yellow_carpet
@@ -9931,6 +10184,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - hexcasting:akashic_log_stripped
 - hexcasting:akashic_wood
 - hexcasting:akashic_wood_stripped
+- #silentgear:netherwood_logs
 
 #infernalexp:anger_red_shroomloin_blocks
 - minecraft:red_mushroom_block
@@ -17748,6 +18002,211 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - compactmachines:machine_small
 - supercircuitmaker:circuit
 - supercircuitmaker:inspector
+- #forge:ores/bort
+- #forge:ores/crimson_iron
+- #forge:ores/azure_silver
+- silentgear:raw_crimson_iron_block
+- silentgear:raw_azure_silver_block
+- #forge:storage_blocks/azure_silver
+- #forge:storage_blocks/azure_electrum
+- #forge:storage_blocks/bort
+- #forge:storage_blocks/blaze_gold
+- #forge:storage_blocks/crimson_iron
+- #forge:storage_blocks/crimson_steel
+- #forge:storage_blocks/tyrian_steel
+- silentgear:material_grader
+- silentgear:salvager
+- silentgear:starlight_charger
+- silentgear:metal_alloyer
+- silentgear:recrystallizer
+- silentgear:refabricator
+- silentgear:metal_press
+- silentgear:netherwood_charcoal_block
+- functionalstorage:compacting_drawer
+- functionalstorage:storage_controller
+- functionalstorage:armory_cabinet
+- functionalstorage:ender_drawer
+- functionalstorage:compacting_framed_drawer
+- laserio:laser_node
+- laserio:laser_connector
+- powah:energy_cell_starter
+- powah:energy_cell_basic
+- powah:energy_cell_hardened
+- powah:energy_cell_blazing
+- powah:energy_cell_niotic
+- powah:energy_cell_spirited
+- powah:energy_cell_nitro
+- powah:energy_cell_creative
+- powah:ender_cell_starter
+- powah:ender_cell_basic
+- powah:ender_cell_hardened
+- powah:ender_cell_blazing
+- powah:ender_cell_niotic
+- powah:ender_cell_spirited
+- powah:ender_cell_nitro
+- powah:energy_cable_starter
+- powah:energy_cable_basic
+- powah:energy_cable_hardened
+- powah:energy_cable_blazing
+- powah:energy_cable_niotic
+- powah:energy_cable_spirited
+- powah:energy_cable_nitro
+- powah:ender_gate_starter
+- powah:ender_gate_basic
+- powah:ender_gate_hardened
+- powah:ender_gate_blazing
+- powah:ender_gate_niotic
+- powah:ender_gate_spirited
+- powah:ender_gate_nitro
+- powah:energizing_orb
+- powah:energizing_rod_starter
+- powah:energizing_rod_basic
+- powah:energizing_rod_hardened
+- powah:energizing_rod_blazing
+- powah:energizing_rod_niotic
+- powah:energizing_rod_spirited
+- powah:energizing_rod_nitro
+- powah:furnator_starter
+- powah:furnator_basic
+- powah:furnator_hardened
+- powah:furnator_blazing
+- powah:furnator_niotic
+- powah:furnator_spirited
+- powah:furnator_nitro
+- powah:magmator_starter
+- powah:magmator_basic
+- powah:magmator_hardened
+- powah:magmator_blazing
+- powah:magmator_niotic
+- powah:magmator_spirited
+- powah:magmator_nitro
+- powah:thermo_generator_starter
+- powah:thermo_generator_basic
+- powah:thermo_generator_hardened
+- powah:thermo_generator_blazing
+- powah:thermo_generator_niotic
+- powah:thermo_generator_spirited
+- powah:thermo_generator_nitro
+- powah:solar_panel_starter
+- powah:solar_panel_basic
+- powah:solar_panel_hardened
+- powah:solar_panel_blazing
+- powah:solar_panel_niotic
+- powah:solar_panel_spirited
+- powah:solar_panel_nitro
+- powah:reactor_starter
+- powah:reactor_basic
+- powah:reactor_hardened
+- powah:reactor_blazing
+- powah:reactor_niotic
+- powah:reactor_spirited
+- powah:reactor_nitro
+- powah:player_transmitter_starter
+- powah:player_transmitter_basic
+- powah:player_transmitter_hardened
+- powah:player_transmitter_blazing
+- powah:player_transmitter_niotic
+- powah:player_transmitter_spirited
+- powah:player_transmitter_nitro
+- powah:energy_hopper_starter
+- powah:energy_hopper_basic
+- powah:energy_hopper_hardened
+- powah:energy_hopper_blazing
+- powah:energy_hopper_niotic
+- powah:energy_hopper_spirited
+- powah:energy_hopper_nitro
+- powah:energy_discharger_starter
+- powah:energy_discharger_basic
+- powah:energy_discharger_hardened
+- powah:energy_discharger_blazing
+- powah:energy_discharger_niotic
+- powah:energy_discharger_spirited
+- powah:energy_discharger_nitro
+- powah:energized_steel_block
+- powah:blazing_crystal_block
+- powah:niotic_crystal_block
+- powah:spirited_crystal_block
+- powah:nitro_crystal_block
+- powah:uraninite_block
+- powah:deepslate_uraninite_ore_poor
+- powah:deepslate_uraninite_ore
+- powah:deepslate_uraninite_ore_dense
+- powah:uraninite_ore_poor
+- powah:uraninite_ore
+- powah:uraninite_ore_dense
+- powah:dry_ice
+- createbigcannons:wrought_iron_cannon_chamber
+- createbigcannons:wrought_iron_cannon_end
+- createbigcannons:cast_iron_cannon_barrel
+- createbigcannons:cast_iron_cannon_chamber
+- createbigcannons:cast_iron_cannon_end
+- createbigcannons:cast_iron_sliding_breech
+- createbigcannons:unbored_cast_iron_cannon_barrel
+- createbigcannons:unbored_cast_iron_cannon_chamber
+- createbigcannons:incomplete_cast_iron_sliding_breech
+- createbigcannons:unbored_cast_iron_sliding_breech
+- createbigcannons:bronze_cannon_barrel
+- createbigcannons:bronze_cannon_chamber
+- createbigcannons:bronze_cannon_end
+- createbigcannons:bronze_sliding_breech
+- createbigcannons:unbored_bronze_cannon_barrel
+- createbigcannons:unbored_bronze_cannon_chamber
+- createbigcannons:incomplete_bronze_sliding_breech
+- createbigcannons:unbored_bronze_sliding_breech
+- createbigcannons:steel_cannon_barrel
+- createbigcannons:built_up_steel_cannon_barrel
+- createbigcannons:steel_cannon_chamber
+- createbigcannons:built_up_steel_cannon_chamber
+- createbigcannons:thick_steel_cannon_chamber
+- createbigcannons:very_small_steel_cannon_layer
+- createbigcannons:small_steel_cannon_layer
+- createbigcannons:medium_steel_cannon_layer
+- createbigcannons:large_steel_cannon_layer
+- createbigcannons:very_large_steel_cannon_layer
+- createbigcannons:unbored_very_small_steel_cannon_layer
+- createbigcannons:unbored_small_steel_cannon_layer
+- createbigcannons:unbored_medium_steel_cannon_layer
+- createbigcannons:unbored_large_steel_cannon_layer
+- createbigcannons:unbored_very_large_steel_cannon_layer
+- createbigcannons:steel_sliding_breech
+- createbigcannons:incomplete_steel_sliding_breech
+- createbigcannons:unbored_steel_sliding_breech
+- createbigcannons:steel_screw_breech
+- createbigcannons:incomplete_steel_screw_breech
+- createbigcannons:unbored_steel_screw_breech
+- createbigcannons:nethersteel_cannon_barrel
+- createbigcannons:built_up_nethersteel_cannon_barrel
+- createbigcannons:nethersteel_cannon_chamber
+- createbigcannons:built_up_nethersteel_cannon_chamber
+- createbigcannons:thick_nethersteel_cannon_chamber
+- createbigcannons:very_small_nethersteel_cannon_layer
+- createbigcannons:small_nethersteel_cannon_layer
+- createbigcannons:medium_nethersteel_cannon_layer
+- createbigcannons:large_nethersteel_cannon_layer
+- createbigcannons:very_large_nethersteel_cannon_layer
+- createbigcannons:unbored_very_small_nethersteel_cannon_layer
+- createbigcannons:unbored_small_nethersteel_cannon_layer
+- createbigcannons:unbored_medium_nethersteel_cannon_layer
+- createbigcannons:unbored_large_nethersteel_cannon_layer
+- createbigcannons:unbored_very_large_nethersteel_cannon_layer
+- createbigcannons:nethersteel_screw_breech
+- createbigcannons:incomplete_nethersteel_screw_breech
+- createbigcannons:unbored_nethersteel_screw_breech
+- createbigcannons:cannon_loader
+- createbigcannons:ram_head
+- createbigcannons:worm_head
+- createbigcannons:cannon_mount
+- createbigcannons:yaw_controller
+- createbigcannons:cannon_drill
+- createbigcannons:cannon_drill_bit
+- createbigcannons:cannon_builder
+- createbigcannons:cannon_builder_head
+- createbigcannons:built_up_cannon
+- createbigcannons:solid_shot
+- createbigcannons:he_shell
+- createbigcannons:shrapnel_shell
+- createbigcannons:ap_shell
+- createbigcannons:basin_foundry_lid
 
 #twilightforest:storage_blocks/ironwood
 - twilightforest:ironwood_block
@@ -18401,6 +18860,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #chipped:oak_leaves
 - #chipped:spruce_leaves
 - #chipped:dark_oak_leaves
+- silentgear:netherwood_leaves
 
 #chipped:jungle_trapdoor
 - minecraft:jungle_trapdoor
@@ -19588,6 +20048,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #byg:may_place_on/baobab_sapling
 - #minecraft:dirt
 
+#forge:ores/azure_silver
+- silentgear:azure_silver_ore
+
 #domum_ornamentum:bricks
 - domum_ornamentum:brown_bricks
 - domum_ornamentum:beige_bricks
@@ -19885,6 +20348,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #chipped:dark_oak_planks
 - #chipped:warped_planks
 - #chipped:crimson_planks
+- silentgear:netherwood_planks
 
 #tinkers_reforged:rock_type_blocks
 - #forge:stone
@@ -20330,6 +20794,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #byg:may_place_on/magenta_tulip
 - #minecraft:dirt
 
+#forge:ores/crimson_iron
+- silentgear:crimson_iron_ore
+
 #farmersdelight:ropes
 - farmersdelight:rope
 - quark:rope?
@@ -20640,6 +21107,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - quark:blossom_fence_gate
 - quark:nether_brick_fence_gate
 - #forge:fence_gates/wooden
+
+#forge:ices
+- #forge:ices/ice
+- #forge:ices/packed
+- #forge:ices/blue
+- #forge:ices/dry
 
 #c:grass
 - byg:prairie_grass
@@ -21682,6 +22155,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #chipped:sand
 - #chipped:snow_block
 - #chipped:soul_sand
+- createbigcannons:casting_sand
+- createbigcannons:cannon_cast
+- createbigcannons:finished_cannon_cast
 
 #byg:may_place_on/fir_sapling
 - #minecraft:dirt
@@ -22371,6 +22847,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:mysterywood_trapdoor
 - forbidden_arcanus:edelwood_trapdoor
 - hexcasting:akashic_trapdoor
+- silentgear:netherwood_trapdoor
 
 #create:valve_handles
 - create:copper_valve_handle
@@ -22458,6 +22935,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - twilightforest:keepsake_casket
 - gravestone:gravestone?
 
+#forge:storage_blocks/uraninite
+- powah:uraninite_block
+
 #minecraft:wooden_doors
 - minecraft:oak_door
 - minecraft:spruce_door
@@ -22537,6 +23017,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:mysterywood_door
 - forbidden_arcanus:edelwood_door
 - hexcasting:akashic_door
+- silentgear:netherwood_door
 
 #libx:impl_pressure_plates
 
@@ -23646,6 +24127,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:brimstone_nether_gold_ore
 - undergarden:depthrock_gold_ore
 
+#forge:storage_blocks/crimson_steel
+- silentgear:crimson_steel_block
+
 #c:ores
 - byg:ametrine_ore
 - byg:anthracite_ore
@@ -23839,6 +24323,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:spruce_door_19
 - chipped:spruce_door_20
 
+#silentgear:netherwood_logs
+- silentgear:netherwood_log
+- silentgear:stripped_netherwood_log
+- silentgear:netherwood_wood
+- silentgear:stripped_netherwood_wood
+
 #chipped:magma_block
 - minecraft:magma_block
 - chipped:magma_block_1
@@ -23949,6 +24439,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:flax
 - forbidden_arcanus:golden_orchid
 - forbidden_arcanus:strange_root
+- silentgear:flax_plant
+- silentgear:fluffy_plant
 
 #chipped:purple_stained_glass
 - minecraft:purple_stained_glass
@@ -24550,6 +25042,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:obsidian
 - minecraft:obsidian
 - minecraft:obsidian
+
+#forge:storage_blocks/blaze_gold
+- silentgear:blaze_gold_block
 
 #industrialforegoing:machine_frame/supreme
 - industrialforegoing:machine_frame_supreme
@@ -25161,6 +25656,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:runic_deepslate
 - forbidden_arcanus:runic_darkstone
 
+#createbigcannons:weak_cannon_end
+- createbigcannons:cast_iron_sliding_breech
+- createbigcannons:bronze_sliding_breech
+- createbigcannons:steel_sliding_breech
+
 #refinedstorage:storage_blocks/items/1048576k
 - extradisks:1048576k_storage_block
 
@@ -25527,6 +26027,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #chipped:shroomlight
 - #chipped:sponge
 - #chipped:warped_wart_block
+- silentgear:netherwood_leaves
 
 #chipped:light_blue_wool
 - minecraft:light_blue_wool
@@ -25648,6 +26149,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - twilightforest:transformation_fence_gate
 - twilightforest:mining_fence_gate
 - twilightforest:sorting_fence_gate
+
+#forge:ices/ice
+- minecraft:ice
 
 #byg:rainbow_eucalyptus_logs
 - byg:rainbow_eucalyptus_log
@@ -25817,6 +26321,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:purple_concrete_20
 - chipped:purple_concrete_21
 
+#silentgear:netherwood_soil
+- #forge:netherrack
+- #minecraft:dirt
+- minecraft:farmland
+
 #chipped:redstone_torch
 - minecraft:redstone_torch
 - chipped:redstone_torch_1
@@ -25866,6 +26375,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - gobber2:gobber2_block
 - gobber2:gobber2_glass
 - tconstruct:knightslime_block
+- #forge:ores/azure_silver
 
 #byg:may_place_on/withering_oak_sapling
 - #minecraft:nylium
@@ -26676,6 +27186,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:ores/netherite_scrap
 - biggerreactors:uranium_ore
 - #forge:ores/starmetal
+- #forge:ores/bort
+- #forge:ores/crimson_iron
+- #forge:ores/azure_silver
+- #forge:ores/uraninite
 
 #chipped:redstone_block
 - minecraft:redstone_block
@@ -26840,6 +27354,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #minecraft:cactus_plantable_on
 - snad:snad
 - snad:red_snad
+
+#forge:storage_blocks/raw_azure_silver
+- silentgear:raw_azure_silver_block
 
 #blue_skies:logs/bluebright
 - blue_skies:bluebright_log
@@ -27056,6 +27573,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:gilded_blackstone_67
 - chipped:gilded_blackstone_68
 - chipped:gilded_blackstone_69
+
+#createbigcannons:thick_tubing
+- createbigcannons:log_cannon_chamber
+- createbigcannons:wrought_iron_cannon_chamber
+- createbigcannons:cast_iron_cannon_chamber
+- createbigcannons:unbored_cast_iron_cannon_chamber
+- createbigcannons:bronze_cannon_chamber
+- createbigcannons:unbored_bronze_cannon_chamber
+- createbigcannons:steel_cannon_chamber
+- createbigcannons:built_up_steel_cannon_chamber
+- createbigcannons:thick_steel_cannon_chamber
+- createbigcannons:unbored_medium_steel_cannon_layer
+- createbigcannons:nethersteel_cannon_chamber
+- createbigcannons:built_up_nethersteel_cannon_chamber
+- createbigcannons:thick_nethersteel_cannon_chamber
+- createbigcannons:unbored_medium_nethersteel_cannon_layer
 
 #forge:wool/black
 - minecraft:black_wool
@@ -27340,6 +27873,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #twilightforest:portal/fluid
 - minecraft:water
 
+#forge:ices/dry
+- powah:dry_ice
+
 #forge:sandstone
 - byg:black_sandstone
 - byg:black_chiseled_sandstone
@@ -27465,6 +28001,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #libx:impl_wall_signs
 
+#forge:ores/bort
+- silentgear:bort_ore
+- silentgear:deepslate_bort_ore
+
 #twilightforest:antibuilder_ignores
 - #twilightforest:common_protections
 - gravestone:gravestone?
@@ -27495,6 +28035,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:iron_block_10
 - chipped:iron_block_11
 - chipped:iron_block_12
+
+#forge:storage_blocks/azure_electrum
+- silentgear:azure_electrum_block
 
 #byg:may_place_on/ether_sapling
 - #minecraft:dirt
@@ -28017,6 +28560,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #twilightforest:fire_jet_fuel
 - minecraft:lava
 
+#forge:storage_blocks/bort
+- silentgear:bort_block
+
 #byg:lush
 - byg:lush_farmland
 - byg:lush_grass_block
@@ -28481,6 +29027,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:storage_blocks/netherite
 - #forge:storage_blocks/fairy
 - #forge:storage_blocks/starmetal
+- #forge:storage_blocks/bort
+- #forge:storage_blocks/blaze_gold
+- #forge:storage_blocks/crimson_iron
+- #forge:storage_blocks/crimson_steel
+- #forge:storage_blocks/azure_silver
+- #forge:storage_blocks/azure_electrum
+- #forge:storage_blocks/tyrian_steel
+- powah:uraninite_block
 
 #forge:glass_panes/orange
 - minecraft:orange_stained_glass_pane
@@ -29099,6 +29653,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tinkers_reforged:hureaulite_block
 
 #mekanism:miner_blacklist
+
+#createbigcannons:grapeshot_vulnerable
+- minecraft:iron_door
+- minecraft:iron_trapdoor
+- minecraft:iron_bars
+- create:brass_casing
+- create:brass_encased_cogwheel
+- create:brass_encased_large_cogwheel
+- create:brass_encased_shaft
+- create:mechanical_crafter
+- create:mechanical_arm
+- create:copper_casing
+- create:encased_fluid_pipe
+- create:fluid_pipe
+- create:glass_fluid_pipe
+- create:fluid_valve
+- create:copper_valve_handle
+- create:mechanical_pump
+- create:hose_pulley
+- create:brass_tunnel
+- create:brass_belt_funnel
+- create:brass_funnel
 
 #minecraft:mushroom_grow_block
 - minecraft:mycelium
@@ -30085,6 +30661,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:cherrywood_stairs
 - forbidden_arcanus:mysterywood_stairs
 - forbidden_arcanus:edelwood_stairs
+- silentgear:netherwood_stairs
 
 #chipped:stripped_warped_stem
 - minecraft:stripped_warped_stem
@@ -30936,6 +31513,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:white_terracotta_65
 - chipped:white_terracotta_66
 
+#createbigcannons:reduces_spread
+- createbigcannons:cast_iron_cannon_barrel
+- createbigcannons:unbored_cast_iron_cannon_barrel
+- createbigcannons:bronze_cannon_barrel
+- createbigcannons:unbored_bronze_cannon_barrel
+- createbigcannons:steel_cannon_barrel
+- createbigcannons:built_up_steel_cannon_barrel
+- createbigcannons:unbored_very_small_steel_cannon_layer
+- createbigcannons:nethersteel_cannon_barrel
+- createbigcannons:built_up_nethersteel_cannon_barrel
+- createbigcannons:unbored_very_small_nethersteel_cannon_layer
+
 #forbidden_arcanus:mysterywood_logs
 - forbidden_arcanus:mysterywood_log
 - forbidden_arcanus:mysterywood
@@ -31334,6 +31923,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forbidden_arcanus:rune_blocks
 - #chipped:crying_obsidian
 - #chipped:obsidian
+- createbigcannons:nethersteel_cannon_barrel
+- createbigcannons:built_up_nethersteel_cannon_barrel
+- createbigcannons:nethersteel_cannon_chamber
+- createbigcannons:built_up_nethersteel_cannon_chamber
+- createbigcannons:thick_nethersteel_cannon_chamber
+- createbigcannons:very_small_nethersteel_cannon_layer
+- createbigcannons:small_nethersteel_cannon_layer
+- createbigcannons:medium_nethersteel_cannon_layer
+- createbigcannons:large_nethersteel_cannon_layer
+- createbigcannons:very_large_nethersteel_cannon_layer
+- createbigcannons:unbored_very_small_nethersteel_cannon_layer
+- createbigcannons:unbored_small_nethersteel_cannon_layer
+- createbigcannons:unbored_medium_nethersteel_cannon_layer
+- createbigcannons:unbored_large_nethersteel_cannon_layer
+- createbigcannons:unbored_very_large_nethersteel_cannon_layer
+- createbigcannons:nethersteel_screw_breech
+- createbigcannons:incomplete_nethersteel_screw_breech
+- createbigcannons:unbored_nethersteel_screw_breech
+- createbigcannons:built_up_cannon
 
 #forge:fences/plastic
 - mekanismadditions:black_plastic_fence
@@ -32370,6 +32978,48 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - compactmachines:machine_maximum
 - compactmachines:machine_normal
 - compactmachines:machine_small
+- #forge:ores/bort
+- #forge:ores/crimson_iron
+- #forge:ores/uraninite
+- createbigcannons:wrought_iron_cannon_chamber
+- createbigcannons:wrought_iron_cannon_end
+- createbigcannons:cast_iron_cannon_barrel
+- createbigcannons:cast_iron_cannon_chamber
+- createbigcannons:cast_iron_cannon_end
+- createbigcannons:cast_iron_sliding_breech
+- createbigcannons:unbored_cast_iron_cannon_barrel
+- createbigcannons:unbored_cast_iron_cannon_chamber
+- createbigcannons:incomplete_cast_iron_sliding_breech
+- createbigcannons:unbored_cast_iron_sliding_breech
+- createbigcannons:bronze_cannon_barrel
+- createbigcannons:bronze_cannon_chamber
+- createbigcannons:bronze_cannon_end
+- createbigcannons:bronze_sliding_breech
+- createbigcannons:unbored_bronze_cannon_barrel
+- createbigcannons:unbored_bronze_cannon_chamber
+- createbigcannons:incomplete_bronze_sliding_breech
+- createbigcannons:unbored_bronze_sliding_breech
+- createbigcannons:steel_cannon_barrel
+- createbigcannons:built_up_steel_cannon_barrel
+- createbigcannons:steel_cannon_chamber
+- createbigcannons:built_up_steel_cannon_chamber
+- createbigcannons:thick_steel_cannon_chamber
+- createbigcannons:very_small_steel_cannon_layer
+- createbigcannons:small_steel_cannon_layer
+- createbigcannons:medium_steel_cannon_layer
+- createbigcannons:large_steel_cannon_layer
+- createbigcannons:very_large_steel_cannon_layer
+- createbigcannons:unbored_very_small_steel_cannon_layer
+- createbigcannons:unbored_small_steel_cannon_layer
+- createbigcannons:unbored_medium_steel_cannon_layer
+- createbigcannons:unbored_large_steel_cannon_layer
+- createbigcannons:unbored_very_large_steel_cannon_layer
+- createbigcannons:steel_sliding_breech
+- createbigcannons:incomplete_steel_sliding_breech
+- createbigcannons:unbored_steel_sliding_breech
+- createbigcannons:steel_screw_breech
+- createbigcannons:incomplete_steel_screw_breech
+- createbigcannons:unbored_steel_screw_breech
 
 #byg:scaffolding
 - byg:sythian_scaffolding
@@ -32461,6 +33111,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:mysterywood_slab
 - forbidden_arcanus:edelwood_slab
 - hexcasting:akashic_slab
+- silentgear:netherwood_slab
 
 #blue_skies:logs/lunar
 - blue_skies:lunar_log
@@ -33122,6 +33773,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - immersiveengineering:ore_silver
 - immersiveengineering:deepslate_ore_silver
 
+#forge:ores/uraninite
+- powah:uraninite_ore
+- powah:uraninite_ore_poor
+- powah:uraninite_ore_dense
+- powah:deepslate_uraninite_ore
+- powah:deepslate_uraninite_ore_poor
+- powah:deepslate_uraninite_ore_dense
+
 #valhelsia_core:offset_rendering
 - forbidden_arcanus:cherrywood_leaf_carpet
 
@@ -33476,6 +34135,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - elementalcraft:purifier
 - elementalcraft:air_mill
 - elementalcraft:binder_improved
+
+#forge:storage_blocks/azure_silver
+- silentgear:azure_silver_block
 
 #chipped:magenta_stained_glass
 - minecraft:magenta_stained_glass

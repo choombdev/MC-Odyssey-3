@@ -1158,5 +1158,226 @@
 				count: 3
 			}]
 		}
+		{
+			x: -5.0d
+			y: -3.5d
+			description: [
+				"This mod seems identical to Storage Drawers but it adds a tiny bit more, I'll cover the new additions in this questline."
+				"Starting with Controllers, which now don't need to be connected to the Drawers directly, just linked with the Linking Tool."
+			]
+			id: "13E8FB288CBC5EAB"
+			tasks: [
+				{
+					id: "4315BBCE703523FB"
+					type: "item"
+					item: "functionalstorage:storage_controller"
+				}
+				{
+					id: "742BAEB81D6F5296"
+					type: "item"
+					item: {
+						id: "functionalstorage:linking_tool"
+						Count: 1b
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "06D04F3996E567F9"
+					type: "item"
+					item: {
+						id: "functionalstorage:configuration_tool"
+						Count: 1b
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+				}
+				{
+					id: "26BC12150CD2DD4E"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7387444091F8AF9F"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			description: ["Allows storing of unstackables."]
+			dependencies: ["13E8FB288CBC5EAB"]
+			id: "5C46BDACDFE73921"
+			tasks: [{
+				id: "59E545BEA7839B62"
+				type: "item"
+				item: "functionalstorage:armory_cabinet"
+			}]
+			rewards: [
+				{
+					id: "0760EBC1399B0A6C"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "297A6A51B74E46B7"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "3B5946CE24CD0830"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			description: ["Void Hopper but integrated."]
+			dependencies: ["13E8FB288CBC5EAB"]
+			id: "0CEB2A62CB3D9E36"
+			tasks: [{
+				id: "1DE1037263180BF3"
+				type: "item"
+				item: {
+					id: "functionalstorage:collector_upgrade"
+					Count: 1b
+					tag: {
+						Direction: "DOWN"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "11CCB247698B83A0"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "779C281192889AD4"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "4E17F674E5648E77"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			description: ["Allows auto pulling/pushing to nearby storage."]
+			dependencies: ["13E8FB288CBC5EAB"]
+			id: "5D90BA8A36A58DC1"
+			tasks: [
+				{
+					id: "4B8B86DFEFBA2482"
+					type: "item"
+					item: {
+						id: "functionalstorage:pusher_upgrade"
+						Count: 1b
+						tag: {
+							Direction: "DOWN"
+						}
+					}
+				}
+				{
+					id: "6ABAF81DEC2E5B4F"
+					type: "item"
+					item: {
+						id: "functionalstorage:puller_upgrade"
+						Count: 1b
+						tag: {
+							Direction: "DOWN"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "211F0BD32BA34BDA"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "44A5E4942BF5A1C0"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "275FDB534857F4D3"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -6.0d
+			description: ["Linked with Linking Tool, transfers contents wirelessly."]
+			dependencies: ["13E8FB288CBC5EAB"]
+			id: "1E532190BA4EB9B4"
+			tasks: [{
+				id: "2A9F27B1FDBE92ED"
+				type: "item"
+				item: "functionalstorage:ender_drawer"
+			}]
+			rewards: [
+				{
+					id: "29171DC2E025FD68"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "566AE856B8BB7CC8"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "26499817BEEE8247"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			description: ["Upgrades are much much stronger."]
+			dependencies: ["13E8FB288CBC5EAB"]
+			id: "479075B1AF9FCD01"
+			tasks: [{
+				id: "2C8EE28FBAFDF376"
+				type: "item"
+				item: "functionalstorage:copper_upgrade"
+			}]
+			rewards: [
+				{
+					id: "67D3759D9A6DBC17"
+					type: "loot"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7859A36DFA14E864"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "608A6410E57A11E4"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
 	]
 }

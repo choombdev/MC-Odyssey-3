@@ -2,7 +2,9 @@
 onEvent('recipes', event => {
     // Ink Sac
     event.shapeless('minecraft:ink_sac', ['minecraft:black_dye', 'minecraft:leather'])
-  
+    // Toast
+    event.smelting('pamhc2foodcore:toastitem', 'minecraft:bread')
+
     // Craftable Elytra
     event.shaped('minecraft:elytra', [
       'SSS',

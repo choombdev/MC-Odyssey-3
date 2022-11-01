@@ -13,6 +13,9 @@ onEvent('recipes', event =>{
     })
     // AE2 Creative Storage Cell
     event.shapeless('ae2:creative_item_cell', ['storagedrawers:creative_vending_upgrade', 'ae2:item_storage_cell_256k'])
+    // Creative VEnding Upgrade
+    event.shaped('storagedrawers:creative_vending_upgrade', ['functionalstorage:creative_vending_upgrade'])
+    event.shaped('functionalstorage:creative_vending_upgrade', ['storagedrawers:creative_vending_upgrade'])
 
 // LINE BREAK //
     // Mods
@@ -49,7 +52,7 @@ onEvent('recipes', event =>{
         // Worldshaper
         event.shapeless('create:handheld_worldshaper', ['create:creative_motor', 'create:wand_of_symmetry'])
         // Blaze Cake
-        event.shapeless('create:creative_blaze_cake', ['create:blaze_cake_base', 'kubejs:ancientingot'])     
+        event.shapeless('create:creative_blaze_cake', ['create:blaze_cake_base', 'kubejs:bottled_fire','kubejs:bottled_fire','alltheores:enderium_ingot', "minecraft:nether_star"])     
         // Creative Fluid Tank
         event.shapeless('create:creative_fluid_tank', ['storagedrawers:creative_vending_upgrade', 'create:fluid_tank'])
         // Creative Crate

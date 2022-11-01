@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 29, 2022, 7:27:52 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 1, 2022, 8:22:29 PM
 
 #forge:gears
 - alltheores:platinum_gear
@@ -56,6 +56,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:gray_dye
 - minecraft:gray_dye
 
+#forge:flour_plants/breadfruit
+- pamhc2trees:breadfruititem
+
 #chipped:dark_oak_planks
 - minecraft:dark_oak_planks
 - chipped:dark_oak_planks_1
@@ -99,6 +102,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:dark_oak_planks_39
 - chipped:dark_oak_planks_40
 - chipped:dark_oak_planks_41
+
+#silentgear:blueprints/chestplate
+- silentgear:chestplate_blueprint
+- silentgear:chestplate_template
 
 #forge:wires/gold
 - createaddition:gold_wire
@@ -200,6 +207,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:vinegar_ingredients/apple
 - minecraft:apple
 - minecraft:apple
+
+#forge:vinegar_ingredients/mango
+- pamhc2trees:mangoitem
 
 #curios:living_armour_socket
 - bloodmagic:miningsigil
@@ -311,8 +321,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:juices/bananajuice
 - pamhc2foodextended:bananajuiceitem
 
+#forge:dusts/blaze_gold
+- silentgear:blaze_gold_dust
+
 #forge:ingots/hepatizon
 - tconstruct:hepatizon_ingot
+
+#forge:crops/nutmeg
+- pamhc2trees:nutmegitem
 
 #forge:ores/iridium
 - alltheores:iridium_ore
@@ -359,11 +375,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:nether_wart
 - minecraft:nether_wart
 
+#forge:vinegar_ingredients/soursop
+- pamhc2trees:soursopitem
+
 #forge:crops/mustardseeds
 - pamhc2crops:mustardseedsitem
 
 #forge:nuts/peanut
 - pamhc2crops:peanutitem
+
+#forge:crops/guava
+- pamhc2trees:guavaitem
 
 #forge:plates/iridium
 - alltheores:iridium_plate
@@ -719,6 +741,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - cyclic:shield_wood?
 - cyclic:shield_leather?
 - cyclic:shield_flint?
+- silentgear:shield
 
 #forge:flour_plants/jicama
 - pamhc2crops:jicamaitem
@@ -726,12 +749,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #mekanism:enriched/carbon
 - mekanism:enriched_carbon
 
+#forge:crops/coconut
+- pamhc2trees:coconutitem
+
 #forge:ores/xpetrified_ore
 - forbidden_arcanus:xpetrified_ore
 
 #blue_skies:ores/diopside
 - blue_skies:everbright_diopside_ore
 - blue_skies:everdawn_diopside_ore
+
+#silentgear:blueprints/knife
+- silentgear:knife_blueprint
+- silentgear:knife_template
 
 #valhelsia_structures:axe_crafting_blacklisted
 
@@ -767,6 +797,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:vegetables/lettuce
 - pamhc2crops:lettuceitem
+
+#forge:fruits/papaya
+- pamhc2trees:papayaitem
 
 #forge:tools/scythe
 - tconstruct:kama
@@ -817,6 +850,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:vegetables/tomatillo
 - pamhc2crops:tomatilloitem
+
+#forge:vinegar_ingredients/passionfruit
+- pamhc2trees:passionfruititem
 
 #minecraft:music_discs
 - #minecraft:creeper_drop_music_discs
@@ -929,6 +965,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:light_blue_stained_glass
 - tconstruct:light_blue_clear_stained_glass
 - minecraft:light_blue_stained_glass
+
+#forge:vinegar_ingredients/gooseberry
+- pamhc2trees:gooseberryitem
 
 #botania:special_floating_flowers
 - botania:floating_agricarnation
@@ -1202,6 +1241,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - alltheores:ruby_block
 - thermal:ruby_block
 
+#forge:crops/starfruit
+- pamhc2trees:starfruititem
+
 #forge:normal_stone
 - minecraft:stone
 - minecraft:cobblestone
@@ -1327,6 +1369,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #blue_skies:storage_blocks/raw_ventium
 - blue_skies:raw_ventium_block
 
+#forge:raw_materials/crimson_iron
+- silentgear:raw_crimson_iron
+
 #occultism:otherworld_goggles
 - occultism:otherworld_goggles
 
@@ -1431,9 +1476,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mna:staff_b
 - mna:staff_c
 
+#forge:crops/pawpaw
+- pamhc2trees:pawpawitem
+
 #forge:cookedrabbit/cookedrabbit
 - minecraft:cooked_rabbit
 - minecraft:cooked_rabbit
+
+#forge:egg/banana
+- pamhc2trees:bananaitem
 
 #forge:storage_blocks/qivium
 - tinkers_reforged:qivium_block
@@ -1509,6 +1560,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:green_enchanted_wood
 - byg:stripped_green_enchanted_wood
 
+#forge:vinegar_ingredients/banana
+- pamhc2trees:bananaitem
+
 #forge:water/freshwater
 - pamhc2foodcore:freshwateritem
 - pamhc2foodcore:freshwateritem
@@ -1582,6 +1636,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:stone_hoe
 - minecraft:wooden_hoe
 - bloodmagic:soulscythe
+- silentgear:mattock
 
 #minecraft:cluster_max_harvestables
 - minecraft:diamond_pickaxe
@@ -1661,6 +1716,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - thermal:flux_drill?
 - redstone_arsenal:flux_pickaxe
 - redstone_arsenal:flux_hammer
+- silentgear:pickaxe
+- silentgear:paxel
+- silentgear:prospector_hammer
 
 #forge:firmtofu
 - #forge:firmtofu/firmtofu
@@ -1700,6 +1758,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:tool_skillet/skillet
 - pamhc2foodcore:skilletitem
 - pamhc2foodcore:skilletitem
+
+#forge:ingots/azure_silver
+- silentgear:azure_silver_ingot
 
 #minecolonies:mechanic_ingredient_excluded
 
@@ -1788,6 +1849,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:zelkova_wood
 - byg:stripped_zelkova_wood
 
+#silentgear:blueprints/bracelet
+- silentgear:bracelet_blueprint
+- silentgear:bracelet_template
+
 #forge:tools/invar
 - tools_complement:invar_axe
 - tools_complement:invar_hoe
@@ -1868,6 +1933,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:purple_terracotta_65
 - chipped:purple_terracotta_66
 
+#forge:crops/jackfruit
+- pamhc2trees:jackfruititem
+
 #minecraft:warped_stems
 - minecraft:warped_stem
 - minecraft:stripped_warped_stem
@@ -1897,6 +1965,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:berries/mulberry
 - pamhc2crops:mulberryitem
+
+#forge:hammers
+- silentgear:hammer
+- silentgear:prospector_hammer
 
 #forge:ores/sapphire
 - alltheores:sapphire_ore
@@ -2054,6 +2126,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:pink_stained_glass_pane_9
 - chipped:pink_stained_glass_pane_10
 
+#forge:ices/blue
+- minecraft:blue_ice
+
 #mna:stonecutter_resettable_chimerite_arcane_stones
 - mna:decoration/chimerite_arcane_stone_chiseled
 - mna:decoration/chimerite_arcane_stone_corner
@@ -2088,6 +2163,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #mekanism:shards/tin
 - #mekanism:shards/lead
 - #mekanism:shards/uranium
+
+#forge:fruits/mango
+- pamhc2trees:mangoitem
 
 #forge:dusts/electrical_copper
 - tinkers_reforged:electrical_copper_dust
@@ -2171,6 +2249,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:cherrywood_fence
 - forbidden_arcanus:mysterywood_fence
 - forbidden_arcanus:edelwood_fence
+- silentgear:netherwood_fence
 
 #chipped:hay_block
 - minecraft:hay_block
@@ -2441,9 +2520,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - botania:livingwood_planks?
 - botania:dreamwood_planks?
 
+#forge:nuts/walnut
+- pamhc2trees:walnutitem
+
 #forbidden_arcanus:fungyss_stems
 - forbidden_arcanus:fungyss_stem
 - forbidden_arcanus:fungyss_hyphae
+
+#forge:crops/lychee
+- pamhc2trees:lycheeitem
 
 #forge:sand/white
 - byg:white_sand
@@ -2491,6 +2576,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - undergarden:smogstem_boat
 - undergarden:wigglewood_boat
 - undergarden:grongle_boat
+
+#forge:crops/grapefruit
+- pamhc2trees:grapefruititem
 
 #bloodmagic:slate
 - bloodmagic:blankslate
@@ -2549,6 +2637,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - simplefarming:chocolate?
 - vanillacookbook:chocolate?
 
+#silentgear:starlight_charger_catalysts
+- #silentgear:starlight_charger_catalysts/tier1
+- #silentgear:starlight_charger_catalysts/tier2
+- #silentgear:starlight_charger_catalysts/tier3
+
 #byg:baobab_logs
 - byg:baobab_log
 - byg:stripped_baobab_log
@@ -2588,6 +2681,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #byg:black_dye
 - byg:black_rose
+
+#silentgear:blueprints/mattock
+- silentgear:mattock_blueprint
+- silentgear:mattock_template
 
 #forge:protein/spinach
 - pamhc2crops:spinachitem
@@ -2641,6 +2738,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - pamhc2foodcore:marshmellowsitem
 - pamhc2foodcore:marshmellowsitem
 
+#forge:vinegar_ingredients/pear
+- pamhc2trees:pearitem
+
 #forge:fruits/cactus_fruit
 - pamhc2crops:cactusfruititem
 
@@ -2649,6 +2749,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:vegetables/arrowroot
 - pamhc2crops:arrowrootitem
+
+#forge:vinegar_ingredients/orange
+- pamhc2trees:orangeitem
 
 #chipped:orange_glazed_terracotta
 - minecraft:orange_glazed_terracotta
@@ -2725,6 +2828,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mna:rune_fire
 - mna:rune_ender
 - mna:rune_arcane
+
+#silentgear:fluffy_blocks
+- silentgear:white_fluffy_block
+- silentgear:orange_fluffy_block
+- silentgear:magenta_fluffy_block
+- silentgear:light_blue_fluffy_block
+- silentgear:yellow_fluffy_block
+- silentgear:lime_fluffy_block
+- silentgear:pink_fluffy_block
+- silentgear:gray_fluffy_block
+- silentgear:light_gray_fluffy_block
+- silentgear:cyan_fluffy_block
+- silentgear:purple_fluffy_block
+- silentgear:blue_fluffy_block
+- silentgear:brown_fluffy_block
+- silentgear:green_fluffy_block
+- silentgear:red_fluffy_block
+- silentgear:black_fluffy_block
 
 #tconstruct:tables
 - tconstruct:crafting_station
@@ -3050,6 +3171,52 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:crops/nether_wart
 - #forge:crops/potato
 - #forge:crops/wheat
+- #forge:crops/avocado
+- #forge:crops/candlenut
+- #forge:crops/cherry
+- #forge:crops/chestnut
+- #forge:crops/gooseberry
+- #forge:crops/lemon
+- #forge:crops/nutmeg
+- #forge:crops/orange
+- #forge:crops/peach
+- #forge:crops/pear
+- #forge:crops/plum
+- #forge:crops/walnut
+- #forge:crops/hazelnut
+- #forge:crops/pawpaw
+- #forge:crops/soursop
+- #forge:crops/almond
+- #forge:crops/apricot
+- #forge:crops/banana
+- #forge:crops/cashew
+- #forge:crops/cinnamon
+- #forge:crops/coconut
+- #forge:crops/date
+- #forge:crops/dragonfruit
+- #forge:crops/durian
+- #forge:crops/fig
+- #forge:crops/grapefruit
+- #forge:crops/lime
+- #forge:crops/mango
+- #forge:crops/olive
+- #forge:crops/papaya
+- #forge:crops/pecan
+- #forge:crops/peppercorn
+- #forge:crops/persimmon
+- #forge:crops/pistachio
+- #forge:crops/pomegranate
+- #forge:crops/starfruit
+- #forge:crops/vanillabean
+- #forge:crops/breadfruit
+- #forge:crops/guava
+- #forge:crops/jackfruit
+- #forge:crops/lychee
+- #forge:crops/passionfruit
+- #forge:crops/rambutan
+- #forge:crops/tamarind
+- #forge:crops/maple
+- #forge:crops/pinenut
 
 #forge:ore_bearing_ground/netherrack
 - minecraft:netherrack
@@ -3160,6 +3327,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:crimson_roots_12
 - chipped:crimson_roots_13
 - chipped:crimson_roots_14
+
+#forge:nuggets/diamond
+- silentgear:diamond_shard
 
 #blue_skies:storage_blocks/horizonite
 - blue_skies:horizonite_block
@@ -3519,6 +3689,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:vein_hammer
 - tconstruct:pickadze
 
+#forge:dusts/tyrian_steel
+- silentgear:tyrian_steel_dust
+
 #forge:white_sand
 - byg:white_sand
 
@@ -3750,6 +3923,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:elytra
 - minecraft:elytra
+- silentgear:elytra
 
 #forge:seeds/rye
 - pamhc2crops:ryeseeditem
@@ -3817,6 +3991,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:stick
 - immersiveengineering:stick_treated
 - minecraft:stick
+- silentgear:netherwood_stick
 
 #mna:constructs/soul_sand_plantable
 - minecraft:nether_wart
@@ -3877,6 +4052,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - ae2wtlib:wireless_universal_terminal
 - refinedstorageaddons:wireless_crafting_grid
 - refinedstorageaddons:creative_wireless_crafting_grid
+- powah:battery_starter
+- powah:battery_basic
+- powah:battery_hardened
+- powah:battery_blazing
+- powah:battery_niotic
+- powah:battery_spirited
+- powah:battery_nitro
 
 #valhelsia_structures:non_flammable_posts
 - valhelsia_structures:warped_post
@@ -4037,6 +4219,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:leather
 - minecraft:fishing_rod
 
+#forge:vinegar_ingredients/persimmon
+- pamhc2trees:persimmonitem
+
 #forge:cocoapowder/cocoapowder
 - pamhc2foodcore:cocoapowderitem
 - pamhc2foodcore:cocoapowderitem
@@ -4080,6 +4265,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:dried_kelp_block
 - minecraft:amethyst_shard
 
+#forge:fruits/starfruit
+- pamhc2trees:starfruititem
+
+#forge:crops/walnut
+- pamhc2trees:walnutitem
+
 #blue_skies:gems/moonstone_shard
 - blue_skies:moonstone_shard
 
@@ -4092,6 +4283,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:dusts/ash
 - supplementaries:ash
+
+#forge:crops/lemon
+- pamhc2trees:lemonitem
 
 #forge:circuits
 - #forge:circuits/basic
@@ -5013,6 +5207,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:berries/juniperberry
 - pamhc2crops:juniperberryitem
 
+#forge:ingots/tyrian_steel
+- silentgear:tyrian_steel_ingot
+
 #botania:mini_flowers
 - botania:agricarnation_chibi
 - botania:bellethorn_chibi
@@ -5153,6 +5350,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - blue_skies:stripped_cherry_wood?
 - byg:stripped_bulbis_wood?
 
+#forge:storage_blocks/crimson_iron
+- silentgear:crimson_iron_block
+
 #chipped:pink_glazed_terracotta
 - minecraft:pink_glazed_terracotta
 - chipped:pink_glazed_terracotta_1
@@ -5190,6 +5390,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:crops/kale
 - pamhc2crops:kaleitem
+
+#silentgear:blueprints/prospector_hammer
+- silentgear:prospector_hammer_blueprint
+- silentgear:prospector_hammer_template
 
 #balm:green_dyes
 - #forge:dyes/green?
@@ -5252,6 +5456,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #mekanism:shards/aluminum
 - alltheores:aluminum_shard
+
+#forge:sickles
+- silentgear:sickle
 
 #forge:juices/dragonfruitjuice
 - pamhc2foodextended:dragonfruitjuiceitem
@@ -5487,6 +5694,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - hexcasting:akashic_log_stripped
 - hexcasting:akashic_wood
 - hexcasting:akashic_wood_stripped
+- #silentgear:netherwood_logs
 
 #forge:tools/copper
 - tools_complement:copper_axe
@@ -5542,6 +5750,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:oak_planks_39
 - chipped:oak_planks_40
 - chipped:oak_planks_41
+
+#forge:fruits/apricot
+- pamhc2trees:apricotitem
 
 #blue_skies:logs/frostbright
 - blue_skies:frostbright_log
@@ -5788,6 +5999,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:dusts/coal_coke
 - immersiveengineering:dust_coke
 
+#forge:fruits/guava
+- pamhc2trees:guavaitem
+
 #mekanism:crystals/tin
 - mekanism:crystal_tin
 
@@ -5810,6 +6024,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:spices/saltandpepper
 - pamhc2foodextended:saltandpepperitem
+
+#silentgear:blueprints/dagger
+- silentgear:dagger_blueprint
+- silentgear:dagger_template
 
 #balm:iron_nuggets
 - #forge:nuggets/iron?
@@ -6016,6 +6234,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:orange_terracotta_65
 - chipped:orange_terracotta_66
 
+#silents_mechanisms:chunks/azure_silver
+- silentgear:raw_azure_silver
+
 #forge:crops/jicama
 - pamhc2crops:jicamaitem
 
@@ -6051,6 +6272,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:tool/wrench
 - supplementaries:wrench
+
+#forge:vinegar_ingredients/date
+- pamhc2trees:dateitem
 
 #chipped:crimson_trapdoor
 - minecraft:crimson_trapdoor
@@ -6280,6 +6504,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #refinedstorage:storage_blocks/fluids/16384k
 - extradisks:16384k_fluid_storage_block
 
+#forge:vinegar_ingredients/lime
+- pamhc2trees:limeitem
+
 #create:stone_types/calcite
 - create:cut_calcite
 - create:cut_calcite_stairs
@@ -6338,8 +6565,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:lapis_ore
 - minecraft:redstone_ore
 
+#forge:flour_plants/apple
+- minecraft:apple
+
 #forge:flour_plants/amaranth
 - pamhc2crops:amaranthitem
+
+#forge:dusts/azure_silver
+- silentgear:azure_silver_dust
 
 #forge:buckets/water
 - minecraft:water_bucket
@@ -6488,6 +6721,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - blue_skies:stripped_maple_log
 - blue_skies:stripped_maple_wood
 
+#forge:ingots/cast_iron
+- createbigcannons:cast_iron_ingot
+
 #mna:constructs/mining_nether_rare
 - #mna:constructs/mining_nether_common
 - #forge:obsidian
@@ -6586,78 +6822,79 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:sign_post_birch?
 - supplementaries:sign_post_crimson?
 - supplementaries:sign_post_warped?
-- supplementaries:byg/sign_post_blue_enchanted
-- supplementaries:blue_skies/sign_post_starlit
-- supplementaries:ecologics/sign_post_coconut
-- supplementaries:byg/sign_post_zelkova
-- supplementaries:byg/sign_post_palm
-- supplementaries:forbidden_arcanus/sign_post_mysterywood
-- supplementaries:twilightforest/sign_post_sorting
-- supplementaries:byg/sign_post_cika
-- supplementaries:byg/sign_post_nightshade
-- supplementaries:ecologics/sign_post_flowering_azalea
-- supplementaries:byg/sign_post_ether
-- supplementaries:byg/sign_post_bulbis
-- supplementaries:botania/sign_post_livingwood
-- supplementaries:byg/sign_post_rainbow_eucalyptus
-- supplementaries:quark/sign_post_blossom
-- supplementaries:byg/sign_post_cypress
-- supplementaries:byg/sign_post_redwood
-- supplementaries:sign_post_spruce
-- supplementaries:sign_post_birch
-- supplementaries:forbidden_arcanus/sign_post_edelwood
-- supplementaries:ecologics/sign_post_walnut
-- supplementaries:byg/sign_post_skyris
-- supplementaries:sign_post_crimson
+- supplementaries:sign_post_acacia
 - supplementaries:byg/sign_post_lament
-- supplementaries:twilightforest/sign_post_time
-- supplementaries:byg/sign_post_holly
-- supplementaries:byg/sign_post_pine
-- supplementaries:blue_skies/sign_post_cherry
-- supplementaries:ecologics/sign_post_azalea
-- supplementaries:byg/sign_post_maple
-- supplementaries:undergarden/sign_post_smogstem
-- supplementaries:forbidden_arcanus/sign_post_cherrywood
-- supplementaries:byg/sign_post_fir
-- supplementaries:tconstruct/sign_post_greenheart
-- supplementaries:byg/sign_post_sythian
-- supplementaries:sign_post_warped
-- supplementaries:twilightforest/sign_post_twilight_oak
-- supplementaries:byg/sign_post_baobab
-- supplementaries:twilightforest/sign_post_canopy
-- supplementaries:undergarden/sign_post_grongle
-- supplementaries:valhelsia_structures/sign_post_lapidified_jungle
-- supplementaries:blue_skies/sign_post_maple
-- supplementaries:tconstruct/sign_post_skyroot
-- supplementaries:blue_skies/sign_post_lunar
-- supplementaries:undergarden/sign_post_wigglewood
-- supplementaries:sign_post_jungle
-- supplementaries:sign_post_dark_oak
+- supplementaries:ecologics/sign_post_coconut
 - supplementaries:twilightforest/sign_post_transformation
-- supplementaries:byg/sign_post_mahogany
-- supplementaries:byg/sign_post_cherry
-- supplementaries:blue_skies/sign_post_dusk
-- supplementaries:byg/sign_post_aspen
-- supplementaries:twilightforest/sign_post_mangrove
-- supplementaries:forbidden_arcanus/sign_post_fungyss
-- supplementaries:integrateddynamics/sign_post_menril
+- supplementaries:silentgear/sign_post_netherwood
+- supplementaries:blue_skies/sign_post_maple
+- supplementaries:forbidden_arcanus/sign_post_edelwood
+- supplementaries:forbidden_arcanus/sign_post_mysterywood
+- supplementaries:twilightforest/sign_post_canopy
+- supplementaries:blue_skies/sign_post_lunar
+- supplementaries:sign_post_crimson
 - supplementaries:byg/sign_post_imparius
+- supplementaries:undergarden/sign_post_grongle
+- supplementaries:sign_post_jungle
+- supplementaries:botania/sign_post_livingwood
+- supplementaries:hexcasting/sign_post_akashic
+- supplementaries:blue_skies/sign_post_cherry
+- supplementaries:forbidden_arcanus/sign_post_cherrywood
+- supplementaries:blue_skies/sign_post_frostbright
+- supplementaries:botania/sign_post_dreamwood
+- supplementaries:byg/sign_post_rainbow_eucalyptus
+- supplementaries:byg/sign_post_zelkova
+- supplementaries:sign_post_spruce
+- supplementaries:twilightforest/sign_post_twilight_oak
+- supplementaries:ecologics/sign_post_walnut
+- supplementaries:twilightforest/sign_post_dark
+- supplementaries:byg/sign_post_cika
+- supplementaries:tconstruct/sign_post_skyroot
+- supplementaries:byg/sign_post_witch_hazel
+- supplementaries:tconstruct/sign_post_greenheart
+- supplementaries:sign_post_birch
+- supplementaries:byg/sign_post_skyris
+- supplementaries:byg/sign_post_blue_enchanted
+- supplementaries:forbidden_arcanus/sign_post_fungyss
+- supplementaries:ecologics/sign_post_azalea
+- supplementaries:twilightforest/sign_post_sorting
+- supplementaries:byg/sign_post_jacaranda
+- supplementaries:byg/sign_post_cypress
+- supplementaries:byg/sign_post_mangrove
+- supplementaries:byg/sign_post_aspen
+- supplementaries:byg/sign_post_willow
+- supplementaries:byg/sign_post_palm
+- supplementaries:byg/sign_post_pine
+- supplementaries:byg/sign_post_redwood
+- supplementaries:byg/sign_post_sythian
+- supplementaries:blue_skies/sign_post_dusk
+- supplementaries:blue_skies/sign_post_starlit
+- supplementaries:undergarden/sign_post_wigglewood
 - supplementaries:quark/sign_post_azalea
 - supplementaries:sign_post_oak
-- supplementaries:byg/sign_post_mangrove
-- supplementaries:blue_skies/sign_post_frostbright
-- supplementaries:byg/sign_post_ebony
-- supplementaries:byg/sign_post_witch_hazel
-- supplementaries:blue_skies/sign_post_bluebright
-- supplementaries:twilightforest/sign_post_dark
-- supplementaries:twilightforest/sign_post_mining
-- supplementaries:byg/sign_post_jacaranda
+- supplementaries:byg/sign_post_ether
+- supplementaries:quark/sign_post_blossom
+- supplementaries:sign_post_dark_oak
+- supplementaries:byg/sign_post_mahogany
 - supplementaries:byg/sign_post_green_enchanted
-- supplementaries:hexcasting/sign_post_akashic
-- supplementaries:sign_post_acacia
-- supplementaries:byg/sign_post_willow
-- supplementaries:botania/sign_post_dreamwood
 - supplementaries:tconstruct/sign_post_bloodshroom
+- supplementaries:undergarden/sign_post_smogstem
+- supplementaries:twilightforest/sign_post_time
+- supplementaries:blue_skies/sign_post_bluebright
+- supplementaries:twilightforest/sign_post_mangrove
+- supplementaries:byg/sign_post_ebony
+- supplementaries:byg/sign_post_fir
+- supplementaries:byg/sign_post_nightshade
+- supplementaries:ecologics/sign_post_flowering_azalea
+- supplementaries:byg/sign_post_holly
+- supplementaries:integrateddynamics/sign_post_menril
+- supplementaries:byg/sign_post_cherry
+- supplementaries:byg/sign_post_maple
+- supplementaries:byg/sign_post_baobab
+- supplementaries:sign_post_warped
+- supplementaries:twilightforest/sign_post_mining
+- supplementaries:valhelsia_structures/sign_post_lapidified_jungle
+- supplementaries:byg/sign_post_bulbis
 
 #forge:firmtofu/firmtofu
 - pamhc2foodextended:firmtofuitem
@@ -6736,6 +6973,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #refinedstorage:storage_blocks/fluids/262144k
 - extradisks:262144k_fluid_storage_block
+
+#forge:fruits/durian
+- pamhc2trees:durianitem
 
 #forge:bones
 - minecraft:bone
@@ -6948,6 +7188,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:diamond_chestplate
 - minecraft:netherite_chestplate
 - minecraft:elytra
+- silentgear:chestplate
 
 #forge:cooked_fishes
 - #forge:cooked_fishes/cod
@@ -7072,6 +7313,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:deepslate
 - minecraft:deepslate
 - minecraft:cobbled_deepslate
+
+#silentgear:blueprints/leggings
+- silentgear:leggings_blueprint
+- silentgear:leggings_template
 
 #forge:jellies/lycheejelly
 - pamhc2foodextended:lycheejellyitem
@@ -7236,6 +7481,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #chipped:oak_leaves
 - #chipped:spruce_leaves
 - #chipped:dark_oak_leaves
+- silentgear:netherwood_leaves
 
 #chipped:jungle_trapdoor
 - minecraft:jungle_trapdoor
@@ -7282,6 +7528,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:mangrove_wood
 - byg:stripped_mangrove_wood
 
+#forge:fruits/cherry
+- pamhc2trees:cherryitem
+
 #balm:pink_dyes
 - #forge:dyes/pink?
 - minecraft:pink_dye
@@ -7327,6 +7576,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:jellies/persimmonjelly
 - pamhc2foodextended:persimmonjellyitem
+
+#forge:nuggets/azure_silver
+- silentgear:azure_silver_nugget
 
 #forge:dusts/osmium
 - alltheores:osmium_dust
@@ -7674,12 +7926,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:andesite
 - minecraft:andesite
 
+#forge:vinegar_ingredients/plum
+- pamhc2trees:plumitem
+
 #forge:gears/copper
 - alltheores:copper_gear
 - thermal:copper_gear
 
 #c:gems
 - byg:ametrine_gems
+
+#silentgear:blueprints/shield
+- silentgear:shield_blueprint
+- silentgear:shield_template
 
 #forge:wool/yellow
 - minecraft:yellow_wool
@@ -7788,6 +8047,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:juices/sweetberryjuice
 - pamhc2foodcore:sweetberryjuiceitem
 - pamhc2foodcore:sweetberryjuiceitem
+
+#silentgear:blueprints/slingshot
+- silentgear:slingshot_blueprint
+- silentgear:slingshot_template
 
 #forge:alloys/elite
 - mekanism:alloy_reinforced
@@ -7939,6 +8202,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - biggerreactors:ludicrite_dust
 - biggerreactors:uranium_dust
 - #forge:dusts/flux_infused
+- #forge:dusts/blaze_gold
+- #forge:dusts/crimson_iron
+- #forge:dusts/crimson_steel
+- #forge:dusts/azure_silver
+- #forge:dusts/azure_electrum
+- #forge:dusts/tyrian_steel
+- #forge:dusts/starmetal
 
 #forge:glass/yellow
 - minecraft:yellow_stained_glass
@@ -8029,6 +8299,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tinkers_reforged:cast_plate
 - tconstruct:plate_cast
 
+#silentgear:blueprints/shears
+- silentgear:shears_blueprint
+- silentgear:shears_template
+
 #forge:ores/inferium
 - mysticalagriculture:inferium_ore
 - mysticalagriculture:deepslate_inferium_ore
@@ -8088,6 +8362,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - refinedstorage:green_controller
 - refinedstorage:red_controller
 - refinedstorage:black_controller
+
+#forge:vinegar_ingredients/guava
+- pamhc2trees:guavaitem
 
 #forge:grain/corn
 - pamhc2crops:cornitem
@@ -8154,6 +8431,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #balm:dyes
 - #forge:dyes?
+
+#silentgear:blueprints/paxel
+- silentgear:paxel_blueprint
+- silentgear:paxel_template
 
 #forge:cookedpork/cookedpork
 - minecraft:cooked_porkchop
@@ -8286,10 +8567,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #chipped:dark_oak_planks
 - #chipped:warped_planks
 - #chipped:crimson_planks
+- silentgear:netherwood_planks
 
 #refinedstorage:parts/items/4096k
 - extradisks:4096k_storage_part
 - rebornstorage:large_item_disk_part
+
+#c:glass_blocks
+- #forge:glass
 
 #mna:constructs/farmland_plantable
 - #forge:seeds
@@ -8327,6 +8612,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:seeds/sesameseeds
 - pamhc2crops:sesameseedsseeditem
+
+#forge:flour_plants/cashew
+- pamhc2trees:cashewitem
 
 #tconstruct:modifiable/melee
 - tinkers_reforged:greatsword
@@ -8570,6 +8858,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:jellies/grapejelly
 - pamhc2foodextended:grapejellyitem
 
+#forge:fruits/peach
+- pamhc2trees:peachitem
+
 #forge:seeds/cotton
 - pamhc2crops:cottonseeditem
 
@@ -8661,6 +8952,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:ingots/electrical_copper
 - tinkers_reforged:electrical_copper_ingot
 
+#forge:dusts/azure_electrum
+- silentgear:azure_electrum_dust
+
 #forge:crops/wintersquash
 - pamhc2crops:wintersquashitem
 
@@ -8718,6 +9012,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:sugar_cane
 - minecraft:nether_wart
 - minecraft:cocoa_beans
+
+#forge:fruits/breadfruit
+- pamhc2trees:breadfruititem
 
 #chipped:raw_copper_block
 - minecraft:raw_copper_block
@@ -8847,6 +9144,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:ices/ice
 - #forge:ices/packedice
 - #forge:ices/snowball
+- #forge:ices/ice
+- #forge:ices/packed
+- #forge:ices/blue
+- #forge:ices/dry
+
+#forge:fruits/lime
+- pamhc2trees:limeitem
 
 #forge:nuggets/terrasteel
 - #botania:terrasteel_nuggets
@@ -8869,6 +9173,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:storage_blocks/magma_steel
 - tinkers_reforged:magma_steel_block
+
+#forge:vinegar_ingredients/dragonfruit
+- pamhc2trees:dragonfruititem
 
 #forge:dusts/lithium
 - mekanism:dust_lithium
@@ -8954,6 +9261,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #pneumaticcraft:reinforced_stone
 - pneumaticcraft:reinforced_stone
 
+#forge:fruits/date
+- pamhc2trees:dateitem
+
 #chipped:brown_concrete
 - minecraft:brown_concrete
 - chipped:brown_concrete_1
@@ -8977,6 +9287,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:brown_concrete_19
 - chipped:brown_concrete_20
 - chipped:brown_concrete_21
+
+#forge:flour_plants/almond
+- pamhc2trees:almonditem
 
 #cfm:fence_gates/picket
 - cfm:white_picket_gate
@@ -9005,6 +9318,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - buildersaddition:iron_rod
 - immersiveengineering:stick_iron
 - createaddition:iron_rod
+- silentgear:iron_rod
 
 #lightmanscurrency:ticket
 - lightmanscurrency:ticket
@@ -9025,6 +9339,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #bloodmagic:gravels/hellforged
 - bloodmagic:demonitegravel
+
+#forge:fruits/dragonfruit
+- pamhc2trees:dragonfruititem
 
 #forge:vegetables/bokchoy
 - pamhc2crops:bokchoy
@@ -9055,6 +9372,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:crops/peas
 - pamhc2crops:peasitem
 
+#forge:crops/pear
+- pamhc2trees:pearitem
+
 #forge:ices/snowball
 - minecraft:snowball
 - minecraft:snowball
@@ -9074,6 +9394,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:rawmeats/rawtofishitem
 - pamhc2foodextended:rawtofishitem
+
+#forge:crops/dragonfruit
+- pamhc2trees:dragonfruititem
 
 #forge:wires/aluminum
 - immersiveengineering:wire_aluminum
@@ -9149,6 +9472,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:sheetmetals/copper
 - immersiveengineering:sheetmetal_copper
+
+#forge:crops/cashew
+- pamhc2trees:cashewitem
 
 #forge:protein/peanut
 - pamhc2crops:peanutitem
@@ -9486,12 +9812,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:gems/prismarine
 - #forge:gems/quartz
 - hexcasting:charged_amethyst
+- #forge:gems/bort
 
 #forge:ores/soulium
 - mysticalagriculture:soulium_ore
 
 #forge:rawmutton/rawtofuttonitem
 - pamhc2foodextended:rawtofuttonitem
+
+#forge:vinegar_ingredients/grapefruit
+- pamhc2trees:grapefruititem
 
 #mekanism:colorable/glass_panes
 - minecraft:glass_pane
@@ -9614,8 +9944,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mna:stone_rune_white
 - mna:stone_rune_yellow
 
+#silentgear:rods/rough
+- silentgear:rough_rod
+
 #c:pickaxes
 - byg:pendorite_pickaxe
+
+#forge:storage_blocks/uraninite
+- powah:uraninite_block
 
 #materialis:casts/single_use/inlay
 - materialis:inlay_sand_cast
@@ -9635,6 +9971,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:copper_can
 - tconstruct:seared_lantern
 - tconstruct:scorched_lantern
+
+#forge:crops/gooseberry
+- pamhc2trees:gooseberryitem
 
 #forge:crops/cloudberry
 - pamhc2crops:cloudberryitem
@@ -9762,6 +10101,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:ingots/terrasteel
 - #botania:terrasteel_ingots
+
+#c:glass_panes
+- #forge:glass_panes
 
 #blue_skies:storage_blocks/raw_charoite
 - blue_skies:raw_charoite_block
@@ -10009,6 +10351,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:paper
 - minecraft:paper
 - minecraft:paper
+- minecraft:paper
 
 #forge:dusts/blazing_copper
 - tinkers_reforged:blazing_copper_dust
@@ -10038,6 +10381,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:seeds/kale
 - pamhc2crops:kaleseeditem
+
+#forge:fruits/pear
+- pamhc2trees:pearitem
 
 #botania:misc_special_flowers
 - botania:manastar
@@ -10174,6 +10520,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:bows
 - minecraft:bow
+- silentgear:bow
 
 #mna:chimerite_crystals
 - mna:chimerite_crystal_black
@@ -10193,6 +10540,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mna:chimerite_crystal_white
 - mna:chimerite_crystal_yellow
 
+#forge:fruits/persimmon
+- pamhc2trees:persimmonitem
+
 #balm:orange_dyes
 - #forge:dyes/orange?
 - minecraft:orange_dye
@@ -10209,6 +10559,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:cornmeal
 - #forge:cornmeal/cornmeal
 
+#forge:storage_blocks/crimson_steel
+- silentgear:crimson_steel_block
+
 #forge:juices/melonjuice
 - pamhc2foodcore:melonjuiceitem
 - pamhc2foodcore:melonjuiceitem
@@ -10221,6 +10574,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:seeds/leek
 - pamhc2crops:leekseeditem
+
+#forge:fruits/plum
+- pamhc2trees:plumitem
 
 #byg:biomepedia_crafting_material
 - minecraft:blue_dye
@@ -10240,6 +10596,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:gravel
 - immersiveengineering:slag_gravel
 - minecraft:gravel
+
+#silentgear:netherwood_logs
+- silentgear:netherwood_log
+- silentgear:stripped_netherwood_log
+- silentgear:netherwood_wood
+- silentgear:stripped_netherwood_wood
 
 #c:boots
 - byg:ametrine_boots
@@ -10319,6 +10681,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:golden_leggings
 - minecraft:diamond_leggings
 - minecraft:netherite_leggings
+- silentgear:leggings
 
 #mekanism:dirty_dusts/lead
 - mekanism:dirty_dust_lead
@@ -10590,6 +10953,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:crops/rhubarb
 - pamhc2crops:rhubarbitem
+
+#forge:crops/hazelnut
+- pamhc2trees:hazelnutitem
 
 #forge:spices
 - #forge:spices/blackpepper
@@ -10894,6 +11260,48 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:gold_ingot
 - minecraft:gold_ingot
 
+#silentgear:blueprints
+- #silentgear:blueprints/adornment
+- #silentgear:blueprints/arrow
+- #silentgear:blueprints/axe
+- #silentgear:blueprints/binding
+- #silentgear:blueprints/boots
+- #silentgear:blueprints/bow
+- #silentgear:blueprints/bracelet
+- #silentgear:blueprints/chestplate
+- #silentgear:blueprints/coating
+- #silentgear:blueprints/cord
+- #silentgear:blueprints/crossbow
+- #silentgear:blueprints/dagger
+- #silentgear:blueprints/elytra
+- #silentgear:blueprints/excavator
+- #silentgear:blueprints/fishing_rod
+- #silentgear:blueprints/fletching
+- #silentgear:blueprints/grip
+- #silentgear:blueprints/hammer
+- #silentgear:blueprints/helmet
+- #silentgear:blueprints/katana
+- #silentgear:blueprints/knife
+- #silentgear:blueprints/leggings
+- #silentgear:blueprints/lining
+- #silentgear:blueprints/machete
+- #silentgear:blueprints/mattock
+- #silentgear:blueprints/paxel
+- #silentgear:blueprints/pickaxe
+- #silentgear:blueprints/prospector_hammer
+- #silentgear:blueprints/ring
+- #silentgear:blueprints/rod
+- #silentgear:blueprints/saw
+- #silentgear:blueprints/shears
+- #silentgear:blueprints/shield
+- #silentgear:blueprints/shovel
+- #silentgear:blueprints/sickle
+- #silentgear:blueprints/slingshot
+- #silentgear:blueprints/spear
+- #silentgear:blueprints/sword
+- #silentgear:blueprints/tip
+- #silentgear:blueprints/trident
+
 #lootr:barrels
 - lootr:lootr_barrel
 
@@ -10909,6 +11317,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:gems/ametrine
 - byg:ametrine_gems
+
+#silentgear:blueprint_paper
+- silentgear:blueprint_paper
 
 #forge:nuggets/iron
 - minecraft:iron_nugget
@@ -11051,6 +11462,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:pink_dye
 - minecraft:pink_dye
 
+#silentgear:blueprints/elytra
+- silentgear:elytra_blueprint
+- silentgear:elytra_template
+
 #mekanism:crystals/gold
 - mekanism:crystal_gold
 
@@ -11162,6 +11577,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #blue_skies:storage_blocks/moonstone
 - blue_skies:moonstone_block
+
+#silentgear:blueprints/boots
+- silentgear:boots_blueprint
+- silentgear:boots_template
 
 #elementalcraft:gems/crude_air
 - elementalcraft:crude_air_gem
@@ -11275,6 +11694,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - nameless_trinkets:fragile_cloud
 - minecraft:lantern
 
+#forge:vinegar_ingredients/lemon
+- pamhc2trees:lemonitem
+
 #tconstruct:autosmelt_blacklist
 
 #mekanism:colorable/carpets
@@ -11330,6 +11752,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:onions/scallion
 - pamhc2crops:scallionitem
 
+#forge:fruits/orange
+- pamhc2trees:orangeitem
+
 #curios:angelring
 - angelring:itemring
 - angelring:energetic_angel_ring
@@ -11348,6 +11773,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - blue_skies:lunar_stonebrick
 - blue_skies:mossy_lunar_stonebrick
 - blue_skies:cracked_lunar_stonebrick
+
+#forge:crops/mango
+- pamhc2trees:mangoitem
 
 #forge:stairs/plastic
 - mekanismadditions:black_plastic_stairs
@@ -11421,6 +11849,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:tools/screwdriver
 - supercircuitmaker:screwdriver
+
+#forge:fruits/lychee
+- pamhc2trees:lycheeitem
 
 #chipped:cobblestone
 - minecraft:cobblestone
@@ -11913,6 +12344,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - lightmanscurrency:atm
 - lightmanscurrency:portable_atm
 
+#forge:storage_blocks/raw_azure_silver
+- silentgear:raw_azure_silver_block
+
 #blue_skies:logs/bluebright
 - blue_skies:bluebright_log
 - blue_skies:bluebright_wood
@@ -12198,6 +12632,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:nether_wart_block_13
 - chipped:nether_wart_block_14
 
+#forge:crops/persimmon
+- pamhc2trees:persimmonitem
+
 #forge:seeds/mulberry
 - pamhc2crops:mulberryseeditem
 
@@ -12347,6 +12784,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:gears/rose_gold
 - thermal:rose_gold_gear
 
+#forge:ices/dry
+- powah:dry_ice
+
 #ftbchunks:right_click_whitelist
 - minecraft:shield
 - minecraft:firework_rocket
@@ -12442,6 +12882,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:iron_block_11
 - chipped:iron_block_12
 
+#forge:storage_blocks/azure_electrum
+- silentgear:azure_electrum_block
+
 #forge:coins/gold
 - thermal:gold_coin
 
@@ -12468,6 +12911,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:icecream
 - #forge:icecream/icecream
 - #forge:icecream/icecream
+
+#forge:flour_plants/chestnut
+- pamhc2trees:chestnutitem
+
+#silentgear:blueprints/cord
+- silentgear:cord_blueprint
+- silentgear:cord_template
 
 #forge:raw_ores/silver
 - alltheores:raw_silver
@@ -13065,6 +13515,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:glass_panes/runic
 - forbidden_arcanus:runic_glass_pane
 
+#c:quartz_blocks
+- #forge:storage_blocks/quartz
+
 #forge:cooked_mutton
 - minecraft:cooked_mutton
 - farmersdelight:cooked_mutton_chops
@@ -13464,6 +13917,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - ars_elemental:stripped_yellow_archwood_log
 - ars_elemental:stripped_yellow_archwood
 
+#forge:fruits/rambutan
+- pamhc2trees:rambutanitem
+
 #refinedstorage:storage_blocks/items/256k
 - extradisks:256k_storage_block
 
@@ -13503,6 +13959,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:apple
 - minecraft:apple
 
+#forge:vinegar_ingredients/rambutan
+- pamhc2trees:rambutanitem
+
 #forge:rods/invar
 - alltheores:invar_rod
 
@@ -13534,6 +13993,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #mekanism:dirty_dusts/aluminum
 - alltheores:dirty_aluminum_dust
 
+#forge:ingots/crimson_steel
+- silentgear:crimson_steel_ingot
+
 #ae2:illuminated_panel
 - ae2:monitor
 - ae2:semi_dark_monitor
@@ -13541,6 +14003,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:rods/iridium
 - alltheores:iridium_rod
+
+#forge:crops/vanillabean
+- pamhc2trees:vanillabeanitem
 
 #ftbchunks:right_click_blacklist
 - minecraft:bucket
@@ -13604,6 +14069,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:dark_oak_door_18
 - chipped:dark_oak_door_19
 - chipped:dark_oak_door_20
+
+#forge:crops/pistachio
+- pamhc2trees:pistachioitem
 
 #chipped:gray_stained_glass
 - minecraft:gray_stained_glass
@@ -13707,6 +14175,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:light_blue_terracotta_64
 - chipped:light_blue_terracotta_65
 - chipped:light_blue_terracotta_66
+
+#forge:flour_plants/banana
+- pamhc2trees:bananaitem
 
 #forge:ingots/froststeel
 - undergarden:froststeel_ingot
@@ -13829,6 +14300,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:cobblestone
 - minecraft:netherrack
 
+#forge:crops/papaya
+- pamhc2trees:papayaitem
+
 #forge:storage_blocks/swift_alloy
 - elementalcraft:swift_alloy_block
 
@@ -13842,6 +14316,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:black_stained_glass
 - tconstruct:black_clear_stained_glass
 - minecraft:black_stained_glass
+
+#forge:vinegar_ingredients/cherry
+- pamhc2trees:cherryitem
+
+#forge:crops/olive
+- pamhc2trees:oliveitem
 
 #forge:seeds/coffeebean
 - pamhc2crops:coffeebeanseeditem
@@ -14016,6 +14496,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:carbs/corn
 - pamhc2crops:cornitem
 
+#forge:fruits/avocado
+- pamhc2trees:avocadoitem
+
 #refinedstorage:crafting_grid
 - refinedstorage:white_crafting_grid
 - refinedstorage:orange_crafting_grid
@@ -14102,6 +14585,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - quark:azalea_bookshelf
 - quark:blossom_bookshelf
 - minecraft:bookshelf
+
+#silentgear:blueprints/pickaxe
+- silentgear:pickaxe_blueprint
+- silentgear:pickaxe_template
 
 #forge:ob_tools/afterlife_key
 - ob_core:afterlife_key
@@ -14248,6 +14735,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #fabric:leggings
 - byg:ametrine_leggings
 
+#forge:nuggets/blaze_gold
+- silentgear:blaze_gold_nugget
+
 #forge:nether_stars
 - minecraft:nether_star
 - forbidden_arcanus:dark_nether_star
@@ -14305,6 +14795,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #botania:manasteel_nuggets
 
 #libx:impl_wooden_slabs
+
+#silentgear:blueprints/hammer
+- silentgear:hammer_blueprint
+- silentgear:hammer_template
 
 #bookshelf:chestplates
 - #forge:chestplates
@@ -14477,6 +14971,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:dusts/signalum
 - alltheores:signalum_dust
 - thermal:signalum_dust
+
+#forge:vegetables/olive
+- pamhc2trees:oliveitem
 
 #forge:salad_ingredients/cucumber
 - pamhc2crops:cucumberitem
@@ -14654,6 +15151,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:golden_feather
 - minecraft:feather
 
+#forge:crops/durian
+- pamhc2trees:durianitem
+
 #forge:runes/depleted
 - ob_core:rune_of_the_storm_empty
 
@@ -14812,6 +15312,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - cfm:red_sofa
 - cfm:black_sofa
 
+#forge:vinegar_ingredients/pomegranate
+- pamhc2trees:pomegranateitem
+
 #undergarden:mushrooms
 - undergarden:ink_mushroom
 - undergarden:indigo_mushroom
@@ -14943,6 +15446,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - quark:golden_frog_leg
 - quark:golden_apple_crate
 - chiselsandbits:chisel_gold
+- silentgear:blaze_gold_block
+- silentgear:golden_nether_banana
+- silentgear:blaze_gold_dust
+- silentgear:blaze_gold_ingot
 
 #forge:storage_blocks/fairy
 - materialis:fairy_block
@@ -14953,6 +15460,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - alltheores:aluminum_dust
 - tinkers_reforged:aluminum_dust
 - immersiveengineering:dust_aluminum
+
+#forge:crops/pomegranate
+- pamhc2trees:pomegranateitem
 
 #blue_skies:horizonite_tools
 - blue_skies:horizonite_pickaxe
@@ -15114,6 +15624,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:condiments/saltandpepper
 - pamhc2foodextended:saltandpepperitem
 
+#forge:ingots/blaze_gold
+- silentgear:blaze_gold_ingot
+
 #minecraft:wooden_slabs
 - minecraft:oak_slab
 - minecraft:spruce_slab
@@ -15196,6 +15709,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:mysterywood_slab
 - forbidden_arcanus:edelwood_slab
 - hexcasting:akashic_slab
+- silentgear:netherwood_slab
 
 #tconstruct:casts/multi_use/tool_handle
 - tinkers_reforged:cast_tool_handle
@@ -15232,6 +15746,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:seeds/spiceleaf
 - pamhc2crops:spiceleafseeditem
+
+#silentgear:template_boards
+- silentgear:template_board
 
 #forge:ores/knightmetal
 - twilightforest:armor_shard_cluster
@@ -15526,6 +16043,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - ob_core:afterlife_key
 - ob_core:common_pendant
 
+#forge:dusts/crimson_iron
+- silentgear:crimson_iron_dust
+
 #forge:plates/plastic
 - immersiveengineering:plate_duroplast
 
@@ -15534,6 +16054,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:salad_ingredients/spinach
 - pamhc2crops:spinachitem
+
+#forge:ores/uraninite
+- powah:uraninite_ore
+- powah:uraninite_ore_poor
+- powah:uraninite_ore_dense
 
 #forge:rawfish/rawsalmon
 - minecraft:salmon
@@ -15562,6 +16087,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:lime_stained_glass_pane_9
 - chipped:lime_stained_glass_pane_10
 
+#forge:nuggets/crimson_iron
+- silentgear:crimson_iron_nugget
+
 #blue_skies:bookshelves
 - blue_skies:bluebright_bookshelf
 - blue_skies:starlit_bookshelf
@@ -15580,6 +16108,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:diamond_helmet
 - minecraft:netherite_helmet
 - minecraft:turtle_helmet
+- silentgear:helmet
+
+#forge:flour_plants/coconut
+- pamhc2trees:coconutitem
 
 #forge:gears/invar
 - alltheores:invar_gear
@@ -15591,6 +16123,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:plates/uranium
 - alltheores:uranium_plate
 - immersiveengineering:plate_uranium
+
+#forge:nuggets/cast_iron
+- createbigcannons:cast_iron_nugget
 
 #forge:berries/blueberry
 - pamhc2crops:blueberryitem
@@ -15635,6 +16170,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - alltheores:raw_zinc
 - create:raw_zinc
 
+#silentgear:blueprints/fletching
+- silentgear:fletching_blueprint
+- silentgear:fletching_template
+
+#silentgear:grader_catalysts/tier1
+- silentgear:glowing_dust
+
+#silentgear:grader_catalysts/tier2
+- silentgear:blazing_dust
+
 #forge:glass/runic
 - forbidden_arcanus:runic_glass
 
@@ -15662,6 +16207,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:light_gray_concrete_20
 - chipped:light_gray_concrete_21
 
+#silentgear:grader_catalysts/tier5
+
+#silentgear:grader_catalysts/tier3
+- silentgear:glittery_dust
+
 #blue_skies:tools/axes
 - #blue_skies:tools/wooden_axes
 - blue_skies:pyrope_axe
@@ -15669,6 +16219,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - blue_skies:aquite_axe
 - blue_skies:charoite_axe
 - blue_skies:horizonite_axe
+
+#silentgear:grader_catalysts/tier4
 
 #chipped:glass
 - minecraft:glass
@@ -15799,6 +16351,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - elementalcraft:purifier
 - elementalcraft:air_mill
 - elementalcraft:binder_improved
+
+#forge:storage_blocks/azure_silver
+- silentgear:azure_silver_block
 
 #forge:seeds/juniperberry
 - pamhc2crops:juniperberryseeditem
@@ -15969,6 +16524,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - gobber2:gobber2_foo
 - gobber2:gobber2_foo_nether
 - gobber2:gobber2_foo_end
+- silentgear:netherwood_charcoal
+- silentgear:netherwood_charcoal_block
 
 #chipped:light_gray_stained_glass
 - minecraft:light_gray_stained_glass
@@ -15985,6 +16542,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:juices/blackberryjuice
 - pamhc2foodextended:blackberryjuiceitem
+
+#forge:crops/pinenut
+- pamhc2trees:pinenutitem
 
 #ae2:quartz_pickaxe
 - ae2:certus_quartz_pickaxe
@@ -16058,6 +16618,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:flour_plants/potato
 - #forge:flour_plants/wheat
 - #forge:flour_plants/sunflowerseeds
+- #forge:flour_plants/apple
+- #forge:flour_plants/banana
+- #forge:flour_plants/coconut
+- #forge:flour_plants/breadfruit
+- #forge:flour_plants/almond
+- #forge:flour_plants/cashew
+- #forge:flour_plants/chestnut
+- #forge:flour_plants/hazelnut
+- #forge:flour_plants/pecan
+- #forge:flour_plants/pinenut
+- #forge:flour_plants/pistachio
+- #forge:flour_plants/walnut
 
 #byg:magenta_dye
 - byg:magenta_amaranth
@@ -16292,6 +16864,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:storage_blocks/slag
 - thermal:slag_block
 
+#forge:crops/avocado
+- pamhc2trees:avocadoitem
+
 #forge:terracotta
 - minecraft:white_terracotta
 - minecraft:orange_terracotta
@@ -16493,11 +17068,43 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sky_slime_leaves
 - tconstruct:ender_slime_leaves
 
+#forge:flour_plants/pecan
+- pamhc2trees:pecanitem
+
 #forge:vegetables/bellpepper
 - pamhc2crops:bellpepperitem
 
 #forge:storage_blocks/ametrine
 - byg:ametrine_block
+
+#functionalstorage:drawer
+- functionalstorage:oak_2
+- functionalstorage:spruce_2
+- functionalstorage:birch_2
+- functionalstorage:jungle_2
+- functionalstorage:acacia_2
+- functionalstorage:dark_oak_2
+- functionalstorage:crimson_2
+- functionalstorage:warped_2
+- functionalstorage:framed_2
+- functionalstorage:oak_4
+- functionalstorage:spruce_4
+- functionalstorage:birch_4
+- functionalstorage:jungle_4
+- functionalstorage:acacia_4
+- functionalstorage:dark_oak_4
+- functionalstorage:crimson_4
+- functionalstorage:warped_4
+- functionalstorage:framed_4
+- functionalstorage:oak_1
+- functionalstorage:spruce_1
+- functionalstorage:birch_1
+- functionalstorage:jungle_1
+- functionalstorage:acacia_1
+- functionalstorage:dark_oak_1
+- functionalstorage:crimson_1
+- functionalstorage:warped_1
+- functionalstorage:framed_1
 
 #forge:seeds/cassava
 - pamhc2crops:cassavaseeditem
@@ -16553,9 +17160,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:water_bucket
 - minecraft:lava_bucket
 
+#forge:gems/bort
+- silentgear:bort
+
 #forge:cookedmutton
 - #forge:cookedmutton/cookedmutton
 - #forge:cookedmutton/cookedmutton
+
+#forge:ices/packed
+- minecraft:packed_ice
 
 #forge:armor/nickel
 - tools_complement:nickel_boots
@@ -16680,6 +17293,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:raw_gold_block_60
 - chipped:raw_gold_block_61
 
+#createbigcannons:impact_fuze_head
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+
 #forge:storage_blocks/lavium
 - tinkers_reforged:lavium_block
 
@@ -16749,6 +17366,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:jellies/greengrapejelly
 - pamhc2foodextended:greengrapejellyitem
 
+#functionalstorage:ignore_crafting_check
+- minecraft:clay
+- minecraft:clay_ball
+- minecraft:glowstone
+- minecraft:glowstone_dust
+- minecraft:melon
+- minecraft:melon_slice
+- minecraft:quartz
+- minecraft:quartz_block
+- minecraft:ice
+- minecraft:blue_ice
+- minecraft:packed_ice
+
+#silentgear:grader_catalysts
+- #silentgear:grader_catalysts/tier1
+- #silentgear:grader_catalysts/tier2
+- #silentgear:grader_catalysts/tier3
+- #silentgear:grader_catalysts/tier4
+- #silentgear:grader_catalysts/tier5
+
 #forge:crops/strawberry
 - pamhc2crops:strawberryitem
 
@@ -16759,6 +17396,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #bookshelf:swords
 - #forge:swords
+
+#silentgear:rods/netherwood
+- silentgear:netherwood_stick
 
 #forge:glass_panes/red
 - minecraft:red_stained_glass_pane
@@ -16931,6 +17571,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - computercraft:turtle_normal
 - computercraft:turtle_advanced
 
+#forge:vinegar_ingredients/pawpaw
+- pamhc2trees:pawpawitem
+
 #balm:gems
 - #forge:gems?
 
@@ -16992,6 +17635,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #twilightforest:banned_uncraftables
 - twilightforest:giant_log
+
+#forge:nuts/hazelnut
+- pamhc2trees:hazelnutitem
 
 #forge:fruits/cantaloupe
 - pamhc2crops:cantaloupeitem
@@ -17064,6 +17710,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:cookies/cookie
 - minecraft:cookie
 - minecraft:cookie
+
+#silentgear:blueprints/katana
+- silentgear:katana_blueprint
+- silentgear:katana_template
 
 #forge:vegetables/nopales
 - pamhc2crops:nopalesitem
@@ -17146,8 +17796,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #refinedstorage:disks/fluids/262144k
 - #refinedstorage:disks/fluids/1048576k
 
+#silentgear:blueprints/grip
+- silentgear:grip_blueprint
+- silentgear:grip_template
+
 #forge:leafyvegetables/bokchoy
 - pamhc2crops:bokchoy
+
+#forge:vinegar_ingredients/fig
+- pamhc2trees:figitem
 
 #byg:green_dye
 - byg:golden_spined_cactus
@@ -17180,6 +17837,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:cooked_bacon
 - farmersdelight:cooked_bacon
+
+#silentgear:repair_kits
+- silentgear:crude_repair_kit
 
 #chipped:barrel
 - minecraft:barrel
@@ -17230,6 +17890,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:rawpork
 - #forge:rawpork/rawpork
 - #forge:rawpork/rawtofaconitem
+
+#forge:nuggets/crimson_steel
+- silentgear:crimson_steel_nugget
 
 #forge:nuggets/invar
 - alltheores:invar_nugget
@@ -17283,6 +17946,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:stripped_dark_oak_log_9
 - chipped:stripped_dark_oak_log_10
 - chipped:stripped_dark_oak_log_11
+
+#silentgear:blueprints/tip
+- silentgear:tip_blueprint
+- silentgear:tip_template
 
 #forge:juices/lemonjuice
 - pamhc2foodextended:lemonjuiceitem
@@ -17366,6 +18033,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:seeds/okra
 - pamhc2crops:okraseeditem
+
+#forge:rods/stone
+- silentgear:stone_rod
 
 #forge:storage_blocks/silver
 - alltheores:silver_block
@@ -18336,6 +19006,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:crossbows
 - minecraft:crossbow
+- silentgear:crossbow
 
 #ae2:p2p_attunements/redstone_p2p_tunnel
 - minecraft:redstone
@@ -18473,6 +19144,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #mekanism:clumps/platinum
 - alltheores:platinum_clump
 
+#forge:storage_blocks/tyrian_steel
+- silentgear:tyrian_steel_block
+
 #forge:seeds/asparagus
 - pamhc2crops:asparagusseeditem
 
@@ -18513,6 +19187,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:stone_shovel
 - minecraft:wooden_shovel
 - bloodmagic:soulshovel
+- silentgear:excavator
+- silentgear:mattock
+- silentgear:paxel
+- silentgear:shovel
 
 #create:seats
 - create:white_seat
@@ -18571,6 +19249,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - createdeco:dusk_brick?
 - createdeco:pearl_brick?
 
+#forge:ingots/crimson_iron
+- silentgear:crimson_iron_ingot
+
 #forge:tools/axes
 - minecraft:wooden_axe
 - minecraft:stone_axe
@@ -18611,6 +19292,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:spyglasses
 - minecraft:spyglass
+
+#forge:blocks/cast_iron
+- createbigcannons:cast_iron_block
+- createdeco:cast_iron_block?
 
 #forge:ob_armor/abyssal_armor
 - ob_aquamirae:abyssal_helmet
@@ -18772,6 +19457,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #tconstruct:casts/sand
 - #tconstruct:casts/red_sand
 
+#forge:nuts/cashew
+- pamhc2trees:cashewitem
+
 #forge:jellies/dragonfruitjelly
 - pamhc2foodextended:dragonfruitjellyitem
 
@@ -18903,6 +19591,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - ars_elemental:yellow_archwood_sapling
 - forbidden_arcanus:cherrywood_sapling
 - forbidden_arcanus:mysterywood_sapling
+- silentgear:netherwood_sapling
 
 #forge:ores/copper
 - alltheores:copper_other_ore
@@ -19022,6 +19711,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #infernalexp:glowsilk_repair_blacklist
 
+#forge:crops/orange
+- pamhc2trees:orangeitem
+
 #tconstruct:seared_tanks
 - tconstruct:seared_fuel_tank
 - tconstruct:seared_fuel_gauge
@@ -19030,6 +19722,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:dusts/end_stone
 - occultism:crushed_end_stone
+
+#silentgear:blueprints/bow
+- silentgear:bow_blueprint
+- silentgear:bow_template
 
 #forge:nuggets/kepu
 - tinkers_reforged:kepu_nugget
@@ -19140,6 +19836,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mekanismadditions:brown_plastic
 - mekanismadditions:pink_plastic
 
+#forge:vinegar_ingredients/jackfruit
+- pamhc2trees:jackfruititem
+
 #curios:feet
 - cyclic:flippers?
 - cyclic:charm_longfall?
@@ -19235,6 +19934,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:storage_blocks/raw_cobalt
 - tconstruct:raw_cobalt_block
 
+#forge:crops/rambutan
+- pamhc2trees:rambutanitem
+
 #balm:cooking_oil
 - forge:cookingoil?
 
@@ -19263,6 +19965,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #c:axes
 - byg:pendorite_axe
 - byg:pendorite_battleaxe
+
+#silentgear:blueprints/sickle
+- silentgear:sickle_blueprint
+- silentgear:sickle_template
 
 #forge:flour_plants/potato
 - minecraft:potato
@@ -19356,6 +20062,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:blue_skies/hanging_sign_dusk
 - supplementaries:blue_skies/hanging_sign_maple
 - supplementaries:blue_skies/hanging_sign_cherry
+- supplementaries:silentgear/hanging_sign_netherwood
 - supplementaries:twilightforest/hanging_sign_twilight_oak
 - supplementaries:twilightforest/hanging_sign_canopy
 - supplementaries:twilightforest/hanging_sign_mangrove
@@ -19371,8 +20078,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:tconstruct/hanging_sign_greenheart
 - supplementaries:tconstruct/hanging_sign_skyroot
 - supplementaries:tconstruct/hanging_sign_bloodshroom
-- supplementaries:quark/hanging_sign_azalea
 - supplementaries:quark/hanging_sign_blossom
+- supplementaries:quark/hanging_sign_azalea
 - supplementaries:valhelsia_structures/hanging_sign_lapidified_jungle
 - supplementaries:forbidden_arcanus/hanging_sign_fungyss
 - supplementaries:forbidden_arcanus/hanging_sign_cherrywood
@@ -19470,6 +20177,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #minecolonies:fletcher_ingredient_excluded
 - #forge:dyes
+
+#forge:vinegar_ingredients/starfruit
+- pamhc2trees:starfruititem
+
+#silentgear:blueprints/excavator
+- silentgear:excavator_blueprint
+- silentgear:excavator_template
 
 #forge:ingots/ludicrite
 - biggerreactors:ludicrite_ingot
@@ -19645,6 +20359,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:nuts/peanut
 - #forge:nuts/sunflowerseeds
 - #forge:nuts/sunflowerseeds
+- #forge:nuts/almond
+- #forge:nuts/cashew
+- #forge:nuts/chestnut
+- #forge:nuts/hazelnut
+- #forge:nuts/pecan
+- #forge:nuts/pinenut
+- #forge:nuts/pistachio
+- #forge:nuts/walnut
 
 #byg:aspen_logs
 - byg:aspen_log
@@ -19790,6 +20512,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:storage_blocks/slimesteel
 - tconstruct:slimesteel_block
 
+#forge:nuggets/emerald
+- silentgear:emerald_shard
+
 #forge:vinegar
 - #forge:vinegar/vinegar
 - #forge:vinegar/vinegar
@@ -19801,6 +20526,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #tconstruct:casts/single_use/gear
 - tconstruct:gear_sand_cast
 - tconstruct:gear_red_sand_cast
+
+#forge:crops/candlenut
+- pamhc2trees:candlenutitem
 
 #minecraft:jungle_logs
 - minecraft:jungle_log
@@ -19970,6 +20698,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:vegetables/zucchini
 - pamhc2crops:zucchiniitem
 
+#forge:crops/maple
+- pamhc2trees:maplesyrupitem
+
 #forge:ores/epidote
 - tinkers_reforged:deepslate_epidote_ore
 
@@ -19992,6 +20723,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:brown_mushroom_13
 - chipped:brown_mushroom_14
 - chipped:brown_mushroom_15
+
+#forge:fruits/soursop
+- pamhc2trees:soursopitem
 
 #exnihilosequentia:crucibles
 - exnihilosequentia:acacia_crucible
@@ -20118,6 +20852,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - cyclic:charm_stone?
 - nameless_trinkets:lucky_horseshoe
 - nameless_trinkets:fractured_nullstone
+- silentgear:bracelet
 
 #blue_skies:arcs
 - blue_skies:ethereal_arc
@@ -20127,6 +20862,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - blue_skies:aquatic_arc
 - blue_skies:life_arc
 - blue_skies:runic_arc
+
+#silents_mechanisms:chunks/crimson_iron
+- silentgear:raw_crimson_iron
 
 #cfm:bedroom
 - cfm:oak_bedside_cabinet
@@ -20286,6 +21024,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #refinedstorage:disks/items/262144k
 - #refinedstorage:disks/items/1048576k
 
+#forge:vinegar_ingredients/lychee
+- pamhc2trees:lycheeitem
+
 #curios:back
 - industrialforegoing:infinity_backpack?
 - mna:fluid_jug
@@ -20306,6 +21047,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - cyclic:charm_invisible?
 - immersiveengineering:powerpack
 - nameless_trinkets:ethereal_wings
+- silentgear:elytra
 
 #forge:rawbeef/rawtofeakitem
 - pamhc2foodextended:rawtofeakitem
@@ -20359,6 +21101,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - blue_skies:lunar_vine
 - blue_skies:dusk_vine
 - blue_skies:maple_vine
+
+#forge:nuts/pistachio
+- pamhc2trees:pistachioitem
 
 #immersiveengineering:circuits/logic
 - immersiveengineering:electron_tube
@@ -20561,6 +21306,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:nuggets/fairy
 - #forge:nuggets/alfsteel
 - #forge:nuggets/flux_infused
+- #forge:nuggets/blaze_gold
+- #forge:nuggets/crimson_iron
+- #forge:nuggets/crimson_steel
+- #forge:nuggets/azure_silver
+- #forge:nuggets/azure_electrum
+- #forge:nuggets/tyrian_steel
+- #forge:nuggets/diamond
+- #forge:nuggets/emerald
 
 #mekanismadditions:plastic_blocks/transparent
 - mekanismadditions:black_plastic_transparent
@@ -20616,6 +21369,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:rods/bronze
 - alltheores:bronze_rod
+
+#forge:crops/plum
+- pamhc2trees:plumitem
 
 #create:upright_on_belt
 - farmersdelight:milk_bottle
@@ -20760,6 +21516,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:jellies/lemonjelly
 - #forge:jellies/limejelly
 
+#silentgear:blueprints/crossbow
+- silentgear:crossbow_blueprint
+- silentgear:crossbow_template
+
 #forge:ob_materials/frozen_key
 - ob_aquamirae:frozen_key
 
@@ -20768,6 +21528,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:storage_blocks/arctic_fur
 - twilightforest:arctic_fur_block
+
+#forge:storage_blocks/raw_crimson_iron
+- silentgear:raw_crimson_iron_block
 
 #forge:ingots/osmium
 - alltheores:osmium_ingot
@@ -20855,6 +21618,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:seeds/garlic
 - pamhc2crops:garlicseeditem
+
+#silentgear:blueprints/spear
+- silentgear:spear_blueprint
+- silentgear:spear_template
 
 #bloodmagic:arc/sieve
 - bloodmagic:airscribetool
@@ -21053,6 +21820,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #industrialforegoing:machine_frame/advanced
 - industrialforegoing:machine_frame_advanced
 
+#silentgear:blueprints/saw
+- silentgear:saw_blueprint
+- silentgear:saw_template
+
 #chipped:black_concrete
 - minecraft:black_concrete
 - chipped:black_concrete_1
@@ -21127,6 +21898,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - farmersdelight:diamond_knife
 - farmersdelight:golden_knife
 - farmersdelight:netherite_knife
+- #forge:knives
 
 #balm:white_dyes
 - #forge:dyes/white?
@@ -21247,6 +22019,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:stone_sword
 - minecraft:wooden_sword
 - bloodmagic:soulsword
+- silentgear:dagger
+- silentgear:katana
+- silentgear:machete
+- silentgear:sword
 
 #forge:storage_blocks/charcoal
 - thermal:charcoal_block
@@ -21526,6 +22302,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - undergarden:depthrock_coal_ore
 - undergarden:shiverstone_coal_ore
 
+#forge:crops/peach
+- pamhc2trees:peachitem
+
 #immersiveengineering:connector_insulator
 - #minecraft:terracotta
 - immersiveengineering:duroplast
@@ -21552,6 +22331,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:raw_ores/iridium
 - alltheores:raw_iridium
+
+#silentgear:blueprints/helmet
+- silentgear:helmet_blueprint
+- silentgear:helmet_template
 
 #forge:treated_wood_slab
 - immersiveengineering:slab_treated_wood_horizontal
@@ -21627,10 +22410,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:blazewood
 - tconstruct:nahuatl
 
+#forge:ingots/azure_electrum
+- silentgear:azure_electrum_ingot
+
 #sereneseasons:autumn_crops
 - farmersdelight:cabbage_seeds
 - farmersdelight:onion
 - farmersdelight:rice
+
+#forge:nuts/chestnut
+- pamhc2trees:chestnutitem
 
 #ars_nouveau:magic_shards
 - ars_elemental:siren_shards
@@ -21794,6 +22583,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - cyclic:charm_xp_speed?
 - cyclic:charm_xp_blocker?
 - cyclic:antigravity?
+- silentgear:ring
 
 #forge:nuggets/alfsteel
 - mythicbotany:alfsteel_nugget?
@@ -21946,6 +22736,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - createaddition:copper_rod
 - createaddition:gold_rod
 - createaddition:brass_rod
+- #forge:rods/iron
+- #silentgear:rods/netherwood
+- #silentgear:rods/rough
+- #forge:rods/stone
 
 #immersiveengineering:scaffoldings/aluminum
 - immersiveengineering:alu_scaffolding_standard
@@ -22321,6 +23115,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #elementalcraft:gems/input_earth
 - #elementalcraft:gems/input_air
 
+#forge:fruits/gooseberry
+- pamhc2trees:gooseberryitem
+
 #forge:dusts/cyanite
 - biggerreactors:cyanite_dust
 
@@ -22459,6 +23256,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:vinegar_ingredients/chorusfruit
 - #forge:vinegar_ingredients/melon
 - #forge:vinegar_ingredients/sweetberries
+- #forge:vinegar_ingredients/cherry
+- #forge:vinegar_ingredients/gooseberry
+- #forge:vinegar_ingredients/lemon
+- #forge:vinegar_ingredients/orange
+- #forge:vinegar_ingredients/peach
+- #forge:vinegar_ingredients/pear
+- #forge:vinegar_ingredients/plum
+- #forge:vinegar_ingredients/pawpaw
+- #forge:vinegar_ingredients/soursop
+- #forge:vinegar_ingredients/apricot
+- #forge:vinegar_ingredients/banana
+- #forge:vinegar_ingredients/date
+- #forge:vinegar_ingredients/dragonfruit
+- #forge:vinegar_ingredients/durian
+- #forge:vinegar_ingredients/fig
+- #forge:vinegar_ingredients/grapefruit
+- #forge:vinegar_ingredients/lime
+- #forge:vinegar_ingredients/mango
+- #forge:vinegar_ingredients/papaya
+- #forge:vinegar_ingredients/persimmon
+- #forge:vinegar_ingredients/pomegranate
+- #forge:vinegar_ingredients/starfruit
+- #forge:vinegar_ingredients/breadfruit
+- #forge:vinegar_ingredients/guava
+- #forge:vinegar_ingredients/jackfruit
+- #forge:vinegar_ingredients/lychee
+- #forge:vinegar_ingredients/passionfruit
+- #forge:vinegar_ingredients/rambutan
+- #forge:vinegar_ingredients/tamarind
 
 #forge:glass_panes/cyan
 - minecraft:cyan_stained_glass_pane
@@ -22540,6 +23366,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #chipped:ice
 - #chipped:packed_ice
 - #chipped:blue_ice
+
+#forge:nuggets/azure_electrum
+- silentgear:azure_electrum_nugget
 
 #forge:crops/candleberry
 - pamhc2crops:candleberryitem
@@ -22629,6 +23458,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:vegetables/cucumber
 - pamhc2crops:cucumberitem
 
+#forge:crops/date
+- pamhc2trees:dateitem
+
 #twilightforest:sortwood_logs
 - twilightforest:sorting_log
 - twilightforest:stripped_sorting_log
@@ -22676,6 +23508,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:green_stained_glass
 - minecraft:red_stained_glass
 - minecraft:black_stained_glass
+
+#forge:crops/lime
+- pamhc2trees:limeitem
 
 #forge:juices/glowberryjuice
 - pamhc2foodcore:glowberryjuiceitem
@@ -22726,6 +23561,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:nightshade_wood
 - byg:stripped_nightshade_wood
 
+#forge:crops/banana
+- pamhc2trees:bananaitem
+
 #forge:paper_plants/mulberry
 - pamhc2crops:mulberryitem
 
@@ -22771,6 +23609,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mekanismtools:refined_glowstone_shovel?
 - mekanismtools:refined_obsidian_shovel?
 - mekanismtools:steel_shovel?
+
+#silentgear:blueprints/ring
+- silentgear:ring_blueprint
+- silentgear:ring_template
 
 #supplementaries:hourglass_dusts
 - minecraft:gunpowder?
@@ -23051,6 +23893,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:furnaces/rainbow
 - ironfurnaces:million_furnace
 
+#forge:fruits/pomegranate
+- pamhc2trees:pomegranateitem
+
 #forge:condiments/oystersauce
 - pamhc2foodextended:oystersauceitem
 
@@ -23157,6 +24002,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:furnaces/crystal
 - ironfurnaces:crystal_furnace
 
+#silentgear:blueprints/rod
+- silentgear:rod_blueprint
+- silentgear:rod_template
+
 #chipped:white_wool
 - minecraft:white_wool
 - chipped:white_wool_1
@@ -23189,6 +24038,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mna:tarma_root
 - mna:desert_nova
 - mna:wakebloom
+
+#forge:knives
+- silentgear:knife
+- silentgear:dagger
 
 #forge:raw_ores/nickel
 - alltheores:raw_nickel
@@ -23592,6 +24445,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:red_stained_glass_pane_9
 - chipped:red_stained_glass_pane_10
 
+#forge:blocks/steel
+- alloyed:steel_block?
+
 #forge:fruits/pineapple
 - pamhc2crops:pineappleitem
 
@@ -23685,6 +24541,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:vinegar_ingredients/melon
 - minecraft:melon
 - minecraft:melon
+
+#forge:raw_materials/azure_silver
+- silentgear:raw_azure_silver
 
 #elementalcraft:receptacles/full
 - elementalcraft:receptacle
@@ -24030,6 +24889,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mekanismadditions:brown_plastic_transparent_slab
 - mekanismadditions:pink_plastic_transparent_slab
 
+#forge:ores/azure_silver
+- silentgear:azure_silver_ore
+
 #tconstruct:casts/single_use/ingot
 - tconstruct:ingot_sand_cast
 - tconstruct:ingot_red_sand_cast
@@ -24272,6 +25134,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - alltheores:lumium_ingot
 - thermal:lumium_ingot
 
+#forge:saws
+- silentgear:saw
+
 #elementalcraft:shards/default
 - elementalcraft:fire_shard
 - elementalcraft:water_shard
@@ -24291,6 +25156,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - farmersdelight:diamond_knife
 - farmersdelight:golden_knife
 - farmersdelight:netherite_knife
+
+#silentgear:blueprints/trident
+- silentgear:trident_blueprint
+- silentgear:trident_template
 
 #forge:dusts/quartz
 - thermal:quartz_dust
@@ -24433,6 +25302,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - extradisks:262144k_fluid_storage_part
 - rebornstorage:large_fluid_disk_part
 
+#silentgear:blueprints/axe
+- silentgear:axe_blueprint
+- silentgear:axe_template
+
 #forge:fruits/juniperberry
 - pamhc2crops:juniperberryitem
 
@@ -24549,6 +25422,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:cracker/cracker
 - #forge:cracker/cracker
 
+#silentgear:starlight_charger_catalysts/tier1
+- #forge:dusts/blaze_gold
+
+#silentgear:starlight_charger_catalysts/tier2
+- #forge:dusts/azure_silver
+
 #chipped:yellow_stained_glass_pane
 - minecraft:yellow_stained_glass_pane
 - chipped:yellow_stained_glass_pane_1
@@ -24571,6 +25450,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - thermal:silver_ingot
 - exnihilosequentia:silver_ingot
 - immersiveengineering:ingot_silver
+
+#silentgear:starlight_charger_catalysts/tier3
+- #forge:dusts/starmetal
+
+#forge:nuggets/tyrian_steel
+- silentgear:tyrian_steel_nugget
 
 #forge:ingots/platinum
 - alltheores:platinum_ingot
@@ -24699,6 +25584,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:salad_ingredients/nettles
 - #forge:salad_ingredients/bokchoy
 - #forge:salad_ingredients/cabbage
+
+#forge:ores/crimson_iron
+- silentgear:crimson_iron_ore
 
 #forge:dusts/lapis
 - thermal:lapis_dust
@@ -24877,6 +25765,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:ingots/pink_slime
 - #forge:ingots/alfsteel
 - #forge:ingots/flux_infused
+- #forge:ingots/blaze_gold
+- #forge:ingots/crimson_iron
+- #forge:ingots/crimson_steel
+- #forge:ingots/azure_silver
+- #forge:ingots/azure_electrum
+- #forge:ingots/tyrian_steel
 
 #forge:crops/oat
 - pamhc2crops:oatsitem
@@ -24901,6 +25795,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:bread/wheat
 - minecraft:bread
+
+#forge:egg/avocado
+- pamhc2trees:avocadoitem
 
 #forge:jellies/melonjelly
 - pamhc2foodcore:melonjellyitem
@@ -24955,9 +25852,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:stone_pickaxe
 - minecraft:wooden_pickaxe
 - bloodmagic:soulpickaxe
+- silentgear:hammer
+- silentgear:paxel
+- silentgear:pickaxe
 
 #refinedstorage:parts/items/infinite
 - extradisks:infinite_storage_part
+
+#forge:crops/passionfruit
+- pamhc2trees:passionfruititem
 
 #forge:dusts/magma_steel
 - tinkers_reforged:magma_steel_dust
@@ -24988,6 +25891,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #pneumaticcraft:chests
 - pneumaticcraft:smart_chest
 - pneumaticcraft:reinforced_chest
+
+#forge:blocks/bronze
+- alloyed:bronze_block?
 
 #forge:ores/lead
 - alltheores:lead_ore
@@ -25179,6 +26085,36 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:fruits/melon
 - #forge:fruits/sweetberries
 - #forge:fruits/glowberries
+- #forge:fruits/cherry
+- #forge:fruits/gooseberry
+- #forge:fruits/lemon
+- #forge:fruits/orange
+- #forge:fruits/peach
+- #forge:fruits/pear
+- #forge:fruits/plum
+- #forge:fruits/pawpaw
+- #forge:fruits/soursop
+- #forge:fruits/apricot
+- #forge:fruits/banana
+- #forge:fruits/date
+- #forge:fruits/dragonfruit
+- #forge:fruits/durian
+- #forge:fruits/fig
+- #forge:fruits/grapefruit
+- #forge:fruits/lime
+- #forge:fruits/mango
+- #forge:fruits/papaya
+- #forge:fruits/persimmon
+- #forge:fruits/pomegranate
+- #forge:fruits/starfruit
+- #forge:fruits/breadfruit
+- #forge:fruits/guava
+- #forge:fruits/jackfruit
+- #forge:fruits/lychee
+- #forge:fruits/passionfruit
+- #forge:fruits/rambutan
+- #forge:fruits/tamarind
+- silentgear:nether_banana
 
 #forge:ores/cloggrum
 - undergarden:depthrock_cloggrum_ore
@@ -25220,6 +26156,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:red_clear_stained_glass_pane
 - tconstruct:black_clear_stained_glass_pane
 
+#forge:nuts/pinenut
+- pamhc2trees:pinenutitem
+
 #mekanism:clumps/zinc
 - alltheores:zinc_clump
 
@@ -25228,6 +26167,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #mekanism:dirty_dusts/uranium
 - mekanism:dirty_dust_uranium
+
+#forge:fruits/jackfruit
+- pamhc2trees:jackfruititem
 
 #forge:cheese/silkentofu
 - pamhc2foodextended:silkentofuitem
@@ -25339,6 +26281,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:rootvegetables/rutabaga
 - pamhc2crops:rutabagaitem
 
+#forge:flour_plants/hazelnut
+- pamhc2trees:hazelnutitem
+
 #forge:gems/fluorite
 - mekanism:fluorite_gem
 
@@ -25446,6 +26391,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:mysterywood_trapdoor
 - forbidden_arcanus:edelwood_trapdoor
 - hexcasting:akashic_trapdoor
+- silentgear:netherwood_trapdoor
 
 #forge:cooked_pork
 - minecraft:cooked_porkchop
@@ -25560,6 +26506,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - reliquary:tipped_arrow
 - forbidden_arcanus:boom_arrow
 - forbidden_arcanus:draco_arcanus_arrow
+- silentgear:arrow
 
 #mna:lesser_motes
 - mna:mote_air
@@ -25648,6 +26595,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:mysterywood_door
 - forbidden_arcanus:edelwood_door
 - hexcasting:akashic_door
+- silentgear:netherwood_door
 
 #tconstruct:modifiable/interactable
 - #tconstruct:modifiable/held
@@ -25766,6 +26714,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:embur_hyphae
 - byg:stripped_embur_hyphae
 
+#forge:fruits/lemon
+- pamhc2trees:lemonitem
+
 #forge:fruits/guarana
 - pamhc2crops:guaranaitem
 
@@ -25843,6 +26794,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:nuggets/platinum
 - alltheores:platinum_nugget
+
+#forge:nuts/pecan
+- pamhc2trees:pecanitem
 
 #curios:glasses
 - advancedperipherals:ar_goggles
@@ -26660,6 +27614,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:juices/pearjuice
 - pamhc2foodextended:pearjuiceitem
 
+#forge:dusts/starmetal
+- silentgear:starmetal_dust
+
 #industrialforegoing:enchantment_extractor_blacklist
 
 #elementalcraft:gems/fine_fire
@@ -27046,6 +28003,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - industrialforegoing:gold_gear?
 - thermal:gold_gear
 
+#forge:storage_blocks/blaze_gold
+- silentgear:blaze_gold_block
+
 #gobber2:gobber2_ore_nether
 - gobber2:gobber2_ore_nether
 
@@ -27089,6 +28049,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:vegetables/jicama
 - pamhc2crops:jicamaitem
+
+#forge:fruits/fig
+- pamhc2trees:figitem
 
 #tconstruct:casts/single_use/tool_handle
 - tconstruct:tool_handle_sand_cast
@@ -27287,6 +28250,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - botania:terrasteel_helmet
 - botania:spark
 
+#forge:flour_plants/pistachio
+- pamhc2trees:pistachioitem
+
 #forge:ores/regalium
 - undergarden:depthrock_regalium_ore
 - undergarden:shiverstone_regalium_ore
@@ -27391,6 +28357,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - nameless_trinkets:creeper_sense
 - nameless_trinkets:pocket_lightning_rod
 
+#forge:flour_plants/pinenut
+- pamhc2trees:pinenutitem
+
 #byg:lament_logs
 - byg:lament_log
 - byg:stripped_lament_log
@@ -27479,6 +28448,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #c:leggings
 - byg:ametrine_leggings
 
+#forge:vinegar_ingredients/tamarind
+- pamhc2trees:tamarinditem
+
+#forge:vinegar_ingredients/apricot
+- pamhc2trees:apricotitem
+
 #farmersdelight:wild_crops
 - farmersdelight:wild_carrots
 - farmersdelight:wild_potatoes
@@ -27510,6 +28485,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tools_complement:electrum_helmet
 - tools_complement:electrum_leggings
 
+#forge:crops/fig
+- pamhc2trees:figitem
+
 #byg:redwood_logs
 - byg:redwood_log
 - byg:stripped_redwood_log
@@ -27528,6 +28506,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:ices/ice
 - minecraft:ice
 - minecraft:ice
+- minecraft:ice
+
+#forge:crops/apricot
+- pamhc2trees:apricotitem
 
 #tconstruct:casts/sand
 - tinkers_reforged:great_blade_cast_sand
@@ -27649,8 +28631,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:crops/blueberry
 - pamhc2crops:blueberryitem
 
+#silentgear:blueprints/lining
+- silentgear:lining_blueprint
+- silentgear:lining_template
+
 #mekanism:enriched/gold
 - mekanism:enriched_gold
+
+#forge:vegetables/avocado
+- pamhc2trees:avocadoitem
 
 #minecolonies:sawmill_ingredient
 - minecraft:cactus
@@ -27856,6 +28845,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:seeds/melon
 - #forge:seeds/pumpkin
 - #forge:seeds/wheat
+- silentgear:flax_seeds
+- silentgear:fluffy_seeds
 
 #botania:rods
 - botania:dirt_rod
@@ -27935,6 +28926,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:light_blue_glazed_terracotta_10
 - chipped:light_blue_glazed_terracotta_11
 
+#silentgear:blueprints/arrow
+- silentgear:arrow_blueprint
+- silentgear:arrow_template
+
 #forge:fruits/raspberries
 - pamhc2crops:raspberryitem
 
@@ -27975,6 +28970,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:paper_plants/papyrus
 - pamhc2crops:papyrusitem
+
+#forge:vinegar_ingredients/peach
+- pamhc2trees:peachitem
 
 #valhelsia_structures:jar_blacklisted
 - minecraft:cactus
@@ -28484,6 +29482,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - biggerreactors:uranium_ore
 - #forge:ores/starmetal
 - #forge:ores/elementium
+- #forge:ores/bort
+- #forge:ores/crimson_iron
+- #forge:ores/azure_silver
+- #forge:ores/uraninite
 
 #forge:sodas/orangesodaitem
 - pamhc2foodextended:orangesodaitem
@@ -28617,6 +29619,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:stone_axe
 - minecraft:wooden_axe
 - bloodmagic:soulaxe
+- silentgear:axe
+- silentgear:saw
+- silentgear:machete
+- silentgear:mattock
+- silentgear:paxel
 
 #forge:rootvegetables
 - #forge:rootvegetables/arrowroot
@@ -28662,6 +29669,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:green_concrete_19
 - chipped:green_concrete_20
 - chipped:green_concrete_21
+
+#forge:crops/peppercorn
+- pamhc2trees:peppercornitem
 
 #forge:wool/black
 - minecraft:black_wool
@@ -28785,6 +29795,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - pneumaticcraft:wall_lamp_red
 - pneumaticcraft:wall_lamp_black
 
+#silentgear:blueprints/machete
+- silentgear:machete_blueprint
+- silentgear:machete_template
+
 #tconstruct:scorched_blocks
 - tconstruct:scorched_stone
 - tconstruct:polished_scorched_stone
@@ -28854,6 +29868,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:paper
 - lightmanscurrency:ticket_stub
 
+#forge:fruits/passionfruit
+- pamhc2trees:passionfruititem
+
 #minecraft:piglin_food
 - minecraft:porkchop
 - minecraft:cooked_porkchop
@@ -28869,6 +29886,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:echo/echo
 - ob_aquamirae:ship_graveyard_echo
 
+#silentgear:blueprints/shovel
+- silentgear:shovel_blueprint
+- silentgear:shovel_template
+
 #forge:ices/blueice
 - minecraft:blue_ice
 - minecraft:blue_ice
@@ -28880,12 +29901,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - alltheores:enderium_gear
 - thermal:enderium_gear
 
+#silentgear:blueprints/fishing_rod
+- silentgear:fishing_rod_blueprint
+- silentgear:fishing_rod_template
+
 #byg:red_dye
 - byg:amaranth
 - byg:begonia
 - byg:kovan_flower
 - byg:rose
 - byg:torch_ginger
+
+#forge:ores/bort
+- silentgear:bort_ore
+- silentgear:deepslate_bort_ore
 
 #minecolonies:cook_ingredient
 - #minecraft:fishes
@@ -29007,6 +30036,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:candle_holder_orange
 - supplementaries:candle_holder_gray
 
+#forge:fruits/pawpaw
+- pamhc2trees:pawpawitem
+
 #forge:ores/tin
 - alltheores:tin_ore
 - alltheores:tin_slate_ore
@@ -29075,6 +30107,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #ars_nouveau:golem/shard
 - minecraft:amethyst_shard
 
+#silentgear:blueprints/binding
+- silentgear:binding_blueprint
+- silentgear:binding_template
+
+#forge:crops/chestnut
+- pamhc2trees:chestnutitem
+
 #forge:dusts/graphite
 - biggerreactors:graphite_dust
 
@@ -29135,6 +30174,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:golden_boots
 - minecraft:diamond_boots
 - minecraft:netherite_boots
+- silentgear:boots
 
 #forge:crops/cabbage
 - pamhc2crops:cabbageitem
@@ -29219,6 +30259,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:blue_terracotta_64
 - chipped:blue_terracotta_65
 - chipped:blue_terracotta_66
+
+#forge:vinegar_ingredients/papaya
+- pamhc2trees:papayaitem
+
+#forge:storage_blocks/bort
+- silentgear:bort_block
 
 #xnet:connectors
 - xnet:connector_blue
@@ -29666,6 +30712,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:storage_blocks/alfsteel
 - #forge:storage_blocks/raw_elementium
 - #forge:storage_blocks/flux_infused
+- #forge:storage_blocks/bort
+- #forge:storage_blocks/blaze_gold
+- #forge:storage_blocks/crimson_iron
+- #forge:storage_blocks/crimson_steel
+- #forge:storage_blocks/azure_silver
+- #forge:storage_blocks/azure_electrum
+- #forge:storage_blocks/tyrian_steel
+- powah:uraninite_block
 
 #forge:glass_panes/orange
 - minecraft:orange_stained_glass_pane
@@ -29792,6 +30846,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:egg
 - #forge:egg/egg
 - #forge:egg/egg
+- #forge:egg/avocado
+- #forge:egg/banana
 
 #forge:vegetables/tomato
 - pamhc2crops:tomatoitem
@@ -29972,6 +31028,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:netherite_shovel
 - immersiveengineering:shovel_steel
 
+#forge:crops/cinnamon
+- pamhc2trees:cinnamonitem
+
 #farmersdelight:cabinets
 - #farmersdelight:cabinets/wooden
 
@@ -29995,6 +31054,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:travelers_helmet
 - tconstruct:plate_helmet
 - tconstruct:slime_helmet
+
+#forge:dusts/crimson_steel
+- silentgear:crimson_steel_dust
 
 #forge:coins/copper
 - thermal:copper_coin
@@ -30468,6 +31530,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - forbidden_arcanus:cherrywood_stairs
 - forbidden_arcanus:mysterywood_stairs
 - forbidden_arcanus:edelwood_stairs
+- silentgear:netherwood_stairs
 
 #tconstruct:casts/multi_use/small_axe_head
 - tinkers_reforged:cast_small_axe_head
@@ -30478,6 +31541,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:nuggets/lavium
 - tinkers_reforged:lavium_nugget
+
+#forge:vinegar_ingredients/breadfruit
+- pamhc2trees:breadfruititem
+
+#forge:crops/pecan
+- pamhc2trees:pecanitem
+
+#forge:crops/breadfruit
+- pamhc2trees:breadfruititem
 
 #forge:gears/tin
 - alltheores:tin_gear
@@ -30663,6 +31735,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:furnaces/emerald
 - ironfurnaces:emerald_furnace
 
+#forge:nuts/almond
+- pamhc2trees:almonditem
+
 #pneumaticcraft:compressed_stone
 - pneumaticcraft:compressed_stone
 
@@ -30726,6 +31801,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #c:ores/ametrine
 - byg:ametrine_ore
 - byg:budding_ametrine_ore
+
+#forge:fruits/grapefruit
+- pamhc2trees:grapefruititem
 
 #forge:gears/constantan
 - alltheores:constantan_gear
@@ -30957,12 +32035,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:leafyvegetables/cabbage
 - pamhc2crops:cabbageitem
 
+#forge:crops/cherry
+- pamhc2trees:cherryitem
+
 #mekanism:crystals/zinc
 - alltheores:zinc_crystal
 
 #refinedstorage:disks/items/4096k
 - extradisks:4096k_storage_disk
 - rebornstorage:large_item_disk
+
+#forge:crops/soursop
+- pamhc2trees:soursopitem
 
 #tconstruct:inventory_blacklist
 - minecraft:shulker_box
@@ -31228,6 +32312,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:juices/mangojuice
 - pamhc2foodextended:mangojuiceitem
+
+#silentgear:blueprints/sword
+- silentgear:sword_blueprint
+- silentgear:sword_template
+
+#forge:fruits/banana
+- pamhc2trees:bananaitem
 
 #forge:fruits/blueberries
 - pamhc2crops:blueberryitem
@@ -31499,6 +32590,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:string
 - undergarden:twistytwig
 - minecraft:string
+- silentgear:flax_string
+- silentgear:sinew_fiber
 
 #forge:grain/rice
 - pamhc2crops:riceitem
@@ -31538,6 +32631,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:tortillachips
 - #forge:tortillachips/tortillachips
+
+#silentgear:blueprints/coating
+- silentgear:coating_blueprint
+- silentgear:coating_template
 
 #forge:flour_plants/rye
 - pamhc2crops:ryeitem
@@ -31749,6 +32846,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:vegetables/carrot
 - #forge:vegetables/potato
 - #forge:vegetables/pumpkin
+- #forge:vegetables/avocado
+- #forge:vegetables/olive
 
 #forge:ob_tools/maze_rose
 - ob_aquamirae:maze_rose
@@ -31813,6 +32912,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:cookedfish/cookedsalmon
 - minecraft:cooked_salmon
 - minecraft:cooked_salmon
+
+#forge:flour_plants/walnut
+- pamhc2trees:walnutitem
 
 #forge:circuits/advanced
 - mekanism:advanced_control_circuit
@@ -32057,6 +33159,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:fruits/blackberries
 - pamhc2crops:blackberryitem
 
+#forge:fruits/tamarind
+- pamhc2trees:tamarinditem
+
 #miningmaster:catalysts
 - infernalexp:blindsight_tongue_whip
 
@@ -32077,8 +33182,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chipped:cobweb_9
 - chipped:cobweb_10
 
+#forge:crops/tamarind
+- pamhc2trees:tamarinditem
+
 #bookshelf:strings
 - #forge:string
+
+#forge:crops/almond
+- pamhc2trees:almonditem
 
 #forge:seeds/peanut
 - pamhc2crops:peanutseeditem
@@ -32254,6 +33365,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - botania:black_hole_talisman
 - quark:trowel
 
+#silentgear:blueprints/adornment
+- silentgear:jeweler_tools
+
 #minecolonies:reduceable_ingredient
 - #forge:glass
 - #forge:glass_panes
@@ -32371,6 +33485,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - cyclic:shears_flint?
 - tconstruct:kama
 - minecraft:shears
+- silentgear:shears
 
 #forge:ingots/shadow_steel
 - create:shadow_steel?
@@ -32482,6 +33597,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:seeds/whitemushroom
 - pamhc2crops:whitemushroomseeditem
+
+#forge:vinegar_ingredients/durian
+- pamhc2trees:durianitem
 
 #mekanism:dirty_dusts
 - alltheores:dirty_aluminum_dust

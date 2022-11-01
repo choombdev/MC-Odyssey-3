@@ -3410,5 +3410,106 @@
 				}
 			]
 		}
+		{
+			title: "LaserIO"
+			x: -5.0d
+			y: -9.5d
+			subtitle: "EnderIO but Lasers!"
+			description: ["If, like me, you miss EnderIO's conduits, this mod will fill that hole until EnderIO finally gets ported!"]
+			size: 2.0d
+			id: "69A8F8D3AA236E41"
+			tasks: [{
+				id: "69DD341F0B11EF84"
+				type: "item"
+				item: {
+					id: "laserio:laser_wrench"
+					Count: 1b
+					tag: {
+						connectionpos: {
+							Z: 0
+							X: 0
+							Y: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0634AE0DE1D219EF"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "laserio:laseriobook"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -10.5d
+			description: [
+				"This is the 'conduit'. You place all the blocks you want it to interact with around it"
+				"It can transfer lasers to another conduit 8 blocks away, using the relay/connector to extend this distance."
+				"Connection is done through the wrench."
+			]
+			dependencies: ["69A8F8D3AA236E41"]
+			id: "64A789B28840F628"
+			tasks: [{
+				id: "28A975E8A86A391F"
+				type: "item"
+				item: "laserio:laser_node"
+			}]
+			rewards: [
+				{
+					id: "69DD2E36E35C1267"
+					type: "item"
+					item: "laserio:laser_connector"
+				}
+				{
+					id: "7706AEFE37F6EB8D"
+					type: "item"
+					item: "laserio:laser_node"
+					count: 6
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -11.5d
+			description: [
+				"Cards tell your Conduit what to do exactly, whether it extracts/inserts and selects whether you want to interact with Redstone, Items, Fluids or Energy"
+				"Simply rightclick with the card, select whether you want it to input or output then place it in the conduit, make sure to place it in the right face (NSWE or up and down) by right clicking the Conduit with an empty hand."
+			]
+			dependencies: ["64A789B28840F628"]
+			id: "626FB5506BE43CB3"
+			tasks: [
+				{
+					id: "7F3585E1D9D229AE"
+					type: "item"
+					item: "laserio:card_item"
+				}
+				{
+					id: "1F43CA3881475DBA"
+					type: "item"
+					item: "laserio:card_fluid"
+				}
+				{
+					id: "5A936294BD6BAA8F"
+					type: "item"
+					item: "laserio:card_energy"
+				}
+				{
+					id: "50BE524D4F185F87"
+					type: "item"
+					item: "laserio:card_redstone"
+				}
+			]
+			rewards: [{
+				id: "71D25D09241C5A93"
+				type: "loot"
+				table_id: 5348617777777244959L
+			}]
+		}
 	]
 }
