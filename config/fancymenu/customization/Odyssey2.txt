@@ -45,19 +45,24 @@ customization {
 }
 
 customization {
-  identifier = %id=374306%
-  action = hidebutton
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = mid-centered
+  x = -126
+  action = movebutton
+  y = -19
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
-  action = hidebutton
+  width = 20
+  action = resizebutton
+  height = 20
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
   action = setbuttonlabel
-  value = Mod List
+  value = A
 }
 
 customization {
@@ -109,5 +114,13 @@ customization {
   label = Modlist
   value = com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen
   height = 20
+}
+
+customization {
+  identifier = %id=374306%
+  orientation = mid-centered
+  x = -126
+  action = movebutton
+  y = -42
 }
 

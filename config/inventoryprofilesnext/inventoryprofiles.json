@@ -1,0 +1,25 @@
+{
+    "ModSettings": {
+        "highlight_foused_items": {
+            "value": false
+        },
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        }
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "LEFT_SHIFT,R"
+            }
+        },
+        "open_gui_editor": {
+            "main": {
+                "keys": "LEFT_SHIFT,R,G"
+            }
+        }
+    }
+}

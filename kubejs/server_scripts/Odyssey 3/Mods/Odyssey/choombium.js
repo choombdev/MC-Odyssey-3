@@ -3,19 +3,21 @@
   onEvent('recipes', event =>{
 
   //Smithing
-  event.smithing('kubejs:choombium_helmet', 'minecraft:netherite_helmet', 'kubejs:choombium_ingot') 
-  event.smithing('kubejs:choombium_chestplate', 'minecraft:netherite_chestplate', 'kubejs:choombium_ingot') 
-  event.smithing('kubejs:choombium_leggings', 'minecraft:netherite_leggings', 'kubejs:choombium_ingot') 
-  event.smithing('kubejs:choombium_boots', 'minecraft:netherite_boots', 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_helmet', Item.of('minecraft:netherite_helmet').ignoreNBT(), 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_chestplate', Item.of('minecraft:netherite_chestplate').ignoreNBT(), 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_leggings', Item.of('minecraft:netherite_leggings').ignoreNBT(), 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_boots', Item.of('minecraft:netherite_boots').ignoreNBT(), 'kubejs:choombium_ingot') 
 
   event.smithing('kubejs:choombium_sword', Item.of('minecraft:netherite_sword').ignoreNBT(), 'kubejs:choombium_ingot') 
-  event.smithing('kubejs:choombium_pickaxe', 'minecraft:netherite_pickaxe', 'kubejs:choombium_ingot') 
-  event.smithing('kubejs:choombium_axe', 'minecraft:netherite_axe', 'kubejs:choombium_ingot') 
-  event.smithing('kubejs:choombium_shovel', 'minecraft:netherite_shovel', 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_pickaxe', Item.of('minecraft:netherite_pickaxe').ignoreNBT(), 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_axe', Item.of('minecraft:netherite_axe').ignoreNBT(), 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_shovel', Item.of('minecraft:netherite_shovel').ignoreNBT(), 'kubejs:choombium_ingot') 
 
   event.smithing('kubejs:choombium_sword', Item.of('byg:pendorite_sword').ignoreNBT(), 'kubejs:choombium_ingot') 
   event.smithing('kubejs:choombium_pickaxe', 'byg:pendorite_pickaxe', 'kubejs:choombium_ingot') 
   event.smithing('kubejs:choombium_axe', 'byg:pendorite_axe', 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_shovel', 'byg:pendorite_shovel', 'kubejs:choombium_ingot') 
+
 
   //Smelting Ore to Ingot
   event.smelting('kubejs:choombium_ingot', 'kubejs:choombium_ore')

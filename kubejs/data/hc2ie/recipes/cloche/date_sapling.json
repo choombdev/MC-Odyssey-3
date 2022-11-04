@@ -1,0 +1,21 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2trees:dateitem",
+            "count": 2
+        }
+    ],
+    "input": {
+        "item": "pamhc2trees:date_sapling"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "generic",
+        "block": "pamhc2trees:date_sapling"
+    }
+}
+    

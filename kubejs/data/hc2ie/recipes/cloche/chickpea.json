@@ -1,0 +1,19 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "pamhc2crops:chickpeaitem"
+    }
+  ],
+  "input": {
+    "item": "pamhc2crops:chickpeaseeditem"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 100,
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamchickpeacrop"
+  }
+}

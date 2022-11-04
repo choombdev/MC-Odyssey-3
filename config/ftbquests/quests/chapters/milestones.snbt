@@ -175,13 +175,13 @@
 			x: -1.5d
 			y: -1.5d
 			subtitle: "I'm Still Standin'"
-			description: ["Survive 24 hours without dying."]
+			description: ["Survive 48 hours without dying."]
 			id: "41A04CD1AC1DB1A7"
 			tasks: [{
 				id: "226B11F415F3A9A5"
 				type: "stat"
 				stat: "minecraft:time_since_death"
-				value: 1734000
+				value: 3468000
 			}]
 			rewards: [
 				{
@@ -256,7 +256,7 @@
 				id: "20078B99A1B98EF4"
 				type: "stat"
 				stat: "minecraft:leave_game"
-				value: 25
+				value: 50
 			}]
 			rewards: [
 				{

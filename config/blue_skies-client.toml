@@ -19,17 +19,17 @@
 		#
 		# If set to true, inventory tabs appear on the bottom left corner instead of the bottom right.
 		# Default: false
-		left_align = false
+		left_align = true
 
 	["Inventory Tabs".Buttons]
 		#
 		# The x position of the inventory tabs.
 		# Default: -88
-		x = -88
+		x = -112
 		#
 		# The y position of the inventory tabs.
 		# Default: -83
-		y = -83
+		y = 4
 		#
 		# If set to true, inventory tabs are sorted vertically. If set to false, they are sorted horizontally.
 		# Default: false

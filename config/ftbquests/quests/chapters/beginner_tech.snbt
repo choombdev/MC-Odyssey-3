@@ -3089,8 +3089,9 @@
 				item: "create:mechanical_pump"
 			}]
 			rewards: [{
-				id: "44E5BF45C12E65EA"
-				type: "choice"
+				id: "08326566722CE64F"
+				type: "loot"
+				exclude_from_claim_all: true
 				table_id: 5348617777777244959L
 			}]
 		}

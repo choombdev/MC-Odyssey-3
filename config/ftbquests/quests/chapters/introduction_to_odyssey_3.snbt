@@ -1818,5 +1818,64 @@
 				item: "ftbquests:screen_1"
 			}]
 		}
+		{
+			title: "Basic Loot Crate [Repeatable]"
+			x: -9.5d
+			y: 3.0d
+			can_repeat: true
+			id: "2EB8EAA706832D26"
+			tasks: [{
+				id: "47AE70F688A2ADAB"
+				type: "item"
+				item: "lightmanscurrency:coin_emerald"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3F3BD0B939A2195F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			title: "Advanced Loot Crate [Repeatable]"
+			x: -9.5d
+			y: 4.0d
+			can_repeat: true
+			id: "1169D58D72F39CA1"
+			tasks: [{
+				id: "15DF7FCD29CB4F39"
+				type: "item"
+				item: "lightmanscurrency:coinpile_diamond"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "417C8D1F63F8D411"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6662433201225807513L
+			}]
+		}
+		{
+			title: "Ultimate Loot Crate [Repeatable]"
+			x: -9.5d
+			y: 5.0d
+			can_repeat: true
+			id: "1160E09E98814F7E"
+			tasks: [{
+				id: "6F3DEC685825AFE3"
+				type: "item"
+				item: "lightmanscurrency:coin_netherite"
+				count: 2L
+				consume_items: false
+			}]
+			rewards: [{
+				id: "4431E68CB412F8E0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8510385002616264230L
+			}]
+		}
 	]
 }

@@ -7,19 +7,18 @@ onEvent('recipes', event => {
   event.recipes.immersiveengineeringCrusher(quartz, rawquartz)
   event.recipes.thermal.pulverizer(quartz, rawquartz)
   event.recipes.mekanismCrushing(quartz, rawquartz)
-  
-  // Quartizite Alternative
-  event.recipes.createCrushing(['minecraft:quartz'.withChance(0.3), 'minecraft:sand'.withChance(0.6)], 'byg:quartzite_sand')
 
- // Adding Missing Crushing Recipes
-  var materials = ['aluminum', 'netherite', 'lead', 'nickel', 'osmium', 'platinum', 'silver', 'tin', 'uranium', 'zinc', 'iridium', 'steel', 'invar', 'electrum', 'bronze', 'enderium', 'lumium', 'signalum', 'constantan', 'brass', 'sapphire']
-  // Looping through Materials
-  for (let material in materials) {
-    // Checking if Material Exists in game then adding a crushing recipe to it.
-    x = 'raw_' + material
-    y = '2x' + material + '_ingot'
-    if ( !Item.of(y).isEmpty() || !Item.of(x).isEmpty() ){
-      event.recipes.thermal.pulverizer(x, y)     
-    }
-  }
+  // Quartizite to Quartz
+  event.recipes.createCrushing(['minecraft:quartz', 'minecraft:sand'], 'byg:quartzite_sand')
+
+    // Adding Missing Crushing Recipes
+    var materials = ['aluminum', 'lead', 'nickel', 'osmium', 'platinum', 'silver', 'tin', 'uranium', 'zinc', 'iridium']
+    // Looping through Materials
+    materials.forEach(material => {
+      // Checking if Material exists in game then adding a crushing recipe to it.
+      if ( !Item.of('alltheores:raw_' + material).isEmpty() || !Item.of('alltheores:' + material + '_dust').isEmpty() ){
+        event.recipes.thermal.pulverizer('2x alltheores:' + material + '_dust', 'alltheores:raw_' + material)     
+      }
+    })
+
 })

@@ -1,0 +1,21 @@
+{
+    "type": "immersiveengineering:cloche",
+    "results": [
+        {
+            "item": "pamhc2trees:rambutanitem",
+            "count": 2
+        }
+    ],
+    "input": {
+        "item": "pamhc2trees:rambutan_sapling"
+    },
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 1200,
+    "render": {
+        "type": "generic",
+        "block": "pamhc2trees:rambutan_sapling"
+    }
+}
+    

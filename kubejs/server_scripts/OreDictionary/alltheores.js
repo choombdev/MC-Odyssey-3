@@ -3,9 +3,9 @@
 onEvent('recipes', event =>{
 
  // Registering List of Materials
- var materials = ['aluminum', 'netherite', 'lead', 'nickel', 'osmium', 'platinum', 'silver', 'tin', 'uranium', 'zinc', 'iridium', 'steel', 'invar', 'electrum', 'bronze', 'enderium', 'lumium', 'signalum', 'constantan', 'brass', 'sapphire']
+ var materials = ['aluminum', 'lead', 'nickel', 'osmium', 'platinum', 'silver', 'tin', 'uranium', 'zinc', 'iridium', 'steel', 'invar', 'electrum', 'bronze', 'enderium', 'lumium', 'signalum', 'constantan', 'brass']
  // Looping through Materials
- for (let material in materials) {
+ materials.forEach(material => {
    // Forge Dictionaries
     ReplaceItem('#forge:ingots/' + material,  'alltheores:'+ material + '_ingot')
     ReplaceItem('#forge:ores/' + material,  'alltheores:'+ material + '_ore')
@@ -23,11 +23,12 @@ onEvent('recipes', event =>{
 
     // Rogue Mods
     ReplaceItem('exnihilosequentia:' + material + '_ingot',  'alltheores:'+ material + '_ingot')
- }
+ })
 
 
  function ReplaceItem(x,y) {
-   if ( !Item.of(y).isEmpty() || !Item.of(x).isEmpty() ){
+   if (!Item.of(y).isEmpty())
+   {
       event.replaceOutput({},x,y)}
       event.replaceInput({},x,y)
    }

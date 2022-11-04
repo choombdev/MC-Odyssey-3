@@ -32,6 +32,17 @@
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
+				{
+					id: "634C804F30844C5A"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "0DA7B3509F36C264"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{
@@ -57,6 +68,17 @@
 					id: "17520918EF35BB62"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
+				}
+				{
+					id: "7013C3502C06C494"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "16FD68FE079410BA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
 				}
 			]
 		}
@@ -84,6 +106,17 @@
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
+				{
+					id: "050E1949798B48B3"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "754A71A9E5D384C8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{
@@ -110,6 +143,17 @@
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
+				{
+					id: "276EB51003251E0E"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "0F7A3F454F2023F0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{
@@ -135,6 +179,17 @@
 					id: "3A781BFCCFB64E7F"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
+				}
+				{
+					id: "69C19E31AB5456FD"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "5B2259EEE2DADC4C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
 				}
 			]
 		}
@@ -168,6 +223,17 @@
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
+				{
+					id: "4C12F2258C1B3669"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "6B58279E98C2D8D6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{
@@ -193,6 +259,17 @@
 					id: "2E90B1E10244268F"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
+				}
+				{
+					id: "0226003EB74480D8"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "00603CBC29155821"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
 				}
 			]
 		}
@@ -220,6 +297,17 @@
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
+				{
+					id: "1D802E051A6A6866"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "396A304051339EE3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{
@@ -245,6 +333,17 @@
 					id: "06D037BA03A40D1D"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
+				}
+				{
+					id: "4377D595957E614A"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "651FA94FF91E29BC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
 				}
 			]
 		}
@@ -272,6 +371,17 @@
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
+				{
+					id: "5001EF5CD7C8945D"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "2131E1202DDA053E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{
@@ -297,6 +407,17 @@
 					id: "1889BC74B87CE4A3"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
+				}
+				{
+					id: "22894715D8D74251"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "18E13EC78466EAB0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
 				}
 			]
 		}
@@ -332,6 +453,17 @@
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
+				{
+					id: "6A369E21C313D44C"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "3CDF51E9FCDD007E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{
@@ -357,6 +489,17 @@
 					id: "09823F9573B97D5E"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
+				}
+				{
+					id: "327EE183DC82840C"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "2BA29BC3EAE2FFC3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
 				}
 			]
 		}
@@ -384,6 +527,17 @@
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
+				{
+					id: "4746A9A0CB48FBE2"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "1DFBF9ACE96FE1C9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{
@@ -409,6 +563,17 @@
 					id: "291C0A14A604B42D"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
+				}
+				{
+					id: "7299CC0D7917978F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "48EC6FE410329439"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
 				}
 			]
 		}
@@ -436,6 +601,17 @@
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
+				{
+					id: "19DCA4F4CAB96C3A"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "550C4C34E8A10FD1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{
@@ -462,6 +638,17 @@
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
+				{
+					id: "3B3C0C8EE2D1D5A9"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "18F2F33C9EBD61CC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{
@@ -476,6 +663,19 @@
 				type: "item"
 				item: "minecraft:nether_star"
 			}]
+			rewards: [
+				{
+					id: "3C33BD1D3D8EB719"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "133D0854D7473CC9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
+			]
 		}
 	]
 }

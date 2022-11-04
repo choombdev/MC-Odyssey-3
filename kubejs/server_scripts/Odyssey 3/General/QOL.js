@@ -1,10 +1,19 @@
 // This script was made by Choomb for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
+    // Copper Fix
+    event.remove({id:'minecraft:copper_block'})
+    event.shaped('minecraft:copper_block', 
+    [
+      'CCC', 
+      'CCC', 
+      'CCC'
+  ], {
+        C: 'minecraft:copper_ingot'
+    })
     // Ink Sac
     event.shapeless('minecraft:ink_sac', ['minecraft:black_dye', 'minecraft:leather'])
     // Toast
     event.smelting('pamhc2foodcore:toastitem', 'minecraft:bread')
-
     // Craftable Elytra
     event.shaped('minecraft:elytra', [
       'SSS',
@@ -47,5 +56,8 @@ onEvent('recipes', event => {
       A: '#minecraft:logs'
     })
 
+  // Fixes
+
+  event.remove({id: 'minecraft:ens_ancient_debris'})
   })
   
