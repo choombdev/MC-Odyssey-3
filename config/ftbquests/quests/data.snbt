@@ -12,45 +12,37 @@
 		tag: {
 			"akashictome:is_morphing": 1b
 			"akashictome:data": {
-				integratedtunnels: {
-					id: "integrateddynamics:on_the_dynamics_of_integration"
+				cyclic: {
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
 					Count: 1b
 				}
 				engineersdecor: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
 						"patchouli:book": "engineersdecor:engineersdecor_manual"
 					}
-				}
-				apotheosis: {
-					id: "patchouli:guide_book"
 					Count: 1b
-					tag: {
-						"patchouli:book": "apotheosis:apoth_chronicle"
-					}
 				}
 				botania: {
 					id: "botania:lexicon"
 					Count: 1b
 				}
-				cyclic: {
+				apotheosis: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
-						"patchouli:book": "cyclic:cyclic_guide_book"
+						"patchouli:book": "apotheosis:apoth_chronicle"
 					}
+					Count: 1b
 				}
-				simpleplanes: {
-					id: "patchouli:guide_book"
+				integratedtunnels: {
+					id: "integrateddynamics:on_the_dynamics_of_integration"
 					Count: 1b
-					tag: {
-						"patchouli:book": "simpleplanes:planes_book"
-					}
 				}
 				byg: {
 					id: "byg:biomepedia"
-					Count: 1b
 					tag: {
 						"akashictome:is_morphing": 1b
 						display: {
@@ -60,27 +52,35 @@
 							text: "{\"translate\":\"item.byg.biomepedia\"}"
 						}
 					}
+					Count: 1b
+				}
+				simpleplanes: {
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "simpleplanes:planes_book"
+					}
+					Count: 1b
 				}
 				industrialforegoing: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
 						"patchouli:book": "industrialforegoing:industrial_foregoing"
 					}
+					Count: 1b
 				}
 				bloodmagic: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
 						"patchouli:book": "bloodmagic:guide"
 					}
+					Count: 1b
 				}
 				elementalcraft: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
 						"patchouli:book": "elementalcraft:element_book"
 					}
+					Count: 1b
 				}
 				ars_nouveau: {
 					id: "ars_nouveau:worn_notebook"
@@ -92,45 +92,45 @@
 				}
 				storagenetwork: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
 						"patchouli:book": "storagenetwork:network_book"
 					}
+					Count: 1b
 				}
 				bigreactors: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
 						"patchouli:book": "bigreactors:erguide"
 					}
+					Count: 1b
 				}
 				advancedperipherals: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
 						"patchouli:book": "advancedperipherals:manual"
 					}
+					Count: 1b
 				}
 				pneumaticcraft: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
 						"patchouli:book": "pneumaticcraft:book"
 					}
+					Count: 1b
 				}
 				thermal: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
 						"patchouli:book": "thermal:guidebook"
 					}
+					Count: 1b
 				}
 				mysticalagriculture: {
 					id: "patchouli:guide_book"
-					Count: 1b
 					tag: {
 						"patchouli:book": "mysticalagriculture:guide"
 					}
+					Count: 1b
 				}
 			}
 		}

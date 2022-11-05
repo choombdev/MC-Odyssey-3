@@ -625,10 +625,10 @@
 					Count: 1b
 					tag: {
 						state: {
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -1868,7 +1868,7 @@
 				type: "item"
 				item: "lightmanscurrency:coin_netherite"
 				count: 2L
-				consume_items: false
+				consume_items: true
 			}]
 			rewards: [{
 				id: "4431E68CB412F8E0"

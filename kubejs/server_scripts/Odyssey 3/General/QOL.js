@@ -1,5 +1,9 @@
 // This script was made by Choomb for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
+    // Unifying Silicon
+    event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon')
+    event.replaceInput({}, 'ae2:silicon', '#forge:silicon')
+
     // Copper Fix
     event.remove({id:'minecraft:copper_block'})
     event.shaped('minecraft:copper_block', 

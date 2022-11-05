@@ -675,6 +675,17 @@
 					exclude_from_claim_all: true
 					table_id: 8510385002616264230L
 				}
+				{
+					id: "36F4A9B5DB269926"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "0AFC14BEC86833A3"
+					type: "item"
+					item: "lightmanscurrency:coin_netherite"
+				}
 			]
 		}
 	]

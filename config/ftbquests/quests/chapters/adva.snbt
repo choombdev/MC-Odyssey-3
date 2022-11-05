@@ -3382,5 +3382,812 @@
 				}
 			]
 		}
+		{
+			title: "Thermal Series!"
+			x: -35.5d
+			y: 0.5d
+			size: 1.5d
+			id: "386A99CCCB093FBF"
+			tasks: [{
+				id: "1A3848E3960618C0"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [{
+				id: "38DB229758F3F311"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+		}
+		{
+			x: -34.0d
+			y: 0.5d
+			description: ["Smelts using Energy."]
+			dependencies: ["386A99CCCB093FBF"]
+			id: "04150DF4D94F9EB1"
+			tasks: [{
+				id: "20CB5E8108C9B8C6"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [{
+				id: "5F7154CDEBAF6B9F"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -35.5d
+			y: -1.0d
+			subtitle: "Ore Processing"
+			description: ["Doubles your production."]
+			dependencies: ["386A99CCCB093FBF"]
+			id: "532BBB63458E4F90"
+			tasks: [{
+				id: "35224BCCA9BC09E4"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [{
+				id: "3F6DBA4C19729839"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -35.5d
+			y: -2.5d
+			subtitle: "Your first alloy"
+			description: ["Made from smelting Invar Dust, in the meanwhile."]
+			dependencies: ["532BBB63458E4F90"]
+			id: "55B27D38F16E360A"
+			tasks: [{
+				id: "22897ABD8681A200"
+				type: "item"
+				item: "alltheores:invar_ingot"
+			}]
+			rewards: [
+				{
+					id: "739EA0B82509D059"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "78D1EBBC6B0B53B5"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -35.5d
+			y: -6.0d
+			subtitle: "Alloying"
+			description: ["Used to combine ingots to create Alloys."]
+			dependencies: ["55B27D38F16E360A"]
+			id: "1821AFA822270531"
+			tasks: [{
+				id: "7E3280AA9900D96A"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [
+				{
+					id: "00AE588060C489FA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "5F83A487628A6D8D"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -39.5d
+			y: -7.0d
+			dependencies: ["01F8B72C34665FF1"]
+			id: "583FFA67C376C9F6"
+			tasks: [{
+				id: "406134E26473741C"
+				type: "item"
+				item: "alltheores:signalum_ingot"
+			}]
+			rewards: [
+				{
+					id: "3DF4A9FF8CDF3D45"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "45977E56F3710952"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -33.0d
+			y: -5.0d
+			dependencies: ["1821AFA822270531"]
+			id: "3AC01C3068217573"
+			tasks: [{
+				id: "28BC04B5E0B5F792"
+				type: "item"
+				item: "alltheores:enderium_ingot"
+			}]
+			rewards: [
+				{
+					id: "1EA65E528FAE2348"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "24873BA24B9EDFA7"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: -35.5d
+			y: -9.0d
+			dependencies: ["1821AFA822270531"]
+			id: "79B7F1330BE751D8"
+			tasks: [{
+				id: "62EE9F7065FB5BD6"
+				type: "item"
+				item: "alltheores:electrum_ingot"
+			}]
+			rewards: [
+				{
+					id: "27379B735D787E29"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "18A8BC58F6D2E547"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -41.0d
+			y: -5.0d
+			description: ["Creates Plates and Gears."]
+			dependencies: ["70B8AF0CC39C9481"]
+			id: "60F1070D43D75E45"
+			tasks: [{
+				id: "746E41F549AE07C6"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [
+				{
+					id: "34E2F41CEB5245EE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3AF1211AABAAD195"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -39.5d
+			y: -5.0d
+			dependencies: ["01F8B72C34665FF1"]
+			id: "70B8AF0CC39C9481"
+			tasks: [{
+				id: "61FA97B42A7DCDF6"
+				type: "item"
+				item: "alltheores:bronze_ingot"
+			}]
+			rewards: [
+				{
+					id: "7B1BE7F29A06E38A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3EC80D4FD7E73C0B"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -37.5d
+			y: -3.0d
+			description: ["Generates Lava and other liquids from items."]
+			dependencies: ["55B27D38F16E360A"]
+			id: "702B07331FCA097D"
+			tasks: [{
+				id: "5393D364DE726AAC"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [
+				{
+					id: "39533266E5C4226F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "1AFCFD2D28E0A283"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -34.0d
+			y: 2.0d
+			description: ["Get 50% more wood (Plus, Sawdust, which is pretty neat)"]
+			dependencies: ["386A99CCCB093FBF"]
+			id: "0CB535564D165972"
+			tasks: [{
+				id: "4811934D1F71AF32"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			rewards: [{
+				id: "7DD51F58C2D43860"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -37.0d
+			y: 0.5d
+			description: ["Bottles up!"]
+			dependencies: ["386A99CCCB093FBF"]
+			id: "54897E01083BE628"
+			tasks: [{
+				id: "226E363499BB4414"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			rewards: [{
+				id: "086A52CFD87D5936"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -41.0d
+			y: -7.0d
+			description: ["Allows you to use the Gem Dusts you got earlier."]
+			dependencies: ["583FFA67C376C9F6"]
+			id: "7A83B47CDC7BB0F9"
+			tasks: [{
+				id: "0745B52E5C4BDDBE"
+				type: "item"
+				item: "thermal:machine_crystallizer"
+			}]
+			rewards: [
+				{
+					id: "46D02C0C988DC230"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "220B2FE371D4632A"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -37.5d
+			y: -6.0d
+			dependencies: ["1821AFA822270531"]
+			id: "01F8B72C34665FF1"
+			tasks: [{
+				id: "5DFA854FD60CB351"
+				type: "item"
+				item: "alltheores:constantan_ingot"
+			}]
+			rewards: [
+				{
+					id: "2CF825A7CE01191D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "08E22492DFE3E11C"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: -7.5d
+			subtitle: "Greenhouse, who?"
+			description: ["Plant plants in one block."]
+			dependencies: ["0C1CD318326DAFBC"]
+			id: "666EF4DE8600494E"
+			tasks: [{
+				id: "296C0D5D35DD8B48"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [
+				{
+					id: "11096B0B53735162"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "424ADA688B4A53CE"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: -37.0d
+			y: -7.5d
+			description: ["Generates Dyes and Oils from Flowers and some ores."]
+			dependencies: ["01F8B72C34665FF1"]
+			id: "0FE1D38E08C07005"
+			tasks: [{
+				id: "43E4EAD82A7D2305"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "2D1F95C827D1F7FF"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3723E4A1BD3546AE"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -37.0d
+			y: 2.0d
+			description: ["Automated Crafting"]
+			dependencies: ["386A99CCCB093FBF"]
+			id: "0AC4B745D6B16BA0"
+			tasks: [{
+				id: "683BF97E4E07E7E0"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [{
+				id: "36D81D2B4CA9E724"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -33.5d
+			y: -3.0d
+			description: ["Yes, this is just a freezer."]
+			dependencies: ["55B27D38F16E360A"]
+			id: "45E1E6FB391DD7E8"
+			tasks: [{
+				id: "40C130FBA0569342"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [
+				{
+					id: "4CD6821C7F679051"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "4E8137DD82636C67"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -38.0d
+			y: -4.5d
+			subtitle: "Coke Furnace?"
+			description: ["Creates Coke and Oil from Coal and Logs."]
+			dependencies: ["01F8B72C34665FF1"]
+			id: "7B9EB36E29D9EFF4"
+			tasks: [{
+				id: "44D2DC21CDC002FB"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [
+				{
+					id: "2B6ED78655E322CB"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "5C1BE82FE6B50FBA"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -37.0d
+			y: -4.5d
+			dependencies: ["01F8B72C34665FF1"]
+			id: "71BE61B80E294B5F"
+			tasks: [{
+				id: "323298E3C4F71B71"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+			rewards: [
+				{
+					id: "2DD2C7A925F04972"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "766E7A7912C8A99A"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -33.5d
+			y: -2.0d
+			description: ["Refines Oils and Liquids into better forms (and sometimes, two forms)"]
+			dependencies: ["55B27D38F16E360A"]
+			id: "703BCC4AD97F5F7B"
+			tasks: [{
+				id: "7AFB4CCD6CF565D8"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [
+				{
+					id: "549D0FE0CF13AB4B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2F63238D01DC6F1C"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -33.0d
+			y: -7.0d
+			dependencies: ["1821AFA822270531"]
+			id: "0C1CD318326DAFBC"
+			tasks: [{
+				id: "170A3250B51AA00B"
+				type: "item"
+				item: "alltheores:lumium_ingot"
+			}]
+			rewards: [
+				{
+					id: "0896A707576D3A62"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "76499FAEC85DC1E2"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: -38.0d
+			y: -7.5d
+			description: ["Automates blocks like Cobblestone, Basalt and such."]
+			dependencies: ["01F8B72C34665FF1"]
+			id: "1D51D9647D8667D8"
+			tasks: [{
+				id: "6C1F24943C2A2F4E"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			rewards: [
+				{
+					id: "4E7F66577E5120A1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "25A17AC9A2CF3BAE"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+		}
+		{
+			x: -39.5d
+			y: -10.0d
+			dependencies: [
+				"79B7F1330BE751D8"
+				"583FFA67C376C9F6"
+			]
+			id: "7B51775266EAEEDA"
+			tasks: [{
+				id: "1CA4A23D6218FEB6"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [
+				{
+					id: "32D967E38FC1CFA4"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "55CB8AAE959264C2"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: -6.0d
+			dependencies: [
+				"0C1CD318326DAFBC"
+				"3AC01C3068217573"
+			]
+			id: "6332640EA41C49E6"
+			tasks: [{
+				id: "647733FCE472CB91"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [
+				{
+					id: "1F7AD906F7A74165"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "1F2F9FC46EBDB0BF"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: -37.5d
+			y: -2.0d
+			dependencies: ["55B27D38F16E360A"]
+			id: "39A4974B9BA14038"
+			tasks: [{
+				id: "473B5927492CBDBE"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [
+				{
+					id: "557BBEE3686E0BAE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "66991F94B38B2242"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
+		}
+		{
+			x: -36.5d
+			y: 6.0d
+			description: ["Coal or any fuels."]
+			dependencies: ["5498FBE8B8011B11"]
+			id: "3CD729460757EFC6"
+			tasks: [{
+				id: "4E789952053F090D"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [
+				{
+					id: "5EFEE17930752434"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "766FD4FAFCA5AE8A"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -37.5d
+			y: 5.0d
+			description: ["Uses Oil and other liquid fuels to create RF."]
+			dependencies: ["5498FBE8B8011B11"]
+			id: "54C7BE3C535E0A4A"
+			tasks: [{
+				id: "77AC61CF8A51AF25"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [
+				{
+					id: "54742C5B3C858AA8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "114068F45BC28398"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -33.5d
+			y: 5.0d
+			description: ["Powered by... money?"]
+			dependencies: ["5498FBE8B8011B11"]
+			id: "1BBF2175F5F5D60A"
+			tasks: [{
+				id: "44250057EC03C42A"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [
+				{
+					id: "4791122DDE83C55F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3D3E3B012B464997"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -38.0d
+			y: 3.5d
+			description: ["Takes EXP or Enchanted books to generate RF"]
+			dependencies: ["5498FBE8B8011B11"]
+			id: "33EC746762EB0D66"
+			tasks: [{
+				id: "1ECD2ED80EC376C3"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			rewards: [
+				{
+					id: "3658274F384974A2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "33F72CFB1A3AAA61"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -33.0d
+			y: 3.5d
+			description: ["Powered by riches."]
+			dependencies: ["5498FBE8B8011B11"]
+			id: "24DE20CC689CDEF1"
+			tasks: [{
+				id: "073FA7F38022C1BC"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [
+				{
+					id: "5602D168D55F73E1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7A5C4BC5D96B41BF"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -34.5d
+			y: 6.0d
+			description: ["Powered by food."]
+			dependencies: ["5498FBE8B8011B11"]
+			id: "382B8C135B7C419D"
+			tasks: [{
+				id: "04736845E50C75EC"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [
+				{
+					id: "2CA651D4453D966C"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2C1F04A1DCC5F2CC"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -35.5d
+			y: 4.0d
+			dependencies: ["386A99CCCB093FBF"]
+			id: "5498FBE8B8011B11"
+			tasks: [{
+				id: "2E47CEAB344FABB5"
+				type: "checkmark"
+				title: "Energy"
+			}]
+		}
+		{
+			x: -35.5d
+			y: 6.5d
+			description: ["Powered by Lava"]
+			dependencies: ["5498FBE8B8011B11"]
+			id: "64442E8DBDF2BC7F"
+			tasks: [{
+				id: "002E393ABD7FD100"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+		}
 	]
 }

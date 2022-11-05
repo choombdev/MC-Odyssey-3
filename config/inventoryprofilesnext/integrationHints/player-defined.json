@@ -29,5 +29,79 @@
                 "top": 221
             }
         }
+    },
+    "com.direwolf20.laserio.client.screens.LaserNodeScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -3,
+                "bottom": 20
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -3,
+                "top": 50
+            },
+            "SORT": {
+                "horizontalOffset": -1,
+                "top": 2
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -27,
+                "top": 14
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -15,
+                "top": 25
+            }
+        }
+    },
+    "com.direwolf20.laserio.common.containers.LaserNodeContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.CardItemContainer": {
+        "ignore": true
+    },
+    "com.lothrazar.storagenetwork.item.remote.ScreenNetworkCraftingRemote": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": 101
+            },
+            "SORT": {
+                "top": 101
+            },
+            "SORT_COLUMNS": {
+                "top": 101
+            },
+            "SORT_ROWS": {
+                "top": 101
+            }
+        }
+    },
+    "appeng.client.gui.me.items.CraftingTermScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": -1
+            },
+            "MOVE_TO_PLAYER": {
+                "top": 379
+            },
+            "SORT": {
+                "horizontalOffset": -36,
+                "top": 391
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -24,
+                "top": 417
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -12,
+                "top": 404
+            }
+        }
+    },
+    "de.maxhenkel.pipez.gui.ExtractContainer": {
+        "ignore": true
+    },
+    "com.yogpc.qp.machines.module.ContainerQuarryModule": {
+        "ignore": true
     }
 }

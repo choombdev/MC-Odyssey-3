@@ -3,13 +3,13 @@
 
 onEvent('recipes', event =>{
     // Creative Wireless Universal Grid
-    event.shaped('universalgrid:creative_wireless_universal_grid', [
+    event.shaped('rebornstorage:creative_super_wireless_crafting_grid', [
         ' X ',
         'XAX',
         ' X '
     ], {
         X: 'extendedcrafting:crystaltine_ingot',
-        A: 'universalgrid:wireless_universal_grid'
+        A: 'rebornstorage:super_wireless_crafting_grid'
     })
     // AE2 Creative Storage Cell
     event.shapeless('ae2:creative_item_cell', ['storagedrawers:creative_vending_upgrade', 'ae2:item_storage_cell_256k'])

@@ -2872,6 +2872,232 @@
       ],
       "ID": "miner",
       "OwnerName": "Minecraft"
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "Name": "Amazon (2)",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ae2:cell_component_1k",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 1
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "refinedstorage:1k_storage_part",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 1
+            },
+            {
+              "Coin": "lightmanscurrency:coin_gold",
+              "Count": 4
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ae2:cell_component_4k",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 2
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "refinedstorage:4k_storage_part",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 2
+            },
+            {
+              "Coin": "lightmanscurrency:coin_gold",
+              "Count": 8
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ae2:cell_component_16k",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 4
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "refinedstorage:16k_storage_part",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 4
+            },
+            {
+              "Coin": "lightmanscurrency:coin_gold",
+              "Count": 16
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ae2:cell_component_64k",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 8
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "refinedstorage:64k_storage_part",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 9
+            },
+            {
+              "Coin": "lightmanscurrency:coin_gold",
+              "Count": 7
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ae2:cell_component_256k",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 16
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "extradisks:256k_storage_part",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 18
+            },
+            {
+              "Coin": "lightmanscurrency:coin_gold",
+              "Count": 14
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ae2:fluix_dust",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_iron",
+              "Count": 3
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "extradisks:1024k_storage_part",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_diamond",
+              "Count": 1
+            },
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 7
+            },
+            {
+              "Coin": "lightmanscurrency:coin_gold",
+              "Count": 3
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ae2:charged_certus_quartz_crystal",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_iron",
+              "Count": 1
+            }
+          ]
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "extradisks:4096k_storage_part",
+            "Count": 1
+          },
+          "Price": [
+            {
+              "Coin": "lightmanscurrency:coin_diamond",
+              "Count": 2
+            },
+            {
+              "Coin": "lightmanscurrency:coin_emerald",
+              "Count": 14
+            },
+            {
+              "Coin": "lightmanscurrency:coin_gold",
+              "Count": 3
+            }
+          ]
+        }
+      ],
+      "ID": "Amazon2",
+      "OwnerName": "Minecraft"
     }
   ],
   "Auctions": []

@@ -2,7 +2,7 @@
 onEvent('recipes', event => {
   // Easy Quartz Recipe
   let rawquartz = 'byg:raw_quartz_block'
-  let quartz = 'minecraft:quartz' 
+  let quartz = '4x minecraft:quartz' 
   event.recipes.createCrushing(quartz, rawquartz)
   event.recipes.immersiveengineeringCrusher(quartz, rawquartz)
   event.recipes.thermal.pulverizer(quartz, rawquartz)
@@ -10,6 +10,10 @@ onEvent('recipes', event => {
 
   // Quartizite to Quartz
   event.recipes.createCrushing(['minecraft:quartz', 'minecraft:sand'], 'byg:quartzite_sand')
+  event.recipes.thermal.pulverizer(['minecraft:quartz', 'minecraft:sand'], 'byg:quartzite_sand')
+  event.recipes.immersiveengineeringCrusher('minecraft:quartz', 'byg:quartzite_sand')
+  event.recipes.mekanismCrushing('minecraft:quartz', 'byg:quartzite_sand')
+
 
     // Adding Missing Crushing Recipes
     var materials = ['aluminum', 'lead', 'nickel', 'osmium', 'platinum', 'silver', 'tin', 'uranium', 'zinc', 'iridium']

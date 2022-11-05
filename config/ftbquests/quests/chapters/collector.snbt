@@ -1875,5 +1875,254 @@
 				title: "Reliquary Mod"
 			}]
 		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: ["Redstone Arsenal adds an Arsenal of tools, weapons and armor that have no durability, instead, they're powered by RF/FE."]
+			dependencies: ["13E51786204D628D"]
+			id: "4E1069E7E46C0178"
+			tasks: [{
+				id: "462246D15D4FD524"
+				type: "item"
+				item: "redstone_arsenal:flux_ingot"
+			}]
+			rewards: [{
+				id: "428243D16815363F"
+				type: "item"
+				item: "lightmanscurrency:coin_gold"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["4E1069E7E46C0178"]
+			id: "54ECA97A7128C33D"
+			tasks: [
+				{
+					id: "2D99A1143B809351"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_helmet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "24BED05C5A84D270"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_chestplate"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "192A2442DE89A54E"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_leggings"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "22C2F3C37A9463CF"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_boots"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "421B8DE56F337AB9"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+				{
+					id: "11FBF4C4A562C2A5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["4E1069E7E46C0178"]
+			id: "580F2AE8AD9BE0CF"
+			tasks: [
+				{
+					id: "7541D4C950493C50"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_elytra"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5B9A6F7424A537D2"
+					type: "item"
+					item: "redstone_arsenal:flux_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "2FC71F367D5C7EFF"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+				{
+					id: "28B290D108CC5B1D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["4E1069E7E46C0178"]
+			id: "5DF6085DA4760065"
+			tasks: [
+				{
+					id: "3784BC3095CDA52D"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_sword"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "38F931392756A11F"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_shield"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "76B32538D7D88490"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "12372B7A627793B8"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["4E1069E7E46C0178"]
+			id: "6C15E81EE47C3EE8"
+			tasks: [
+				{
+					id: "521920C8843A2365"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_bow"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4AFD0663D7FEC66D"
+					type: "item"
+					item: {
+						id: "redstone_arsenal:flux_quiver"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6E547BAFE25F2C1E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "1F40AEAF7B9D69D9"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["4E1069E7E46C0178"]
+			id: "44737882B3C86817"
+			tasks: [{
+				id: "02A46B750F447F6E"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_trident"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "514D1708C77EEC4A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "0A639DAFB62AE441"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["4E1069E7E46C0178"]
+			id: "2E861A38DDADD14D"
+			tasks: [{
+				id: "59DA2BE72BFEA0F3"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_wrench"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "313251484EBDA0DE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "4C2B002BBEA8DB3E"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
+				}
+			]
+		}
 	]
 }

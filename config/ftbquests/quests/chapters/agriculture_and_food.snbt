@@ -197,8 +197,9 @@
 					item: "lightmanscurrency:coin_gold"
 				}
 				{
-					id: "7D8FB4546A0FE93B"
-					type: "choice"
+					id: "06443A0E6B0C06BE"
+					type: "loot"
+					exclude_from_claim_all: true
 					table_id: 5348617777777244959L
 				}
 			]
@@ -221,9 +222,10 @@
 					count: 2
 				}
 				{
-					id: "1C7847AE982C5EB6"
-					type: "random"
-					table_id: 5348617777777244959L
+					id: "2F3BDBB30382996D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}

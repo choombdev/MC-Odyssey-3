@@ -885,6 +885,8 @@
 				"To get started, put down the Altar and begin pricking your fingers until you have no more fingers, dropping blood into the Altar."
 				"Make sure to fill it up before we get to create things."
 				"To check how to build some multiblocks, check out the Patchouli Guide!"
+				"-------------------"
+				"Warning: This mod uses Blood Sacrifice"
 			]
 			size: 1.5d
 			id: "383160478E3FCAB1"
@@ -2955,6 +2957,532 @@
 				type: "item"
 				item: "mna:bell_of_bidding"
 			}]
+		}
+		{
+			title: "Forbidden and Arcana"
+			x: -18.0d
+			y: 4.0d
+			description: ["Whether it's found in forests or underground, you'll need both these to progress."]
+			id: "205F852C22797536"
+			tasks: [
+				{
+					id: "786D482B4531DD9F"
+					type: "item"
+					item: "forbidden_arcanus:edelwood_log"
+				}
+				{
+					id: "67C6C6210E9541EF"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "7342BF9217B4B0A2"
+					type: "item"
+					item: "forbidden_arcanus:edelwood_branch"
+					count: 4
+				}
+				{
+					id: "463F9759D665AB60"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 4.0d
+			subtitle: "Pokeballs"
+			dependencies: ["205F852C22797536"]
+			id: "16612AEE04CA4C23"
+			tasks: [{
+				id: "758C330ED1400BC0"
+				type: "item"
+				item: "forbidden_arcanus:quantum_catcher"
+			}]
+			rewards: [{
+				id: "1EE379B692B36285"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -16.5d
+			y: 1.0d
+			description: ["Gives you Wallhacks."]
+			dependencies: ["26DDCFCAFC63EBAA"]
+			id: "1A80341422B2B23B"
+			tasks: [{
+				id: "33A6B0AFB542F75D"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:spectral_eye_amulet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1AF47D318799D2B1"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -18.0d
+			y: 3.0d
+			dependencies: ["205F852C22797536"]
+			id: "6F7049F3C3C0F382"
+			tasks: [{
+				id: "3F81210606D1F80A"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+			}]
+			rewards: [{
+				id: "5222CFE900FE79BF"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -18.0d
+			y: 1.5d
+			dependencies: ["6F7049F3C3C0F382"]
+			id: "26DDCFCAFC63EBAA"
+			tasks: [{
+				id: "4FA61ABF8B28A5CA"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+			rewards: [{
+				id: "0CE7F11AE9742AED"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 4.0d
+			dependencies: ["205F852C22797536"]
+			id: "44ADAF4FC0759EE8"
+			tasks: [{
+				id: "653C1863DB424E27"
+				type: "item"
+				item: "forbidden_arcanus:corrupti_dust"
+			}]
+			rewards: [{
+				id: "161F696250850EC6"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 2.0d
+			description: ["Used to get Dragon Scales"]
+			dependencies: [
+				"26DDCFCAFC63EBAA"
+				"66686326109D7D64"
+			]
+			id: "22E2F5407AB2DB33"
+			tasks: [{
+				id: "627AD9868283B4BD"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:mystical_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "21DDDA805FD3496A"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -20.5d
+			y: 3.0d
+			description: ["When dropped on the ground alongside Corrupti Dust, you'll create a magical orb that absorbs all nearby EXP."]
+			dependencies: ["44ADAF4FC0759EE8"]
+			id: "66686326109D7D64"
+			tasks: [{
+				id: "60CF76A9AC16954C"
+				type: "item"
+				item: "forbidden_arcanus:dark_matter"
+			}]
+			rewards: [{
+				id: "60FA4E15C3A09F69"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+			}]
+		}
+		{
+			x: -20.5d
+			y: -0.5d
+			dependencies: ["22E2F5407AB2DB33"]
+			id: "719760118E4837C5"
+			tasks: [
+				{
+					id: "6315AB75D76B620E"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0D469A3C1ADCADEF"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "612D2C827F492DFE"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5EDCEC5747BA80E9"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "01FE70A419C4B92B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "114B31CD988E15E9"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: -22.0d
+			y: 1.0d
+			dependencies: ["22E2F5407AB2DB33"]
+			id: "2D94A7555BB1AF44"
+			tasks: [
+				{
+					id: "377A7223E576C10E"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55FA8DC5AA5FCFDD"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7746C17055D1043D"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "251E8E12864B2CDE"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7477E70F7147851F"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E5CA16B3EF2101C"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "09FAB797729A6B37"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6EC7F350905AF95C"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4AE5EFE2485007AE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "5F7D6141581C92DC"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: -0.5d
+			dependencies: ["26DDCFCAFC63EBAA"]
+			id: "249829968FC2D34F"
+			tasks: [{
+				id: "0224F5A1D32996F3"
+				type: "item"
+				item: "forbidden_arcanus:aureal_bottle"
+			}]
+		}
+		{
+			title: "Hepheastus Forge"
+			x: -18.0d
+			y: -2.0d
+			description: [
+				"{image:odyssey3:textures/block/heph.png width:200 height:100 align:1}"
+				"As seen above, the Hepheastus Forge is built in a multiblock where a Smithing Table is placed atop the middle block (An Arcane Chiseled Polished Darkstone) and shift-rightclicked with the dust. Pedestals are then placed on the remaining places."
+				"This is used to create the best items in the mod and/or enchantment books."
+			]
+			dependencies: ["249829968FC2D34F"]
+			id: "130EC91EBE132764"
+			tasks: [
+				{
+					id: "0DDB5F3DE80B8671"
+					type: "item"
+					item: "forbidden_arcanus:polished_darkstone"
+					count: 25L
+				}
+				{
+					id: "71811CBEFF37E830"
+					type: "item"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					count: 9L
+				}
+				{
+					id: "688F56D5C1D0C712"
+					type: "item"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					count: 4L
+				}
+				{
+					id: "7F2EB65670FD7C7A"
+					type: "item"
+					item: "minecraft:smithing_table"
+				}
+				{
+					id: "0505AA629E5DD08D"
+					type: "item"
+					item: "forbidden_arcanus:mundabitur_dust"
+				}
+				{
+					id: "18E34081917422CC"
+					type: "item"
+					item: "forbidden_arcanus:darkstone_pedestal"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "11FEDEBFAFB953CF"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "078A963BC248FBD3"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+			]
+		}
+		{
+			title: "Soulless Sand."
+			x: -16.5d
+			y: -2.0d
+			description: ["Extract Souls from Soul Sand."]
+			dependencies: ["130EC91EBE132764"]
+			id: "3FDA1E6E5003C27D"
+			tasks: [{
+				id: "0BCA1797C6486A0D"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:soul_extractor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5FBEEFBA2E8E3AE3"
+					type: "item"
+					item: "forbidden_arcanus:soul"
+				}
+				{
+					id: "03CBE90CC304BE3C"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "6D86C31838989907"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -19.5d
+			y: -2.0d
+			description: ["Kill mobs with a Mystical Dagger while this in your inventory to fill it with blood!"]
+			dependencies: [
+				"130EC91EBE132764"
+				"22E2F5407AB2DB33"
+			]
+			id: "1C141D73CCDE1ACC"
+			tasks: [{
+				id: "2300C56C98004FD0"
+				type: "item"
+				item: "forbidden_arcanus:test_tube"
+			}]
+			rewards: [
+				{
+					id: "364F7999015526DF"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "07D18406C91FA3F9"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -3.5d
+			description: ["Allows you to make your tools Unbreakable."]
+			dependencies: ["130EC91EBE132764"]
+			id: "57EE093778E881AE"
+			tasks: [{
+				id: "6163FAEC50897E19"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "605B1D9983F408A3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "72D294624F1419A9"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -3.5d
+			description: ["Creates Fiery effect on your tools."]
+			dependencies: ["130EC91EBE132764"]
+			id: "6576F1715407BB2C"
+			tasks: [{
+				id: "6D1B4A5F80F173C6"
+				type: "item"
+				item: "forbidden_arcanus:smelter_prism"
+			}]
+			rewards: [
+				{
+					id: "14FCD8E25ABF4107"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3F78BEBAA8C08990"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
 		}
 	]
 }

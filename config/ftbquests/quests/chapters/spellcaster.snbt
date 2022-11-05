@@ -1191,5 +1191,148 @@
 				}
 			]
 		}
+		{
+			title: "Mahou Tsukai"
+			x: 10.5d
+			y: 6.0d
+			subtitle: "Warning: This mod uses Blood Sacrifice"
+			description: [
+				"Mahou works on a essence basis, using your blood/life essence to create and use spells. "
+				"Your Mahou regenerates by waiting or by sleeping."
+				"Right click with a Dagger then hit K while looking on the ground to use your blood to draw a pendant."
+			]
+			id: "0A96358E059C7DC5"
+			tasks: [{
+				id: "47E459D42AD99990"
+				type: "item"
+				item: "mahoutsukai:guidebook"
+			}]
+			rewards: [{
+				id: "0A76EC737B73A969"
+				type: "item"
+				item: "mahoutsukai:dagger"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			description: ["This creates the powdered materials, ones used for the scrolls and spells."]
+			dependencies: ["0A96358E059C7DC5"]
+			id: "6CF7F7CC8230516C"
+			tasks: [{
+				id: "37174B83129D2690"
+				type: "item"
+				item: "mahoutsukai:mortar_and_pestle"
+			}]
+			rewards: [{
+				id: "752BE86CEC770DA4"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			description: [
+				"Allows creation of Scrolls"
+				"For spell recipes, check the guidebook out."
+			]
+			dependencies: ["0A96358E059C7DC5"]
+			id: "15791EC971D4F84F"
+			tasks: [{
+				id: "040CB764CA2C6627"
+				type: "item"
+				item: "mahoutsukai:spell_cloth"
+				count: 16L
+			}]
+			rewards: [{
+				id: "775F3CC5A773C39D"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 8
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.0d
+			description: ["Casting spells using your own hand, load this 'Tattoo' up with spell scrolls to get started."]
+			dependencies: ["15791EC971D4F84F"]
+			id: "3AF2E55E7FF37BB6"
+			tasks: [{
+				id: "091773B47599AAB8"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_code"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "33C7FDE966761E2D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			description: [
+				"The Geas Scroll can be used on creatures to avoid injuring them with Melee."
+				"The more mobs you're 'at peace' with, you get better Mahou."
+			]
+			dependencies: [
+				"6CF7F7CC8230516C"
+				"15791EC971D4F84F"
+			]
+			id: "232A7191FA215F8E"
+			tasks: [{
+				id: "735EF065699C536E"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_geas"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E443DBB9120F7BD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			description: [
+				"Used for many spells, one of which is the 'Ordered Displacement' spell."
+				"Ordered Displacement is a teleport-pad, used to teleport you between the sigils (In order of placement) at the cost of your Mahou."
+			]
+			dependencies: ["6CF7F7CC8230516C"]
+			id: "41D934FD5E563725"
+			tasks: [{
+				id: "268A20280D859A8C"
+				type: "item"
+				item: "mahoutsukai:powdered_ender"
+				count: 3L
+			}]
+			rewards: [{
+				id: "5F7437435A7F8A7E"
+				type: "item"
+				item: "mahoutsukai:powdered_ender"
+				count: 8
+			}]
+		}
 	]
 }
