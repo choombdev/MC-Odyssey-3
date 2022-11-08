@@ -836,10 +836,9 @@
         {
           "TradeType": "PURCHASE",
           "SellItem": {
-            "ID": "universalgrid:creative_wireless_universal_grid",
-            "Count": 1,
-            "Tag": "{gridType:0}"
-          },
+            "ID": "rebornstorage:creative_super_wireless_crafting_grid",
+            "Count": 1
+                    },
           "Price": [
             {
               "Coin": "lightmanscurrency:coin_netherite",
@@ -1103,7 +1102,7 @@
           "TradeType": "SALE",
           "SellItem": {
             "ID": "cgm:basic_bullet",
-            "Count": 1
+            "Count": 64
           },
           "Price": [
             {
@@ -1116,7 +1115,7 @@
           "TradeType": "SALE",
           "SellItem": {
             "ID": "additionalguns:bullet_medium",
-            "Count": 1
+            "Count": 64
           },
           "Price": [
             {
@@ -1129,7 +1128,7 @@
           "TradeType": "SALE",
           "SellItem": {
             "ID": "cgm:advanced_bullet",
-            "Count": 1
+            "Count": 64
           },
           "Price": [
             {
@@ -1142,7 +1141,7 @@
           "TradeType": "SALE",
           "SellItem": {
             "ID": "additionalguns:bullet_long",
-            "Count": 1
+            "Count": 64
           },
           "Price": [
             {
@@ -1155,7 +1154,7 @@
           "TradeType": "SALE",
           "SellItem": {
             "ID": "additionalguns:bullet_small",
-            "Count": 1
+            "Count": 64
           },
           "Price": [
             {
@@ -1168,7 +1167,7 @@
           "TradeType": "SALE",
           "SellItem": {
             "ID": "additionalguns:bullet_heavy",
-            "Count": 1
+            "Count": 64
           },
           "Price": [
             {
@@ -1181,7 +1180,7 @@
           "TradeType": "SALE",
           "SellItem": {
             "ID": "additionalguns:bullet_short",
-            "Count": 1
+            "Count": 64
           },
           "Price": [
             {
@@ -1194,7 +1193,7 @@
           "TradeType": "SALE",
           "SellItem": {
             "ID": "additionalguns:bullet_special",
-            "Count": 1
+            "Count": 64
           },
           "Price": [
             {

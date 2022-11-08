@@ -219,6 +219,7 @@
 					AmmoCount: 16
 				}
 			}
+			weight: 30
 		}
 		{ item: "lightmanscurrency:coin_diamond" }
 		{ item: "industrialforegoing:plastic", count: 9, weight: 90 }
@@ -255,5 +256,79 @@
 		{ item: "mysticalagriculture:imperium_growth_accelerator", count: 3, weight: 50 }
 		{ item: "biggerreactors:blutonium_ingot", count: 16, weight: 70 }
 		{ item: "twilightforest:steeleaf_ingot", count: 9, weight: 80 }
+		{ item: "mekanism:advanced_tier_installer", count: 6, weight: 70 }
+		{ item: "laserio:laser_connector", count: 16, weight: 110 }
+		{ item: "laserio:laser_node", count: 8, weight: 90 }
+		{ item: "mob_grinding_utils:ender_inhibitor_off", weight: 15 }
+		{
+			item: {
+				id: "thermal:diving_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{
+			item: {
+				id: "thermal:diving_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{
+			item: {
+				id: "thermal:diving_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{
+			item: {
+				id: "thermal:diving_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 50
+		}
+		{ item: "refinedstorageaddons:wireless_crafting_grid", weight: 60 }
+		{ item: "exmachinis:netherite_upgrade", weight: 15 }
+		{ item: "gobber2:gobber2_ingot" }
+		{ item: "quantumquarryplus:quarry_framw" }
+		{ item: "pamhc2foodextended:garlicbreaditem", count: 10, weight: 80 }
+		{ item: "pamhc2foodextended:fishtacoitem", count: 16, weight: 80 }
+		{ item: "pamhc2foodextended:cookedtofeakitem", count: 16, weight: 80 }
+		{ item: "pamhc2foodextended:enchiladaitem", count: 8, weight: 80 }
+		{ item: "gobber2:gobber2_globette", count: 4, weight: 5 }
+		{
+			item: {
+				id: "cyclic:charm_attack_speed"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 15
+		}
+		{ item: "artifacts:universal_attractor", weight: 30 }
+		{
+			item: {
+				id: "mininggadgets:mininggadget_simple"
+				Count: 1b
+				tag: { }
+			}
+			weight: 50
+		}
+		{ item: "kubejs:bottled_fire", count: 4, weight: 60 }
+		{ item: "mekanism:jetpack", weight: 30 }
 	]
 }

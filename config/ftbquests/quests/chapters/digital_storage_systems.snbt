@@ -804,9 +804,10 @@
 					count: 20
 				}
 				{
-					id: "4A05EE2D888606DE"
-					type: "choice"
-					table_id: 5348617777777244959L
+					id: "17DB6F7E5841FDA5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}

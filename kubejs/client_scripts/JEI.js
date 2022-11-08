@@ -117,6 +117,7 @@ onEvent('jei.hide.items', event => {
 		event.add(Item.of('mekanism:creative_fluid_tank'))
 		// Spawn Eggs
 		event.add('minecraft:bat_spawn_egg')
+		event.add('minecraft:turtle_spawn_egg')
 		event.add('minecraft:blaze_spawn_egg')
 		event.add('minecraft:chicken_spawn_egg')
 		event.add('minecraft:cow_spawn_egg')

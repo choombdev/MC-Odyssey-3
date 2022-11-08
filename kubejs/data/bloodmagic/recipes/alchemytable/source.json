@@ -1,0 +1,14 @@
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "output": {
+    "item": "ars_nouveau:source_gem"
+  },
+  "syphon": 100,
+  "ticks": 100,
+  "upgradeLevel": 1
+}

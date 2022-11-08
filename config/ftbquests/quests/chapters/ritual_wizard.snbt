@@ -2874,15 +2874,9 @@
 					}
 				}
 				{
-					id: "4AB5BAEFA1C399C2"
+					id: "4A54EDB6508235A3"
 					type: "item"
-					item: {
-						id: "bloodmagic:arcaneashes"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "mna:arcane_ash"
 				}
 			]
 			rewards: [

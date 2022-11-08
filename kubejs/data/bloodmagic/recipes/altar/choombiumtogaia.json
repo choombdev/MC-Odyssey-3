@@ -6,8 +6,8 @@
   "output": {
     "item": "botania:gaia_ingot"
   },
-  "upgradeLevel": 5,
-  "altarSyphon": 7500,
+  "upgradeLevel": 4,
+  "altarSyphon": 15000,
   "consumptionRate": 35,
   "drainRate": 35
 }

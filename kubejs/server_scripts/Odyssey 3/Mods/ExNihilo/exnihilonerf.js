@@ -104,7 +104,7 @@ event.remove({output: 'exnihilosequentia:end_cake'})
 
 // Warped Sieve
     event.remove({output: 'exnihilosequentia:warped_sieve'})
-    event.shaped('exnihilosequentia:oak_sieve', [
+    event.shaped('exnihilosequentia:warped_sieve', [
         'TNT',
         'WOW',
         'SNS'

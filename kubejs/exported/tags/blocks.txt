@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Nov 1, 2022, 8:22:26 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 8, 2022, 3:15:11 AM
 
 #chipped:black_stained_glass
 - minecraft:black_stained_glass
@@ -1612,6 +1612,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - supercircuitmaker:inspector
 - silentgear:raw_azure_silver_block
 - silentgear:raw_crimson_iron_block
+- #forge:storage_blocks/bronze
 
 #mna:construct_plantable_grass
 - #minecraft:dirt
@@ -2718,6 +2719,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - forbidden_arcanus:edelwood_log
 - forbidden_arcanus:carved_edelwood_log
 
+#forge:storage_blocks/soul_stained_steel
+- malum:block_of_soul_stained_steel?
+
 #forge:needs_gold_tool
 - tconstruct:sky_slime_dirt
 - tconstruct:sky_sky_slime_grass
@@ -3461,6 +3465,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - alltheores:bronze_block
 - thermal:bronze_block
 - mekanism:block_bronze
+- tcintegrations:bronze_block
 
 #chipped:cyan_carpet
 - minecraft:cyan_carpet
@@ -4532,8 +4537,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - supplementaries:tconstruct/hanging_sign_greenheart
 - supplementaries:tconstruct/hanging_sign_skyroot
 - supplementaries:tconstruct/hanging_sign_bloodshroom
-- supplementaries:quark/hanging_sign_blossom
 - supplementaries:quark/hanging_sign_azalea
+- supplementaries:quark/hanging_sign_blossom
 - supplementaries:valhelsia_structures/hanging_sign_lapidified_jungle
 - supplementaries:forbidden_arcanus/hanging_sign_fungyss
 - supplementaries:forbidden_arcanus/hanging_sign_cherrywood
@@ -6732,10 +6737,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - framedblocks:framed_door
 - framedblocks:framed_trapdoor
 - framedblocks:framed_pressure_plate
+- framedblocks:framed_waterloggable_pressure_plate
 - framedblocks:framed_stone_pressure_plate
+- framedblocks:framed_waterloggable_stone_pressure_plate
 - framedblocks:framed_obsidian_pressure_plate
+- framedblocks:framed_waterloggable_obsidian_pressure_plate
 - framedblocks:framed_gold_pressure_plate
+- framedblocks:framed_waterloggable_gold_pressure_plate
 - framedblocks:framed_iron_pressure_plate
+- framedblocks:framed_waterloggable_iron_pressure_plate
 - framedblocks:framed_ladder
 - framedblocks:framed_button
 - framedblocks:framed_stone_button
@@ -6761,6 +6771,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - framedblocks:framed_bars
 - framedblocks:framed_pane
 - framedblocks:framed_rail_slope
+- framedblocks:framed_powered_rail_slope
+- framedblocks:framed_detector_rail_slope
+- framedblocks:framed_activator_rail_slope
 - framedblocks:framed_flower_pot
 - framedblocks:framed_pillar
 - framedblocks:framed_half_pillar
@@ -6771,7 +6784,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - framedblocks:framed_secret_storage
 - framedblocks:framed_redstone_block
 - framedblocks:framed_prism
+- framedblocks:framed_inner_prism
+- framedblocks:framed_double_prism
 - framedblocks:framed_sloped_prism
+- framedblocks:framed_inner_sloped_prism
+- framedblocks:framed_double_sloped_prism
 - framedblocks:framed_slope_slab
 - framedblocks:framed_elevated_slope_slab
 - framedblocks:framed_double_slope_slab
@@ -6810,6 +6827,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - framedblocks:framed_horizontal_pane
 - framedblocks:framed_target
 - framedblocks:framed_gate_door
+- framedblocks:framed_fancy_rail
+- framedblocks:framed_fancy_powered_rail
+- framedblocks:framed_fancy_detector_rail
+- framedblocks:framed_fancy_activator_rail
+- framedblocks:framed_fancy_rail_slope
+- framedblocks:framed_fancy_powered_rail_slope
+- framedblocks:framed_fancy_detector_rail_slope
+- framedblocks:framed_fancy_activator_rail_slope
 - thermal:bamboo_block
 - thermal:apple_block
 - thermal:carrot_block
@@ -10648,9 +10673,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - blue_skies:turquoise_cobblestone
 - blue_skies:lunar_cobblestone
 
-#forge:ores/starmetal
-- astralsorcery:starmetal_ore?
-
 #byg:may_place_on/jacaranda_sapling
 - #minecraft:dirt
 
@@ -11478,41 +11500,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - farmersrespite:green_candle_coffee_cake
 - farmersrespite:red_candle_coffee_cake
 - farmersrespite:black_candle_coffee_cake
-
-#materialis:wrench_blacklist
-- immersiveengineering:workbench?
-- immersiveengineering:circuit_table?
-- immersiveengineering:watermill?
-- immersiveengineering:blastfurnace_preheater?
-- immersiveengineering:fluid_pump?
-- immersiveengineering:sample_drill?
-- immersiveengineering:tesla_coil?
-- immersiveengineering:turret_chem?
-- immersiveengineering:turret_gun?
-- immersiveengineering:cloche?
-- immersiveengineering:coke_oven?
-- immersiveengineering:blast_furnace?
-- immersiveengineering:alloy_smelter?
-- immersiveengineering:advanced_blast_furnace?
-- immersiveengineering:crusher?
-- immersiveengineering:sawmill?
-- immersiveengineering:silo?
-- immersiveengineering:tank?
-- immersiveengineering:arc_furnace?
-- immersiveengineering:assembler?
-- immersiveengineering:auto_workbench?
-- immersiveengineering:bucket_wheel?
-- immersiveengineering:excavator?
-- immersiveengineering:metal_press?
-- immersiveengineering:bottling_machine?
-- immersiveengineering:fermenter?
-- immersiveengineering:squeezer?
-- immersiveengineering:mixer?
-- immersiveengineering:refinery?
-- immersiveengineering:diesel_generator?
-- immersiveengineering:lightning_rod?
-- immersiveengineering:transformer?
-- immersiveengineering:transformer_hv?
 
 #domum_ornamentum:copper
 - minecraft:copper_block
@@ -15625,6 +15612,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - cataclysm:purpur_wall
 - cataclysm:purpur_void_rune_trap_block
 - cataclysm:end_stone_teleport_trap_bricks
+- cataclysm:melting_netherrack
 - ars_nouveau:arcane_stone
 - ars_nouveau:relay
 - ars_nouveau:arcane_core
@@ -16596,6 +16584,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - savage_and_ravage:blast_proof_vertical_slab
 - enderstorage:ender_chest
 - enderstorage:ender_tank
+- ftbquests:screen_1
+- ftbquests:screen_3
+- ftbquests:screen_5
+- ftbquests:screen_7
+- ftbquests:aux_task_screen
 - bloodmagic:soulforge
 - bloodmagic:incensealtar
 - bloodmagic:blankrune
@@ -17013,6 +17006,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - supplementaries:urn
 - supplementaries:jar
 - supplementaries:crystal_display
+- supplementaries:relayer
 - supplementaries:lapis_bricks_vertical_slab
 - supplementaries:lapis_bricks_slab
 - supplementaries:lapis_bricks
@@ -17889,7 +17883,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - biggerreactors:uranium_ore
 - biggerreactors:cyanite_block
 - biggerreactors:graphite_block
-- #forge:storage_blocks/fairy
 - chipped:mason_table
 - #chipped:amethyst_block
 - #chipped:ancient_debris
@@ -18207,6 +18200,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - createbigcannons:shrapnel_shell
 - createbigcannons:ap_shell
 - createbigcannons:basin_foundry_lid
+- #forge:storage_blocks/bronze
 
 #twilightforest:storage_blocks/ironwood
 - twilightforest:ironwood_block
@@ -18332,9 +18326,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:storage_blocks/refined_glowstone?
 - #forge:storage_blocks/refined_obsidian?
 - #forge:storage_blocks/bloodbrass
-- #forge:storage_blocks/fairy
-- #forge:storage_blocks/ebony_psimetal?
-- #forge:storage_blocks/ivory_psimetal?
+- #forge:storage_blocks/manasteel?
+- #forge:storage_blocks/neptunium?
+- #forge:storage_blocks/soul_stained_steel?
+- #forge:storage_blocks/cloggrum?
+- #forge:storage_blocks/froststeel?
+- #forge:storage_blocks/forgotten?
+- #forge:storage_blocks/pendorite_alloy?
 
 #byg:may_place_on/red_maple_sapling
 - #minecraft:dirt
@@ -19921,25 +19919,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - chipped:orange_carpet_19
 - chipped:orange_carpet_20
 
-#materialis:mineable/wrench
-- #forge:mineable/wrench?
-- #forge:mineable/hammer?
-- #forge:storage_blocks
-- #forge:barrels
-- #forge:chests
-- #forge:glass
-- #forge:glass_panes
-- #minecraft:buttons
-- #minecraft:doors
-- #minecraft:trapdoors
-- #minecraft:pressure_plates
-- #minecraft:banners
-- #minecraft:anvil
-- #minecraft:rails
-- #minecraft:beds
-- #minecraft:signs
-- #minecraft:beacon_base_blocks
-
 #refinedstorage:controller
 - refinedstorage:white_controller
 - refinedstorage:orange_controller
@@ -20234,6 +20213,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - mysticalagriculture:dragon_egg_crop
 - mysticalagriculture:awakened_draconium_crop
 - mysticalagriculture:nitro_crystal_crop
+
+#cataclysm:ignis_immune
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+- minecraft:soul_fire
+- minecraft:fire
+- minecraft:lava
+- minecraft:structure_block
+- cataclysm:ender_guardian_spawner
+- cataclysm:altar_of_fire
 
 #twilightforest:portal/edge
 - #minecraft:dirt
@@ -21107,6 +21105,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - quark:blossom_fence_gate
 - quark:nether_brick_fence_gate
 - #forge:fence_gates/wooden
+
+#cataclysm:altar_destroy_immune
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+- minecraft:soul_fire
+- minecraft:fire
+- minecraft:structure_block
+- cataclysm:ender_guardian_spawner
+- cataclysm:altar_of_fire
 
 #forge:ices
 - #forge:ices/ice
@@ -23294,6 +23310,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:fire_coral_wall_fan
 - minecraft:horn_coral_wall_fan
 
+#framedblocks:camo_sustain_plant
+- #minecraft:dirt
+- #minecraft:sand
+- #minecraft:nylium
+- minecraft:soul_sand
+- minecraft:soul_soil
+
 #forge:grass
 - minecraft:grass
 - byg:prairie_grass
@@ -24056,6 +24079,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:activator_rail
 - botania:ghost_rail
 - framedblocks:framed_rail_slope
+- framedblocks:framed_powered_rail_slope
+- framedblocks:framed_detector_rail_slope
+- framedblocks:framed_activator_rail_slope
+- framedblocks:framed_fancy_rail
+- framedblocks:framed_fancy_powered_rail
+- framedblocks:framed_fancy_detector_rail
+- framedblocks:framed_fancy_activator_rail
+- framedblocks:framed_fancy_rail_slope
+- framedblocks:framed_fancy_powered_rail_slope
+- framedblocks:framed_fancy_detector_rail_slope
+- framedblocks:framed_fancy_activator_rail_slope
 - buildersaddition:crossrail
 - create:cart_assembler
 - create:controller_rail
@@ -27185,7 +27219,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:ores/quartz
 - #forge:ores/netherite_scrap
 - biggerreactors:uranium_ore
-- #forge:ores/starmetal
 - #forge:ores/bort
 - #forge:ores/crimson_iron
 - #forge:ores/azure_silver
@@ -27262,9 +27295,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - chipped:redstone_block_67
 - chipped:redstone_block_68
 - chipped:redstone_block_69
-
-#forge:storage_blocks/starmetal
-- astralsorcery:starmetal?
 
 #minecraft:soul_sand
 - minecraft:soul_sand
@@ -29025,8 +29055,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:storage_blocks/raw_iron
 - #forge:storage_blocks/redstone
 - #forge:storage_blocks/netherite
-- #forge:storage_blocks/fairy
-- #forge:storage_blocks/starmetal
 - #forge:storage_blocks/bort
 - #forge:storage_blocks/blaze_gold
 - #forge:storage_blocks/crimson_iron
@@ -29035,6 +29063,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:storage_blocks/azure_electrum
 - #forge:storage_blocks/tyrian_steel
 - powah:uraninite_block
+- #forge:storage_blocks/bronze
+- #forge:storage_blocks/soul_stained_steel
+- #forge:storage_blocks/bronze
 
 #forge:glass_panes/orange
 - minecraft:orange_stained_glass_pane
@@ -29981,8 +30012,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:storage_blocks/soulsteel
 - quark:golden_apple_crate
 - #forge:storage_blocks/bloodbrass
-- #forge:storage_blocks/fairy
-- #forge:storage_blocks/starmetal
 
 #libx:impl_wooden_fences
 
@@ -32163,8 +32192,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #forge:storage_blocks/arcane_gold
 - forbidden_arcanus:arcane_gold_block
 
-#forge:storage_blocks/fairy
-- materialis:fairy_block
+#cataclysm:ignis_can_destroy_cracked_block
+- minecraft:cracked_stone_bricks
+- minecraft:cracked_deepslate_bricks
+- minecraft:cracked_deepslate_tiles
+- minecraft:cracked_nether_bricks
+- minecraft:cracked_polished_blackstone_bricks
 
 #libx:impl_signs
 
@@ -32840,6 +32873,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - savage_and_ravage:blast_proof_stairs
 - savage_and_ravage:blast_proof_slab
 - savage_and_ravage:blast_proof_vertical_slab
+- ftbquests:screen_1
+- ftbquests:screen_3
+- ftbquests:screen_5
+- ftbquests:screen_7
+- ftbquests:aux_task_screen
 - immersiveposts:aluminiumpost
 - immersiveposts:aluminiumpost_truss
 - immersiveposts:steelpost
@@ -32970,7 +33008,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forbidden_arcanus:arcane_crystal_ores
 - redstone_arsenal:flux_metal_block
 - redstone_arsenal:flux_gem_block
-- #forge:storage_blocks/fairy
 - compactmachines:wall
 - compactmachines:machine_giant
 - compactmachines:machine_large

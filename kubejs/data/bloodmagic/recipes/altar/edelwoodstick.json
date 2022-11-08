@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "forbidden_arcanus:carved_edelwood_log"
+  },
+  "output": {
+    "item": "forbidden_arcanus:edelwood_stick"
+  },
+  "upgradeLevel": 0,
+  "altarSyphon": 100,
+  "consumptionRate": 5,
+  "drainRate": 5
+}

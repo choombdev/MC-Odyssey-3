@@ -41,6 +41,7 @@
 						Id: "extendedcrafting:bronze"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -71,6 +72,7 @@
 						Id: "extendedcrafting:electrum"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -101,6 +103,7 @@
 						Id: "extendedcrafting:invar"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -131,6 +134,7 @@
 						Id: "extendedcrafting:lapis_lazuli"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -161,6 +165,7 @@
 						Id: "extendedcrafting:osmium"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -191,6 +196,7 @@
 						Id: "extendedcrafting:uranium"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -221,6 +227,7 @@
 						Id: "extendedcrafting:coal"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -251,6 +258,7 @@
 						Id: "extendedcrafting:redstone"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -281,6 +289,7 @@
 						Id: "extendedcrafting:diamond"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -311,6 +320,7 @@
 						Id: "extendedcrafting:platinum"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -341,6 +351,7 @@
 						Id: "extendedcrafting:iron"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -371,6 +382,7 @@
 						Id: "extendedcrafting:lumium"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -401,6 +413,7 @@
 						Id: "extendedcrafting:nickel"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -431,6 +444,7 @@
 						Id: "extendedcrafting:glowstone"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -461,6 +475,7 @@
 						Id: "extendedcrafting:refined_obsidian"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -491,6 +506,7 @@
 						Id: "extendedcrafting:steel"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -521,6 +537,7 @@
 						Id: "extendedcrafting:choombium"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -551,6 +568,7 @@
 						Id: "extendedcrafting:emerald"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -581,6 +599,7 @@
 						Id: "extendedcrafting:aluminum"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -611,6 +630,7 @@
 						Id: "extendedcrafting:insanium"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -641,6 +661,7 @@
 						Id: "extendedcrafting:silver"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -671,6 +692,7 @@
 						Id: "extendedcrafting:tin"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -701,6 +723,7 @@
 						Id: "extendedcrafting:copper"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -731,6 +754,7 @@
 						Id: "extendedcrafting:signalum"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -761,6 +785,7 @@
 						Id: "extendedcrafting:lead"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -791,6 +816,7 @@
 						Id: "extendedcrafting:quartz"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -821,6 +847,7 @@
 						Id: "extendedcrafting:gold"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{
@@ -852,6 +879,7 @@
 						Id: "extendedcrafting:netherite"
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [
 				{

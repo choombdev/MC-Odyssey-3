@@ -115,7 +115,7 @@
 		{ item: "simpleplanes:plane_workbench", weight: 31 }
 		{ item: "mob_grinding_utils:mob_swab", weight: 55 }
 		{ item: "mob_grinding_utils:spikes", weight: 50 }
-		{ item: "farmersdelight:stove", weight: 60 }
+		{ item: "farmersdelight:stove", weight: 5 }
 		{
 			item: {
 				id: "farmersdelight:skillet"
@@ -124,7 +124,7 @@
 					Damage: 0
 				}
 			}
-			weight: 65
+			weight: 5
 		}
 		{
 			item: {
@@ -134,11 +134,11 @@
 					Damage: 0
 				}
 			}
-			weight: 70
+			weight: 10
 		}
-		{ item: "farmersdelight:cooking_pot", weight: 60 }
+		{ item: "farmersdelight:cooking_pot", weight: 5 }
 		{ item: "compressium:cobblestone_2", weight: 55 }
-		{ item: "hole_filler_mod:throwable_hole_filler", count: 8, weight: 80 }
+		{ item: "hole_filler_mod:throwable_hole_filler", count: 8, weight: 3 }
 		{ item: "artifacts:golden_hook", weight: 15 }
 		{ item: "xnet:netcable_red", count: 32, weight: 30 }
 		{ item: "exnihilothermal:basalz_doll" }
@@ -146,14 +146,14 @@
 		{ item: "exnihilothermal:blizz_doll" }
 		{ item: "mysticalagriculture:inferium_essence", count: 64, weight: 60 }
 		{ item: "mysticalagriculture:prosperity_shard", count: 64, weight: 50 }
-		{ item: "artifacts:umbrella" }
-		{ item: "tconstruct:pig_iron_ingot", count: 4 }
-		{ item: "comforts:sleeping_bag_white" }
-		{ item: "create:shaft", count: 16 }
-		{ item: "dimstorage:dimensional_chest" }
+		{ item: "artifacts:umbrella", weight: 70 }
+		{ item: "tconstruct:pig_iron_ingot", count: 4, weight: 55 }
+		{ item: "comforts:sleeping_bag_white", weight: 60 }
+		{ item: "create:shaft", count: 16, weight: 60 }
+		{ item: "dimstorage:dimensional_chest", weight: 30 }
 		{ item: "storagenetwork:kabel", count: 16 }
 		{ item: "mysticalagriculture:choombium_essence" }
-		{ item: "reliquary:witch_hat" }
+		{ item: "reliquary:witch_hat", weight: 33 }
 		{
 			item: {
 				id: "reliquary:void_tear"
@@ -173,16 +173,17 @@
 					}
 				}
 			}
+			weight: 55
 		}
-		{ item: "tconstruct:grout", count: 64 }
-		{ item: "pamhc2foodextended:cornmealitem", count: 7 }
-		{ item: "pamhc2foodextended:cookedtofaconitem", count: 7 }
-		{ item: "chipped:botanist_workbench" }
-		{ item: "farmersrespite:coffee_beans", count: 32 }
-		{ item: "mob_grinding_utils:solid_xp_baby" }
-		{ item: "chipped:glassblower" }
-		{ item: "mob_grinding_utils:tank" }
-		{ item: "mob_grinding_utils:absorption_hopper" }
+		{ item: "tconstruct:grout", count: 64, weight: 90 }
+		{ item: "pamhc2foodextended:cornmealitem", count: 7, weight: 100 }
+		{ item: "pamhc2foodextended:cookedtofaconitem", count: 7, weight: 100 }
+		{ item: "chipped:botanist_workbench", weight: 55 }
+		{ item: "farmersrespite:coffee_beans", count: 32, weight: 60 }
+		{ item: "mob_grinding_utils:solid_xp_baby", weight: 33 }
+		{ item: "chipped:glassblower", weight: 44 }
+		{ item: "mob_grinding_utils:tank", weight: 55 }
+		{ item: "mob_grinding_utils:absorption_hopper", weight: 44 }
 		{
 			item: {
 				id: "cyclic:crystal_hoe"
@@ -191,8 +192,9 @@
 					Damage: 0
 				}
 			}
+			weight: 77
 		}
-		{ item: "chipped:loom_table" }
+		{ item: "chipped:loom_table", weight: 66 }
 		{
 			item: {
 				id: "cyclic:charm_world"
@@ -201,6 +203,7 @@
 					Damage: 0
 				}
 			}
+			weight: 15
 		}
 		{
 			item: {
@@ -210,6 +213,7 @@
 					Damage: 0
 				}
 			}
+			weight: 21
 		}
 		{
 			item: {
@@ -219,6 +223,7 @@
 					Damage: 0
 				}
 			}
+			weight: 50
 		}
 		{
 			item: {
@@ -231,8 +236,9 @@
 					}
 				}
 			}
+			weight: 60
 		}
-		{ item: "cyclic:magic_net" }
+		{ item: "cyclic:magic_net", weight: 30 }
 		{
 			item: {
 				id: "cyclic:charm_venom"
@@ -241,6 +247,7 @@
 					Damage: 0
 				}
 			}
+			weight: 50
 		}
 		{
 			item: {
@@ -250,8 +257,9 @@
 					Damage: 0
 				}
 			}
+			weight: 15
 		}
-		{ item: "pamhc2foodextended:fishtacoitem", count: 8 }
+		{ item: "pamhc2foodextended:fishtacoitem", count: 8, weight: 80 }
 		{
 			item: {
 				id: "cyclic:fire_killer"
@@ -260,6 +268,7 @@
 					Damage: 0
 				}
 			}
+			weight: 55
 		}
 		{
 			item: {
@@ -272,6 +281,7 @@
 					}
 				}
 			}
+			weight: 50
 		}
 		{
 			item: {
@@ -281,6 +291,7 @@
 					Damage: 0
 				}
 			}
+			weight: 15
 		}
 		{
 			item: {
@@ -290,6 +301,7 @@
 					Damage: 0
 				}
 			}
+			weight: 20
 		}
 		{
 			item: {
@@ -299,6 +311,7 @@
 					Damage: 0
 				}
 			}
+			weight: 15
 		}
 		{ item: "cyclic:heart" }
 		{
@@ -309,6 +322,7 @@
 					Damage: 0
 				}
 			}
+			weight: 66
 		}
 		{
 			item: {
@@ -318,7 +332,61 @@
 					Damage: 0
 				}
 			}
+			weight: 80
 		}
-		{ item: "cyclic:carbon_paper" }
+		{ item: "cyclic:carbon_paper", weight: 50 }
+		{ item: "laserio:logic_chip", count: 64, weight: 80 }
+		{
+			item: {
+				id: "cgm:pistol"
+				Count: 1b
+				tag: {
+					AmmoCount: 16
+				}
+			}
+			weight: 44
+		}
+		{ item: "pamhc2foodcore:cheeseitem", count: 32, weight: 80 }
+		{ item: "pamhc2foodcore:pumpkinbreaditem", count: 16, weight: 50 }
+		{ item: "supercircuitmaker:screwdriver", weight: 60 }
+		{ item: "create:shaft", count: 32, weight: 30 }
+		{ item: "cookingforblockheads:milk_jar", weight: 15 }
+		{ item: "framedblocks:framed_cube", count: 32, weight: 80 }
+		{ item: "thermal:sugar_cane_block", count: 8, weight: 90 }
+		{ item: "farmersrespite:kettle", weight: 15 }
+		{ item: "thermal:netherite_nugget" }
+		{ item: "cyclic:charm_stealthpotion", weight: 30 }
+		{
+			item: {
+				id: "cyclic:spawn_inspector"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20
+		}
+		{
+			item: {
+				id: "cyclic:charm_speed"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 15
+		}
+		{
+			item: {
+				id: "cyclic:slingshot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100
+		}
+		{ item: "mininggadgets:modificationtable", weight: 50 }
+		{ item: "bloodmagic:blankrune", count: 64, weight: 120 }
 	]
 }

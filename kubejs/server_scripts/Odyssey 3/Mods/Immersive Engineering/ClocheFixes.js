@@ -16,8 +16,12 @@ event.recipes.immersiveengineeringCloche(['mysticalagriculture:dragon_egg_essenc
 
 // Nitro Seeds
 event.recipes.immersiveengineeringCloche(['mysticalagriculture:nitro_crystal_essence'], 'mysticalagriculture:nitro_crystal_seeds','mysticalagradditions:nitro_crystal_crux')
+
+// Nitro Seeds
+event.recipes.immersiveengineeringCloche(['mysticalagriculture:choombium_essence'], 'mysticalagriculture:choombium_seeds','gobber2:gobber2_block')
+
 // Missing Mystical Agriculture Seeds
-let seeds = ["limestone", "menril", "panda", "fox", "bat", "cat", "wolf", "parrot", "blizz", "blitz", "basalz", "amethyst_bronze", "slimesteel", "pig_iron", "steeleaf", "ironwood", "llama", "husk", "zombified_piglin", "silverfish", "drowned", "guardian", "dolphin", "stray", "vex", "polar_bear", "horse", "witch", "signalum", "lumium", "cobalt", "rose_gold", "fluorite", "knightmetal", "fiery_ingot", "compressed_iron", "energized_steel", "blazing_crystal", "ravager", "magma_cube", "pillager", "piglin", "endermite", "shulker", "villager", "vindicator", "phantom", "mooshroom", "enderium", "manyullyn", "queens_slime", "niotic_crystal", "spirited_crystal", "uraninite", "piglin_brute", "evoker", "choombium"] 
+let seeds = ["limestone", "menril", "panda", "fox", "bat", "cat", "wolf", "parrot", "blizz", "blitz", "basalz", "amethyst_bronze", "slimesteel", "pig_iron", "steeleaf", "ironwood", "llama", "husk", "zombified_piglin", "silverfish", "drowned", "guardian", "dolphin", "stray", "vex", "polar_bear", "horse", "witch", "signalum", "lumium", "cobalt", "rose_gold", "fluorite", "knightmetal", "fiery_ingot", "compressed_iron", "energized_steel", "blazing_crystal", "ravager", "magma_cube", "pillager", "piglin", "endermite", "shulker", "villager", "vindicator", "phantom", "mooshroom", "enderium", "manyullyn", "queens_slime", "niotic_crystal", "spirited_crystal", "uraninite", "piglin_brute", "evoker"] 
 seeds.forEach(seed =>{
     event.recipes.immersiveengineeringCloche(['mysticalagriculture:' + seed + '_essence'], 'mysticalagriculture:'+ seed + '_seeds', 'mysticalagriculture:tertium_farmland')
 })

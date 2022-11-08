@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "minecraft:infested_stone_bricks"
+  },
+  "output": {
+    "item": "bloodmagic:largebloodstonebrick"
+  },
+  "upgradeLevel": 4,
+  "altarSyphon": 1000,
+  "consumptionRate": 35,
+  "drainRate": 35
+}

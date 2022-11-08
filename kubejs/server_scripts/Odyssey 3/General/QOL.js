@@ -1,5 +1,7 @@
 // This script was made by Choomb for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
+    // Saplings
+    event.shapeless('tconstruct:blood_slime_sapling', ['tconstruct:blood_slime_ball', '#forge:sapling'])
     // Unifying Silicon
     event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon')
     event.replaceInput({}, 'ae2:silicon', '#forge:silicon')

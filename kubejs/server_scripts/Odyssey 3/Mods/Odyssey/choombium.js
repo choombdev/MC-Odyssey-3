@@ -14,9 +14,9 @@
   event.smithing('kubejs:choombium_shovel', Item.of('minecraft:netherite_shovel').ignoreNBT(), 'kubejs:choombium_ingot') 
 
   event.smithing('kubejs:choombium_sword', Item.of('byg:pendorite_sword').ignoreNBT(), 'kubejs:choombium_ingot') 
-  event.smithing('kubejs:choombium_pickaxe', 'byg:pendorite_pickaxe', 'kubejs:choombium_ingot') 
-  event.smithing('kubejs:choombium_axe', 'byg:pendorite_axe', 'kubejs:choombium_ingot') 
-  event.smithing('kubejs:choombium_shovel', 'byg:pendorite_shovel', 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_pickaxe', Item.of('byg:pendorite_pickaxe').ignoreNBT(), 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_axe', Item.of('byg:pendorite_axe').ignoreNBT(), 'kubejs:choombium_ingot') 
+  event.smithing('kubejs:choombium_shovel', Item.of('byg:pendorite_shovel').ignoreNBT(), 'kubejs:choombium_ingot') 
 
 
   //Smelting Ore to Ingot

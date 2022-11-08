@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "minecraft:enchanted_golden_apple"
+  },
+  "output": {
+    "item": "kubejs:choomburgert4"
+  },
+  "upgradeLevel": 5,
+  "altarSyphon": 6000,
+  "consumptionRate": 10,
+  "drainRate": 10
+}

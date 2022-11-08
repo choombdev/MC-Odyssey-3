@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Nov 1, 2022, 8:22:29 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 8, 2022, 3:15:14 AM
 
 #forge:gears
 - alltheores:platinum_gear
@@ -48,7 +48,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:gears/sapphire
 - #forge:gears/rose_gold
 - #forge:gears/steel
-- #forge:gears/flux_infused
 
 #immersiveengineering:wirecoil_copper
 
@@ -396,9 +395,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #forge:dusts/invar
 - alltheores:invar_dust
 - thermal:invar_dust
-
-#materialis:casts/multi_use/inlay
-- materialis:inlay_cast
 
 #forge:seeds/pineapple
 - pamhc2crops:pineappleseeditem
@@ -1199,7 +1195,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:storage_blocks/raw_froststeel
 - undergarden:raw_froststeel_block
-- undergarden:raw_froststeel_block?
 
 #bloodmagic:gravels/gold
 - bloodmagic:goldgravel
@@ -2106,9 +2101,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #forge:storage_blocks/refined_glowstone
 - mekanism:block_refined_glowstone
 
-#forge:storage_blocks/alfsteel
-- mythicbotany:alfsteel_block?
-
 #forge:stock
 - #forge:stock/stock
 - #forge:stock/stock
@@ -2149,6 +2141,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - alltheores:bronze_block
 - thermal:bronze_block
 - mekanism:block_bronze
+- tcintegrations:bronze_block
 
 #mekanism:shards
 - alltheores:aluminum_shard
@@ -2518,7 +2511,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:warped_planks
 - #tconstruct:slimy_planks
 - botania:livingwood_planks?
-- botania:dreamwood_planks?
 
 #forge:nuts/walnut
 - pamhc2trees:walnutitem
@@ -3296,8 +3288,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:large_plate_red_sand_cast
 - tconstruct:tool_handle_red_sand_cast
 - tconstruct:tough_handle_red_sand_cast
-- materialis:inlay_red_sand_cast
-- materialis:wrench_head_red_sand_cast
 
 #tconstruct:modifiable/armor/chestplate
 - tconstruct:travelers_chestplate
@@ -4000,8 +3990,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - elementalcraft:fireite_block
 
 #curios:curio
-- universalgrid:wireless_universal_grid
-- universalgrid:creative_wireless_universal_grid
 - botania:cosmetic_black_bowtie
 - botania:cosmetic_black_tie
 - botania:cosmetic_red_glasses
@@ -4086,7 +4074,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:tool_handle
 - tconstruct:tough_handle
 - tconstruct:repair_kit
-- materialis:wrench_head
 
 #forge:dusts/lead
 - alltheores:lead_dust
@@ -4768,8 +4755,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #tconstruct:casts/single_use/large_plate
 - #tconstruct:casts/single_use/tool_handle
 - #tconstruct:casts/single_use/tough_handle
-- #materialis:casts/single_use/inlay
-- #materialis:casts/single_use/wrench_head
 
 #tconstruct:seeds
 - #forge:seeds
@@ -5474,8 +5459,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:broad_axe
 - tconstruct:kama
 - tconstruct:scythe
-- materialis:wrench
-- materialis:battlewrench
 
 #chipped:lapis_block
 - minecraft:lapis_block
@@ -6093,9 +6076,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #blue_skies:storage_blocks/raw_aquite
 - blue_skies:raw_aquite_block
 
-#forge:ingots/flux_infused
-- redstone_arsenal:flux_ingot?
-
 #forge:crops/kiwi
 - pamhc2crops:kiwiitem
 
@@ -6122,9 +6102,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:ingots/felsteel
 - tinkers_reforged:felsteel_ingot
-
-#forge:ingots/alfsteel
-- mythicbotany:alfsteel_ingot?
 
 #forge:fences/nether_brick
 - minecraft:nether_brick_fence
@@ -6822,79 +6799,79 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - supplementaries:sign_post_birch?
 - supplementaries:sign_post_crimson?
 - supplementaries:sign_post_warped?
-- supplementaries:sign_post_acacia
-- supplementaries:byg/sign_post_lament
-- supplementaries:ecologics/sign_post_coconut
-- supplementaries:twilightforest/sign_post_transformation
-- supplementaries:silentgear/sign_post_netherwood
-- supplementaries:blue_skies/sign_post_maple
-- supplementaries:forbidden_arcanus/sign_post_edelwood
-- supplementaries:forbidden_arcanus/sign_post_mysterywood
-- supplementaries:twilightforest/sign_post_canopy
-- supplementaries:blue_skies/sign_post_lunar
-- supplementaries:sign_post_crimson
-- supplementaries:byg/sign_post_imparius
-- supplementaries:undergarden/sign_post_grongle
-- supplementaries:sign_post_jungle
-- supplementaries:botania/sign_post_livingwood
-- supplementaries:hexcasting/sign_post_akashic
-- supplementaries:blue_skies/sign_post_cherry
-- supplementaries:forbidden_arcanus/sign_post_cherrywood
-- supplementaries:blue_skies/sign_post_frostbright
-- supplementaries:botania/sign_post_dreamwood
-- supplementaries:byg/sign_post_rainbow_eucalyptus
-- supplementaries:byg/sign_post_zelkova
-- supplementaries:sign_post_spruce
-- supplementaries:twilightforest/sign_post_twilight_oak
-- supplementaries:ecologics/sign_post_walnut
-- supplementaries:twilightforest/sign_post_dark
-- supplementaries:byg/sign_post_cika
-- supplementaries:tconstruct/sign_post_skyroot
-- supplementaries:byg/sign_post_witch_hazel
-- supplementaries:tconstruct/sign_post_greenheart
-- supplementaries:sign_post_birch
-- supplementaries:byg/sign_post_skyris
-- supplementaries:byg/sign_post_blue_enchanted
-- supplementaries:forbidden_arcanus/sign_post_fungyss
-- supplementaries:ecologics/sign_post_azalea
-- supplementaries:twilightforest/sign_post_sorting
-- supplementaries:byg/sign_post_jacaranda
-- supplementaries:byg/sign_post_cypress
-- supplementaries:byg/sign_post_mangrove
-- supplementaries:byg/sign_post_aspen
 - supplementaries:byg/sign_post_willow
-- supplementaries:byg/sign_post_palm
 - supplementaries:byg/sign_post_pine
-- supplementaries:byg/sign_post_redwood
-- supplementaries:byg/sign_post_sythian
-- supplementaries:blue_skies/sign_post_dusk
-- supplementaries:blue_skies/sign_post_starlit
-- supplementaries:undergarden/sign_post_wigglewood
-- supplementaries:quark/sign_post_azalea
-- supplementaries:sign_post_oak
-- supplementaries:byg/sign_post_ether
-- supplementaries:quark/sign_post_blossom
-- supplementaries:sign_post_dark_oak
-- supplementaries:byg/sign_post_mahogany
-- supplementaries:byg/sign_post_green_enchanted
-- supplementaries:tconstruct/sign_post_bloodshroom
-- supplementaries:undergarden/sign_post_smogstem
-- supplementaries:twilightforest/sign_post_time
-- supplementaries:blue_skies/sign_post_bluebright
-- supplementaries:twilightforest/sign_post_mangrove
-- supplementaries:byg/sign_post_ebony
-- supplementaries:byg/sign_post_fir
-- supplementaries:byg/sign_post_nightshade
-- supplementaries:ecologics/sign_post_flowering_azalea
+- supplementaries:botania/sign_post_dreamwood
 - supplementaries:byg/sign_post_holly
-- supplementaries:integrateddynamics/sign_post_menril
-- supplementaries:byg/sign_post_cherry
+- supplementaries:byg/sign_post_zelkova
+- supplementaries:sign_post_acacia
+- supplementaries:tconstruct/sign_post_greenheart
+- supplementaries:byg/sign_post_imparius
+- supplementaries:byg/sign_post_lament
+- supplementaries:forbidden_arcanus/sign_post_fungyss
+- supplementaries:botania/sign_post_livingwood
+- supplementaries:forbidden_arcanus/sign_post_cherrywood
+- supplementaries:twilightforest/sign_post_transformation
+- supplementaries:byg/sign_post_aspen
+- supplementaries:byg/sign_post_redwood
+- supplementaries:blue_skies/sign_post_bluebright
+- supplementaries:twilightforest/sign_post_canopy
+- supplementaries:twilightforest/sign_post_dark
 - supplementaries:byg/sign_post_maple
-- supplementaries:byg/sign_post_baobab
-- supplementaries:sign_post_warped
+- supplementaries:twilightforest/sign_post_twilight_oak
+- supplementaries:blue_skies/sign_post_dusk
+- supplementaries:ecologics/sign_post_flowering_azalea
+- supplementaries:byg/sign_post_blue_enchanted
+- supplementaries:sign_post_crimson
+- supplementaries:sign_post_jungle
+- supplementaries:ecologics/sign_post_walnut
+- supplementaries:sign_post_oak
+- supplementaries:ecologics/sign_post_coconut
+- supplementaries:byg/sign_post_cika
+- supplementaries:integrateddynamics/sign_post_menril
+- supplementaries:twilightforest/sign_post_mangrove
+- supplementaries:forbidden_arcanus/sign_post_mysterywood
+- supplementaries:sign_post_birch
+- supplementaries:sign_post_spruce
+- supplementaries:blue_skies/sign_post_frostbright
+- supplementaries:forbidden_arcanus/sign_post_edelwood
+- supplementaries:byg/sign_post_palm
+- supplementaries:undergarden/sign_post_grongle
+- supplementaries:hexcasting/sign_post_akashic
 - supplementaries:twilightforest/sign_post_mining
-- supplementaries:valhelsia_structures/sign_post_lapidified_jungle
+- supplementaries:twilightforest/sign_post_sorting
+- supplementaries:byg/sign_post_cypress
+- supplementaries:byg/sign_post_sythian
+- supplementaries:byg/sign_post_ebony
+- supplementaries:ecologics/sign_post_azalea
+- supplementaries:blue_skies/sign_post_lunar
+- supplementaries:byg/sign_post_jacaranda
+- supplementaries:undergarden/sign_post_wigglewood
+- supplementaries:undergarden/sign_post_smogstem
+- supplementaries:blue_skies/sign_post_cherry
+- supplementaries:byg/sign_post_green_enchanted
+- supplementaries:silentgear/sign_post_netherwood
+- supplementaries:sign_post_dark_oak
+- supplementaries:byg/sign_post_fir
+- supplementaries:quark/sign_post_blossom
+- supplementaries:blue_skies/sign_post_maple
+- supplementaries:tconstruct/sign_post_skyroot
+- supplementaries:byg/sign_post_baobab
+- supplementaries:blue_skies/sign_post_starlit
+- supplementaries:sign_post_warped
+- supplementaries:byg/sign_post_nightshade
+- supplementaries:quark/sign_post_azalea
+- supplementaries:tconstruct/sign_post_bloodshroom
+- supplementaries:byg/sign_post_cherry
+- supplementaries:byg/sign_post_rainbow_eucalyptus
+- supplementaries:byg/sign_post_mahogany
 - supplementaries:byg/sign_post_bulbis
+- supplementaries:byg/sign_post_skyris
+- supplementaries:byg/sign_post_witch_hazel
+- supplementaries:byg/sign_post_mangrove
+- supplementaries:twilightforest/sign_post_time
+- supplementaries:valhelsia_structures/sign_post_lapidified_jungle
+- supplementaries:byg/sign_post_ether
 
 #forge:firmtofu/firmtofu
 - pamhc2foodextended:firmtofuitem
@@ -7031,9 +7008,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:seeds/jicama
 - pamhc2crops:jicamaseeditem
-
-#forge:nuggets/flux_infused
-- redstone_arsenal:flux_nugget?
 
 #chipped:oak_leaves
 - minecraft:oak_leaves
@@ -7728,8 +7702,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:sword
 - tconstruct:cleaver
 - tconstruct:slime_helmet
-- materialis:wrench
-- materialis:battlewrench
 
 #forge:dyes/white
 - minecraft:white_dye
@@ -8201,7 +8173,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - biggerreactors:graphite_dust
 - biggerreactors:ludicrite_dust
 - biggerreactors:uranium_dust
-- #forge:dusts/flux_infused
 - #forge:dusts/blaze_gold
 - #forge:dusts/crimson_iron
 - #forge:dusts/crimson_steel
@@ -8569,6 +8540,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #chipped:crimson_planks
 - silentgear:netherwood_planks
 
+#forge:ingots/pendorite_alloy
+- byg:pendorite_ingot?
+
 #refinedstorage:parts/items/4096k
 - extradisks:4096k_storage_part
 - rebornstorage:large_item_disk_part
@@ -8628,7 +8602,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:flint_and_brick
 - #tconstruct:modifiable/melee/primary
 - #tconstruct:modifiable/melee/sword
-- materialis:wrench
 
 #mna:dusts/arcane_compound
 - mna:vinteum_dust
@@ -8753,8 +8726,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #tconstruct:structure_debug/foundry
 - #tconstruct:structure_debug/general
 - #tconstruct:foundry
-- materialis:wrench
-- materialis:battlewrench
 
 #forge:nuggets/refined_obsidian
 - mekanism:nugget_refined_obsidian
@@ -9852,6 +9823,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - alltheores:bronze_ingot
 - thermal:bronze_ingot
 - mekanism:ingot_bronze
+- tcintegrations:bronze_ingot
 
 #forge:ores/cobalt
 - tconstruct:cobalt_ore
@@ -9953,10 +9925,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #forge:storage_blocks/uraninite
 - powah:uraninite_block
 
-#materialis:casts/single_use/inlay
-- materialis:inlay_sand_cast
-- materialis:inlay_red_sand_cast
-
 #forge:bread/bread
 - minecraft:bread
 - minecraft:bread
@@ -9991,6 +9959,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:pepperoni
 - #forge:pepperoni/pepperoni
+
+#forge:ingots/soul_stained_steel
+- malum:soul_stained_steel_ingot?
 
 #minecolonies:glassblower_ingredient_excluded
 - #forge:dyes
@@ -10400,7 +10371,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:dagger
 - tconstruct:sword
 - tconstruct:cleaver
-- materialis:battlewrench
 
 #forge:ores/apatite
 - thermal:apatite_ore
@@ -10756,6 +10726,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #bookshelf:stones
 - #forge:stone
 
+#fuelgoeshere:forced_fuels
+- minecraft:coal
+- minecraft:charcoal
+
 #tconstruct:casts/multi_use/large_plate
 - tinkers_reforged:cast_large_plate
 - tconstruct:large_plate_cast
@@ -11081,9 +11055,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #minecolonies:cook_ingredient_excluded
 - #forge:crops/wheat
 
-#materialis:casts/multi_use/wrench_head
-- materialis:wrench_head_cast
-
 #chipped:waxed_copper_block
 - minecraft:waxed_copper_block
 - chipped:waxed_copper_block_1
@@ -11138,10 +11109,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:buckets/honey
 - create:honey_bucket
-
-#forge:inlays
-- #forge:inlays/pewter
-- #forge:inlays/arcane_gold
 
 #forge:nutbutters/peanutbutter
 - pamhc2foodextended:peanutbutteritem
@@ -12245,9 +12212,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - chipped:redstone_block_68
 - chipped:redstone_block_69
 
-#forge:storage_blocks/starmetal
-- astralsorcery:starmetal?
-
 #forge:seeds/flax
 - pamhc2crops:flaxseeditem
 - supplementaries:flax_seeds
@@ -12555,6 +12519,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - chipped:gilded_blackstone_68
 - chipped:gilded_blackstone_69
 
+#tcintegrations:emeraldite_ore
+- byg:emeraldite_ore?
+
 #c:storage_blocks
 - byg:ametrine_block
 - byg:pendorite_block
@@ -12594,6 +12561,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - alltheores:bronze_nugget
 - thermal:bronze_nugget
 - mekanism:nugget_bronze
+- tcintegrations:bronze_nugget
 
 #forge:stairs/plastic/glow
 - mekanismadditions:black_plastic_glow_stairs
@@ -12856,7 +12824,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:raw_materials/cloggrum
 - undergarden:raw_cloggrum
-- undergarden:raw_cloggrum?
 
 #twilightforest:canopy_logs
 - twilightforest:canopy_log
@@ -13149,7 +13116,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:raw_materials/froststeel
 - undergarden:raw_froststeel
-- undergarden:raw_froststeel?
 
 #byg:orange_dye
 - byg:orange_amaranth
@@ -14659,11 +14625,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:turtle_egg
 - minecraft:egg
 
-#materialis:plastic_material
-- #forge:plastic?
-- #pneumaticcraft:plastic_sheets?
-- mekanism:hdpe_sheet?
-
 #elementalcraft:shards/powerful
 - elementalcraft:powerful_fire_shard
 - elementalcraft:powerful_water_shard
@@ -15354,6 +15315,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:gray_clear_stained_glass_pane
 - minecraft:gray_stained_glass_pane
 
+#tcintegrations:livingwood_logs
+- botania:livingwood_log?
+- botania:stripped_livingwood_log?
+- botania:livingwood?
+- botania:stripped_livingwood?
+
 #minecraft:piglin_loved
 - #minecraft:gold_ores
 - minecraft:gold_block
@@ -15450,9 +15417,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - silentgear:golden_nether_banana
 - silentgear:blaze_gold_dust
 - silentgear:blaze_gold_ingot
-
-#forge:storage_blocks/fairy
-- materialis:fairy_block
 
 #libx:impl_signs
 
@@ -16331,9 +16295,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:iron_chestplate
 - minecraft:iron_helmet
 - minecraft:iron_leggings
-
-#materialis:galvanizable
-- materialis:wrench
 
 #framedcompactdrawers:slave
 - storagedrawers:controller_slave
@@ -17898,9 +17859,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - alltheores:invar_nugget
 - thermal:invar_nugget
 
-#forge:ingots/pink_slime
-- industrialforegoing:pink_slime_ingot?
-
 #forge:glass/purple
 - minecraft:purple_stained_glass
 - tconstruct:purple_clear_stained_glass
@@ -18009,10 +17967,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - byg:winter_scilla
 - byg:thereal_bellflower
 
-#materialis:wrench
-- materialis:wrench
-- materialis:battlewrench
-
 #bookshelf:shovels
 - #forge:shovels
 
@@ -18080,9 +18034,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #mekanism:crystals/tin
 - #mekanism:crystals/lead
 - #mekanism:crystals/uranium
-
-#forge:gears/flux_infused
-- redstone_arsenal:flux_gear?
 
 #forge:crops/nopales
 - pamhc2crops:nopalesitem
@@ -18210,7 +18161,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:tools/pickaxes
 - #forge:tools/hoes
 - #forge:tools/axes
-- #forge:tools/wrench
 - supercircuitmaker:screwdriver
 
 #forge:seeds/cucumber
@@ -18806,6 +18756,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - forbidden_arcanus:edelwood_log
 - forbidden_arcanus:carved_edelwood_log
 
+#forge:storage_blocks/soul_stained_steel
+- malum:block_of_soul_stained_steel?
+
 #forge:jellies/lemonjelly
 - pamhc2foodextended:lemonjellyitem
 
@@ -19051,8 +19004,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #tconstruct:casts/multi_use/large_plate
 - #tconstruct:casts/multi_use/tool_handle
 - #tconstruct:casts/multi_use/tough_handle
-- #materialis:casts/multi_use/inlay
-- #materialis:casts/multi_use/wrench_head
 
 #chipped:cyan_stained_glass
 - minecraft:cyan_stained_glass
@@ -19660,9 +19611,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #forge:crops/cotton
 - pamhc2crops:cottonitem
 
-#forge:inlays/arcane_gold
-- eidolon:gold_inlay?
-
 #forge:ob_tools/poisoned_chakram
 - ob_aquamirae:poisoned_chakram
 
@@ -19898,9 +19846,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - ae2:network_tool
 - immersiveengineering:hammer?
 - biggerreactors:wrench
-- materialis:wrench
-- materialis:battlewrench
 - supercircuitmaker:screwdriver
+- laserio:laser_wrench
 
 #forge:furnaces/vibranium
 - ironfurnaces:vibranium_furnace
@@ -19918,9 +19865,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:wool/purple
 - minecraft:purple_wool
-
-#forge:nuggets/fairy
-- materialis:fairy_nugget
 
 #forge:glass/gray
 - minecraft:gray_stained_glass
@@ -20078,8 +20022,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - supplementaries:tconstruct/hanging_sign_greenheart
 - supplementaries:tconstruct/hanging_sign_skyroot
 - supplementaries:tconstruct/hanging_sign_bloodshroom
-- supplementaries:quark/hanging_sign_blossom
 - supplementaries:quark/hanging_sign_azalea
+- supplementaries:quark/hanging_sign_blossom
 - supplementaries:valhelsia_structures/hanging_sign_lapidified_jungle
 - supplementaries:forbidden_arcanus/hanging_sign_fungyss
 - supplementaries:forbidden_arcanus/hanging_sign_cherrywood
@@ -20220,8 +20164,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #minecraft:crimson_stems
 - #minecraft:warped_stems
 - #tconstruct:slimy_logs
-- #botania:livingwood_logs?
-- #botania:dreamwood_logs?
+- #tcintegrations:livingwood_logs?
 
 #chipped:dark_oak_trapdoor
 - minecraft:dark_oak_trapdoor
@@ -20995,8 +20938,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:slime_leggings
 - tconstruct:slime_chestplate
 - tconstruct:slime_helmet
-- materialis:wrench
-- materialis:battlewrench
 
 #blue_skies:tools/wooden_axes
 - blue_skies:bluebright_axe
@@ -21107,9 +21048,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #immersiveengineering:circuits/logic
 - immersiveengineering:electron_tube
-
-#forge:raw_materials/elementium
-- mythicbotany:raw_elementium?
 
 #chipped:jungle_planks
 - minecraft:jungle_planks
@@ -21303,9 +21241,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:nuggets/ender_pearl
 - #forge:nuggets/iron
 - #forge:nuggets/gold
-- #forge:nuggets/fairy
-- #forge:nuggets/alfsteel
-- #forge:nuggets/flux_infused
 - #forge:nuggets/blaze_gold
 - #forge:nuggets/crimson_iron
 - #forge:nuggets/crimson_steel
@@ -21314,6 +21249,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:nuggets/tyrian_steel
 - #forge:nuggets/diamond
 - #forge:nuggets/emerald
+- tcintegrations:bronze_nugget
+- malum:soul_stained_steel_nugget?
 
 #mekanismadditions:plastic_blocks/transparent
 - mekanismadditions:black_plastic_transparent
@@ -21857,9 +21794,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #forge:berries/elderberry
 - pamhc2crops:elderberryitem
 
-#forge:dusts/flux_infused
-- redstone_arsenal:flux_dust?
-
 #forge:ingots/crusteel
 - tinkers_reforged:crusteel_ingot
 
@@ -22131,7 +22065,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:storage_blocks/raw_cloggrum
 - undergarden:raw_cloggrum_block
-- undergarden:raw_cloggrum_block?
 
 #refinedstorage:parts/items/262144k
 - extradisks:262144k_storage_part
@@ -22531,9 +22464,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:iron_ingot
 - minecraft:iron_ingot
 
-#forge:ores/starmetal
-- astralsorcery:starmetal_ore?
-
 #mna:stonecutter_resettable_vinteum_arcane_sandstones
 - mna:decoration/vinteum_arcane_sandstone_chiseled
 - mna:decoration/vinteum_arcane_sandstone_corner
@@ -22584,9 +22514,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - cyclic:charm_xp_blocker?
 - cyclic:antigravity?
 - silentgear:ring
-
-#forge:nuggets/alfsteel
-- mythicbotany:alfsteel_nugget?
 
 #twilightforest:darkwood_logs
 - twilightforest:dark_log
@@ -23023,9 +22950,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #blue_skies:storage_blocks/aquite
 - blue_skies:aquite_block
 
-#forge:inlays/pewter
-- eidolon:pewter_inlay?
-
 #chipped:crying_obsidian
 - minecraft:crying_obsidian
 - chipped:crying_obsidian_1
@@ -23292,7 +23216,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:cyan_stained_glass_pane
 
 #tconstruct:modifiable/two_handed
-- materialis:battlewrench
 
 #forge:fruits/blueberry
 - pamhc2crops:blueberryitem
@@ -23425,9 +23348,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #tconstruct:modifiable/harvest/primary
 - #tconstruct:modifiable/harvest/stone
 
-#forge:storage_blocks/raw_elementium
-- mythicbotany:raw_elementium_block?
-
 #minecolonies:breakable_ore
 - #minecraft:coal_ores
 - #minecraft:iron_ores
@@ -23472,11 +23392,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #forge:ingots/fiery
 - twilightforest:fiery_ingot
-
-#materialis:rose_quartz_material
-- create:rose_quartz?
-- create:polished_rose_quartz?
-- biomesoplenty:rose_quartz_shard?
 
 #forge:ores/propserity
 
@@ -23846,12 +23761,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:storage_blocks/refined_glowstone?
 - #forge:storage_blocks/refined_obsidian?
 - #forge:storage_blocks/bloodbrass
-- #forge:storage_blocks/fairy
-- #forge:storage_blocks/ebony_psimetal?
-- #forge:storage_blocks/ivory_psimetal?
-- #forge:storage_blocks/terrasteel?
-- #forge:storage_blocks/alfsteel
-- #forge:storage_blocks/flux_infused
+- #forge:storage_blocks/manasteel?
+- #forge:storage_blocks/neptunium?
+- #forge:storage_blocks/soul_stained_steel?
+- #forge:storage_blocks/cloggrum?
+- #forge:storage_blocks/froststeel?
+- #forge:storage_blocks/forgotten?
+- #forge:storage_blocks/pendorite_alloy?
 
 #forge:raw_materials/platinum
 - alltheores:raw_platinum
@@ -23992,9 +23908,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #refinedstorage:storage_blocks/items/65536k
 - extradisks:65536k_storage_block
-
-#forge:ores/elementium
-- mythicbotany:elementium_ore?
 
 #forge:sheetmetals/electrum
 - immersiveengineering:sheetmetal_electrum
@@ -24896,6 +24809,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:ingot_sand_cast
 - tconstruct:ingot_red_sand_cast
 
+#forge:nuggets/soul_stained_steel
+- malum:soul_stained_steel_nugget?
+
 #forge:crops/pumpkin
 - minecraft:pumpkin
 - minecraft:pumpkin
@@ -25758,19 +25674,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - biggerreactors:graphite_ingot
 - biggerreactors:ludicrite_ingot
 - biggerreactors:uranium_ingot
-- #forge:ingots/fairy
-- #forge:ingots/refined_radiance
-- #forge:ingots/shadow_steel
-- #forge:ingots/starmetal
-- #forge:ingots/pink_slime
-- #forge:ingots/alfsteel
-- #forge:ingots/flux_infused
 - #forge:ingots/blaze_gold
 - #forge:ingots/crimson_iron
 - #forge:ingots/crimson_steel
 - #forge:ingots/azure_silver
 - #forge:ingots/azure_electrum
 - #forge:ingots/tyrian_steel
+- tcintegrations:bronze_ingot
+- malum:soul_stained_steel_ingot?
 
 #forge:crops/oat
 - pamhc2crops:oatsitem
@@ -26301,10 +26212,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:protein/sweet_potato
 - #forge:protein/peanut
 - #forge:protein/spinach
-
-#materialis:casts/single_use/wrench_head
-- materialis:wrench_head_sand_cast
-- materialis:wrench_head_red_sand_cast
 
 #blue_skies:dungeon_keys
 - blue_skies:blinding_key
@@ -26923,9 +26830,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:raw_materials/copper
 - #forge:raw_materials/gold
 - #forge:raw_materials/iron
-- #forge:raw_materials/cloggrum
-- #forge:raw_materials/froststeel
-- #forge:raw_materials/elementium
 
 #chipped:deepslate
 - minecraft:deepslate
@@ -28065,9 +27969,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - thermal:raw_silver_block
 - immersiveengineering:raw_block_silver
 
-#forge:ingots/fairy
-- materialis:fairy_ingot
-
 #chipped:torch
 - minecraft:torch
 - chipped:torch_1
@@ -28202,9 +28103,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #forge:protein/rice
 - pamhc2crops:riceitem
 
-#forge:ingots/starmetal
-- astralsorcery:starmetal_ingot?
-
 #forge:ob_tools/fin_cutter
 - ob_aquamirae:fin_cutter
 
@@ -28241,8 +28139,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:large_plate_cast
 - tconstruct:tool_handle_cast
 - tconstruct:tough_handle_cast
-- materialis:inlay_cast
-- materialis:wrench_head_cast
 
 #botania:terra_pick_blacklist
 - botania:aura_ring
@@ -28535,12 +28431,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:large_plate_sand_cast
 - tconstruct:tool_handle_sand_cast
 - tconstruct:tough_handle_sand_cast
-- materialis:inlay_sand_cast
-- materialis:wrench_head_sand_cast
 
 #forge:wrenches
 - mekanism:configurator
 - #forge:tools/wrench
+- laserio:laser_wrench
 
 #forge:leafyvegetables/spinach
 - pamhc2crops:spinachitem
@@ -29480,8 +29375,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:ores/quartz
 - #forge:ores/netherite_scrap
 - biggerreactors:uranium_ore
-- #forge:ores/starmetal
-- #forge:ores/elementium
 - #forge:ores/bort
 - #forge:ores/crimson_iron
 - #forge:ores/azure_silver
@@ -30421,9 +30314,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - chipped:crimson_fungus_14
 - chipped:crimson_fungus_15
 
-#forge:storage_blocks/flux_infused
-- redstone_arsenal:flux_metal_block?
-
 #forge:flour_plants/cattail
 - pamhc2crops:cattailitem
 
@@ -30705,13 +30595,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - #forge:storage_blocks/raw_iron
 - #forge:storage_blocks/redstone
 - #forge:storage_blocks/netherite
-- #forge:storage_blocks/fairy
-- #forge:storage_blocks/starmetal
-- #forge:storage_blocks/raw_cloggrum
-- #forge:storage_blocks/raw_froststeel
-- #forge:storage_blocks/alfsteel
-- #forge:storage_blocks/raw_elementium
-- #forge:storage_blocks/flux_infused
 - #forge:storage_blocks/bort
 - #forge:storage_blocks/blaze_gold
 - #forge:storage_blocks/crimson_iron
@@ -31671,8 +31554,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #tconstruct:structure_debug/smeltery
 - #tconstruct:structure_debug/general
 - #tconstruct:smeltery
-- materialis:wrench
-- materialis:battlewrench
 
 #immersiveengineering:tools/hammers
 - immersiveengineering:hammer
@@ -33093,9 +32974,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:red_concrete_powder
 - minecraft:black_concrete_powder
 
-#forge:ingots/refined_radiance
-- create:refined_radiance?
-
 #industrialforegoing:sludge
 - minecraft:dirt
 - minecraft:clay
@@ -33149,9 +33027,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tools_complement:tin_hammer
 - tools_complement:tin_sickle
 - tools_complement:tin_knife
-
-#materialis:pink_slime
-- industrialforegoing:pink_slime?
 
 #forge:plates/obsidian
 - create:sturdy_sheet
@@ -33487,9 +33362,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:shears
 - silentgear:shears
 
-#forge:ingots/shadow_steel
-- create:shadow_steel?
-
 #botania:mana_dusts
 - botania:mana_powder
 
@@ -33519,6 +33391,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #botania:petals/blue
 - botania:blue_petal
 - botania:blue_mushroom
+
+#tcintegrations:emeraldite_shards
+- byg:emeraldite_shards?
 
 #forge:dusts/electrum
 - alltheores:electrum_dust
@@ -33593,7 +33468,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - tconstruct:sword
 - tconstruct:cleaver
 - tconstruct:flint_and_brick
-- materialis:wrench
 
 #forge:seeds/whitemushroom
 - pamhc2crops:whitemushroomseeditem

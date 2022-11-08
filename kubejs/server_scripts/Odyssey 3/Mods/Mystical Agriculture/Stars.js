@@ -13,6 +13,7 @@
     G: 'botania:gaia_head'
   })
   // Nether Star Shards
+    event.remove({id: 'mysticalagradditions:nether_star'})
     // Shard to Essence
     event.shapeless('8x mysticalagriculture:nether_star_essence', ['progressivebosses:nether_star_shard'])
     event.shapeless('8x mysticalagriculture:nether_star_essence', ['mysticalagradditions:nether_star_shard'])

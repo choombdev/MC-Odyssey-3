@@ -21,6 +21,7 @@
 					Damage: 0
 				}
 			}
+			weight: 15
 		}
 		{
 			item: {
@@ -30,6 +31,7 @@
 					Damage: 0
 				}
 			}
+			weight: 15
 		}
 		{
 			item: {
@@ -107,12 +109,73 @@
 		{ item: "advgenerators:turbine_rotor_tier4", count: 16, weight: 20 }
 		{ item: "kubejs:choomburgert3", count: 9, weight: 50 }
 		{ item: "byg:pendorite_ingot", count: 10, weight: 30 }
-		{ item: "kubejs:choombium_ingot", count: 4, weight: 5 }
+		{ item: "kubejs:choombium_ingot", count: 4 }
 		{ item: "sophisticatedbackpacks:netherite_backpack", weight: 55 }
-		{ item: "thermal:rose_gold_ingot", count: 6, weight: 15 }
-		{ item: "redstone_arsenal:flux_ingot", count: 4 }
+		{ item: "thermal:rose_gold_ingot", count: 6, weight: 70 }
+		{ item: "redstone_arsenal:flux_ingot", count: 4, weight: 60 }
 		{ item: "redstone_arsenal:obsidian_rod", count: 4, weight: 50 }
 		{ item: "hostilenetworks:deep_learner" }
-		{ item: "refinedstorageaddons:wireless_crafting_grid" }
+		{ item: "refinedstorageaddons:wireless_crafting_grid", weight: 90 }
+		{ item: "mekanism:ultimate_tier_installer", weight: 40 }
+		{ item: "mekanism:elite_tier_installer", weight: 50 }
+		{ item: "mekanism:laser", weight: 15 }
+		{
+			item: {
+				id: "stalwart_dungeons:nether_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 80
+		}
+		{
+			item: {
+				id: "thermal:flux_drill"
+				Count: 1b
+				tag: { }
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "thermal:flux_saw"
+				Count: 1b
+				tag: { }
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "thermal:flux_capacitor"
+				Count: 1b
+				tag: { }
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "thermal:flux_magnet"
+				Count: 1b
+				tag: { }
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "thermal:fluid_reservoir"
+				Count: 1b
+				tag: { }
+			}
+			weight: 100
+		}
+		{ item: "exmachinis:netherite_upgrade", weight: 100 }
+		{ item: "gobber2:gobber2_ingot", weight: 50 }
+		{ item: "mysticalagriculture:choombium_essence", count: 8, weight: 15 }
+		{ item: "quantumquarryplus:quarry_framw", weight: 60 }
+		{ item: "exnihilosequentia:acacia_sieve", weight: 15 }
+		{ item: "functionalstorage:netherite_upgrade", weight: 50 }
+		{ item: "mekanism:jetpack", weight: 50 }
+		{ item: "aeinfinitybooster:infinity_card", weight: 15 }
 	]
 }

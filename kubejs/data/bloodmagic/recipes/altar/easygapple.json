@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "minecraft:apple"
+  },
+  "output": {
+    "item": "minecraft:golden_apple"
+  },
+  "upgradeLevel": 1,
+  "altarSyphon": 750,
+  "consumptionRate": 10,
+  "drainRate": 10
+}

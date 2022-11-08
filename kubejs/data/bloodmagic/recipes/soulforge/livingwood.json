@@ -1,0 +1,11 @@
+{
+  "type": "bloodmagic:soulforge",
+  "input0": {
+    "item": "ars_nouveau:blue_archwood_log"
+  },
+  "output": {
+    "item": "forbidden_arcanus:carved_edelwood_log"
+  },
+  "minimumDrain": 5.0,
+  "drain": 5
+}

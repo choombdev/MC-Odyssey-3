@@ -1,0 +1,20 @@
+{
+    "type": "bloodmagic:soulforge",
+    "input0": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "input1": {
+      "item": "ars_nouveau:end_fiber"
+    },
+    "input2": {
+      "item": "botania:manasteel_block"
+    },
+    "input3": {
+      "item": "cyclic:soulstone"
+    },
+    "output": {
+      "item": "minecraft:turtle_spawn_egg"
+    },
+    "minimumDrain": 30.0,
+    "drain": 10
+  }

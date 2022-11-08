@@ -7,7 +7,7 @@ onEvent('recipes', event => {
       'BXB',
       'ABA'
     ], {
-      A: 'minecraft:netherite_ingot',
+      A: 'thermal:netherite_nugget',
       B: 'botania:terrasteel_ingot',
       X: 'thermal:upgrade_augment_1'
     })

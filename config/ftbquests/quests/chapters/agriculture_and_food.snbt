@@ -588,8 +588,9 @@
 					count: 3
 				}
 				{
-					id: "341348CD2A4161BD"
-					type: "choice"
+					id: "02852AB9461CC0CA"
+					type: "loot"
+					exclude_from_claim_all: true
 					table_id: 5348617777777244959L
 				}
 			]
@@ -612,8 +613,15 @@
 					count: 5
 				}
 				{
-					id: "0E2DA8C67F2051B0"
-					type: "choice"
+					id: "2BF8E6F58F2B31F1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "052C987E67E96A25"
+					type: "loot"
+					exclude_from_claim_all: true
 					table_id: 5348617777777244959L
 				}
 			]
@@ -753,8 +761,9 @@
 					count: 40
 				}
 				{
-					id: "60F9897A8A0A572A"
-					type: "random"
+					id: "7D164D9C4614A0C9"
+					type: "loot"
+					exclude_from_claim_all: true
 					table_id: 6662433201225807513L
 				}
 			]
@@ -818,8 +827,9 @@
 					count: 32
 				}
 				{
-					id: "3A0C3B823A152DA4"
-					type: "random"
+					id: "6FF8C372DCFCFCF2"
+					type: "loot"
+					exclude_from_claim_all: true
 					table_id: 6662433201225807513L
 				}
 			]
