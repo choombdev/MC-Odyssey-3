@@ -40,8 +40,8 @@ install:
 
   # Link to where the file where the modpack can be distributed
   # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-  modpackUrl: https://mediafilez.forgecdn.net/files/4073/597/Odyssey+3-0.6.1.zip
-
+  modpackUrl: https://mediafilez.forgecdn.net/files/4074/515/Odyssey+3-0.6.2.zip
+  
   # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
   # current supported formats:
   # - curseforge or curse
