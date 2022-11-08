@@ -330,5 +330,49 @@
 		}
 		{ item: "kubejs:bottled_fire", count: 4, weight: 60 }
 		{ item: "mekanism:jetpack", weight: 30 }
+		{ item: "tinkers_reforged:gausum_ingot" }
+		{ item: "tinkers_reforged:duralumin_ingot", count: 32, weight: 50 }
+		{ item: "tinkers_reforged:raw_kepu_block", count: 16, weight: 60 }
+		{ item: "botania:cosmetic_puffy_scarf", weight: 60 }
+		{ item: "botania:cosmetic_black_bowtie", weight: 60 }
+		{ item: "botania:cosmetic_anaglyph_glasses", weight: 60 }
+		{ item: "alltheores:steel_gear", count: 8, weight: 60 }
+		{ item: "alltheores:iron_gear", count: 64, weight: 60 }
+		{ item: "alltheores:gold_gear", count: 32, weight: 60 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 4s
+					}]
+				}
+			}
+			weight: 60
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 6s
+					}]
+				}
+			}
+			weight: 60
+		}
+		{ item: "alltheores:iridium_gear", count: 16, weight: 60 }
+		{ item: "alltheores:aluminum_gear", count: 16, weight: 60 }
+		{ item: "mekanismadditions:obsidian_tnt", count: 5, weight: 30 }
+		{ item: "thermal:upgrade_augment_2", weight: 15 }
+		{ item: "thermal:upgrade_augment_3", weight: 5 }
+		{ item: "thermal:upgrade_augment_1", weight: 30 }
+		{ item: "botania:cosmetic_eyepatch", weight: 30 }
+		{ item: "botania:cosmetic_red_ribbons", weight: 30 }
+		{ item: "botania:cosmetic_polka_dotted_bows", weight: 30 }
 	]
 }
