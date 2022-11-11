@@ -6,10 +6,10 @@ let mcmaterials = ['iron', 'gold', 'copper']
 
 materials.forEach(material => {
   event.remove({id: 'immersiveengineering:crafting/plate_'+material+'_hammering'})
-  event.shapeless('alltheores:'+material+'_plate', ['immersiveengineering:hammer','alltheores:'+material+'_ingot','alltheores:'+material+'_ingot'])
+  event.shapeless('alltheores:'+material+'_plate', [Item.of('immersiveengineering:hammer').ignoreNBT(),'alltheores:'+material+'_ingot','alltheores:'+material+'_ingot']).damageIngredient(Item.of('immersiveengineering:hammer'))
 })
 mcmaterials.forEach(material => {
   event.remove({id: 'immersiveengineering:crafting/plate_'+material+'_hammering'})
-  event.shapeless('alltheores:'+material+'_plate', ['immersiveengineering:hammer','minecraft:'+material+'_ingot','minecraft:'+material+'_ingot'])
+  event.shapeless('alltheores:'+material+'_plate', [Item.of('immersiveengineering:hammer').ignoreNBT(),'minecraft:'+material+'_ingot','minecraft:'+material+'_ingot']).damageIngredient(Item.of('immersiveengineering:hammer'))
 })
 })

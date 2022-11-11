@@ -3,7 +3,8 @@ onEvent('recipes', event => {
 // Replacing the Compressed Cobblestone with Compressium's
 event.replaceInput({}, 'cyclic:compressed_cobblestone', 'compressium:cobblestone_1')
 event.replaceOutput({}, 'cyclic:compressed_cobblestone', 'compressium:cobblestone_1')
-
+// Removing Crusher's recipe for Wither Rose (Dye)
+event.remove({id: 'cyclic:crusher/dye_cyan'})
  // Removing Uncrafter
  event.remove({output:'cyclic:uncrafter'})
 // Crystallized Obsidian

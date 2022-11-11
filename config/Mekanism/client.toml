@@ -87,20 +87,20 @@
 				y = 2147483647
 
 			[client.gui.window.rename]
-				x = 2147483647
-				y = 2147483647
+				x = 27
+				y = 16
 
 			[client.gui.window.skinSelect]
-				x = 2147483647
-				y = 2147483647
+				x = 4
+				y = -12
 
 			[client.gui.window.sideConfig]
-				x = 10
-				y = 15
+				x = 297
+				y = 16
 
 			[client.gui.window.transporterConfig]
-				x = 2147483647
-				y = 2147483647
+				x = 209
+				y = 2
 
 			[client.gui.window.upgrade]
 				x = 10

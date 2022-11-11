@@ -133,6 +133,8 @@ onEvent('jei.hide.items', event => {
 		event.add('minecraft:spider_spawn_egg')
 		event.add('minecraft:wither_skeleton_spawn_egg')
 		event.add('minecraft:zombie_spawn_egg')
+		// Sulfur
+		event.add('bloodmagic:sulfur')
 
 
 	})

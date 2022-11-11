@@ -1,5 +1,24 @@
 // This script was made by Choomb for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
+  // Fixing missing Tags 
+  event.replaceInput({}, '#forge:ingots/aluminum_steel', ['alltheores:aluminum_ingot'])
+  event.replaceInput({}, '#forge:ingots/bismuth', ['alltheores:lead_ingot'])
+  event.replaceInput({}, '#forge:ingots/bismuth_steel', ['alltheores:steel_ingot'])
+  event.replaceInput({}, '#forge:ingots/bismuth_brass', ['alltheores:brass_ingot'])
+  event.replaceInput({}, '#forge:ingots/redstone_alloy', ['extendedcrafting:redstone_ingot'])
+  event.replaceInput({}, '#forge:ingots/refined_iron', ['alltheores:steel_ingot'])
+  event.replaceInput({}, '#forge:ingots/titanium', ['alltheores:platinum_ingot'])
+
+
+  // Missing Obsidian Dust Recipes (and Tag)
+  event.replaceInput({}, '#forge:dust/obsidian', 'mekanism:dust_obsidian')
+  let obsidian = 'minecraft:obsidian'
+  let obsidiandust = '4x mekanism:dust_obsidian' 
+  event.recipes.createCrushing(obsidian, obsidiandust)
+  event.recipes.immersiveengineeringCrusher(obsidian, obsidiandust)
+  event.recipes.thermal.pulverizer(obsidian, obsidiandust)
+  event.recipes.mekanismCrushing(obsidian, obsidiandust)
+
   // Easy Quartz Recipe
   let rawquartz = 'byg:raw_quartz_block'
   let quartz = '4x minecraft:quartz' 

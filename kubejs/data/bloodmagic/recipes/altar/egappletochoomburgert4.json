@@ -6,7 +6,7 @@
   "output": {
     "item": "kubejs:choomburgert4"
   },
-  "upgradeLevel": 5,
+  "upgradeLevel": 4,
   "altarSyphon": 6000,
   "consumptionRate": 10,
   "drainRate": 10

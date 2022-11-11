@@ -67,9 +67,9 @@
 		#Entities that will drop a large amount of copper -> iron coins.
 		boss_iron = []
 		#Entities that will drop a large amount of copper -> gold coins.
-		boss_gold = []
+		boss_gold = ["minecraft:wither"]
 		#Entities that will drop a large amount of copper -> emerald coins.
-		boss_emerald = ["minecraft:warden", "minecraft:wither"]
+		boss_emerald = ["minecraft:warden"]
 		#Entities that will drop a large amount of copper -> diamond coins.
 		boss_diamond = ["minecraft:ender_dragon"]
 		#Entities that will drop a large amount of copper -> netherite coins.

@@ -2509,6 +2509,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "17D5AF57C985E9F6"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
 		}
 		{
 			x: -5.0d
@@ -2522,6 +2527,11 @@
 				type: "item"
 				item: "immersiveengineering:blastbrick"
 				count: 27L
+			}]
+			rewards: [{
+				id: "158F1A8037290389"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
 			}]
 		}
 		{
@@ -2540,6 +2550,11 @@
 				item: "immersiveengineering:cokebrick"
 				count: 27L
 			}]
+			rewards: [{
+				id: "392748CA3EB21068"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
 		}
 		{
 			x: -5.0d
@@ -2555,6 +2570,19 @@
 				item: "alltheores:steel_ingot"
 				count: 16L
 			}]
+			rewards: [
+				{
+					id: "0DB2CC7ACA831C27"
+					type: "item"
+					item: "alltheores:steel_ingot"
+					count: 8
+				}
+				{
+					id: "577D098B0DA7B5CA"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -2571,6 +2599,19 @@
 				type: "item"
 				item: "immersiveengineering:thermoelectric_generator"
 			}]
+			rewards: [
+				{
+					id: "3714A913844174F0"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					count: 8
+				}
+				{
+					id: "1A65C20BB8C2055A"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -2582,6 +2623,11 @@
 				id: "79797656DF14D199"
 				type: "item"
 				item: "immersiveengineering:wire_copper"
+			}]
+			rewards: [{
+				id: "229BEFD960362D21"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
 			}]
 		}
 		{
@@ -2602,6 +2648,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2DC3EBF67F9FBA0E"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
 		}
 		{
 			x: -1.5d
@@ -2614,6 +2665,25 @@
 				type: "item"
 				item: "immersiveengineering:capacitor_lv"
 			}]
+			rewards: [
+				{
+					id: "78E0AE834A41165D"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+					count: 2
+				}
+				{
+					id: "3EDD199E015C2792"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "2A17B68BC8A18BB1"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -2633,6 +2703,11 @@
 					item: "immersiveengineering:connector_lv_relay"
 				}
 			]
+			rewards: [{
+				id: "521879F4C9ABF25A"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+			}]
 		}
 		{
 			x: -6.5d
@@ -2644,6 +2719,11 @@
 				id: "66B00DFCD302F401"
 				type: "item"
 				item: "immersiveengineering:conveyor_basic"
+			}]
+			rewards: [{
+				id: "3C043FA46B80181B"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
 			}]
 		}
 		{
@@ -2661,6 +2741,19 @@
 				type: "item"
 				item: "immersiveengineering:mold_plate"
 			}]
+			rewards: [
+				{
+					id: "1035D6C8FCD2061F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "47928028DAFE3FFC"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
 		}
 		{
 			x: -6.5d
@@ -2672,6 +2765,11 @@
 				id: "3998D08A448C1611"
 				type: "item"
 				item: "immersiveengineering:workbench"
+			}]
+			rewards: [{
+				id: "5FAE5EE454457956"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
 			}]
 		}
 		{
@@ -2700,6 +2798,19 @@
 					item: "minecraft:hopper"
 				}
 			]
+			rewards: [
+				{
+					id: "22F35701C5E13DED"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "71635415DBE589D5"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -2721,6 +2832,11 @@
 					count: 6L
 				}
 			]
+			rewards: [{
+				id: "6C8315AC0FD9A0AC"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
+			}]
 		}
 		{
 			x: -7.5d
@@ -2737,6 +2853,19 @@
 				type: "item"
 				item: "immersiveengineering:cloche"
 			}]
+			rewards: [
+				{
+					id: "2D0C92D157507A98"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "7135AB29DA998591"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
 		}
 		{
 			x: -13.0d

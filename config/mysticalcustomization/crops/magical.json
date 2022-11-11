@@ -1,0 +1,14 @@
+{
+    "name": "Magical",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "kubejs:magic_agglomeratio"
+    },
+    "colors": {
+        "flower": "c6e1f5",
+        "essence": "667c8c",
+        "seeds": "5a72ad"
+      }
+  }
+  

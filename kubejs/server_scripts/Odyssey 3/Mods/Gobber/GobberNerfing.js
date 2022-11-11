@@ -23,7 +23,7 @@ onEvent('recipes', event => {
     })
   // Nether
     // Gobber Globette
-    event.shaped('gobber2:gobber2_globette_nether', [
+    event.shaped('gobber2:gobber2_glob_nether', [
       'ABA',
       'BXB',
       'ABA'
@@ -39,13 +39,13 @@ onEvent('recipes', event => {
       'SXS',
       'GGG'
     ], {
-      G: 'gobber2:gobber2_glob',
+      G: 'gobber2:gobber2_glob_nether',
       S: 'minecraft:wither_rose',
       X: 'gobber2:gobber2_ingot'
     })
   // End
     // Gobber Globette
-    event.shaped('gobber2:gobber2_globette_end', [
+    event.shaped('gobber2:gobber2_glob_end', [
       'ABA',
       'BXB',
       'ABA'
@@ -61,7 +61,7 @@ onEvent('recipes', event => {
       'SXS',
       'GGG'
     ], {
-      G: 'gobber2:gobber2_glob',
+      G: 'gobber2:gobber2_glob_end',
       S: 'tconstruct:dragon_scale',
       X: 'gobber2:gobber2_ingot_nether'
     })

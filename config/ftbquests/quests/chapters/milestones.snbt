@@ -973,7 +973,7 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "507888F3F3DC2556"
+				id: "32FC620CD9F03E8E"
 				type: "item"
 				item: {
 					id: "tconstruct:cleaver"
@@ -985,11 +985,11 @@
 							"tconstruct:attack_damage": 1.875f
 						}
 						tic_stats: {
-							"tconstruct:attack_damage": 49.02885f
+							"tconstruct:attack_damage": 40.104f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:durability": 61569.902f
-							"tconstruct:mining_speed": 14.871094f
-							"tconstruct:attack_speed": 1.25f
+							"tconstruct:durability": 55314.0f
+							"tconstruct:mining_speed": 13.828125f
+							"tconstruct:attack_speed": 1.1999999f
 						}
 						Damage: 0
 						tic_upgrades: [
@@ -1060,7 +1060,7 @@
 						]
 						tic_materials: [
 							"mysticalagradditions:supremium"
-							"mysticalagradditions:supremium"
+							"tinkers_reforged:durasteel"
 							"tinkers_reforged:kepu"
 							"mysticalagradditions:supremium"
 						]
@@ -1071,6 +1071,10 @@
 							}
 							{
 								name: "tconstruct:unbreakable"
+								level: 1s
+							}
+							{
+								name: "tinkers_reforged:adapting"
 								level: 1s
 							}
 							{
@@ -1115,7 +1119,7 @@
 							}
 							{
 								name: "mysticalagradditions:prosperous"
-								level: 3s
+								level: 2s
 							}
 							{
 								name: "tconstruct:reinforced"

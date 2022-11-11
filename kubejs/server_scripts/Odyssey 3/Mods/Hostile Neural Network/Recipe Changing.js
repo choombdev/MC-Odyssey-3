@@ -19,26 +19,25 @@ onEvent('recipes', event => {
     event.shaped('hostilenetworks:blank_data_model', [
         ' X ',
         ' C ',
-        ' P '
+        ' X '
     ], {
         X: 'minecraft:netherite_sword',
-        C: 'exnihilosequentia:string_mesh',
-        P: 'minecraft:netherite_sword'
+        C: 'computercraft:pocket_computer_advanced'
     })
 
     // Sim Chamber
     event.remove({output:'hostilenetworks:sim_chamber'})
     event.shaped('hostilenetworks:sim_chamber', [
         'NTC',
-        'DXD',
+        'DSD',
         'CTN'
     ], {
         N: 'minecraft:netherite_block',
         T: 'mekanism:teleportation_core',
         C: 'mekanism:ultimate_control_circuit',
         D: 'ae2:cell_component_4k',
-        X: 'hostilenetworks:blank_data_model'
-    })
+        S: 'minecraft:nether_star'
+        })
 
     // Loot Fabricator
     event.remove({output: 'hostilenetworks:loot_fabricator'})
@@ -51,7 +50,7 @@ onEvent('recipes', event => {
         D: 'ae2:cell_component_64k',
         A: 'ae2:annihilation_core',
         B: 'ae2:formation_core',
-        X: 'hostilenetworks:sim_chamber'
+        X: 'minecraft:nether_star'
     })
     // Prediciton Matrix
     event.remove({output: 'hostilenetworks:empty_prediction'})
@@ -60,9 +59,8 @@ onEvent('recipes', event => {
         'CXC',
         ' C '
     ], {
-        X: 'mysticalagradditions:insanium_gemstone_block',
-        C: 'mysticalagriculture:soul_jar'
-
+        X: 'mysticalagradditions:insanium_block',
+        C: 'minecraft:quartz'
     })
 })
 

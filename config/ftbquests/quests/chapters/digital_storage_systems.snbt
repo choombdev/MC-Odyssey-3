@@ -853,8 +853,9 @@
 					count: 5
 				}
 				{
-					id: "5489FD3935AC9A2C"
-					type: "choice"
+					id: "7E5C678F8E4DC125"
+					type: "loot"
+					exclude_from_claim_all: true
 					table_id: 8510385002616264230L
 				}
 			]
