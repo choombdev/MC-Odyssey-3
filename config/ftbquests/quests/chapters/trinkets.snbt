@@ -393,5 +393,22 @@
 				item: "lightmanscurrency:coin_gold"
 			}]
 		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Recycling!"
+			description: ["To get a new trinket slot (or a new trinket), you can recycle your older ones by crushing them (right clicking) against an Amethyst block!"]
+			id: "101C6D5DD058EFD3"
+			tasks: [{
+				id: "006034852DB786F9"
+				type: "item"
+				item: "nameless_trinkets:unknown_fragment"
+			}]
+			rewards: [{
+				id: "20D8ECB67ABA3AF9"
+				type: "item"
+				item: "nameless_trinkets:unknown_fragment"
+			}]
+		}
 	]
 }

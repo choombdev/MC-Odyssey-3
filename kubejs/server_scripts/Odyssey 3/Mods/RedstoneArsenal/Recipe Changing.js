@@ -9,9 +9,9 @@ onEvent('recipes', event => {
         'FEF'
     ], {
         F: 'fluxnetworks:flux_block',
-        E: 'alltheores:enderium_dust',
-        N: 'thermal:netherite_gear',
-        C: 'mekanism:advanced_control_circuit'
+        E: 'alltheores:enderium_nugget',
+        N: 'thermal:netherite_dust',
+        C: 'mekanism:basic_control_circuit'
     })
     // Flux Ingots
     event.remove({id: 'redstone_arsenal:materials/flux_ingot_fire_charge_from_dust'})

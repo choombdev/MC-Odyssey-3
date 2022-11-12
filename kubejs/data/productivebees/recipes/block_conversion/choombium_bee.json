@@ -1,0 +1,17 @@
+{
+    "type": "productivebees:block_conversion",
+    "bee": "productivebees:choombium",
+    "from": {
+        "Name": "minecraft:netherite_block"
+    },
+    "to": {
+        "Name": "kubejs:choombium_block"
+    },
+    "chance": 70,
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:choombium"
+        }
+    ]
+}

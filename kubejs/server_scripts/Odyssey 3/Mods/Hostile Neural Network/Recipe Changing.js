@@ -59,7 +59,7 @@ onEvent('recipes', event => {
         'CXC',
         ' C '
     ], {
-        X: 'mysticalagradditions:insanium_block',
+        X: 'mysticalagradditions:insanium_gemstone',
         C: 'minecraft:quartz'
     })
 })

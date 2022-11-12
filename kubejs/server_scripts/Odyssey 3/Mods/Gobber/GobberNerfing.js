@@ -3,12 +3,12 @@ onEvent('recipes', event => {
   // Overworld
     // Gobber Globette
     event.shaped('gobber2:gobber2_globette', [
-      'ABA',
-      'BXB',
-      'ABA'
+      ' BA',
+      ' X ',
+      'AB '
     ], {
       A: 'thermal:netherite_nugget',
-      B: 'botania:terrasteel_ingot',
+      B: 'botania:terrasteel_nugget',
       X: 'thermal:upgrade_augment_1'
     })
     //Gobber Ingot

@@ -1,0 +1,18 @@
+{
+    "type": "productivebees:bee_breeding",
+    "parent1": "productivebees:pendorite",
+    "parent2": "productivebees:ancient",
+    "offspring": [
+        "productivebees:choombium"
+    ],
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:ancient"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:pendorite"
+        }
+    ]
+}

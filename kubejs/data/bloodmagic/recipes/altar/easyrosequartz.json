@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "minecraft:quartz"
+  },
+  "output": {
+    "item": "create:polished_rose_quartz"
+  },
+  "upgradeLevel": 1,
+  "altarSyphon": 1000,
+  "consumptionRate": 35,
+  "drainRate": 35
+}

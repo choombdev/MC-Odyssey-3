@@ -18,8 +18,8 @@ minecraftpieces.forEach(piece =>{
     event.shapeless("minecraft:raw_"+piece, [orepiece, orepiece, orepiece, orepiece])
 })
 // Osmium
-event.remove({output: 'exnihilomekanism:osmium'})
-event.remove({input: 'exnihilomekanism:osmium'})
-event.shapeless("alltheores:raw_osmium", ['exnihilomekanism:osmium','exnihilomekanism:osmium','exnihilomekanism:osmium','exnihilomekanism:osmium'])
+event.remove({output: 'exnihilomekanism:osmium_pieces'})
+event.remove({input: 'exnihilomekanism:osmium_pieces'})
+event.shapeless("alltheores:raw_osmium", ['exnihilomekanism:osmium_pieces','exnihilomekanism:osmium_pieces','exnihilomekanism:osmium_pieces','exnihilomekanism:osmium_pieces'])
 })
 

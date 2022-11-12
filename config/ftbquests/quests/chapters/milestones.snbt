@@ -979,11 +979,7 @@
 					id: "tconstruct:cleaver"
 					Count: 1b
 					tag: {
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.3125f
-							"tconstruct:durability": 3.5f
-							"tconstruct:attack_damage": 1.875f
-						}
+						Damage: 0
 						tic_stats: {
 							"tconstruct:attack_damage": 40.104f
 							"tconstruct:harvest_tier": "minecraft:netherite"
@@ -991,7 +987,11 @@
 							"tconstruct:mining_speed": 13.828125f
 							"tconstruct:attack_speed": 1.1999999f
 						}
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3125f
+							"tconstruct:durability": 3.5f
+							"tconstruct:attack_damage": 1.875f
+						}
 						tic_upgrades: [
 							{
 								name: "tconstruct:creative_slot"
@@ -1058,12 +1058,7 @@
 								level: 16s
 							}
 						]
-						tic_materials: [
-							"mysticalagradditions:supremium"
-							"tinkers_reforged:durasteel"
-							"tinkers_reforged:kepu"
-							"mysticalagradditions:supremium"
-						]
+						tic_broken: 0b
 						tic_modifiers: [
 							{
 								name: "bloodsmeltery:sentient"
@@ -1146,7 +1141,12 @@
 								level: 1s
 							}
 						]
-						tic_broken: 0b
+						tic_materials: [
+							"mysticalagradditions:supremium"
+							"tinkers_reforged:durasteel"
+							"tinkers_reforged:kepu"
+							"mysticalagradditions:supremium"
+						]
 						tic_volatile_data: {
 							"tconstruct:indestructible": 1b
 							upgrades: 35

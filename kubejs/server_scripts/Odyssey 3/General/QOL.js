@@ -1,5 +1,7 @@
 // This script was made by Choomb for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
+    // Clearing Patterns
+    event.shapeless(Item.of('ae2:crafting_pattern').ignoreNBT(), Item.of('ae2:crafting_pattern').ignoreNBT())
     // Saplings
     event.shapeless('tconstruct:blood_slime_sapling', ['tconstruct:blood_slime_ball', '#forge:sapling'])
     // Unifying Silicon

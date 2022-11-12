@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "reliquary:emperor_chalice"
+  },
+  "output": {
+    "item": "reliquary:infernal_chalice"
+  },
+  "upgradeLevel": 3,
+  "altarSyphon": 5000,
+  "consumptionRate": 10,
+  "drainRate": 10
+}

@@ -1791,7 +1791,7 @@
 			]
 		}
 		{
-			title: "ULTIMATE RESOURCE TRANSFERRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL"
+			title: "ULTIMATE RESOURCE TRANSFERRAAL"
 			x: -18.5d
 			y: -2.0d
 			subtitle: "And that's the ultimate sin"
@@ -2665,6 +2665,7 @@
 			x: -23.5d
 			y: -4.5d
 			subtitle: "CONTROLLING FASTER OBEY YOUR MASTER"
+			description: ["Starting with the simplest, the basic control circuit!"]
 			dependencies: ["5632023F91C9D924"]
 			id: "34E1F71BA2DF6899"
 			tasks: [{
