@@ -1,0 +1,14 @@
+{
+"type":"mekanism:nucleosynthesizing",
+"itemInput":{
+    "ingredient":{
+        "item":"minecraft:netherrite_ingot"
+        }},
+"gasInput":{
+    "amount":5,
+    "gas":"mekanism:antimatter"
+        },
+"output":{
+    "item":"kubejs:choombium_ingot"},
+    "duration":1250
+}

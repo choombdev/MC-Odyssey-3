@@ -1,0 +1,14 @@
+{
+"type":"mekanism:nucleosynthesizing",
+"itemInput":{
+    "ingredient":{
+        "item":"kubejs:choombium_ingot"
+        }},
+"gasInput":{
+    "amount":5,
+    "gas":"mekanism:antimatter"
+        },
+"output":{
+    "item":"botania:gaia_ingot"},
+    "duration":1250
+}

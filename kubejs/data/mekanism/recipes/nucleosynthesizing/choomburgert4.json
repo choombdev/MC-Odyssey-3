@@ -1,0 +1,14 @@
+{
+"type":"mekanism:nucleosynthesizing",
+"itemInput":{
+    "ingredient":{
+        "item":"minecraft:enchanted_golden_apple"
+        }},
+"gasInput":{
+    "amount":5,
+    "gas":"mekanism:antimatter"
+        },
+"output":{
+    "item":"kubejs:choomburgert4"},
+    "duration":1250
+}

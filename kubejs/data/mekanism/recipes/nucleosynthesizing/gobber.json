@@ -1,0 +1,14 @@
+{
+"type":"mekanism:nucleosynthesizing",
+"itemInput":{
+    "ingredient":{
+        "item":"thermal:netherite_gear"
+        }},
+"gasInput":{
+    "amount":5,
+    "gas":"mekanism:antimatter"
+        },
+"output":{
+    "item":"gobber2:gobber2_globette"},
+    "duration":1250
+}

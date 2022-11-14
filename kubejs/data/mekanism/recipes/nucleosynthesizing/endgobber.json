@@ -1,0 +1,14 @@
+{
+"type":"mekanism:nucleosynthesizing",
+"itemInput":{
+    "ingredient":{
+        "item":"gobber2:gobber2_globette_nether"
+        }},
+"gasInput":{
+    "amount":5,
+    "gas":"mekanism:antimatter"
+        },
+"output":{
+    "item":"gobber2:gobber2_globette_end"},
+    "duration":1250
+}
