@@ -35,5 +35,9 @@
   event.shapeless('5x mysticalagriculture:dragon_egg_essence', ['3x tconstruct:dragon_scale'])
   event.shapeless('5x mysticalagriculture:dragon_egg_essence', ['3x quark:dragon_scale'])
   event.shapeless('5x mysticalagriculture:dragon_egg_essence', ['3x forbidden_arcanus:dragon_scale'])
+
+  // Essence from Eggs
+  event.shapeless('2x mysticalagriculture:dragon_egg_chunk', ["minecraft:dragon_egg"])
+  event.shapeless('6x mysticalagriculture:dragon_egg_essence', ['mysticalagriculture:dragon_egg_chunk'])
 })
 
