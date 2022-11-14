@@ -9,5 +9,13 @@
         ], {
           A: 'mysticalagriculture:graphite_essence'
         })
+          // Sulfur - Thermal
+          event.shaped('8x thermal:sulfur_dust', [
+            '   ',
+            '   ',
+            'AAA'
+            ], {
+              A: 'mysticalagriculture:sulfur_essence'
+            })
   })
 
