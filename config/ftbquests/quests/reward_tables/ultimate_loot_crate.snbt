@@ -110,9 +110,25 @@
 		{ item: "kubejs:choomburgert3", count: 9, weight: 50 }
 		{ item: "byg:pendorite_ingot", count: 10, weight: 30 }
 		{ item: "kubejs:choombium_ingot", count: 4 }
-		{ item: "sophisticatedbackpacks:netherite_backpack", weight: 55 }
-		{ item: "thermal:rose_gold_ingot", count: 6, weight: 70 }
-		{ item: "redstone_arsenal:flux_ingot", count: 4, weight: 60 }
+		{
+			item: {
+				id: "sophisticatedbackpacks:netherite_backpack"
+				Count: 1b
+				tag: {
+					contentsUuid: [I;
+						2107568943
+						1972981341
+						-1751881691
+						2036966889
+					]
+					inventorySlots: 120
+					upgradeSlots: 7
+				}
+			}
+			weight: 30
+		}
+		{ item: "thermal:rose_gold_ingot", count: 6, weight: 50 }
+		{ item: "redstone_arsenal:flux_ingot", count: 4, weight: 40 }
 		{ item: "redstone_arsenal:obsidian_rod", count: 4, weight: 50 }
 		{ item: "hostilenetworks:deep_learner" }
 		{ item: "refinedstorageaddons:wireless_crafting_grid", weight: 90 }
@@ -127,7 +143,7 @@
 					Damage: 0
 				}
 			}
-			weight: 80
+			weight: 40
 		}
 		{
 			item: {
@@ -135,7 +151,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 100
+			weight: 50
 		}
 		{
 			item: {
@@ -143,7 +159,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 100
+			weight: 50
 		}
 		{
 			item: {
@@ -151,7 +167,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 100
+			weight: 50
 		}
 		{
 			item: {
@@ -159,7 +175,7 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 100
+			weight: 60
 		}
 		{
 			item: {
@@ -167,9 +183,9 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 100
+			weight: 50
 		}
-		{ item: "exmachinis:netherite_upgrade", weight: 100 }
+		{ item: "exmachinis:netherite_upgrade", weight: 50 }
 		{ item: "gobber2:gobber2_ingot", weight: 50 }
 		{ item: "mysticalagriculture:choombium_essence", count: 8, weight: 15 }
 		{ item: "quantumquarryplus:quarry_framw", weight: 60 }

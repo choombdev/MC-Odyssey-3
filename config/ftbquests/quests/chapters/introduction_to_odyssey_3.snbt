@@ -1818,5 +1818,123 @@
 				item: "ftbquests:screen_1"
 			}]
 		}
+		{
+			x: 3.5d
+			y: 2.5d
+			subtitle: "Deep Dark without the Deep Dark"
+			id: "46F22F0778F274A6"
+			tasks: [{
+				id: "3D428D17A08931F5"
+				type: "item"
+				item: "mining_dimension:teleporter"
+			}]
+			rewards: [{
+				id: "7C825030068D0BF5"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Zetter"
+			x: -5.5d
+			y: -4.5d
+			subtitle: "Let your inner artist out!"
+			description: ["A mod where you simply draw your very own paintings."]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "7675836BBA38553E"
+			tasks: [
+				{
+					id: "269EECE5C1EC77E1"
+					type: "item"
+					item: "zetter:easel"
+				}
+				{
+					id: "3862CF51E95E9EDE"
+					type: "item"
+					item: {
+						id: "zetter:palette"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A1645F80879A4D0"
+					type: "item"
+					item: "zetter:canvas"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			description: ["Redstone on walls, how it's always been meant to be."]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "77F6FD2A3CFA5E7F"
+			tasks: [{
+				id: "0C071DC6185281FD"
+				type: "item"
+				item: {
+					id: "redstonepen:pen"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			description: ["Saving Space with Tiny Redstone!"]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "5563BE062DBC2A36"
+			tasks: [
+				{
+					id: "6CCC4752AD84FDE4"
+					type: "item"
+					item: "tinyredstone:redstone_panel"
+				}
+				{
+					id: "5593DD10296A7CF3"
+					type: "item"
+					item: "tinyredstone:redstone_wrench"
+				}
+			]
+			rewards: [{
+				id: "2C0058A29FC52368"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 12
+			}]
+		}
+		{
+			title: "Spawner Module!"
+			x: 2.0d
+			y: 1.5d
+			description: [
+				"By checking the recipe/uses for a Spawner in JEI, you can see the many modifiers you can add to your Spawner."
+				"Using Comparator for Redstone Control, Wool for silence, Chorus for No AI and even more interesting things."
+			]
+			dependencies: ["257632F7BA215832"]
+			id: "3CD0287623DF8098"
+			tasks: [{
+				id: "44BF368210F98F53"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
+			rewards: [{
+				id: "344CE4DA2EDC0F9B"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+		}
 	]
 }

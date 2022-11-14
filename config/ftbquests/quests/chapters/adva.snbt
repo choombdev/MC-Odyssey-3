@@ -555,14 +555,15 @@
 			]
 			rewards: [
 				{
-					id: "521BF09F1A48F1AB"
-					type: "choice"
-					table_id: 5348617777777244959L
-				}
-				{
 					id: "6828CBD3B29B9E08"
 					type: "item"
 					item: "alltheores:uranium_ingot"
+				}
+				{
+					id: "1DD100A98426EE93"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
 				}
 			]
 		}
@@ -2989,18 +2990,11 @@
 				type: "item"
 				item: "mekanism:electrolytic_separator"
 			}]
-			rewards: [
-				{
-					id: "3447EAC375109013"
-					type: "item"
-					item: "lightmanscurrency:coin_emerald"
-				}
-				{
-					id: "53C1B808015E59B8"
-					type: "loot"
-					table_id: 5348617777777244959L
-				}
-			]
+			rewards: [{
+				id: "53C1B808015E59B8"
+				type: "loot"
+				table_id: 5348617777777244959L
+			}]
 		}
 		{
 			x: -14.0d
@@ -3222,11 +3216,6 @@
 				id: "07D773050B0D71AC"
 				type: "item"
 				item: "mekanism:electrolytic_separator"
-			}]
-			rewards: [{
-				id: "653055F43CB91356"
-				type: "item"
-				item: "lightmanscurrency:coin_emerald"
 			}]
 		}
 		{

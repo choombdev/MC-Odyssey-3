@@ -348,7 +348,6 @@
 		}
 		{ item: "pamhc2foodcore:cheeseitem", count: 32, weight: 80 }
 		{ item: "pamhc2foodcore:pumpkinbreaditem", count: 16, weight: 50 }
-		{ item: "supercircuitmaker:screwdriver", weight: 60 }
 		{ item: "create:shaft", count: 32, weight: 30 }
 		{ item: "cookingforblockheads:milk_jar", weight: 15 }
 		{ item: "framedblocks:framed_cube", count: 32, weight: 80 }
