@@ -1,1 +1,1 @@
-{"type":"bonsaitrees3:soil","mod":"snad","tickModifier":2.0,"soil":{"item":"snad:snad"},"compatibleSoilTags":["sand"],"display":{"block":"snad:snad"}}
+{"type":"bonsaitrees3:soil","mod":"snad","tickModifier":0.5,"soil":{"item":"snad:snad"},"compatibleSoilTags":["sand"],"display":{"block":"snad:snad"}}
