@@ -1,6 +1,6 @@
 // This script was made by choombdev for Odyssey 3, reusing it without explicit permission is not allowed.
 
-  onEvent('recipes', event =>{
+onEvent('recipes', event =>{
 
   //Smithing
   event.smithing('kubejs:choombium_helmet', Item.of('minecraft:netherite_helmet').ignoreNBT(), 'kubejs:choombium_ingot') 
@@ -19,8 +19,6 @@
   event.smithing('kubejs:choombium_shovel', Item.of('byg:pendorite_shovel').ignoreNBT(), 'kubejs:choombium_ingot') 
 
 
-  //Smelting Ore to Ingot
-  event.smelting('kubejs:choombium_ingot', 'kubejs:choombium_ore')
 
   // Ingot to Block (and Vice Versa)
   event.shaped('kubejs:choombium_block', [
