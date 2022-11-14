@@ -4,22 +4,24 @@ onEvent('recipes', event => {
     // Gobber Globette
     event.shaped('gobber2:gobber2_globette', [
       ' BA',
-      ' X ',
+      'TXT',
       'AB '
     ], {
       A: 'thermal:netherite_nugget',
       B: 'botania:terrasteel_nugget',
-      X: 'thermal:upgrade_augment_1'
+      X: 'thermal:upgrade_augment_1',
+      T: 'botania:terrasteel_ingot'
     })
     //Gobber Ingot
     event.remove({output:'gobber2:gobber2_ingot'})
     event.shaped('gobber2:gobber2_ingot', [
-      'GGG',
+      'GXG',
       'SSS',
-      'GGG'
+      'GXG'
     ], {
       G: 'gobber2:gobber2_glob',
-      S: 'alltheores:steel_ingot'
+      S: 'alltheores:steel_ingot',
+      X: 'mekanism:advanced_control_circuit'
     })
   // Nether
     // Gobber Globette
