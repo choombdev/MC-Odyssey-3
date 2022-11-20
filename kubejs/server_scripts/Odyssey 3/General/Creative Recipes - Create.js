@@ -78,7 +78,7 @@ onEvent('recipes', event =>{
         }) 
     // Mekanism
         // Creative Energy Cube
-        event.recipes.createMechanicalCrafting('mekanism:creative_energy_cube', [
+        event.recipes.createMechanicalCrafting(Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}'), [
             'ABCDYEFGW',
             'OPQRZSTUV',
             'HIJKYLMNX'
