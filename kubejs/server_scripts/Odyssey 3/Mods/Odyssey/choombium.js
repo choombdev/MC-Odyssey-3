@@ -1,6 +1,6 @@
 // This script was made by choombdev for Odyssey 3, reusing it without explicit permission is not allowed.
 
-onEvent('recipes', event =>{
+  onEvent('recipes', event =>{
 
   //Smithing
   event.smithing('kubejs:choombium_helmet', Item.of('minecraft:netherite_helmet').ignoreNBT(), 'kubejs:choombium_ingot') 
