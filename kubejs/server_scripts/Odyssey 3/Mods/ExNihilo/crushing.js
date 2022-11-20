@@ -16,8 +16,12 @@ crush('exnihilosequentia:dust','minecraft:sand')
 
 crush('exnihilosequentia:crushed_end_stone', 'minecraft:end_stone')
 
-crush('exnihilosequentia:crushed_netherrack','minecraft:netherrack')
-
 crush('exnihiloae:crushed_skystone','ae2:sky_stone_block')
+
+// Crushing Netherrack
+event.recipes.mekanismCrushing('exnihilosequentia:crushed_netherrack', 'minecraft:netherrack')
+event.recipes.thermal.pulverizer('exnihilosequentia:crushed_netherrack', 'minecraft:netherrack')
+event.recipes.immersiveengineeringCrusher('exnihilosequentia:crushed_netherrack', 'minecraft:netherrack')
+
 })
 
