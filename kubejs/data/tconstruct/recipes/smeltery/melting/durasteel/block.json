@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "tinkers_reforged:durasteel_block"
+  },
+  "result": {
+    "fluid": "tinkers_reforged:molten_durasteel",
+    "amount": 90
+  },
+  "temperature": 810,
+  "time": 240
+}

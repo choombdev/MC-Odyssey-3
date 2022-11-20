@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "tinkers_reforged:durasteel_ingot"
+  },
+  "result": {
+    "fluid": "tinkers_reforged:molten_durasteel",
+    "amount": 90
+  },
+  "temperature": 1450,
+  "time": 79
+}
