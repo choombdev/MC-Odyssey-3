@@ -9,6 +9,25 @@ onEvent('jei.hide.items', event => {
 	event.hide('cyclic:uncrafter')
 	
 	// Uncraftables / Useless
+		// Coins
+	event.hide('createdeco:copper_coin')
+	event.hide('createdeco:copper_coinstack')
+
+	event.hide('createdeco:zinc_coin')
+	event.hide('createdeco:zinc_coinstack')
+
+	event.hide('createdeco:cast_iron_coin')
+	event.hide('createdeco:cast_iron_coinstack')
+
+	event.hide('createdeco:netherite_coin')
+	event.hide('createdeco:netherite_coinstack')
+
+	event.hide('createdeco:gold_coin')
+	event.hide('createdeco:gold_coinstack')
+
+	event.hide('createdeco:brass_coin')
+	event.hide('createdeco:brass_coinstack')
+
 		// Spawn Eggs
 	event.hide('/_spawn_egg$/')
 		// AE2 Facades
@@ -133,6 +152,8 @@ onEvent('jei.hide.items', event => {
 		event.add('minecraft:spider_spawn_egg')
 		event.add('minecraft:wither_skeleton_spawn_egg')
 		event.add('minecraft:zombie_spawn_egg')
+		event.add('minecraft:witch_spawn_egg')
+
 		// Sulfur
 		event.add('bloodmagic:sulfur')
 
