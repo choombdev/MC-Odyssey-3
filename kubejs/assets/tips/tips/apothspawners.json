@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Odyssey Tip",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Check Spawner recipes for JEI for a list of appliable modifiers on your Apotheosis Spawners!"
+  }
+}

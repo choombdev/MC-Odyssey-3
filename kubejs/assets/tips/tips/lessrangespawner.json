@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Odyssey Tip",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Having Quartz in your off hand while upgrading Spawners decreases the counter instead, this is helpful for lowering Spawn Range to 1!"
+  }
+}
