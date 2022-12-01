@@ -857,11 +857,6 @@
 					item: "nameless_trinkets:pocket_lightning_rod"
 				}
 				{
-					id: "59FB1A631CE0651F"
-					type: "item"
-					item: "nameless_trinkets:miners_soul"
-				}
-				{
 					id: "2C285D3FCE413692"
 					type: "item"
 					item: "nameless_trinkets:electric_paddle"

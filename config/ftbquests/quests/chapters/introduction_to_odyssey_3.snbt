@@ -109,6 +109,7 @@
 			]
 		}
 		{
+			title: "Chipped"
 			x: -8.5d
 			y: -2.0d
 			subtitle: "Your blocks but fancier."
@@ -136,7 +137,7 @@
 		{
 			title: "Chisel and Bits"
 			x: -7.0d
-			y: -3.5d
+			y: -4.0d
 			subtitle: "Miniature art"
 			description: ["Have you ever seen those crazy miniature builds in Minecraft (or real life)? This is your chance at creating them!"]
 			dependencies: ["7B49EC4B6BBE78A6"]
@@ -697,6 +698,7 @@
 			}]
 		}
 		{
+			title: "FramedBlocks"
 			x: -8.0d
 			y: -3.0d
 			subtitle: "Block Manipulation"
@@ -1829,15 +1831,9 @@
 				item: "mining_dimension:teleporter"
 			}]
 			rewards: [{
-				id: "7C825030068D0BF5"
+				id: "06AB1CC252C7084B"
 				type: "item"
-				item: {
-					id: "minecraft:diamond_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "lightmanscurrency:coin_iron"
 			}]
 		}
 		{
@@ -1934,6 +1930,169 @@
 				id: "344CE4DA2EDC0F9B"
 				type: "item"
 				item: "minecraft:ghast_tear"
+			}]
+		}
+		{
+			title: "Glassentials"
+			x: -8.0d
+			y: -4.0d
+			description: ["Glassentials adds a variety of different glass blocks that work great with your mob spawner (Or, any cases you can find)"]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "5C537D0D33A7BB20"
+			tasks: [{
+				id: "2F0896DCC0AC81B7"
+				type: "item"
+				item: "glassential:glass_dark_ethereal"
+			}]
+			rewards: [{
+				id: "310743611E24EAE5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			title: "Create Deco"
+			x: -9.0d
+			y: -1.0d
+			description: ["Create Deco adds a large collection of new blocks, signs and more!"]
+			dependencies: ["7B49EC4B6BBE78A6"]
+			id: "2981AB1A2515F715"
+			tasks: [{
+				id: "2F0417A0F14A4A2D"
+				type: "item"
+				item: "createdeco:worn_brick"
+			}]
+			rewards: [{
+				id: "694ABCBC98A2F1E7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			title: "Dark Utilities"
+			x: 2.5d
+			y: 5.0d
+			description: [
+				"Dark Utilities expands upon the game with some nice.. utilities."
+				""
+				"Vector Plates are filterable conveyors."
+			]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "458D1E903AAD8BD3"
+			tasks: [{
+				id: "05E83B2068E4F7D9"
+				type: "item"
+				item: "darkutils:blank_plate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			description: ["The Mob Filter allows specific mobs to pass through, this, for example, allows players."]
+			dependencies: ["458D1E903AAD8BD3"]
+			id: "00A2665042B5B7A0"
+			tasks: [{
+				id: "7DBE3CC5DACDA857"
+				type: "item"
+				item: "darkutils:filter_player"
+			}]
+			rewards: [{
+				id: "6A9C821BF5099C1D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			description: ["Fast Portal Passage!"]
+			dependencies: ["458D1E903AAD8BD3"]
+			id: "36A72D6C71C1F76E"
+			tasks: [{
+				id: "234D49C3DB179724"
+				type: "item"
+				item: "darkutils:charm_portal"
+			}]
+			rewards: [{
+				id: "7B63ACB4828EE61F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			description: ["Faster sleeping and no more Phantoms."]
+			dependencies: ["458D1E903AAD8BD3"]
+			id: "6747D71A2E828FD8"
+			tasks: [{
+				id: "1509984B59C7AA52"
+				type: "item"
+				item: "darkutils:charm_sleep"
+			}]
+			rewards: [{
+				id: "7533F0A1974C7B95"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			description: ["Faster negative buff riddance."]
+			dependencies: ["458D1E903AAD8BD3"]
+			id: "752EE49E21A1B357"
+			tasks: [{
+				id: "0AC39167413F17C0"
+				type: "item"
+				item: "darkutils:charm_warding"
+			}]
+			rewards: [{
+				id: "1C02C9E736293BC5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: ["Damages those on it, effects (and buffs) can be applied to it."]
+			dependencies: ["458D1E903AAD8BD3"]
+			id: "1DB35340651DF155"
+			tasks: [{
+				id: "4612571A2B0EEC80"
+				type: "item"
+				item: "darkutils:damage_plate"
+			}]
+			rewards: [{
+				id: "008FC485C3800BB8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			description: ["Allows redstone to pass through ONE direction only."]
+			dependencies: ["458D1E903AAD8BD3"]
+			id: "79FD0328988BD45C"
+			tasks: [{
+				id: "4A3072F59BFC7E57"
+				type: "item"
+				item: "darkutils:shielded_redstone"
+			}]
+			rewards: [{
+				id: "022324A9036CD32F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
 			}]
 		}
 	]

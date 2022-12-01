@@ -81,9 +81,7 @@
 			}
 		}
 		{ item: "ae2:wireless_terminal", weight: 15 }
-		{ item: "ae2:cell_component_1k", count: 6, weight: 60 }
 		{ item: "ae2:cell_component_64k" }
-		{ item: "ae2:cell_component_4k", count: 2, weight: 50 }
 		{ item: "paraglider:heart_container", count: 8, weight: 30 }
 		{ item: "paraglider:spirit_orb", count: 16, weight: 40 }
 		{ item: "advgenerators:turbine_rotor_tier5", count: 8, weight: 30 }
@@ -163,14 +161,6 @@
 		}
 		{
 			item: {
-				id: "thermal:flux_capacitor"
-				Count: 1b
-				tag: { }
-			}
-			weight: 50
-		}
-		{
-			item: {
 				id: "thermal:flux_magnet"
 				Count: 1b
 				tag: { }
@@ -191,7 +181,6 @@
 		{ item: "quantumquarryplus:quarry_framw", weight: 60 }
 		{ item: "exnihilosequentia:acacia_sieve", weight: 15 }
 		{ item: "functionalstorage:netherite_upgrade", weight: 50 }
-		{ item: "mekanism:jetpack", weight: 50 }
 		{ item: "aeinfinitybooster:infinity_card", weight: 15 }
 	]
 }
