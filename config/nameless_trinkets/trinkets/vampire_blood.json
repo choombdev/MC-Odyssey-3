@@ -1,7 +1,7 @@
 {
   "config": {
-    "damageMultiplierPercentage": 150.0,
-    "healingPercentage": 10.0,
+    "damageMultiplierPercentage": 150.00,
+    "healingPercentage": 10.00,
     "sunDamage": 2.0
   },
   "loot": [
@@ -9,7 +9,7 @@
       "table": [
         "minecraft:chests/spawn_bonus_chest"
       ],
-      "chance": 0.00101
+      "chance": 0.000101
     },
     {
       "table": [
@@ -20,7 +20,7 @@
         "minecraft:chests/village/village_savanna_house",
         "minecraft:chests/village/village_butcher"
       ],
-      "chance": 0.001015384615
+      "chance": 0.0001015384615
     },
     {
       "table": [
@@ -30,7 +30,7 @@
         "minecraft:chests/stronghold_corridor",
         "minecraft:chests/woodland_mansion"
       ],
-      "chance": 0.011923077
+      "chance": 0.0011923077
     },
     {
       "table": [
@@ -38,13 +38,13 @@
         "minecraft:chests/village/village_toolsmith",
         "minecraft:chests/village/village_weaponsmith"
       ],
-      "chance": 0.01053846154
+      "chance": 0.001053846154
     },
     {
       "table": [
         "minecraft:chests/bastion_treasure"
       ],
-      "chance": 0.0153846157
+      "chance": 0.00153846157
     },
     {
       "table": [
@@ -53,7 +53,7 @@
         "minecraft:chests/ruined_portal",
         "minecraft:chests/shipwreck_treasure"
       ],
-      "chance": 0.0107692308
+      "chance": 0.00107692308
     },
     {
       "table": [
@@ -61,7 +61,7 @@
         "minecraft:chests/jungle_temple",
         "minecraft:chests/underwater_ruin_big"
       ],
-      "chance": 0.0123076925
+      "chance": 0.00123076925
     },
     {
       "table": [
@@ -70,7 +70,7 @@
         "minecraft:chests/bastion_hoglin_stable",
         "minecraft:chests/desert_pyramid"
       ],
-      "chance": 0.0115384616
+      "chance": 0.00115384616
     }
   ]
 }

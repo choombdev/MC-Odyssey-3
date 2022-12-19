@@ -1152,9 +1152,16 @@
 					item: "lightmanscurrency:coin_emerald"
 				}
 				{
-					id: "42025E5E16F73A73"
+					id: "77875A8A1371F13F"
 					type: "random"
-					table_id: 5348617777777244959L
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "59E5CAAB8FC00795"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}
@@ -1261,7 +1268,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: 1.5d
 			dependencies: ["6608101E33E294EC"]
 			id: "4C71028F84AC1E70"
@@ -1327,144 +1334,6 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 3.0d
-			dependencies: ["5E59B0C61E930B1C"]
-			id: "0138408C168DDFD0"
-			tasks: [{
-				id: "644A26BD30F9B2F9"
-				type: "item"
-				item: {
-					id: "ae2:item_storage_cell_1k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "69A5B6EF2AE8434C"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 5
-			}]
-		}
-		{
-			x: 6.5d
-			y: 4.0d
-			dependencies: ["0138408C168DDFD0"]
-			id: "4010F71A3C7B4959"
-			tasks: [{
-				id: "5B60CB9387AA476A"
-				type: "item"
-				item: {
-					id: "ae2:item_storage_cell_4k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "2B55C561A946BED9"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 15
-			}]
-		}
-		{
-			x: 6.5d
-			y: 5.5d
-			dependencies: ["4010F71A3C7B4959"]
-			id: "7F65F7543F371A75"
-			tasks: [{
-				id: "0F443635CE88CC61"
-				type: "item"
-				item: {
-					id: "ae2:item_storage_cell_16k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "4069DCF3E121FF5D"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 35
-			}]
-		}
-		{
-			x: 6.5d
-			y: 6.5d
-			dependencies: ["7F65F7543F371A75"]
-			id: "223BA79631872D16"
-			tasks: [{
-				id: "271329945740A310"
-				type: "item"
-				item: {
-					id: "ae2:item_storage_cell_64k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "65D170C497BD3F63"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 3
-			}]
-		}
-		{
-			x: 6.5d
-			y: 8.0d
-			dependencies: ["223BA79631872D16"]
-			id: "38E85D4C6C462548"
-			tasks: [{
-				id: "5E2D56B5E53EC9DC"
-				type: "item"
-				item: {
-					id: "ae2:item_storage_cell_256k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "28E9CA9F11EF4DBC"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 6
-			}]
-		}
-		{
-			x: 6.5d
-			y: 9.0d
-			dependencies: ["38E85D4C6C462548"]
-			id: "2D5C7C47C5C794FF"
-			tasks: [{
-				id: "3E34444B41FED481"
-				type: "item"
-				item: "ae2:creative_item_cell"
-			}]
-			rewards: [
-				{
-					id: "03951902C7CDEF73"
-					type: "item"
-					item: "lightmanscurrency:coin_netherite"
-				}
-				{
-					id: "246CB3552BBD1C9B"
-					type: "random"
-					table_id: 6662433201225807513L
-				}
-				{
-					id: "6500F8E427D6BF45"
-					type: "random"
-					table_id: 6662433201225807513L
-				}
-				{
-					id: "644F060BB1EF7298"
-					type: "random"
-					table_id: 6662433201225807513L
-				}
-			]
-		}
-		{
 			x: 8.0d
 			y: 0.0d
 			dependencies: ["3C3ECB43CFCECCB5"]
@@ -1528,12 +1397,20 @@
 				type: "item"
 				item: "ae2:crafting_terminal"
 			}]
-			rewards: [{
-				id: "314F454BD4D60248"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 15
-			}]
+			rewards: [
+				{
+					id: "314F454BD4D60248"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 15
+				}
+				{
+					id: "248AECD05F31A5D1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -1562,11 +1439,150 @@
 				type: "item"
 				item: "ae2:wireless_crafting_terminal"
 			}]
+			rewards: [
+				{
+					id: "4AF757AF9E7E9BB6"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "44F750C557F590A0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			dependencies: ["5E59B0C61E930B1C"]
+			id: "11E03105B0AD4877"
+			tasks: [{
+				id: "4BEA9DB323FA500E"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
 			rewards: [{
-				id: "4AF757AF9E7E9BB6"
+				id: "447C906E857DE419"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			dependencies: ["11E03105B0AD4877"]
+			id: "5260625A3246F631"
+			tasks: [{
+				id: "41C6F014072C0E69"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+			rewards: [{
+				id: "433FFF20B4BFB7F6"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 20
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			dependencies: ["5260625A3246F631"]
+			id: "318C02C7C2C8A3D4"
+			tasks: [{
+				id: "503086F971BF1127"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
+			rewards: [
+				{
+					id: "0DC657A94AEF88BB"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "6A90885DF182F447"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 10
+				}
+				{
+					id: "5C119BC6BD26B726"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			dependencies: ["318C02C7C2C8A3D4"]
+			id: "0185C2727501ADD9"
+			tasks: [{
+				id: "37C6574564F2BAD4"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
+			rewards: [
+				{
+					id: "19894024DC45DECC"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 4
+				}
+				{
+					id: "3A3AF8EA4EAB833E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			dependencies: ["0185C2727501ADD9"]
+			id: "6EB64C29E5977D23"
+			tasks: [{
+				id: "7AB7319B2494E586"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
+			rewards: [{
+				id: "4D2D4C8344F4E998"
 				type: "item"
 				item: "lightmanscurrency:coin_gold"
+				count: 8
 			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["6608101E33E294EC"]
+			id: "76EE3F40D0F9DD8F"
+			tasks: [{
+				id: "0937A9A976C1BD61"
+				type: "item"
+				item: "lazierae2:etcher"
+			}]
+			rewards: [
+				{
+					id: "2A243E20050979E4"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+				{
+					id: "44D32ACCAB015BDD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
 		}
 	]
 }

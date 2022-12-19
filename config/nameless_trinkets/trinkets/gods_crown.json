@@ -1,14 +1,14 @@
 {
   "config": {
-    "percentageExtraAttack": 50.0,
-    "percentageExtraSpeed": 50.0,
-    "percentageExtraArmor": 50.0,
-    "percentageExtraAttackSpeed": 50.0,
-    "percentageExtraArmorThougness": 50.0,
-    "percentageExtraAttackKnockback": 50.0,
-    "percentageExtraKnockbackResistance": 50.0,
-    "percentageExtraLuck": 50.0,
-    "percentageExtraMaxHealth": 50.0
+    "percentageExtraAttack": 50.00,
+    "percentageExtraSpeed": 50.00,
+    "percentageExtraArmor": 50.00,
+    "percentageExtraAttackSpeed": 50.00,
+    "percentageExtraArmorThougness": 50.00,
+    "percentageExtraAttackKnockback": 50.00,
+    "percentageExtraKnockbackResistance": 50.00,
+    "percentageExtraLuck": 50.00,
+    "percentageExtraMaxHealth": 50.00
   },
   "loot": [
     {
@@ -50,7 +50,7 @@
       "table": [
         "minecraft:chests/bastion_treasure"
       ],
-      "chance": 0.00001
+      "chance": 0.000001
     },
     {
       "table": [
@@ -67,7 +67,7 @@
         "minecraft:chests/jungle_temple",
         "minecraft:chests/underwater_ruin_big"
       ],
-      "chance": 0.002
+      "chance": 0.0002
     },
     {
       "table": [

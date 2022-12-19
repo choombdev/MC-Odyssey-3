@@ -16,7 +16,7 @@
         "minecraft:chests/village/village_savanna_house",
         "minecraft:chests/village/village_butcher"
       ],
-      "chance": 0.002
+      "chance": 0.0002
     },
     {
       "table": [
@@ -34,7 +34,7 @@
         "minecraft:chests/village/village_toolsmith",
         "minecraft:chests/village/village_weaponsmith"
       ],
-      "chance": 0.07
+      "chance": 0.007
     },
     {
       "table": [

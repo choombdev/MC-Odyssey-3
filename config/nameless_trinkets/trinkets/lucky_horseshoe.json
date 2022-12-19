@@ -1,7 +1,7 @@
 {
   "config": {
-    "percentageExtraHorseJumpStrength": 50.0,
-    "percentageExtraHorseMovementSpeed": 50.0,
+    "percentageExtraHorseJumpStrength": 50.00,
+    "percentageExtraHorseMovementSpeed": 50.00,
     "horseRegenerationTime": 10000,
     "horseRegenerationLevel": 1
   },
@@ -10,7 +10,7 @@
       "table": [
         "minecraft:chests/spawn_bonus_chest"
       ],
-      "chance": 0.07692308
+      "chance": 0.007692308
     },
     {
       "table": [
@@ -21,7 +21,7 @@
         "minecraft:chests/village/village_savanna_house",
         "minecraft:chests/village/village_butcher"
       ],
-      "chance": 0.015384615
+      "chance": 0.0015384615
     },
     {
       "table": [
@@ -39,7 +39,7 @@
         "minecraft:chests/village/village_toolsmith",
         "minecraft:chests/village/village_weaponsmith"
       ],
-      "chance": 0.053846154
+      "chance": 0.0053846154
     },
     {
       "table": [
@@ -54,7 +54,7 @@
         "minecraft:chests/ruined_portal",
         "minecraft:chests/shipwreck_treasure"
       ],
-      "chance": 0.07692308
+      "chance": 0.007692308
     },
     {
       "table": [

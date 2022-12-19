@@ -1310,5 +1310,29 @@
 				}
 			]
 		}
+		{
+			x: -8.0d
+			y: 7.0d
+			dependencies: ["51B797F0F984398E"]
+			id: "304804C34831EC3C"
+			tasks: [{
+				id: "11DCDE98CCC1BAB0"
+				type: "item"
+				item: "ae2:creative_item_cell"
+			}]
+			rewards: [
+				{
+					id: "4B9C9246D974D714"
+					type: "item"
+					item: "lightmanscurrency:coinpile_netherite"
+				}
+				{
+					id: "13EC37EACE36A61B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
+			]
+		}
 	]
 }

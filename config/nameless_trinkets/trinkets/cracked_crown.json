@@ -1,21 +1,21 @@
 {
   "config": {
-    "percentageExtraAttack": 10.0,
-    "percentageExtraSpeed": 10.0,
-    "percentageExtraArmor": 10.0,
-    "percentageExtraAttackSpeed": 10.0,
-    "percentageExtraArmorThougness": 10.0,
-    "percentageExtraAttackKnockback": 10.0,
-    "percentageExtraKnockbackResistance": 10.0,
-    "percentageExtraLuck": 10.0,
-    "percentageExtraMaxHealth": 10.0
+    "percentageExtraAttack": 10.00,
+    "percentageExtraSpeed": 10.00,
+    "percentageExtraArmor": 10.00,
+    "percentageExtraAttackSpeed": 10.00,
+    "percentageExtraArmorThougness": 10.00,
+    "percentageExtraAttackKnockback": 10.00,
+    "percentageExtraKnockbackResistance": 10.00,
+    "percentageExtraLuck": 10.00,
+    "percentageExtraMaxHealth": 10.00
   },
   "loot": [
     {
       "table": [
         "minecraft:chests/spawn_bonus_chest"
       ],
-      "chance": 0.001
+      "chance": 0.0001
     },
     {
       "table": [
@@ -26,7 +26,7 @@
         "minecraft:chests/village/village_savanna_house",
         "minecraft:chests/village/village_butcher"
       ],
-      "chance": 0.001
+      "chance": 0.0001
     },
     {
       "table": [
@@ -36,7 +36,7 @@
         "minecraft:chests/stronghold_corridor",
         "minecraft:chests/woodland_mansion"
       ],
-      "chance": 0.001
+      "chance": 0.0001
     },
     {
       "table": [
@@ -44,13 +44,13 @@
         "minecraft:chests/village/village_toolsmith",
         "minecraft:chests/village/village_weaponsmith"
       ],
-      "chance": 0.0035
+      "chance": 0.00035
     },
     {
       "table": [
         "minecraft:chests/bastion_treasure"
       ],
-      "chance": 0.0035
+      "chance": 0.00035
     },
     {
       "table": [
@@ -59,7 +59,7 @@
         "minecraft:chests/ruined_portal",
         "minecraft:chests/shipwreck_treasure"
       ],
-      "chance": 0.005
+      "chance": 0.0005
     },
     {
       "table": [
@@ -67,7 +67,7 @@
         "minecraft:chests/jungle_temple",
         "minecraft:chests/underwater_ruin_big"
       ],
-      "chance": 0.0015
+      "chance": 0.00015
     },
     {
       "table": [
@@ -76,7 +76,7 @@
         "minecraft:chests/bastion_hoglin_stable",
         "minecraft:chests/desert_pyramid"
       ],
-      "chance": 0.001
+      "chance": 0.0001
     }
   ]
 }

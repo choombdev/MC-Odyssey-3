@@ -11,31 +11,31 @@
 		{
 			x: -1.0d
 			y: -1.5d
+			subtitle: "Start your Colony!"
 			id: "41F2F773992F973D"
-			tasks: [
+			tasks: [{
+				id: "27ACD57DC9ED252F"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+			rewards: [
 				{
-					id: "27ACD57DC9ED252F"
+					id: "54DFF84E1A6AC356"
 					type: "item"
-					item: "minecolonies:blockhuttownhall"
+					item: "lightmanscurrency:coin_iron"
+					count: 2
 				}
 				{
-					id: "168537715842BD21"
-					type: "advancement"
-					advancement: "minecolonies:minecolonies/place_townhall"
-					criterion: ""
+					id: "626A49A0FAD59505"
+					type: "item"
+					item: "minecolonies:clipboard"
 				}
 			]
-			rewards: [{
-				id: "54DFF84E1A6AC356"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 2
-			}]
 		}
 		{
 			x: -1.5d
 			y: -2.5d
-			optional: true
+			subtitle: "Red Side"
 			id: "0011081B9FD54D81"
 			tasks: [{
 				id: "38AC7B83C2B871E5"
@@ -51,7 +51,7 @@
 		{
 			x: -0.5d
 			y: -2.5d
-			optional: true
+			subtitle: "Blue Side"
 			id: "62BA55A6D3E995D9"
 			tasks: [{
 				id: "7F36691AE8B5690D"
@@ -68,6 +68,8 @@
 		{
 			x: -1.0d
 			y: 2.0d
+			subtitle: "Choomb the Builder!"
+			description: ["note: not actual choomb"]
 			dependencies: ["41F2F773992F973D"]
 			id: "007F9C7AA0BAA96D"
 			tasks: [
@@ -83,16 +85,28 @@
 					criterion: ""
 				}
 			]
-			rewards: [{
-				id: "38F29723B29EA247"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 7
-			}]
+			rewards: [
+				{
+					id: "38F29723B29EA247"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 7
+				}
+				{
+					id: "1AB4EF791590DB2D"
+					type: "item"
+					item: {
+						id: "minecolonies:resourcescroll"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 2.5d
+			subtitle: "ZZZzzzzzzz...."
 			dependencies: ["007F9C7AA0BAA96D"]
 			id: "232F2EF08DEDA20A"
 			tasks: [
@@ -108,12 +122,20 @@
 					criterion: ""
 				}
 			]
-			rewards: [{
-				id: "128A1E50E73A72F9"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "128A1E50E73A72F9"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5
+				}
+				{
+					id: "7D389E868AD5FF48"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -134,12 +156,20 @@
 					criterion: ""
 				}
 			]
-			rewards: [{
-				id: "2154B3A3456BE833"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 7
-			}]
+			rewards: [
+				{
+					id: "2154B3A3456BE833"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 15
+				}
+				{
+					id: "1A4AB118C5DD2CF4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -232,10 +262,10 @@
 					count: 10
 				}
 				{
-					id: "645BB65329527A57"
-					type: "item"
-					item: "minecraft:book"
-					count: 9
+					id: "76EC2C4FE0E31C66"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}
@@ -306,12 +336,20 @@
 					criterion: ""
 				}
 			]
-			rewards: [{
-				id: "79CBECDA0FD8E5EF"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 10
-			}]
+			rewards: [
+				{
+					id: "79CBECDA0FD8E5EF"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 10
+				}
+				{
+					id: "6CEA2214CAB734D9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+			]
 		}
 		{
 			title: "The Centerpiece"
@@ -532,7 +570,7 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: 4.0d
 			dependencies: ["20DC090ED3D3A00D"]
 			id: "3BD193C8334600D8"
@@ -586,6 +624,7 @@
 		{
 			x: -4.0d
 			y: 2.0d
+			subtitle: "Stores alot of items!"
 			dependencies: [
 				"032D038C64FC8D80"
 				"533383B600A02E83"
@@ -615,6 +654,12 @@
 				{
 					id: "290FB159E813A7A3"
 					type: "random"
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "3B5710ACE272FB67"
+					type: "random"
+					exclude_from_claim_all: true
 					table_id: 5348617777777244959L
 				}
 			]
@@ -719,16 +764,25 @@
 					criterion: ""
 				}
 			]
-			rewards: [{
-				id: "1EEDC27F5FF7311C"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-			}]
+			rewards: [
+				{
+					id: "1EEDC27F5FF7311C"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "09778EB1CACEB89F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: 10.0d
 			shape: "circle"
+			subtitle: "You have violated the law!"
 			dependencies: ["510351BD7AFF07B9"]
 			id: "0B81C0546AA5E0A9"
 			tasks: [
@@ -1186,7 +1240,7 @@
 			]
 		}
 		{
-			title: "Decanus"
+			title: "&oDecanus"
 			x: 2.5d
 			y: -2.5d
 			subtitle: "Only 8 guards? small number"
@@ -1809,6 +1863,56 @@
 					id: "67BE4A7A663B269B"
 					type: "random"
 					table_id: 5348617777777244959L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			dependencies: ["20DC090ED3D3A00D"]
+			id: "79C41A594694AF16"
+			tasks: [{
+				id: "1B8AF165F4C5B953"
+				type: "item"
+				item: "minecolonies:scroll_highlight"
+			}]
+			rewards: [
+				{
+					id: "022F94B94CDB1D3F"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5
+				}
+				{
+					id: "50FE5D0401A89765"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["678FEC9B654807ED"]
+			id: "3023EBB1C6E59582"
+			tasks: [{
+				id: "4C7DB9AF44B9D362"
+				type: "item"
+				item: "minecolonies:golden_bread"
+				count: 5L
+			}]
+			rewards: [
+				{
+					id: "08DAEA0F66467210"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+				{
+					id: "039D1B4E4D95C99F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}

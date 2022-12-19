@@ -1283,8 +1283,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: 2.5d
+			y: 0.5d
 			subtitle: "You can almost taste the nether stars"
 			dependencies: ["1AB8C633653AD36C"]
 			id: "6205B38FCEEC8640"
@@ -1395,6 +1395,7 @@
 		{
 			x: 7.0d
 			y: 2.0d
+			subtitle: "Where's the dressing?"
 			id: "6A071D6ADB114184"
 			tasks: [{
 				id: "7F44343801F22FA2"
@@ -1427,7 +1428,7 @@
 			}]
 		}
 		{
-			title: "Kitchen Upgrade Part 2"
+			title: "Kitchen Upgrade Part 3"
 			x: 4.0d
 			y: -4.0d
 			dependencies: ["7991635E07971058"]
@@ -1465,30 +1466,6 @@
 				item: "lightmanscurrency:coin_iron"
 				count: 10
 			}]
-		}
-		{
-			x: 3.5d
-			y: 0.5d
-			subtitle: "Now with Onions!"
-			dependencies: ["6205B38FCEEC8640"]
-			id: "054B17CC1C6152AF"
-			tasks: [{
-				id: "3C06869551493CEB"
-				type: "item"
-				item: "kubejs:choomburgert5"
-			}]
-			rewards: [
-				{
-					id: "5FBFF5AEA25F5F04"
-					type: "loot"
-					table_id: 8510385002616264230L
-				}
-				{
-					id: "2FE7FE459F921CC2"
-					type: "item"
-					item: "lightmanscurrency:coinpile_netherite"
-				}
-			]
 		}
 		{
 			title: "Kitchen Upgrade Part 2"

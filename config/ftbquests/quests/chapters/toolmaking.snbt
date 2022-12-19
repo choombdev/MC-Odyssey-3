@@ -113,12 +113,12 @@
 						tag: {
 							tic_modifiers: [ ]
 							tic_broken: 0b
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:armor": 1.0f
 								"tconstruct:durability": 130.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_persistent_data: {
 								upgrades: 3
 								abilities: 1
@@ -136,12 +136,12 @@
 						tag: {
 							tic_modifiers: [ ]
 							tic_broken: 0b
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:armor": 4.0f
 								"tconstruct:durability": 150.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_persistent_data: {
 								upgrades: 3
 								abilities: 1
@@ -159,12 +159,12 @@
 						tag: {
 							tic_modifiers: [ ]
 							tic_broken: 0b
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:armor": 5.0f
 								"tconstruct:durability": 160.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_persistent_data: {
 								upgrades: 3
 								abilities: 1
@@ -182,12 +182,12 @@
 						tag: {
 							tic_modifiers: [ ]
 							tic_broken: 0b
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:armor": 1.0f
 								"tconstruct:durability": 110.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_persistent_data: {
 								upgrades: 3
 								abilities: 1
@@ -446,12 +446,12 @@
 						id: "tconstruct:slime_boots"
 						Count: 1b
 						tag: {
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:armor": 0.0f
 								"tconstruct:durability": 546.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_modifiers: [
 								{
 									name: "tconstruct:bouncy"
@@ -484,29 +484,29 @@
 						id: "tconstruct:slime_leggings"
 						Count: 1b
 						tag: {
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:armor": 0.0f
 								"tconstruct:durability": 630.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_modifiers: [
 								{
 									name: "tconstruct:overslime_friend"
 									level: 1s
 								}
 								{
-									name: "tconstruct:pockets"
+									name: "tconstruct:shulking"
 									level: 1s
 								}
 								{
-									name: "tconstruct:shulking"
+									name: "tconstruct:pockets"
 									level: 1s
 								}
 							]
 							tic_broken: 0b
 							tic_volatile_data: {
-								"tconstruct:total_item_slots": 9
+								"tconstruct:total_item_slots": 18
 								"tconstruct:overslime_friend": 1b
 							}
 							tic_persistent_data: {
@@ -523,12 +523,12 @@
 						id: "tconstruct:slime_chestplate"
 						Count: 1b
 						tag: {
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:armor": 0.0f
 								"tconstruct:durability": 672.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_modifiers: [
 								{
 									name: "tconstruct:overslime_friend"
@@ -581,14 +581,14 @@
 						tag: {
 							tic_modifiers: [ ]
 							tic_broken: 0b
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:knockback_resistance": 0.1f
 								"tconstruct:armor": 2.0f
 								"tconstruct:durability": 390.0f
 								"tconstruct:armor_toughness": 2.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_persistent_data: {
 								upgrades: 1
 								abilities: 1
@@ -606,14 +606,14 @@
 						tag: {
 							tic_modifiers: [ ]
 							tic_broken: 0b
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:knockback_resistance": 0.1f
 								"tconstruct:armor": 5.0f
 								"tconstruct:durability": 450.0f
 								"tconstruct:armor_toughness": 2.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_persistent_data: {
 								upgrades: 1
 								abilities: 1
@@ -631,14 +631,14 @@
 						tag: {
 							tic_modifiers: [ ]
 							tic_broken: 0b
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:knockback_resistance": 0.1f
 								"tconstruct:armor": 7.0f
 								"tconstruct:durability": 480.0f
 								"tconstruct:armor_toughness": 2.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_persistent_data: {
 								upgrades: 1
 								abilities: 1
@@ -656,14 +656,14 @@
 						tag: {
 							tic_modifiers: [ ]
 							tic_broken: 0b
-							Damage: 0
+							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:knockback_resistance": 0.1f
 								"tconstruct:armor": 2.0f
 								"tconstruct:durability": 330.0f
 								"tconstruct:armor_toughness": 2.0f
 							}
-							tic_multipliers: { }
+							Damage: 0
 							tic_persistent_data: {
 								upgrades: 1
 								abilities: 1

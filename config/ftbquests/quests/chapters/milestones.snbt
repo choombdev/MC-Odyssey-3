@@ -180,6 +180,7 @@
 			tasks: [{
 				id: "226B11F415F3A9A5"
 				type: "stat"
+				icon: "minecolonies:blockminecoloniesgrave"
 				stat: "minecraft:time_since_death"
 				value: 3468000
 			}]
@@ -217,6 +218,7 @@
 			tasks: [{
 				id: "50C598672CED530A"
 				type: "stat"
+				icon: "minecraft:clock"
 				stat: "minecraft:play_time"
 				value: 12102000
 			}]
@@ -255,6 +257,7 @@
 			tasks: [{
 				id: "20078B99A1B98EF4"
 				type: "stat"
+				icon: "minecraft:red_bed"
 				stat: "minecraft:leave_game"
 				value: 100
 			}]
@@ -1165,6 +1168,26 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "Killer"
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Not that impressive"
+			id: "0D87EAAE8AE8A0EF"
+			tasks: [{
+				id: "19480960E5B7C80D"
+				type: "stat"
+				icon: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 1000
 			}]
 		}
 	]

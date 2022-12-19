@@ -40,7 +40,7 @@
       "table": [
         "minecraft:chests/bastion_treasure"
       ],
-      "chance": 0.005
+      "chance": 0.0005
     },
     {
       "table": [

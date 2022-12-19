@@ -4178,6 +4178,19 @@
 				type: "item"
 				item: "thermal:dynamo_magmatic"
 			}]
+			rewards: [
+				{
+					id: "6370676817B06209"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "774E518D10FECFE1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+			]
 		}
 	]
 }

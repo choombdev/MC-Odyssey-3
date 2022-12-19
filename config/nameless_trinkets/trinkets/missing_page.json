@@ -2,14 +2,14 @@
   "config": {
     "activationPercentage": 25,
     "radiusInBlocks": 25.0,
-    "percentageOfDamage": 20.0
+    "percentageOfDamage": 20.00
   },
   "loot": [
     {
       "table": [
         "minecraft:chests/spawn_bonus_chest"
       ],
-      "chance": 0.07692308
+      "chance": 0.007692308
     },
     {
       "table": [
@@ -20,7 +20,7 @@
         "minecraft:chests/village/village_savanna_house",
         "minecraft:chests/village/village_butcher"
       ],
-      "chance": 0.015384615
+      "chance": 0.0015384615
     },
     {
       "table": [
@@ -30,7 +30,7 @@
         "minecraft:chests/stronghold_corridor",
         "minecraft:chests/woodland_mansion"
       ],
-      "chance": 0.01923077
+      "chance": 0.001923077
     },
     {
       "table": [
@@ -38,7 +38,7 @@
         "minecraft:chests/village/village_toolsmith",
         "minecraft:chests/village/village_weaponsmith"
       ],
-      "chance": 0.053846154
+      "chance": 0.0053846154
     },
     {
       "table": [
@@ -53,7 +53,7 @@
         "minecraft:chests/ruined_portal",
         "minecraft:chests/shipwreck_treasure"
       ],
-      "chance": 0.07692308
+      "chance": 0.007692308
     },
     {
       "table": [
@@ -70,7 +70,7 @@
         "minecraft:chests/bastion_hoglin_stable",
         "minecraft:chests/desert_pyramid"
       ],
-      "chance": 0.0015384616
+      "chance": 0.00015384616
     }
   ]
 }

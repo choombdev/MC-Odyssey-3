@@ -1,14 +1,14 @@
 {
   "config": {
     "setEnemyInFireTicks": 300,
-    "fireDamageReductionPercentage": 100.0
+    "fireDamageReductionPercentage": 100.00
   },
   "loot": [
     {
       "table": [
         "minecraft:chests/spawn_bonus_chest"
       ],
-      "chance": 0.04
+      "chance": 0.004
     },
     {
       "table": [
@@ -19,7 +19,7 @@
         "minecraft:chests/village/village_savanna_house",
         "minecraft:chests/village/village_butcher"
       ],
-      "chance": 0.02
+      "chance": 0.002
     },
     {
       "table": [
@@ -37,7 +37,7 @@
         "minecraft:chests/village/village_toolsmith",
         "minecraft:chests/village/village_weaponsmith"
       ],
-      "chance": 0.07
+      "chance": 0.007
     },
     {
       "table": [
