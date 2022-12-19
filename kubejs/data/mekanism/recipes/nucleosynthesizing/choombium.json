@@ -2,7 +2,7 @@
 "type":"mekanism:nucleosynthesizing",
 "itemInput":{
     "ingredient":{
-        "item":"minecraft:netherrite_ingot"
+        "item":"minecraft:netherite_ingot"
         }},
 "gasInput":{
     "amount":5,
