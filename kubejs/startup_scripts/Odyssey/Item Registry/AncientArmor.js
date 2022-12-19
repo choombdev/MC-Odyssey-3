@@ -1,11 +1,11 @@
 // This script was made by Choomb for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('item.registry.armor_tiers', event => {
   event.add('ancientarmor', tier => {
-    tier.slotProtections = [500, 500, 500, 500]
+    tier.slotProtections = [800, 800, 800, 800]
     tier.equipSound = 'minecraft:item.armor.netherite'
-    tier.toughness = 100.0
-    tier.knockbackResistance = 10.0
-    tier.enchantmentValue = 50
+    tier.toughness = 150.0
+    tier.knockbackResistance = 15.0
+    tier.enchantmentValue = 60
   })
 })
 
