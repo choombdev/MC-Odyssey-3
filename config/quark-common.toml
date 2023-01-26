@@ -401,7 +401,7 @@
 	Emotes = true
 	"Dragon Scales" = true
 	"Double Door Opening" = true
-	"Compasses Work Everywhere" = true
+	"Compasses Work Everywhere" = false
 	"Campfires Boost Elytra" = true
 	"Better Elytra Rocket" = true
 	"Automatic Recipe Unlock" = true
