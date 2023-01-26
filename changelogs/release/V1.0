@@ -1,0 +1,16 @@
+Additions:
++ Smooth Chunk Save
++ Starlight
++ Updated Mods
++ Updated Forge to V40.2.0
+Changes:
+= Added another quest-guide by RealCordex
+= Enabled the Apotheosis Enchantment Module (Due to a bug that enabled it but didn't allow the creation of higher-leveled tables)
+= Fixed a quest having no awards in the milestones tab.
+= Made Soulstones Harder
+= Disabled all baby mobs
+= Disabled a compass feature in quark to stop it from changing compass NBT.
+Removals:
+- Mana and Artifice
+- Create Big Cannons
+- Radon 
