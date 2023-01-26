@@ -11,6 +11,7 @@
 		{
 			x: -1.5d
 			y: -1.0d
+			description: ["This questline will somewhat help you through the Botania mod!"]
 			id: "51E1B9DD39FAD8E4"
 			tasks: [{
 				id: "76AA837E93FF683F"
@@ -50,6 +51,7 @@
 		{
 			x: -1.5d
 			y: 4.0d
+			subtitle: "Stores mana!"
 			dependencies: ["0B8D89BCBE4D3E19"]
 			id: "7E82445249D83176"
 			tasks: [{
@@ -82,6 +84,8 @@
 		{
 			x: 1.5d
 			y: 1.0d
+			subtitle: "Beautiful Flower"
+			description: ["Will purify specific blocks"]
 			dependencies: ["0B8D89BCBE4D3E19"]
 			id: "509E2A55C6D0D0A8"
 			tasks: [{
@@ -97,8 +101,9 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: 2.5d
+			subtitle: "Spits out mana to a target"
 			dependencies: ["0B8D89BCBE4D3E19"]
 			id: "4AFCAE23061D34B7"
 			tasks: [{
@@ -293,6 +298,8 @@
 		{
 			x: -1.5d
 			y: 10.5d
+			subtitle: "Turns manasteel to terrasteel"
+			description: ["Remember: You will need alot of mana for a single terrasteel"]
 			dependencies: [
 				"336A225882B38F22"
 				"125B8645EAC4EA30"
@@ -485,6 +492,7 @@
 			title: "The Portal to Alfheim"
 			x: -1.5d
 			y: 14.0d
+			description: ["Check your Lexica for the poral structure"]
 			dependencies: ["7123C9B688428EC7"]
 			id: "4E6C178FABB3FE3C"
 			tasks: [
@@ -500,9 +508,9 @@
 					count: 2L
 				}
 				{
-					id: "5DD7ABB0917FAA35"
+					id: "66318E797CEE9667"
 					type: "item"
-					item: "botania:glimmering_livingwood"
+					item: "botania:glimmering_livingwood_log"
 					count: 3L
 				}
 			]
@@ -577,12 +585,19 @@
 				"4B34EF89009F1F78"
 			]
 			id: "142F7B9DA7E9DF98"
-			tasks: [{
-				id: "59482A7C02B4DDBC"
-				type: "item"
-				item: "botania:gaia_pylon"
-				count: 4L
-			}]
+			tasks: [
+				{
+					id: "59482A7C02B4DDBC"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "466C12EE684527E4"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+			]
 			rewards: [
 				{
 					id: "447A58D15830A41D"
@@ -622,6 +637,7 @@
 			]
 		}
 		{
+			title: "Kill: &21x Guardian of Gaia"
 			x: -1.5d
 			y: 18.5d
 			dependencies: ["142F7B9DA7E9DF98"]
@@ -629,6 +645,7 @@
 			tasks: [{
 				id: "26825584532C5828"
 				type: "kill"
+				title: "Kill: &21x Guardian of Gaia"
 				icon: "botania:gaia_head"
 				entity: "botania:doppleganger"
 				value: 1L
@@ -803,6 +820,8 @@
 		{
 			x: -3.0d
 			y: 14.0d
+			subtitle: "Elves' knowledge"
+			description: ["Throw your Lexica into the portal!"]
 			dependencies: ["4E6C178FABB3FE3C"]
 			id: "02B080FBF19F8275"
 			tasks: [{
@@ -2591,311 +2610,6 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 0.5d
-			description: [
-				"Runeforges are found in villages, a Spellmonger found nearby. By placing Vinteum Coated Iron in it (or smelting it) you'll be able to get this ingot."
-				"Get a Codex Arcana with it by trading it with the Spellmonger."
-				"Codex Arcana will help you way more than I'll be able to."
-			]
-			id: "4501C5370CD898C8"
-			tasks: [{
-				id: "5473EE530EB081AE"
-				type: "item"
-				item: "mna:vinteum_ingot"
-				count: 8L
-			}]
-			rewards: [{
-				id: "0189D345FA745F7F"
-				type: "item"
-				item: "mna:guide_book"
-			}]
-		}
-		{
-			x: -5.0d
-			y: -1.0d
-			subtitle: "Casting Spells!"
-			description: ["Being Level 1, you can cast only Cantrips. Hit Control + Rightclick while holding the wand to see the list."]
-			dependencies: ["4501C5370CD898C8"]
-			id: "6A425AA9E620381A"
-			tasks: [{
-				id: "7DFF22640E777C6A"
-				type: "item"
-				item: {
-					id: "mna:manaweaver_wand"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "792712E8C7DA9AA7"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-			}]
-		}
-		{
-			x: -5.0d
-			y: -3.0d
-			description: ["Use the Transmute Cantrip on Copper to create Transmuted Silver!"]
-			dependencies: ["6A425AA9E620381A"]
-			id: "5CBAB10A484FEADE"
-			tasks: [{
-				id: "615693156A9784AB"
-				type: "item"
-				item: "mna:transmuted_silver"
-			}]
-			rewards: [
-				{
-					id: "4C8FDCB247DCB968"
-					type: "item"
-					item: "mna:transmuted_silver"
-					count: 6
-				}
-				{
-					id: "51ED5A30CBF224DE"
-					type: "item"
-					item: "lightmanscurrency:coin_iron"
-				}
-			]
-		}
-		{
-			title: "The Oculus"
-			x: -5.0d
-			y: -4.5d
-			subtitle: ".. Quest?"
-			description: [
-				"Okay, that was both a pun and reality. This block does give you quests to level you up further in Mana and Artifice."
-				"Don't worry if you can't finish them all, most of them are locked for you at the start."
-			]
-			dependencies: ["5CBAB10A484FEADE"]
-			id: "00953E86603B45EC"
-			tasks: [{
-				id: "1672EAF75BD27FD3"
-				type: "item"
-				item: "mna:occulus"
-			}]
-			rewards: [
-				{
-					id: "40AE7B736EE8D4A2"
-					type: "loot"
-					table_id: 5348617777777244959L
-				}
-				{
-					id: "569865168C27DB20"
-					type: "item"
-					item: "lightmanscurrency:coinpile_iron"
-				}
-			]
-		}
-		{
-			x: -6.5d
-			y: -6.0d
-			subtitle: "Double The Power"
-			description: ["Double the crafting table power."]
-			dependencies: ["00953E86603B45EC"]
-			id: "508EF03BE225AD05"
-			tasks: [{
-				id: "0C712FE8BB935A33"
-				type: "item"
-				item: "mna:magicians_workbench"
-			}]
-			rewards: [
-				{
-					id: "69749626ADD50F54"
-					type: "loot"
-					table_id: 5348617777777244959L
-				}
-				{
-					id: "3A425A97509304A9"
-					type: "item"
-					item: "lightmanscurrency:coinpile_iron"
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: -6.0d
-			subtitle: "Eco Friendly Furnace"
-			dependencies: ["00953E86603B45EC"]
-			id: "6E135EA774922ADF"
-			tasks: [{
-				id: "1A4B835B78B0AD52"
-				type: "item"
-				item: "mna:runeforge"
-			}]
-			rewards: [
-				{
-					id: "52AB2F9BA2B95D98"
-					type: "loot"
-					table_id: 5348617777777244959L
-				}
-				{
-					id: "3C9FFE2138FF6A20"
-					type: "item"
-					item: "lightmanscurrency:coinpile_iron"
-				}
-			]
-		}
-		{
-			x: -5.0d
-			y: -6.0d
-			dependencies: ["00953E86603B45EC"]
-			id: "6D5B585F5E921C19"
-			tasks: [{
-				id: "09A71DDA1BA528BA"
-				type: "item"
-				item: "mna:manaweaving_altar"
-			}]
-			rewards: [
-				{
-					id: "2247B5CD5E5257FE"
-					type: "loot"
-					table_id: 5348617777777244959L
-				}
-				{
-					id: "1C6FE5A19315C4D5"
-					type: "item"
-					item: "lightmanscurrency:coinpile_iron"
-				}
-			]
-		}
-		{
-			x: -6.5d
-			y: -1.0d
-			dependencies: ["6A425AA9E620381A"]
-			id: "42CD9BD7E3ED0B6F"
-			tasks: [{
-				id: "7CFB8F7A8B71CFB2"
-				type: "item"
-				item: {
-					id: "mna:wizard_chalk"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "3FBEEF1E195B65B7"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-			}]
-		}
-		{
-			title: "Spellcasting!"
-			x: -3.0d
-			y: -3.0d
-			description: [
-				"Vellum is created by rightclicking water with Leather, it's needed for spellcasting."
-				"Arcane Ash and the Ink are going to be used to inscribe the spells."
-				"Just like Ars Noveau, you select a target (Self or Touch) and what the spell actually does."
-			]
-			dependencies: ["5CBAB10A484FEADE"]
-			id: "257FF4C5A0BFA9C9"
-			tasks: [
-				{
-					id: "406E0E6E07CA415C"
-					type: "item"
-					item: "mna:inscription_table"
-				}
-				{
-					id: "41DC31AA5117FB10"
-					type: "item"
-					item: "mna:vellum"
-				}
-				{
-					id: "0FD2DB45F8B6DE0D"
-					type: "item"
-					item: {
-						id: "mna:arcanist_ink"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4A54EDB6508235A3"
-					type: "item"
-					item: "mna:arcane_ash"
-				}
-			]
-			rewards: [
-				{
-					id: "064C85F3974FFE0A"
-					type: "loot"
-					table_id: 5348617777777244959L
-				}
-				{
-					id: "09C3961CAB08631B"
-					type: "item"
-					item: "lightmanscurrency:coinpile_iron"
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: -3.0d
-			description: ["The Spell you create will give you a little grocery list needed to use in a Ritual called the Ritual of Arcana (Check your Codex!)"]
-			dependencies: ["257FF4C5A0BFA9C9"]
-			id: "65C00818EB282E7B"
-			tasks: [{
-				id: "5CD091EFF82F2C2F"
-				type: "checkmark"
-				title: "Ritual Of Arcana"
-			}]
-			rewards: [
-				{
-					id: "63FF6CEA308224D4"
-					type: "loot"
-					table_id: 5348617777777244959L
-				}
-				{
-					id: "6B742DBF74446595"
-					type: "item"
-					item: "lightmanscurrency:coinpile_iron"
-				}
-			]
-		}
-		{
-			x: -6.5d
-			y: 0.5d
-			description: ["This mod has far too much content for me to include here, including Constructs and very in-depth rituals, the Codex Arcana, given to you in the last quest, should help you through the mod if you're going to use it."]
-			dependencies: ["4501C5370CD898C8"]
-			id: "25737A92B4B6C7DF"
-			tasks: [{
-				id: "0AB4B7A8F2F5662A"
-				type: "checkmark"
-				title: "Constructs and More"
-			}]
-		}
-		{
-			x: -5.0d
-			y: -7.5d
-			description: ["Creating Constructs!"]
-			dependencies: ["6D5B585F5E921C19"]
-			id: "49B15872FF431881"
-			tasks: [
-				{
-					id: "45731F1F2AA41817"
-					type: "item"
-					item: "minecraft:armor_stand"
-				}
-				{
-					id: "320F1D6FD920C6FE"
-					type: "item"
-					item: "mna:animus_dust"
-				}
-			]
-			rewards: [{
-				id: "50B1667CAD507BB4"
-				type: "item"
-				item: "mna:bell_of_bidding"
-			}]
-		}
-		{
 			title: "Forbidden and Arcana"
 			x: -18.0d
 			y: 4.0d
@@ -3541,4 +3255,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

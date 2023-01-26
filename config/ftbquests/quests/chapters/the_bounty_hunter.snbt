@@ -142,33 +142,25 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			subtitle: "So cute they can explode"
+			subtitle: "Creepy!"
 			id: "55D6BD9B558B447D"
 			tasks: [{
-				id: "6F01F3D3F49A7F4C"
+				id: "5F57230F472DDF5D"
 				type: "kill"
-				icon: {
-					id: "reliquary:mob_charm"
-					Count: 1b
-					tag: {
-						entity: "minecraft:creeper"
-						Damage: 0
-					}
-				}
-				entity: "mekanismadditions:baby_creeper"
-				value: 20L
+				entity: "minecraft:creeper"
+				value: 100L
 			}]
 			rewards: [
-				{
-					id: "641B4CB4D7EB0F3B"
-					type: "item"
-					item: "lightmanscurrency:coinpile_iron"
-				}
 				{
 					id: "4DBF09D027C8265B"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 6662433201225807513L
+				}
+				{
+					id: "622A0D8C8BB5F6BD"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
 				}
 			]
 		}
@@ -950,4 +942,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }
