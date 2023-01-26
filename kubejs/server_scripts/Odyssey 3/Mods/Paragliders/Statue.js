@@ -7,7 +7,7 @@ onEvent('recipes', event => {
         'ABA'
     ], {
         A: 'alltheores:silver_ingot',
-        B: 'mna:manaweaving_altar',
+        B: 'mysticalagriculture:infusion_pedestal',
         C: 'cyclic:heart',
         D: 'minecraft:gold_block'
     })

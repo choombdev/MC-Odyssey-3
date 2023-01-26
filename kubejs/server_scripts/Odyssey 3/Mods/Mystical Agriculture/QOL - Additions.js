@@ -3,7 +3,6 @@
   onEvent('recipes', event =>{
   // Soulium Dust
   event.recipes.createMixing('mysticalagriculture:soulium_dust', ['minecraft:soul_sand', 'occultism:otherworld_ashes'])
-  event.recipes.createMixing('mysticalagriculture:soulium_dust', ['minecraft:soul_soil', 'mna:purified_vinteum_dust'])  
   // Cobbled Soulstone
   event.shaped('mysticalagriculture:soulstone_cobble', [
     'MCM',
@@ -20,7 +19,7 @@
     'CMC',
     'MCM'
   ], {
-    C: 'mna:superheated_vinteum_ingot',
+    C: 'occultism:otherworld_ashes',
     M: 'tconstruct:nether_grout'
   })
 })

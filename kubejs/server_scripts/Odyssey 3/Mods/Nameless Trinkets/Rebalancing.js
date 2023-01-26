@@ -12,7 +12,7 @@ onEvent('recipes', event => {
         'ANA',
         'OAO'
     ], {
-        O: 'mna:purified_vinteum_dust',
+        O: 'occultism:otherworld_ashes',
         A: 'ars_nouveau:end_fiber',
         N: 'thermal:netherite_gear',
     })

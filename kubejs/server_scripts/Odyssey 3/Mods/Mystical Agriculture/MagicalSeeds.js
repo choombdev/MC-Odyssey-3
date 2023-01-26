@@ -2,15 +2,9 @@
 // kubejs:magic_agglomeratio
 onEvent('recipes', event =>{
   // Adding recipe to the Agglomeratio
-  event.shapeless('kubejs:magic_agglomeratio', ['mna:vinteum_dust', 'forbidden_arcanus:arcane_crystal', 'ars_nouveau:source_gem', 'bloodmagic:blankrune', 'minecraft:gold_ingot'])
+  event.shapeless('kubejs:magic_agglomeratio', ['forbidden_arcanus:arcane_crystal', 'ars_nouveau:source_gem', 'bloodmagic:blankrune', 'minecraft:gold_ingot'])
   // Adding Recipes to the seeds
-  event.shaped("3x mna:vinteum_dust",[
-      '   ',
-      'A  ',
-      'AA '
-  ],{
-      A: 'mysticalagriculture:magical_essence'
-  })
+
 
   event.shaped("3x forbidden_arcanus:arcane_crystal",[
     ' AA',
