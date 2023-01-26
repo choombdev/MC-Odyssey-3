@@ -977,7 +977,11 @@
 					id: "tconstruct:cleaver"
 					Count: 1b
 					tag: {
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3125f
+							"tconstruct:durability": 3.5f
+							"tconstruct:attack_damage": 1.875f
+						}
 						tic_stats: {
 							"tconstruct:attack_damage": 40.104f
 							"tconstruct:harvest_tier": "minecraft:netherite"
@@ -985,11 +989,7 @@
 							"tconstruct:mining_speed": 13.828125f
 							"tconstruct:attack_speed": 1.1999999f
 						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.3125f
-							"tconstruct:durability": 3.5f
-							"tconstruct:attack_damage": 1.875f
-						}
+						Damage: 0
 						tic_upgrades: [
 							{
 								name: "tconstruct:creative_slot"
@@ -1056,7 +1056,12 @@
 								level: 16s
 							}
 						]
-						tic_broken: 0b
+						tic_materials: [
+							"mysticalagradditions:supremium"
+							"tinkers_reforged:durasteel"
+							"tinkers_reforged:kepu"
+							"mysticalagradditions:supremium"
+						]
 						tic_modifiers: [
 							{
 								name: "bloodsmeltery:sentient"
@@ -1067,16 +1072,16 @@
 								level: 1s
 							}
 							{
-								name: "tinkers_reforged:adapting"
-								level: 1s
-							}
-							{
 								name: "tconstruct:creative_slot"
 								level: 1s
 							}
 							{
-								name: "tinkers_reforged:damage_lock"
-								level: 1s
+								name: "tconstruct:reinforced"
+								level: 5s
+							}
+							{
+								name: "tconstruct:luck"
+								level: 3s
 							}
 							{
 								name: "tconstruct:diamond"
@@ -1087,8 +1092,24 @@
 								level: 1s
 							}
 							{
-								name: "tconstruct:expanded"
-								level: 16s
+								name: "tconstruct:netherite"
+								level: 1s
+							}
+							{
+								name: "tconstruct:swiftstrike"
+								level: 5s
+							}
+							{
+								name: "tconstruct:sharpness"
+								level: 5s
+							}
+							{
+								name: "tconstruct:severing"
+								level: 5s
+							}
+							{
+								name: "tconstruct:necrotic"
+								level: 5s
 							}
 							{
 								name: "tconstruct:experienced"
@@ -1099,36 +1120,20 @@
 								level: 5s
 							}
 							{
-								name: "tconstruct:luck"
-								level: 3s
-							}
-							{
-								name: "tconstruct:necrotic"
-								level: 5s
-							}
-							{
-								name: "tconstruct:netherite"
-								level: 1s
+								name: "tconstruct:expanded"
+								level: 16s
 							}
 							{
 								name: "mysticalagradditions:prosperous"
 								level: 2s
 							}
 							{
-								name: "tconstruct:reinforced"
-								level: 5s
+								name: "tinkers_reforged:adapting"
+								level: 1s
 							}
 							{
-								name: "tconstruct:severing"
-								level: 5s
-							}
-							{
-								name: "tconstruct:sharpness"
-								level: 5s
-							}
-							{
-								name: "tconstruct:swiftstrike"
-								level: 5s
+								name: "tinkers_reforged:damage_lock"
+								level: 1s
 							}
 							{
 								name: "tcintegrations:mechanical_arm"
@@ -1139,12 +1144,7 @@
 								level: 1s
 							}
 						]
-						tic_materials: [
-							"mysticalagradditions:supremium"
-							"tinkers_reforged:durasteel"
-							"tinkers_reforged:kepu"
-							"mysticalagradditions:supremium"
-						]
+						tic_broken: 0b
 						tic_volatile_data: {
 							"tconstruct:indestructible": 1b
 							upgrades: 35
@@ -1189,6 +1189,20 @@
 				stat: "minecraft:mob_kills"
 				value: 1000
 			}]
+			rewards: [
+				{
+					id: "5219764960E25A01"
+					type: "item"
+					item: "lightmanscurrency:coin_netherite"
+				}
+				{
+					id: "01F917BE4E7F7010"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
+			]
 		}
 	]
+	quest_links: [ ]
 }
