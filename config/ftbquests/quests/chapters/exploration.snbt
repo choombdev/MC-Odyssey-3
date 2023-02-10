@@ -609,6 +609,19 @@
 				advancement: "lootr:10loot"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "676740FCE93C0248"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "66A2EAE9B4C9BA38"
+					type: "item"
+					item: "lightmanscurrency:coinpile_copper"
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -621,6 +634,19 @@
 				advancement: "lootr:100loot"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "5E91F37EF9A254E1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "54A0A6F6F3A9435F"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -633,6 +659,24 @@
 				advancement: "lootr:25loot"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "566951BFB1F8CFF2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "20E0D8F512C04839"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "33BC918D5E4D23C9"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -645,6 +689,19 @@
 				advancement: "lootr:50loot"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "43250CF5BF37E9DB"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "4BBEFD3A0410D6C7"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
 		}
 		{
 			title: "Find Structure: &2Typhon"
