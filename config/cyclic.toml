@@ -75,7 +75,7 @@
 
 		[cyclic.enchantment.curse]
 			#Set false to disable enchantment
-			enabled = true
+			enabled = false
 
 		[cyclic.enchantment.auto_smelt]
 			#Set false to disable enchantment
