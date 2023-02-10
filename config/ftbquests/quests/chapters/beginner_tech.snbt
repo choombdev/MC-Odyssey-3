@@ -1167,8 +1167,16 @@
 			x: 5.5d
 			y: -10.5d
 			subtitle: "Pretty!"
-			description: ["Polishing these crystals will allow you to make a very important component"]
-			dependencies: ["577D5B5F5BFBF1F1"]
+			description: [
+				"Polishing these crystals will allow you to make a very important component"
+				"(Do note that there's an easier way to make them through Blood Magic!)"
+			]
+			min_required_dependencies: 2
+			dependencies: [
+				"577D5B5F5BFBF1F1"
+				"4FBDAF9C7D687AC9"
+				"5EDBF338D9E766BE"
+			]
 			id: "192E7B24A42443E9"
 			tasks: [{
 				id: "7A8CCF9920CB53EE"
@@ -3465,7 +3473,6 @@
 		{
 			x: -9.0d
 			y: -18.5d
-			dependencies: ["56FFB1880C4E638A"]
 			id: "2A36B07D64706C4B"
 			tasks: [{
 				id: "3BA3D3F3CB6306E5"
@@ -3481,7 +3488,6 @@
 		{
 			x: -9.0d
 			y: -20.0d
-			dependencies: ["2A36B07D64706C4B"]
 			id: "2A39882DBE9EE671"
 			tasks: [{
 				id: "310988102E2DD5FB"
@@ -3497,7 +3503,6 @@
 		{
 			x: -9.0d
 			y: -21.5d
-			dependencies: ["2A39882DBE9EE671"]
 			id: "4EF513B19A01EF3E"
 			tasks: [{
 				id: "0F228444E9B7A3E5"
@@ -3520,7 +3525,6 @@
 		{
 			x: -9.0d
 			y: -23.0d
-			dependencies: ["4EF513B19A01EF3E"]
 			id: "5FD2068B69150567"
 			tasks: [{
 				id: "7F4340DF086CFE22"
