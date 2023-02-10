@@ -27,5 +27,17 @@ event.shaped('cyclic:chorus_flight', [
      N: 'cyclic:chorus_spectral',
      C: 'minecraft:nether_star'   
     }) 
+// Nerfing Unenchanter
+event.remove({output:'cyclic:disenchanter'})
+event.shaped('cyclic:disenchanter',[
+    ' D',
+    'ETE',
+    'OOO'
+    ],{
+        D: 'cyclic:anvil',
+        E: 'botanicalmachinery:mana_emerald',
+        T: 'minecraft:enchanting_table',
+        O: 'mekanism:block_refined_obsidian'
+    }) 
 })
 
