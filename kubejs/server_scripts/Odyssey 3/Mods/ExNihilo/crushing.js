@@ -11,7 +11,6 @@ function crush(output,input){
 // Adding the Recipes
 crush('minecraft:cobblestone', 'minecraft:stone')
 crush('minecraft:gravel', 'minecraft:cobblestone')
-crush('minecraft:sand', 'minecraft:gravel')
 crush('exnihilosequentia:dust','minecraft:sand')
 
 crush('exnihilosequentia:crushed_end_stone', 'minecraft:end_stone')
@@ -23,5 +22,9 @@ event.recipes.mekanismCrushing('exnihilosequentia:crushed_netherrack', 'minecraf
 event.recipes.thermal.pulverizer('exnihilosequentia:crushed_netherrack', 'minecraft:netherrack')
 event.recipes.immersiveengineeringCrusher('exnihilosequentia:crushed_netherrack', 'minecraft:netherrack')
 
+// Crushing Gravel to Sand (-Create)
+event.recipes.mekanismCrushing('minecraft:sand', 'minecraft:gravel')
+event.recipes.thermal.pulverizer('minecraft:sand', 'minecraft:gravel')
+event.recipes.immersiveengineeringCrusher('minecraft:sand', 'minecraft:gravel')
 })
 
