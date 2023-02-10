@@ -834,7 +834,7 @@
           ]
         },
         {
-          "TradeType": "PURCHASE",
+          "TradeType": "SALE",
           "SellItem": {
             "ID": "rebornstorage:creative_super_wireless_crafting_grid",
             "Count": 1
