@@ -18,6 +18,7 @@ onEvent('recipes', event => {
   ], {
         C: 'minecraft:copper_ingot'
     })
+    event.remove({id:'minecraft:cut_copper_from_copper_block_stonecutting'})
     // Ink Sac
     event.shapeless('minecraft:ink_sac', ['minecraft:black_dye', 'minecraft:leather'])
     // Toast
