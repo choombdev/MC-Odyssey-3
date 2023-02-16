@@ -174,10 +174,9 @@
 				item: "mysticalagriculture:imperium_essence"
 			}]
 			rewards: [{
-				id: "36BBB954B34E5613"
+				id: "0F85E94BF0E44493"
 				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 10
+				item: "lightmanscurrency:coin_gold"
 			}]
 		}
 		{
@@ -192,15 +191,15 @@
 			}]
 			rewards: [
 				{
-					id: "2D2CC248BF2CE526"
-					type: "item"
-					item: "lightmanscurrency:coin_gold"
-				}
-				{
 					id: "06443A0E6B0C06BE"
 					type: "loot"
 					exclude_from_claim_all: true
 					table_id: 5348617777777244959L
+				}
+				{
+					id: "7B8B2D96D58D7BEE"
+					type: "item"
+					item: "lightmanscurrency:coinpile_gold"
 				}
 			]
 		}
@@ -438,10 +437,9 @@
 				item: "mysticalagriculture:imperium_block"
 			}]
 			rewards: [{
-				id: "0C162034C15AD480"
+				id: "5D00C84DBA5D7AC5"
 				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 10
+				item: "lightmanscurrency:coinpile_gold"
 			}]
 		}
 		{
@@ -455,9 +453,9 @@
 				item: "mysticalagriculture:supremium_block"
 			}]
 			rewards: [{
-				id: "186C1CBD8C08C855"
+				id: "7BDEFFA461BDC125"
 				type: "item"
-				item: "lightmanscurrency:coin_gold"
+				item: "lightmanscurrency:coin_emerald"
 			}]
 		}
 		{
@@ -471,10 +469,9 @@
 				item: "mysticalagradditions:insanium_block"
 			}]
 			rewards: [{
-				id: "7371A47D72E894A0"
+				id: "5030812B1CD5C4C7"
 				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 2
+				item: "lightmanscurrency:coinpile_emerald"
 			}]
 		}
 		{
@@ -564,10 +561,9 @@
 				item: "mysticalagriculture:imperium_furnace"
 			}]
 			rewards: [{
-				id: "1F8BA598CEAB007F"
+				id: "673A94A38AE67EB5"
 				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 30
+				item: "lightmanscurrency:coin_emerald"
 			}]
 		}
 		{
@@ -582,16 +578,15 @@
 			}]
 			rewards: [
 				{
-					id: "04B0509FA5F6CAF7"
-					type: "item"
-					item: "lightmanscurrency:coin_gold"
-					count: 3
-				}
-				{
 					id: "02852AB9461CC0CA"
 					type: "loot"
 					exclude_from_claim_all: true
 					table_id: 5348617777777244959L
+				}
+				{
+					id: "6023FD025FD39AD0"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
 				}
 			]
 		}
@@ -607,12 +602,6 @@
 			}]
 			rewards: [
 				{
-					id: "38460AA3885DB224"
-					type: "item"
-					item: "lightmanscurrency:coin_gold"
-					count: 5
-				}
-				{
 					id: "2BF8E6F58F2B31F1"
 					type: "loot"
 					exclude_from_claim_all: true
@@ -623,6 +612,12 @@
 					type: "loot"
 					exclude_from_claim_all: true
 					table_id: 5348617777777244959L
+				}
+				{
+					id: "6C025CDFA64C7E74"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+					count: 4
 				}
 			]
 		}
@@ -755,16 +750,16 @@
 			]
 			rewards: [
 				{
-					id: "20814787681A6D4A"
+					id: "16537EE4919191FA"
 					type: "item"
-					item: "lightmanscurrency:coin_gold"
-					count: 40
+					item: "lightmanscurrency:coinpile_diamond"
+					count: 2
 				}
 				{
-					id: "7D164D9C4614A0C9"
+					id: "4EF498BC39AEB539"
 					type: "loot"
 					exclude_from_claim_all: true
-					table_id: 6662433201225807513L
+					table_id: 8510385002616264230L
 				}
 			]
 		}
@@ -821,16 +816,15 @@
 			]
 			rewards: [
 				{
-					id: "2E1A12CDECE96263"
-					type: "item"
-					item: "lightmanscurrency:coin_gold"
-					count: 32
-				}
-				{
 					id: "6FF8C372DCFCFCF2"
 					type: "loot"
 					exclude_from_claim_all: true
 					table_id: 6662433201225807513L
+				}
+				{
+					id: "3980A0782CD848F9"
+					type: "item"
+					item: "lightmanscurrency:coinpile_diamond"
 				}
 			]
 		}
@@ -885,12 +879,19 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "31AAAE30B4C658BB"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 20
-			}]
+			rewards: [
+				{
+					id: "7E09A5B8FD14DFE3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "569079F3B2CF70B7"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
+				}
+			]
 		}
 		{
 			x: -5.5d
