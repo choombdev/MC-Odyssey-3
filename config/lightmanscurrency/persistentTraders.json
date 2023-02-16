@@ -838,7 +838,7 @@
           "SellItem": {
             "ID": "rebornstorage:creative_super_wireless_crafting_grid",
             "Count": 1
-                    },
+          },
           "Price": [
             {
               "Coin": "lightmanscurrency:coin_netherite",
@@ -3097,6 +3097,110 @@
       ],
       "ID": "Amazon2",
       "OwnerName": "Minecraft"
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "Name": "Mr Skellybone's Dungeon Shop",
+      "Trades": [
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "lightmanscurrency:coin_emerald",
+            "Count": 1
+          },
+          "SellItem2": {
+            "ID": "minecraft:written_book",
+            "Count": 1,
+            "Tag": "{author:\"Mr. Skellybones\",display:{},pages:['{\"obfuscated\":true,\"text\":\"Sans Undertale\"}'],resolved:1b,title:\"TRADE COUPOUN\"}"
+          },
+          "BarterItem": {
+            "ID": "graveyard:upper_bone_staff",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "graveyard:upper_bone_staff",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "lightmanscurrency:coin_emerald",
+            "Count": 2
+          },
+          "BarterItem2": {
+            "ID": "minecraft:written_book",
+            "Count": 1,
+            "Tag": "{author:\"Mr. Skellybones\",display:{},pages:['{\"obfuscated\":true,\"text\":\"Sans Undertale\"}'],resolved:1b,title:\"TRADE COUPOUN\"}"
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "lightmanscurrency:coin_emerald",
+            "Count": 1
+          },
+          "SellItem2": {
+            "ID": "minecraft:written_book",
+            "Count": 1,
+            "Tag": "{author:\"Mr. Skellybones\",display:{},pages:['{\"obfuscated\":true,\"text\":\"Sans Undertale\"}'],resolved:1b,title:\"TRADE COUPOUN\"}"
+          },
+          "BarterItem": {
+            "ID": "graveyard:middle_bone_staff",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "graveyard:middle_bone_staff",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "lightmanscurrency:coin_emerald",
+            "Count": 2
+          },
+          "BarterItem2": {
+            "ID": "minecraft:written_book",
+            "Count": 1,
+            "Tag": "{author:\"Mr. Skellybones\",display:{},pages:['{\"obfuscated\":true,\"text\":\"Sans Undertale\"}'],resolved:1b,title:\"TRADE COUPOUN\"}"
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "lightmanscurrency:coin_emerald",
+            "Count": 1
+          },
+          "SellItem2": {
+            "ID": "minecraft:written_book",
+            "Count": 1,
+            "Tag": "{author:\"Mr. Skellybones\",display:{},pages:['{\"obfuscated\":true,\"text\":\"Sans Undertale\"}'],resolved:1b,title:\"TRADE COUPOUN\"}"
+          },
+          "BarterItem": {
+            "ID": "graveyard:lower_bone_staff",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "graveyard:lower_bone_staff",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "lightmanscurrency:coin_emerald",
+            "Count": 2
+          },
+          "BarterItem2": {
+            "ID": "minecraft:written_book",
+            "Count": 1,
+            "Tag": "{author:\"Mr. Skellybones\",display:{},pages:['{\"obfuscated\":true,\"text\":\"Sans Undertale\"}'],resolved:1b,title:\"TRADE COUPOUN\"}"
+          }
+        }
+      ],
+      "ID": "skeletontrader",
+      "OwnerName": "Mr Skellybone"
     }
   ],
   "Auctions": []
