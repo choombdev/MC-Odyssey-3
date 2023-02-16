@@ -451,9 +451,10 @@
 					count: 5
 				}
 				{
-					id: "30E9CFA2E221B3E1"
+					id: "15D3BF356D77A0C5"
 					type: "loot"
-					table_id: 5348617777777244959L
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}
@@ -482,9 +483,10 @@
 					count: 5
 				}
 				{
-					id: "5B7E00C121ECE131"
+					id: "286D687AAC72DDEE"
 					type: "loot"
-					table_id: 5348617777777244959L
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}
@@ -522,9 +524,10 @@
 					count: 10
 				}
 				{
-					id: "1BE9F3BD48697C9A"
+					id: "21756A989007D9FF"
 					type: "loot"
-					table_id: 5348617777777244959L
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}
@@ -541,15 +544,15 @@
 			}]
 			rewards: [
 				{
-					id: "74534C25392AC555"
-					type: "item"
-					item: "lightmanscurrency:coin_gold"
-					count: 2
+					id: "18E552C87594A068"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 				{
-					id: "3F55C91EB070360F"
-					type: "loot"
-					table_id: 5348617777777244959L
+					id: "6008324AEB789948"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
 				}
 			]
 		}
@@ -574,6 +577,17 @@
 					id: "7E6AD306BEA8174F"
 					type: "loot"
 					table_id: 5348617777777244959L
+				}
+				{
+					id: "736D5463FA7E8369"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "1ED77455E493E0CA"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
 				}
 			]
 		}
@@ -600,15 +614,14 @@
 			]
 			rewards: [
 				{
-					id: "447A58D15830A41D"
-					type: "item"
-					item: "lightmanscurrency:coin_gold"
-					count: 4
-				}
-				{
 					id: "0559886F06328984"
 					type: "loot"
 					table_id: 6662433201225807513L
+				}
+				{
+					id: "7BAC25B5CEB7FE92"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
 				}
 			]
 		}
@@ -634,6 +647,17 @@
 					type: "loot"
 					table_id: 5348617777777244959L
 				}
+				{
+					id: "25BB3E2BAF4E8669"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "6DFE58DD47C53EB8"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
 			]
 		}
 		{
@@ -655,7 +679,7 @@
 					id: "2EAF38DED1ABFFA8"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
-					count: 5
+					count: 10
 				}
 				{
 					id: "392C1EAF4974E5F3"
@@ -806,14 +830,15 @@
 			]
 			rewards: [
 				{
-					id: "1431610FC443B17A"
+					id: "7F72D4BD337AFB61"
 					type: "item"
-					item: "lightmanscurrency:coin_emerald"
+					item: "lightmanscurrency:coinpile_emerald"
 				}
 				{
-					id: "02FECE093CB45E75"
+					id: "037237ED74705E5E"
 					type: "loot"
-					table_id: 5348617777777244959L
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}
@@ -866,9 +891,21 @@
 					item: "lightmanscurrency:coin_emerald"
 				}
 				{
-					id: "67CE9B43F95B2BD8"
-					type: "random"
-					table_id: 5348617777777244959L
+					id: "56E61232DE60C5E3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "6F03D0FCE1E960AC"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "5DBE286859DE4639"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
 				}
 			]
 		}
