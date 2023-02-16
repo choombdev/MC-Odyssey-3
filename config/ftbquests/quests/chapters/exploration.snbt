@@ -667,11 +667,6 @@
 					table_id: 5348617777777244959L
 				}
 				{
-					id: "20E0D8F512C04839"
-					type: "item"
-					item: "lightmanscurrency:coin_iron"
-				}
-				{
 					id: "33BC918D5E4D23C9"
 					type: "item"
 					item: "lightmanscurrency:coin_gold"
