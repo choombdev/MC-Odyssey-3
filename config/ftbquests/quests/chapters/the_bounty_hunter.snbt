@@ -789,16 +789,15 @@
 			}]
 			rewards: [
 				{
-					id: "54D10CDAE4484042"
-					type: "item"
-					item: "lightmanscurrency:coin_gold"
-					count: 5
-				}
-				{
 					id: "0EC2190E90C68134"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 8510385002616264230L
+				}
+				{
+					id: "668AA931669818FF"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
 				}
 			]
 		}
