@@ -10,6 +10,7 @@ event.remove({id: 'cyclic:crusher/dye_cyan'})
 // Crystallized Obsidian
 event.recipes.mekanismMetallurgicInfusing('cyclic:gem_obsidian', 'mekanism:ingot_refined_obsidian', 'mekanism:redstone', 20)
 // Flight
+event.remove({output:'cyclic:chorus_spectral'})
 event.shaped('cyclic:chorus_spectral', [
     'CCC',
     'CAC',
@@ -18,6 +19,8 @@ event.shaped('cyclic:chorus_spectral', [
      C: 'minecraft:chorus_fruit',
      A: 'cyclic:apple_ender'   
     }) 
+event.remove({output:'cyclic:chorus_flight'})
+
 event.shaped('cyclic:chorus_flight', [
     'INI',
     'NCN',
