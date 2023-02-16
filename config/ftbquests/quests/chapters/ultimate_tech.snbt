@@ -230,11 +230,19 @@
 					item: "exnihilosequentia:string_mesh"
 				}
 			]
-			rewards: [{
-				id: "6FE425157A75CD02"
-				type: "item"
-				item: "lightmanscurrency:coinpile_iron"
-			}]
+			rewards: [
+				{
+					id: "1FDAE8B0CEA42BF2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "111B8D9F005C8438"
+					type: "item"
+					item: "lightmanscurrency:coinpile_diamond"
+				}
+			]
 		}
 		{
 			x: -1.5d
