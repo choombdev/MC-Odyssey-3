@@ -181,11 +181,6 @@
 					item: "lightmanscurrency:coin_netherite"
 				}
 				{
-					id: "69C19E31AB5456FD"
-					type: "item"
-					item: "lightmanscurrency:coinpile_netherite"
-				}
-				{
 					id: "5B2259EEE2DADC4C"
 					type: "random"
 					exclude_from_claim_all: true
