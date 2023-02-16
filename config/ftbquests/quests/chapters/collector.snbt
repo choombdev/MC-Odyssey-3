@@ -248,6 +248,19 @@
 				type: "item"
 				item: "gobber2:gobber2_ingot"
 			}]
+			rewards: [
+				{
+					id: "1323CE5276BB535E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "1C5930D055A2EB80"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -470,14 +483,15 @@
 			]
 			rewards: [
 				{
-					id: "5819EAD91EC796D5"
-					type: "loot"
-					table_id: 6662433201225807513L
-				}
-				{
 					id: "31A278C0779E401C"
 					type: "item"
 					item: "lightmanscurrency:coinpile_diamond"
+				}
+				{
+					id: "1E7D0B93353FD9ED"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
 				}
 			]
 		}
