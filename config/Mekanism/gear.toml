@@ -234,16 +234,16 @@
 		jetpackTransferRate = 256
 		#Armor value of MekaSuit Helmets.
 		#Range: > 0
-		helmetArmor = 3
+		helmetArmor = 8
 		#Armor value of MekaSuit BodyArmor.
 		#Range: > 0
-		bodyArmorArmor = 8
+		bodyArmorArmor = 18
 		#Armor value of MekaSuit Pants.
 		#Range: > 0
-		pantsArmor = 6
+		pantsArmor = 12
 		#Armor value of MekaSuit Boots.
 		#Range: > 0
-		bootsArmor = 3
+		bootsArmor = 8
 		#Toughness value of the MekaSuit.
 		#Range: 0.0 ~ 3.4028234663852886E38
 		toughness = 3.0
