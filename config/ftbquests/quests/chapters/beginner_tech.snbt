@@ -27,7 +27,7 @@
 		}
 		{
 			title: "Flux Networks"
-			x: -6.5d
+			x: -7.5d
 			y: -4.0d
 			subtitle: "Wireless Energy"
 			description: [
@@ -57,7 +57,7 @@
 			]
 		}
 		{
-			x: -6.5d
+			x: -7.5d
 			y: -5.5d
 			subtitle: "Heart of Flux Networks"
 			dependencies: ["7A2EEC94450C846B"]
@@ -75,7 +75,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -9.0d
 			y: -5.5d
 			description: ["After you select your network, you can feed power into your network using this."]
 			dependencies: ["352078BD8EE79923"]
@@ -99,7 +99,7 @@
 			]
 		}
 		{
-			x: -8.5d
+			x: -9.5d
 			y: -6.5d
 			description: ["After you select your network, you can take power from the network using this block."]
 			dependencies: ["352078BD8EE79923"]
@@ -123,7 +123,7 @@
 			]
 		}
 		{
-			x: -7.0d
+			x: -8.0d
 			y: -6.5d
 			subtitle: "Start of something great."
 			description: ["Once you've got a 'battery' set up, you can finally use Flux Networks!"]
@@ -148,7 +148,7 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -7.0d
 			y: -6.5d
 			subtitle: "Wireless Charging "
 			description: ["As long as your system is chunkloaded, you can select slots in your inventory (Hand, Armor, Curio) and enable auto charging!"]
@@ -173,7 +173,7 @@
 			]
 		}
 		{
-			x: -7.0d
+			x: -8.0d
 			y: -7.5d
 			subtitle: "More Power"
 			dependencies: ["352078BD8EE79923"]
@@ -197,7 +197,7 @@
 			]
 		}
 		{
-			x: -8.0d
+			x: -9.0d
 			y: -7.5d
 			subtitle: "Even More Power"
 			dependencies: ["36267A157E293252"]
@@ -1123,7 +1123,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: -4.5d
 			subtitle: "They see me rollin', they hatin'"
 			description: ["Rolling Mill turns metals into rods or wires depending on if you insert the metal itself (rods) or a sheet/plate (wire)."]
@@ -2164,14 +2164,15 @@
 			}]
 			rewards: [
 				{
-					id: "1E1E9971215AA8E1"
-					type: "loot"
-					table_id: 8510385002616264230L
-				}
-				{
 					id: "74E293C48578E468"
 					type: "item"
 					item: "lightmanscurrency:coin_diamond"
+				}
+				{
+					id: "55AF5D92D1B05C81"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}
@@ -2410,7 +2411,7 @@
 		}
 		{
 			title: "RF - Create Integration!"
-			x: 6.5d
+			x: 7.5d
 			y: -8.0d
 			subtitle: "Now we can make some real power."
 			description: [
@@ -2441,7 +2442,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 8.5d
 			y: -8.5d
 			subtitle: "Actual Dynamos"
 			description: ["The Alternator, on the other hand, creates RF from Rotation"]
@@ -2466,7 +2467,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 8.5d
 			y: -7.5d
 			subtitle: "IE who?"
 			description: ["Just like in Immersive Engineering, you've got your basic battery and wire-connectors here!"]
@@ -3643,6 +3644,64 @@
 				id: "71D25D09241C5A93"
 				type: "loot"
 				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.0d
+			subtitle: "Infinite Fire!"
+			description: ["This bad boy can hold infinite heat in it."]
+			dependencies: ["760744C624687E96"]
+			id: "212CD01C41323265"
+			tasks: [{
+				id: "0843E8B8F8A0C18F"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+			rewards: [
+				{
+					id: "6F6B098EC52FB780"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
+				{
+					id: "7CE2504926D2B46E"
+					type: "item"
+					item: "lightmanscurrency:coinpile_diamond"
+				}
+			]
+		}
+		{
+			title: "Refined Pipes"
+			x: -5.0d
+			y: -6.0d
+			description: [
+				"Refined Pipes are, as chunky as they look, a very simple pipe system. "
+				"You need an Extractor to be able to extract from a specific container though!"
+			]
+			id: "5EF6F645C8AC230E"
+			tasks: [
+				{
+					id: "20CDE610536509DE"
+					type: "item"
+					item: "refinedpipes:basic_item_pipe"
+				}
+				{
+					id: "3C6B894234930B88"
+					type: "item"
+					item: "refinedpipes:basic_energy_pipe"
+				}
+				{
+					id: "18128EC298111163"
+					type: "item"
+					item: "refinedpipes:basic_fluid_pipe"
+				}
+			]
+			rewards: [{
+				id: "7C2B895C88646ECB"
+				type: "item"
+				item: "refinedpipes:basic_extractor_attachment"
 			}]
 		}
 	]

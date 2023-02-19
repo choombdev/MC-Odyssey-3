@@ -1072,15 +1072,20 @@
 			}]
 			rewards: [
 				{
-					id: "2A54F2124296FD0E"
-					type: "item"
-					item: "lightmanscurrency:coin_gold"
-					count: 4
-				}
-				{
 					id: "6F6B4B75B40AC730"
 					type: "random"
 					table_id: 5348617777777244959L
+				}
+				{
+					id: "217DC131A479E007"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+				{
+					id: "64B49884CC2099F5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}
@@ -1094,12 +1099,19 @@
 				type: "item"
 				item: "mekanism:qio_drive_base"
 			}]
-			rewards: [{
-				id: "3632E5106FDA5A14"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "69D8133715E47FAD"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+				{
+					id: "54F6433D25DAFDE8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -1111,12 +1123,19 @@
 				type: "item"
 				item: "mekanism:qio_drive_hyper_dense"
 			}]
-			rewards: [{
-				id: "24F8B83DD994AC74"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "0B1801286E742C51"
+					type: "item"
+					item: "lightmanscurrency:coinpile_diamond"
+				}
+				{
+					id: "0A23870A60182CCE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -1128,12 +1147,20 @@
 				type: "item"
 				item: "mekanism:qio_drive_time_dilating"
 			}]
-			rewards: [{
-				id: "22CAE4D327668938"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "3FBC3A16ABCBC872"
+					type: "item"
+					item: "lightmanscurrency:coinpile_diamond"
+					count: 4
+				}
+				{
+					id: "55AF8EDAA56CE9A1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -1147,11 +1174,6 @@
 			}]
 			rewards: [
 				{
-					id: "20F53B1FD0799A00"
-					type: "item"
-					item: "lightmanscurrency:coin_emerald"
-				}
-				{
 					id: "77875A8A1371F13F"
 					type: "random"
 					exclude_from_claim_all: true
@@ -1162,6 +1184,17 @@
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 6662433201225807513L
+				}
+				{
+					id: "37785E98DCD20A01"
+					type: "item"
+					item: "lightmanscurrency:coin_netherite"
+				}
+				{
+					id: "06E5D4309ABB2D2A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
 				}
 			]
 		}
@@ -1175,12 +1208,19 @@
 				type: "item"
 				item: "mekanism:qio_dashboard"
 			}]
-			rewards: [{
-				id: "16A3C2264A9CB689"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "041D3414B9ED4BF5"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+				{
+					id: "20CCD74E705DACD9"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -1192,12 +1232,19 @@
 				type: "item"
 				item: "mekanism:portable_qio_dashboard"
 			}]
-			rewards: [{
-				id: "284594CA5D621831"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "68C7137AE7744FA4"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+				{
+					id: "06B62E5041E723B2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -1210,12 +1257,19 @@
 				type: "item"
 				item: "mekanism:qio_importer"
 			}]
-			rewards: [{
-				id: "15FFFCB8A68F35EC"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "20A534E8183CAB00"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+				{
+					id: "77896434133431D6"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -1227,12 +1281,19 @@
 				type: "item"
 				item: "mekanism:qio_exporter"
 			}]
-			rewards: [{
-				id: "6F412A98902F1EA8"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "715C794461215314"
+					type: "item"
+					item: "lightmanscurrency:coin_diamond"
+				}
+				{
+					id: "21A7ADBAC566FB09"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+			]
 		}
 		{
 			x: 2.5d

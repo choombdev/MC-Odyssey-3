@@ -292,6 +292,12 @@
 				type: "item"
 				item: "simpleplanes:plane_workbench"
 			}]
+			rewards: [{
+				id: "091AC269DD977238"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5348617777777244959L
+			}]
 		}
 		{
 			x: -2.0d

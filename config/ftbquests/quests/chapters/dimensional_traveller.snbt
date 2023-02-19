@@ -807,6 +807,12 @@
 					type: "loot"
 					table_id: 6662433201225807513L
 				}
+				{
+					id: "12B504CB07B0DC1C"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
+				}
 			]
 		}
 		{

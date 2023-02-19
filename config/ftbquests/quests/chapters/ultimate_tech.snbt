@@ -26,9 +26,9 @@
 					table_id: 8510385002616264230L
 				}
 				{
-					id: "15E834AE9A9B6C28"
+					id: "4C582A307DDB857E"
 					type: "item"
-					item: "lightmanscurrency:coinpile_diamond"
+					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
@@ -523,14 +523,15 @@
 			}]
 			rewards: [
 				{
-					id: "6AE2040AA84DCBF6"
-					type: "loot"
-					table_id: 5348617777777244959L
+					id: "33A0A05981FC532F"
+					type: "item"
+					item: "lightmanscurrency:coinpile_emerald"
 				}
 				{
-					id: "0A4A4A05AB48D414"
-					type: "item"
-					item: "lightmanscurrency:coin_gold"
+					id: "1C34254C13AECCCF"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
 				}
 			]
 		}
@@ -571,9 +572,9 @@
 					table_id: 6662433201225807513L
 				}
 				{
-					id: "340A4C905303D2A3"
+					id: "160043B2F7B43571"
 					type: "item"
-					item: "lightmanscurrency:coin_emerald"
+					item: "lightmanscurrency:coinpile_diamond"
 				}
 			]
 		}
@@ -595,9 +596,9 @@
 					table_id: 8510385002616264230L
 				}
 				{
-					id: "62081166EAF03FFC"
+					id: "4B51E4F9CA55B8D3"
 					type: "item"
-					item: "lightmanscurrency:coin_diamond"
+					item: "lightmanscurrency:coinpile_diamond"
 				}
 			]
 		}

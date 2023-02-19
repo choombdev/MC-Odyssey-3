@@ -80,7 +80,6 @@
 				}
 			}
 		}
-		{ item: "ae2:wireless_terminal", weight: 15 }
 		{ item: "ae2:cell_component_64k" }
 		{ item: "paraglider:heart_container", count: 8, weight: 30 }
 		{ item: "paraglider:spirit_orb", count: 16, weight: 40 }

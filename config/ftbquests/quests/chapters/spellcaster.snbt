@@ -486,7 +486,7 @@
 			y: 4.0d
 			subtitle: "Wizardry 101"
 			description: [
-				"Ars Nouveau is the predecessor to Ars Magika, focusing more on the spellcasting aspect of it. The mod also has a very in-depth Patchouli guide, a book called the 'Worn Notebook', if you need more information than this questline, make sure to check it out!"
+				"Ars Nouveau is the successor to Ars Magika, focusing more on the spellcasting aspect of it. The mod also has a very in-depth Patchouli guide, a book called the 'Worn Notebook', if you need more information than this questline, make sure to check it out! (As well as an AMAZING online Wiki)"
 				"Spells work in a simple way, you select the target, what the spell should do and modifiers then you're done!"
 				"Example: Selecting Projectile + Harm shoots harming rays while selecting Self + Heal allows you to heal yourself."
 			]

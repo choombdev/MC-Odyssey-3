@@ -1,3 +1,8 @@
+#If enabled, hides the config button from the backpack screen
+hideConfigButton = false
+#The alignment of the buttons in the backpack inventory screen
+#Allowed Values: LEFT, RIGHT
+buttonAlignment = "RIGHT"
 
 [client]
 
@@ -41,6 +46,8 @@
 		#The intensity of the custom bobbing animation while holding a gun
 		#Range: 0.0 ~ 2.0
 		bobbingIntensity = 1.0
+		#When enabled, the Camera Roll Effect is only applied when holding a weapon.
+		restrictCameraRollToWeapons = true
 
 	#Properties relating to particles
 	[client.particle]

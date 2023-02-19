@@ -221,6 +221,12 @@
 					type: "item"
 					item: "lightmanscurrency:coinpile_gold"
 				}
+				{
+					id: "45D6F9B1DB345A72"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
 			]
 		}
 		{

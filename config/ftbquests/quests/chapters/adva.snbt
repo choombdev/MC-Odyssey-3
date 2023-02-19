@@ -2752,6 +2752,19 @@
 				type: "item"
 				item: "mekanism:teleportation_core"
 			}]
+			rewards: [
+				{
+					id: "3D7BC9EA77F41A35"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5348617777777244959L
+				}
+				{
+					id: "205584060A467ABE"
+					type: "item"
+					item: "lightmanscurrency:coinpile_iron"
+				}
+			]
 		}
 		{
 			x: -16.5d
@@ -2847,6 +2860,25 @@
 					type: "item"
 					item: "mekanismgenerators:laser_focus_matrix"
 				}
+				{
+					id: "03F110A6208405DC"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:hohlraum"
+						Count: 1b
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										gasName: "mekanismgenerators:fusion_fuel"
+										amount: 10L
+									}
+								}]
+							}
+						}
+					}
+				}
 			]
 			rewards: [
 				{
@@ -2864,13 +2896,24 @@
 		{
 			x: -14.0d
 			y: -10.5d
+			description: [
+				"To jumpstart your reactor, other than the Hohlram, you'll need a Laser Amplifier charged with 400MRF, only chargeable through the use of Lasers!"
+				"These Lasers can also do alot of damage to mobs (or players), so, be careful!"
+			]
 			dependencies: ["09240B015754350A"]
 			id: "5C4434E985C69B35"
-			tasks: [{
-				id: "69F9D72F0FEAB28D"
-				type: "item"
-				item: "mekanism:laser"
-			}]
+			tasks: [
+				{
+					id: "69F9D72F0FEAB28D"
+					type: "item"
+					item: "mekanism:laser"
+				}
+				{
+					id: "739126DBD285DF89"
+					type: "item"
+					item: "mekanism:laser_amplifier"
+				}
+			]
 			rewards: [
 				{
 					id: "2A567B42DE8558B7"
@@ -2887,6 +2930,7 @@
 		{
 			x: -13.0d
 			y: -7.0d
+			description: ["Creates Brine and Lithium, very helpful!"]
 			dependencies: ["313FD7560F55F79B"]
 			id: "2398DDE1EC0C8D20"
 			tasks: [
@@ -2924,6 +2968,7 @@
 		{
 			x: -13.0d
 			y: -8.0d
+			description: ["Turns your Lithium to Tritium with the power of the sun."]
 			dependencies: ["2398DDE1EC0C8D20"]
 			id: "628CF866FDF474C1"
 			tasks: [{
@@ -3204,13 +3249,30 @@
 		{
 			x: -13.0d
 			y: -4.0d
+			description: [
+				"To create a Fission Reactor, you'll need fuel, a whole lot of it."
+				"Fissile Fuel is created from rotating Uranium Hexaflouride very very quickly, so, once you've got a very stable (and I mean VERY) source of Uranium Hexaflouride, you'll need to run them through this little machine here!"
+			]
 			dependencies: ["313FD7560F55F79B"]
 			id: "56DDDB405ABCB763"
 			tasks: [{
-				id: "07D773050B0D71AC"
+				id: "63EE1D533C75CE40"
 				type: "item"
-				item: "mekanism:electrolytic_separator"
+				item: "mekanism:isotopic_centrifuge"
 			}]
+			rewards: [
+				{
+					id: "7462B94AC371C4B8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6662433201225807513L
+				}
+				{
+					id: "455DB677D8FC4DEB"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+				}
+			]
 		}
 		{
 			x: -10.0d

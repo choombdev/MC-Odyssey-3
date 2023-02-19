@@ -492,15 +492,15 @@
 			}]
 			rewards: [
 				{
-					id: "5CEF36B29E02D7DA"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 6662433201225807513L
-				}
-				{
 					id: "6DC684156C5D7B7D"
 					type: "item"
 					item: "lightmanscurrency:coinpile_diamond"
+				}
+				{
+					id: "6C8FDE1BEBCAC3AD"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8510385002616264230L
 				}
 			]
 		}

@@ -115,6 +115,10 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "infernalexp:glowstone_canyon",
 				"weight": 2
+			},
+			{
+				"data": "arsomega:demon_biome",
+				"weight": 2
 			}
 		]
 	},
@@ -227,6 +231,10 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "infernalexp:glowstone_canyon",
 				"weight": 2
+			},
+			{
+				"data": "arsomega:demon_biome",
+				"weight": 2
 			}
 		]
 	},
@@ -323,6 +331,10 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "infernalexp:glowstone_canyon",
+				"weight": 2
+			},
+			{
+				"data": "arsomega:demon_biome",
 				"weight": 2
 			}
 		]
