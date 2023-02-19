@@ -5,12 +5,10 @@ onEvent('recipes', event => {
     event.recipes.createMixing('alltheores:steel_ingot', [
         'minecraft:iron_ingot',
         'minecraft:coal', 
-        'minecraft:coal', 
-        'minecraft:coal', 
         'minecraft:coal'
       ]).heated()
     
-    event.recipes.createMixing('alltheores:enderium_ingot', [
+    event.recipes.createMixing('2x alltheores:enderium_ingot', [
         'alltheores:lead_ingot',
         'alltheores:lead_ingot',
         'alltheores:lead_ingot',
@@ -19,7 +17,7 @@ onEvent('recipes', event => {
         'minecraft:ender_pearl'
     ]).heated()
 
-    event.recipes.createMixing('alltheores:signalum_ingot', [
+    event.recipes.createMixing('4x alltheores:signalum_ingot', [
         'minecraft:copper_ingot',
         'minecraft:copper_ingot',
         'minecraft:copper_ingot',
@@ -31,12 +29,8 @@ onEvent('recipes', event => {
 
     ]).heated()
 
-    event.recipes.createMixing('alltheores:electrum_ingot', [
-        'minecraft:gold_ingot',
-        'alltheores:silver_ingot'
-    ]).heated()
 
-    event.recipes.createMixing('alltheores:lumium_ingot', [
+    event.recipes.createMixing('4x alltheores:lumium_ingot', [
         'minecraft:glowstone_dust',
         'minecraft:glowstone_dust',
         'alltheores:tin_ingot',
@@ -45,20 +39,14 @@ onEvent('recipes', event => {
         'alltheores:silver_ingot'
     ]).heated()
     
-    event.recipes.createMixing('alltheores:invar_ingot', [
+    event.recipes.createMixing('3x alltheores:invar_ingot', [
         'alltheores:nickel_ingot',
         'minecraft:iron_ingot',
         'minecraft:iron_ingot'
 
     ]).heated()
-
-    event.recipes.createMixing('alltheores:constantan_ingot', [
-        'minecraft:copper_ingot',
-        'alltheores:nickel_ingot'
-    ]).heated()
-
     
-    event.recipes.createMixing('alltheores:bronze_ingot', [
+    event.recipes.createMixing('4x alltheores:bronze_ingot', [
         'minecraft:copper_ingot',
         'minecraft:copper_ingot',
         'minecraft:copper_ingot',
