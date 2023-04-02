@@ -1,5 +1,14 @@
 // This script was made by Choomb for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
+    // Sponges
+    event.shaped('minecraft:sponge', [
+      'WSW',
+      'SGS',
+      'WSW'
+      ], {
+      W: 'minecraft:yellow_wool', 
+      S: 'minecraft:prismarine_shard', 
+      G:'minecraft:gold_block'})
     // Clearing Patterns
     event.shapeless(Item.of('ae2:blank_pattern').ignoreNBT(), Item.of('ae2:crafting_pattern').ignoreNBT())
     // Saplings
