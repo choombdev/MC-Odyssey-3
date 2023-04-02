@@ -6,6 +6,8 @@ onEvent('item.tooltip', tooltip => {
   tooltip.add(['minecraft:lantern'], 'Placing lanterns in your Curio Charm slot allows them to function even without placing them down!')  
   tooltip.add(['/_spawn_egg$/'], 'Spawn Eggs can only be placed by using a Dispenser.')
 
+  tooltip.add(['cyclic:apple_ender'], 'Ender Apples are disabled due to a bug.')
+
   // Tooltip Additions
   tooltip.add(['kubejs:choomburgert5'], 'Gain control over [The World] with this one.')
 
