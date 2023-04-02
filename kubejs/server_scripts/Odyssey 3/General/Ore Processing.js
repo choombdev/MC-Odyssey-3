@@ -51,5 +51,6 @@ onEvent('recipes', event => {
             event.recipes.mekanismCrushing('alltheores:' + material + '_dust', 'alltheores:' + material + '_ingot')        
           }
         })
-
+// Removing any conflicting recipes
+event.remove({id: 'alltheores:lumium_dust_from_alloy_blending'})
 })
