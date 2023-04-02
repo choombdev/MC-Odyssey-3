@@ -107,23 +107,6 @@
 		{ item: "kubejs:choomburgert3", count: 9, weight: 50 }
 		{ item: "byg:pendorite_ingot", count: 10, weight: 30 }
 		{ item: "kubejs:choombium_ingot", count: 4 }
-		{
-			item: {
-				id: "sophisticatedbackpacks:netherite_backpack"
-				Count: 1b
-				tag: {
-					contentsUuid: [I;
-						2107568943
-						1972981341
-						-1751881691
-						2036966889
-					]
-					inventorySlots: 120
-					upgradeSlots: 7
-				}
-			}
-			weight: 30
-		}
 		{ item: "thermal:rose_gold_ingot", count: 6, weight: 50 }
 		{ item: "redstone_arsenal:flux_ingot", count: 4, weight: 40 }
 		{ item: "redstone_arsenal:obsidian_rod", count: 4, weight: 50 }

@@ -61,8 +61,8 @@
 				id: "constructionwand:stone_wand"
 				Count: 1b
 				tag: {
-					Damage: 0
 					wand_options: { }
+					Damage: 0
 				}
 			}
 			weight: 44
@@ -110,7 +110,6 @@
 		{ item: "thermal:bitumen", count: 16, weight: 15 }
 		{ item: "thermal:apple_block", weight: 50 }
 		{ item: "thermal:potato_block", weight: 50 }
-		{ item: "sophisticatedbackpacks:backpack", weight: 15 }
 		{ item: "simpleplanes:propeller", count: 5, weight: 41 }
 		{ item: "simpleplanes:plane_workbench", weight: 31 }
 		{ item: "mob_grinding_utils:mob_swab", weight: 55 }
@@ -161,7 +160,6 @@
 				ForgeCaps: {
 					Parent: {
 						Items: [{
-							amount: 0
 							filter: {
 								id: "minecraft:air"
 								Count: 0b
@@ -169,6 +167,7 @@
 									data_model: { }
 								}
 							}
+							amount: 0
 						}]
 					}
 				}
@@ -393,8 +392,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:protection"
 						lvl: 4s
+						id: "minecraft:protection"
 					}]
 				}
 			}
@@ -406,8 +405,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
+						lvl: 3s
 						id: "minecraft:soul_speed"
-						lvl: 3s
 					}]
 				}
 			}
@@ -419,8 +418,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
+						lvl: 5s
 						id: "minecraft:sharpness"
-						lvl: 5s
 					}]
 				}
 			}
@@ -432,8 +431,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
+						lvl: 5s
 						id: "minecraft:smite"
-						lvl: 5s
 					}]
 				}
 			}
@@ -445,8 +444,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
+						lvl: 5s
 						id: "minecraft:bane_of_arthropods"
-						lvl: 5s
 					}]
 				}
 			}
@@ -458,8 +457,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
+						lvl: 2s
 						id: "minecraft:knockback"
-						lvl: 2s
 					}]
 				}
 			}
@@ -471,8 +470,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
+						lvl: 2s
 						id: "minecraft:fire_aspect"
-						lvl: 2s
 					}]
 				}
 			}
@@ -484,8 +483,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
+						lvl: 3s
 						id: "minecraft:looting"
-						lvl: 3s
 					}]
 				}
 			}
@@ -497,8 +496,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:efficiency"
 						lvl: 5s
+						id: "minecraft:efficiency"
 					}]
 				}
 			}
@@ -510,8 +509,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:loyalty"
 						lvl: 3s
+						id: "minecraft:loyalty"
 					}]
 				}
 			}
@@ -523,8 +522,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:mending"
 						lvl: 1s
+						id: "minecraft:mending"
 					}]
 				}
 			}
@@ -535,8 +534,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:impaling"
 						lvl: 5s
+						id: "minecraft:impaling"
 					}]
 				}
 			}
@@ -548,8 +547,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
+						lvl: 3s
 						id: "minecraft:unbreaking"
-						lvl: 3s
 					}]
 				}
 			}
@@ -561,8 +560,8 @@
 				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						id: "minecraft:riptide"
 						lvl: 3s
+						id: "minecraft:riptide"
 					}]
 				}
 			}

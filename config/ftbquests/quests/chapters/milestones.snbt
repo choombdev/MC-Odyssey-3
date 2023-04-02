@@ -976,85 +976,18 @@
 					id: "tconstruct:cleaver"
 					Count: 1b
 					tag: {
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3125f
+							"tconstruct:attack_damage": 1.875f
+							"tconstruct:durability": 3.5f
+						}
 						tic_stats: {
+							"tconstruct:attack_speed": 1.1999999f
+							"tconstruct:mining_speed": 13.828125f
 							"tconstruct:attack_damage": 40.104f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:durability": 55314.0f
-							"tconstruct:mining_speed": 13.828125f
-							"tconstruct:attack_speed": 1.1999999f
 						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.3125f
-							"tconstruct:durability": 3.5f
-							"tconstruct:attack_damage": 1.875f
-						}
-						tic_upgrades: [
-							{
-								name: "tconstruct:creative_slot"
-								level: 1s
-							}
-							{
-								name: "tconstruct:reinforced"
-								level: 5s
-							}
-							{
-								name: "tconstruct:luck"
-								level: 3s
-							}
-							{
-								name: "tconstruct:diamond"
-								level: 1s
-							}
-							{
-								name: "tconstruct:emerald"
-								level: 1s
-							}
-							{
-								name: "tconstruct:netherite"
-								level: 1s
-							}
-							{
-								name: "tconstruct:swiftstrike"
-								level: 5s
-							}
-							{
-								name: "tconstruct:sharpness"
-								level: 5s
-							}
-							{
-								name: "tconstruct:severing"
-								level: 3s
-							}
-							{
-								name: "tconstruct:necrotic"
-								level: 5s
-							}
-							{
-								name: "tconstruct:experienced"
-								level: 5s
-							}
-							{
-								name: "tconstruct:haste"
-								level: 5s
-							}
-							{
-								name: "tcintegrations:mechanical_arm"
-								level: 1s
-							}
-							{
-								name: "tconstruct:unbreakable"
-								level: 1s
-							}
-							{
-								name: "bloodsmeltery:sentient"
-								level: 1s
-							}
-							{
-								name: "tconstruct:expanded"
-								level: 16s
-							}
-						]
 						tic_broken: 0b
 						tic_modifiers: [
 							{
@@ -1138,6 +1071,73 @@
 								level: 1s
 							}
 						]
+						tic_upgrades: [
+							{
+								name: "tconstruct:creative_slot"
+								level: 1s
+							}
+							{
+								name: "tconstruct:reinforced"
+								level: 5s
+							}
+							{
+								name: "tconstruct:luck"
+								level: 3s
+							}
+							{
+								name: "tconstruct:diamond"
+								level: 1s
+							}
+							{
+								name: "tconstruct:emerald"
+								level: 1s
+							}
+							{
+								name: "tconstruct:netherite"
+								level: 1s
+							}
+							{
+								name: "tconstruct:swiftstrike"
+								level: 5s
+							}
+							{
+								name: "tconstruct:sharpness"
+								level: 5s
+							}
+							{
+								name: "tconstruct:severing"
+								level: 3s
+							}
+							{
+								name: "tconstruct:necrotic"
+								level: 5s
+							}
+							{
+								name: "tconstruct:experienced"
+								level: 5s
+							}
+							{
+								name: "tconstruct:haste"
+								level: 5s
+							}
+							{
+								name: "tcintegrations:mechanical_arm"
+								level: 1s
+							}
+							{
+								name: "tconstruct:unbreakable"
+								level: 1s
+							}
+							{
+								name: "bloodsmeltery:sentient"
+								level: 1s
+							}
+							{
+								name: "tconstruct:expanded"
+								level: 16s
+							}
+						]
+						Damage: 0
 						tic_materials: [
 							"mysticalagradditions:supremium"
 							"tinkers_reforged:durasteel"
@@ -1145,24 +1145,24 @@
 							"mysticalagradditions:supremium"
 						]
 						tic_volatile_data: {
-							"tconstruct:indestructible": 1b
-							upgrades: 35
+							abilities: 19
 							"tconstruct:rarity": 2
+							"tconstruct:indestructible": 1b
 							souls: 19
 							"tconstruct:duel_wielding": 1b
-							abilities: 19
+							upgrades: 35
 						}
 						tic_persistent_data: {
-							"tconstruct:haste": 45
 							abilities: -19
 							"tconstruct:creative": {
 								souls: 19
 								abilities: 19
 								upgrades: 35
 							}
+							"tconstruct:sharpness": 36
 							"tconstruct:swiftstrike": 72
 							upgrades: -34
-							"tconstruct:sharpness": 36
+							"tconstruct:haste": 45
 							"tconstruct:reinforced": 24
 						}
 					}
