@@ -156,6 +156,8 @@ onEvent('jei.hide.items', event => {
 
 		// Sulfur
 		event.add('bloodmagic:sulfur')
+		event.add('mekanism:dust_sulfur')
+
 
 
 	})
