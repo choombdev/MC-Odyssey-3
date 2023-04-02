@@ -1,9 +1,8 @@
 // This script was made by choombdev for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
     // Removing all Old Recipes
-    ['alltheores:lead_ingot', 'alltheores:bronze_ingot', 'alltheores:steel_ingot', 'alltheores:invar_ingot', 'alltheores:signalum_ingot','alltheores:copper_gear', 'alltheores:gold_gear', 'alltheores:invar_gear', 'alltheores:constantan_gear', 'alltheores:electrum_gear', 'minecraft:redstone', 'minecraft:glass', 'minecraft:bucket', 'minecraft:hopper']
     event.remove({output: 'refinedpipes:basic_item_pipe'})
-    event.shaped('refinedpipes:basic_item_pipe', [
+    event.shaped('16x refinedpipes:basic_item_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -13,7 +12,7 @@ onEvent('recipes', event => {
         D: 'minecraft:glass'
         })
     event.remove({output: 'refinedpipes:improved_item_pipe'})
-    event.shaped('refinedpipes:improved_item_pipe', [
+    event.shaped('16x refinedpipes:improved_item_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -23,7 +22,7 @@ onEvent('recipes', event => {
         G: 'alltheores:gold_gear'
     })
     event.remove({output: 'refinedpipes:advanced_item_pipe'})
-    event.shaped('refinedpipes:advanced_item_pipe', [
+    event.shaped('16x refinedpipes:advanced_item_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -34,7 +33,7 @@ onEvent('recipes', event => {
     })
     // Fluid
     event.remove({output: 'refinedpipes:basic_fluid_pipe'})
-    event.shaped('refinedpipes:basic_fluid_pipe', [
+    event.shaped('16x refinedpipes:basic_fluid_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -44,7 +43,7 @@ onEvent('recipes', event => {
         D: 'minecraft:bucket'
     })
     event.remove({output: 'refinedpipes:improved_fluid_pipe'})
-    event.shaped('refinedpipes:improved_fluid_pipe', [
+    event.shaped('16x refinedpipes:improved_fluid_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -54,7 +53,7 @@ onEvent('recipes', event => {
         G: 'alltheores:gold_gear'
     })
     event.remove({output: 'refinedpipes:advanced_fluid_pipe'})
-    event.shaped('refinedpipes:advanced_fluid_pipe', [
+    event.shaped('16x refinedpipes:advanced_fluid_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -64,7 +63,7 @@ onEvent('recipes', event => {
         C: 'alltheores:steel_ingot'
     })
     event.remove({output: 'refinedpipes:elite_fluid_pipe'})
-    event.shaped('refinedpipes:elite_fluid_pipe', [
+    event.shaped('16x refinedpipes:elite_fluid_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -74,7 +73,7 @@ onEvent('recipes', event => {
         C: 'alltheores:invar_ingot'
     })
     event.remove({output: 'refinedpipes:ultimate_fluid_pipe'})
-    event.shaped('refinedpipes:ultimate_fluid_pipe', [
+    event.shaped('16x refinedpipes:ultimate_fluid_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -85,7 +84,7 @@ onEvent('recipes', event => {
     })
     // Energy Pipes
     event.remove({output: 'refinedpipes:basic_energy_pipe'})
-    event.shaped('refinedpipes:basic_energy_pipe', [
+    event.shaped('16x refinedpipes:basic_energy_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -95,7 +94,7 @@ onEvent('recipes', event => {
         D: 'minecraft:redstone_block'
     })
     event.remove({output: 'refinedpipes:improved_energy_pipe'})
-    event.shaped('refinedpipes:improved_energy_pipe', [
+    event.shaped('16x refinedpipes:improved_energy_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -105,7 +104,7 @@ onEvent('recipes', event => {
         G: 'alltheores:gold_gear'
     })
     event.remove({output: 'refinedpipes:advanced_energy_pipe'})
-    event.shaped('refinedpipes:advanced_energy_pipe', [
+    event.shaped('16x refinedpipes:advanced_energy_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -115,7 +114,7 @@ onEvent('recipes', event => {
         C: 'alltheores:steel_ingot'
     })
     event.remove({output: 'refinedpipes:elite_energy_pipe'})
-    event.shaped('refinedpipes:elite_energy_pipe', [
+    event.shaped('16x refinedpipes:elite_energy_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -125,7 +124,7 @@ onEvent('recipes', event => {
         C: 'alltheores:invar_ingot'
     })
     event.remove({output: 'refinedpipes:ultimate_energy_pipe'})
-    event.shaped('refinedpipes:ultimate_energy_pipe', [
+    event.shaped('16x refinedpipes:ultimate_energy_pipe', [
         ' G ',
         'CDC',
         ' G '
@@ -136,7 +135,7 @@ onEvent('recipes', event => {
     })
     // Extractors
     event.remove({output: 'refinedpipes:basic_extractor_attachment'})
-    event.shaped('refinedpipes:basic_extractor_attachment', [
+    event.shaped('16x refinedpipes:basic_extractor_attachment', [
         ' G ',
         'CDC',
         ' G '
@@ -146,7 +145,7 @@ onEvent('recipes', event => {
         D: 'minecraft:hopper'
     })
     event.remove({output: 'refinedpipes:improved_extractor_attachment'})
-    event.shaped('refinedpipes:improved_extractor_attachment', [
+    event.shaped('16x refinedpipes:improved_extractor_attachment', [
         ' G ',
         'CDC',
         ' G '
@@ -166,7 +165,7 @@ onEvent('recipes', event => {
         C: 'alltheores:steel_ingot'
     })
     event.remove({output: 'refinedpipes:elite_extractor_attachment'})
-    event.shaped('refinedpipes:elite_extractor_attachment', [
+    event.shaped('16x refinedpipes:elite_extractor_attachment', [
         ' G ',
         'CDC',
         ' G '
@@ -176,7 +175,7 @@ onEvent('recipes', event => {
         C: 'alltheores:invar_ingot'
     })
     event.remove({output: 'refinedpipes:ultimate_extractor_attachment'})
-    event.shaped('refinedpipes:ultimate_extractor_attachment', [
+    event.shaped('16x refinedpipes:ultimate_extractor_attachment', [
         ' G ',
         'CDC',
         ' G '
