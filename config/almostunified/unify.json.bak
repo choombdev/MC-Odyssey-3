@@ -84,7 +84,6 @@
   ],
   "priorityOverrides": {},
   "ignoredTags": [],
-  "ignoredItems": [],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag",
     "exmachinis:compacting"

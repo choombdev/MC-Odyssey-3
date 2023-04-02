@@ -944,10 +944,10 @@
 					id: "industrialforegoing:infinity_backpack"
 					Count: 1b
 					tag: {
-						Energy: 0L
 						CanCharge: 1b
 						Special: 0b
 						Selected: "POOR"
+						Energy: 0L
 					}
 				}
 			}]

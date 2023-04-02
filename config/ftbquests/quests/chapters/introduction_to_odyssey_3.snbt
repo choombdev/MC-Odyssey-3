@@ -626,11 +626,11 @@
 					Count: 1b
 					tag: {
 						state: {
+							serializer: "buildinggadgets:dummy_serializer"
 							state: {
 								Name: "minecraft:air"
 							}
 							data: { }
-							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}

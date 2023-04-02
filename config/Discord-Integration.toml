@@ -116,6 +116,8 @@ args = [    ]
   sayCommandIgnoredPrefix = "§4§6§k§r"
   # Should tamed entity death be visible in discord?
   sendDeathMessagesForTamedAnimals = false
+  # Should Discord users have their role color ingame?
+  discordRoleColorIngame = true
 # Advanced options
 [advanced]
   # Custom channel ID for server specific messages (like Join/leave)

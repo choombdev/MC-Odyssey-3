@@ -3561,9 +3561,9 @@
 					Count: 1b
 					tag: {
 						connectionpos: {
-							Z: 0
 							X: 0
 							Y: 0
+							Z: 0
 						}
 					}
 				}
