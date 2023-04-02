@@ -12,7 +12,7 @@
 	#Bonus Experience and Drops
 	"Enable Rewards" = true
 	#Wither will spawn deadly Minions
-	"Enable Minions" = true
+	"Enable Minions" = false
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	"Enable Attack" = true
 
@@ -48,7 +48,7 @@
 		#The Wither will no longer wait 1.0 seconds before breaking blocks when he's hit, instead just 0.5s
 		"Faster Breaking Blocks" = true
 		#The Wither will break even blocks below him when hit.
-		"Bigger Breaking Blocks" = true
+		"Bigger Breaking Blocks" = false
 		#If true the Wither will break even blocks that are witherproof. Unbreakable blocks will still be unbreakable, so it's really useful with other mods as in vanilla Wither Proof Blocks are all the unbreakable blocks.
 		"Ignore Witherproof Blocks" = false
 		#The wither can only be spawned in the Nether.
