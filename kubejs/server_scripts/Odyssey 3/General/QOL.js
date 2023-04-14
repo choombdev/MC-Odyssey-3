@@ -1,5 +1,10 @@
 // This script was made by Choomb for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
+
+  // Cutting Recipes
+  event.stonecutting('mekanism:block_steel', 'alltheores:steel_block')
+  event.stonecutting('immersiveengineering:storage_steel', 'alltheores:steel_block')
+
     // Sponges
     event.shaped('minecraft:sponge', [
       'WSW',
@@ -13,6 +18,7 @@ onEvent('recipes', event => {
     event.shapeless(Item.of('ae2:blank_pattern').ignoreNBT(), Item.of('ae2:crafting_pattern').ignoreNBT())
     // Saplings
     event.shapeless('tconstruct:blood_slime_sapling', ['tconstruct:blood_slime_ball', '#forge:sapling'])
+    
     // Unifying Silicon
     event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon')
     event.replaceInput({}, 'ae2:silicon', '#forge:silicon')
@@ -32,6 +38,7 @@ onEvent('recipes', event => {
     event.shapeless('minecraft:ink_sac', ['minecraft:black_dye', 'minecraft:leather'])
     // Toast
     event.smelting('pamhc2foodcore:toastitem', 'minecraft:bread')
+
     // Craftable Elytra
     event.shaped('minecraft:elytra', [
       'SSS',
@@ -42,6 +49,7 @@ onEvent('recipes', event => {
       A: 'reliquary:bat_wing',
       B: 'minecraft:nether_star'
     })
+
     // Menril Chest
     event.shaped('minecraft:chest', [
       'SSS',

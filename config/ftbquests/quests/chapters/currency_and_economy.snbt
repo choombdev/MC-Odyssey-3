@@ -606,7 +606,6 @@
 		{
 			x: 3.0d
 			y: -0.5d
-			subtitle: "I know what it looks like."
 			description: [
 				"Your very own Metro station (or concert, somehow). You can use these, alongside other blocks, to automate entry into a place."
 				"Place a paper, craft a ticket then place the ticket back in to create your Master ticket."

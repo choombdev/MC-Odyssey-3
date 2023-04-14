@@ -54,8 +54,8 @@ customization {
 customization {
   orientation = bottom-centered
   background_color = 333333
-  x = -456
-  width = 915
+  x = -455
+  width = 900
   bar_color = FFFFFF
   action = custom_layout_element:drippy_custom_loading_bar
   actionid = a214b4dd-d884-4acf-94b9-e1bb16a6c4091680404016048
@@ -63,5 +63,24 @@ customization {
   progress_for_element_orientation = false
   direction = right
   height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Loading Odyssey 3...
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 395
+  width = 159
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = fe09ac6d-9d9f-498e-aade-84d03fa537901681443057514
+  y = 498
+  alignment = centered
+  height = 17
 }
 
