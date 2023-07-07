@@ -1,6 +1,8 @@
 {
   "config": {
-    "extraLootingLevel": 0
+    "extraLootingLevel": 0,
+    "isEnable": false
+
   },
   "loot": []
 }
