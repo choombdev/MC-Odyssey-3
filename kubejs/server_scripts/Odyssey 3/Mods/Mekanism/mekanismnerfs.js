@@ -24,7 +24,7 @@
     G: 'alltheores:signalum_gear',
     P: 'alltheores:electrum_plate',
     A: 'mekanism:alloy_atomic',
-    C: 'mekanism:alloy_reinforced'
+    C: 'mekanism:advanced_control_circuit'
   })
   // Ultimate Circuit
   event.remove({output: 'mekanism:ultimate_control_circuit'})
