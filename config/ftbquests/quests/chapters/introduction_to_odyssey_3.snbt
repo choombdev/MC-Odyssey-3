@@ -983,12 +983,18 @@
 			x: -9.0d
 			y: 0.5d
 			subtitle: "Walking Encyclopedia"
-			description: ["The Akashic Tome mod allows you to carry all your books in just one book. If you ever lose it, make sure to check out the 'Emergency Items' button in the Quests tab."]
+			description: ["The Eccentric Tome mod allows you to carry all your books in just one book. If you ever lose it, make sure to check out the 'Emergency Items' button in the Quests tab."]
 			id: "1D749028F8F62CCD"
 			tasks: [{
 				id: "05A45250E4F53660"
 				type: "item"
-				item: "akashictome:tome"
+				item: {
+					id: "eccentrictome:tome"
+					Count: 1b
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
 			}]
 		}
 		{
@@ -2093,6 +2099,31 @@
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 5348617777777244959L
+			}]
+		}
+		{
+			title: "Anti-Wanderer Club"
+			x: -3.5d
+			y: 5.0d
+			description: ["Too annoyed by those pesky Traders? Well, let them know you don't want them here (Or want them at a specific locations) with the NoMoreWanderer mod."]
+			dependencies: ["3CDDD86E0792B205"]
+			id: "02703E524DA417FE"
+			tasks: [
+				{
+					id: "5307A6B414C4481C"
+					type: "item"
+					item: "nomowanderer:no_soliciting_sign"
+				}
+				{
+					id: "5BA3D83D45244D12"
+					type: "item"
+					item: "nomowanderer:trader_rug"
+				}
+			]
+			rewards: [{
+				id: "365F642B9B1C0B48"
+				type: "item"
+				item: "lightmanscurrency:coinpile_copper"
 			}]
 		}
 	]
