@@ -135,7 +135,7 @@
 			}
 		}
 	}]
-	emergency_items_cooldown: 300
+	emergency_items_cooldown: 0
 	drop_loot_crates: false
 	loot_crate_no_drop: {
 		passive: 4000
