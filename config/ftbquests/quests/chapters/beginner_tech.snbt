@@ -2467,38 +2467,6 @@
 			]
 		}
 		{
-			x: 8.5d
-			y: -7.5d
-			subtitle: "IE who?"
-			description: ["Just like in Immersive Engineering, you've got your basic battery and wire-connectors here!"]
-			dependencies: ["3D2C441F5EEC9FDF"]
-			id: "141A290CD72DD548"
-			tasks: [
-				{
-					id: "0E02F80BDE4DE9A3"
-					type: "item"
-					item: "createaddition:accumulator"
-				}
-				{
-					id: "0647C2162F921234"
-					type: "item"
-					item: "createaddition:connector"
-				}
-			]
-			rewards: [
-				{
-					id: "3CDF5AE86B8174E8"
-					type: "loot"
-					table_id: 6662433201225807513L
-				}
-				{
-					id: "36147483BE2C853F"
-					type: "item"
-					item: "lightmanscurrency:coinpile_iron"
-				}
-			]
-		}
-		{
 			x: -4.5d
 			y: -12.0d
 			subtitle: "Hammerin' Time (again)"
