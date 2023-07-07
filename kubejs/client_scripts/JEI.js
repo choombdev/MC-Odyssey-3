@@ -158,6 +158,8 @@ onEvent('jei.hide.items', event => {
 		event.add('bloodmagic:sulfur')
 		event.add('mekanism:dust_sulfur')
 
+		// Create Iron Plate
+		event.add('create:iron_sheet')
 
 
 	})

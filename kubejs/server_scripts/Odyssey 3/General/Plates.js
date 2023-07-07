@@ -17,4 +17,7 @@ mcmaterials.forEach(material => {
 event.recipes.immersiveengineeringMetalPress('alltheores:diamond_plate', 'minecraft:diamond', 'immersiveengineering:mold_plate')
 event.recipes.thermal.press('alltheores:diamond_plate', 'minecraft:diamond')
 event.recipes.createPressing('alltheores:diamond_plate', 'minecraft:diamond')
+
+// Create Iron Sheet needs to be craftable
+event.shapeless('create:iron_sheet', 'alltheores:iron_plate')
 })
