@@ -21,6 +21,7 @@ customization {
 customization {
   orientation = top-left
   hidden = true
+  original_pos_size_calculation = true
   x = 210
   width = 540
   action = deep_customization_element:drippy_overlay_logo
@@ -43,6 +44,7 @@ customization {
 customization {
   orientation = top-left
   hidden = true
+  original_pos_size_calculation = true
   x = 210
   width = 540
   action = deep_customization_element:drippy_overlay_progress_bar
@@ -66,7 +68,7 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = bottom-centered
   enable_scrolling = false
   shadow = true
   scale = 1.0
@@ -75,12 +77,23 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 395
+  x = -79
   width = 159
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = fe09ac6d-9d9f-498e-aade-84d03fa537901681443057514
-  y = 498
+  y = -42
   alignment = centered
   height = 17
+}
+
+customization {
+  path = config/resources/logooddy.png
+  orientation = top-left
+  x = 0
+  width = 100
+  action = addtexture
+  actionid = 8a8bfdbb-dabf-4b8a-a686-52e027ad78101682639600372
+  y = 0
+  height = 100
 }
 

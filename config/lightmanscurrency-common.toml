@@ -7,7 +7,7 @@
 	#Range: 0 ~ 3
 	debugLevel = 0
 
-	#Crafting Settings.
+	#Crafting Settings
 	[common.crafting]
 		#Whether Network Traders can be crafted.
 		#Disabling will not remove any existing Network Traders from the world, nor prevent their use.
@@ -23,7 +23,27 @@
 		#/reload required for changes to take effect.
 		allowAuctionStandCrafting = true
 
-	#Villager Related Settings.
+		#Coin Chest Related Crafting Settings
+		[common.crafting.coin_chest]
+			#Whether the Coin Chest can be crafted.
+			#Disabling will not remove any existing Coin Chests from the world, nor prevent their use.
+			#Disabling does NOT disable the recipes of Coin Chest Upgrades.
+			#/reload required for changes to take effect.
+			allowChestCrafting = true
+			#Whether the Coin Chest Exchange Upgrade can be crafted.
+			#Disabling will not remove any existing Coin Chest Exchange Upgrades from the world, nor prevent their use.
+			#/reload required for changes to take effect.
+			allowExchangeUpgradeCrafting = true
+			#Whether the Coin Chest Magnet Upgrades can be crafted.
+			#Disabling will not remove any existing Coin Chest Magnet Upgrades from the world, nor prevent their use.
+			#/reload required for changes to take effect.
+			allowMagnetUpgradeCrafting = true
+			#Whether the Coin Chest Security Upgrades can be crafted.
+			#Disabling will not remove any existing Coin Chest Security Upgrades from the world, nor prevent their use.
+			#/reload required for changes to take effect.
+			allowSecurityUpgradeCrafting = true
+
+	#Villager Related Settings
 	#Note: Any changes to villagers requires a full reboot to be applied due to how Minecraft/Forge registers trades.
 	[common.villagers]
 		#Whether the wandering trader will have additional trades that allow you to buy misc items with money.

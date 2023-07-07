@@ -30,13 +30,8 @@
   parseMentionsIngame = true
   # Set to true to supress warning of unsafe mod download location
   ignoreFileSource = false
-  # Set to true to allow relaying webhook messages
-  allowWebhookMessages = false
 # Configuration options for commands
 [commands]
-  # Toggle the entire command feature
-  # Disabling this will disable registering any commands to discord
-  enabled = true
   # The Role IDs of your Admin Roles
   # Now supports multiple roles which can access admin commands
 adminRoleIDs = [    ]
@@ -116,8 +111,6 @@ args = [    ]
   sayCommandIgnoredPrefix = "§4§6§k§r"
   # Should tamed entity death be visible in discord?
   sendDeathMessagesForTamedAnimals = false
-  # Should Discord users have their role color ingame?
-  discordRoleColorIngame = true
 # Advanced options
 [advanced]
   # Custom channel ID for server specific messages (like Join/leave)
@@ -152,13 +145,6 @@ IMC_modIdBlacklist = [  "examplemod"  ]
   enableLinking = true
   # Set Discord nicknames to match Minecraft usernames when linked
   shouldNickname = false
-  # Enable global linking?
-  # Does not work in offline mode
-  globalLinking = true
-  # Database interface class
-  # This allows you to change your database implementation
-  # Do not change without knowing what you are doing
-  databaseClass = "de.erdbeerbaerlp.dcintegration.common.storage.database.SQLiteInterface"
   # Role ID of an role an player should get when he links his discord account
   # Leave as 0 to disable
   linkedRoleID = "0"
