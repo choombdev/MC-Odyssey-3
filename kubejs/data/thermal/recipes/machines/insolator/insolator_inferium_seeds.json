@@ -1,0 +1,17 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:inferium_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:inferium_essence",
+      "chance": 1.0
+    },
+    {
+      "item": "mysticalagriculture:inferium_seeds",
+      "chance": 1.0
+    }
+  ],
+  "water_mod": 0.5
+}
