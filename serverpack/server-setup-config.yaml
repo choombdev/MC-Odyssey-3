@@ -65,8 +65,7 @@ install:
         - 280294 # FPSReducer
         - 511770 # DrippyLoadingScreen
         - 314002 # Overloaded Armor Bar
-        - 513857 # OAuth
-        - 429926 # SeamlessLoadingScreen
+        - 237701 # ReAuth
         - 306549 # Tips
         - 492574 # My Server Is Compatible
         - 271740 # Toast Control
@@ -83,6 +82,7 @@ install:
         - 628345 # Entity Collision
         - 551736 # Magnesium/Rubidium Dynamic Lights
         - 821790 # Lightspeed
+        - 492246 # Max Health Fix
 
   # The base path where the server should be installed to, ~ for current path
   baseInstallPath: setup/

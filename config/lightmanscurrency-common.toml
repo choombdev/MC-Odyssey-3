@@ -22,6 +22,10 @@
 		#Disabling will not remove any existing Auction Stands from the world, nor prevent their use.
 		#/reload required for changes to take effect.
 		allowAuctionStandCrafting = true
+		#Whether Tax Blocks can be crafted.
+		#Disabling will not remove any existing Tax Blocks from the world, nor prevent their use.
+		#/reload required for changes to take effect.
+		allowTaxBlockCrafting = true
 
 		#Coin Chest Related Crafting Settings
 		[common.crafting.coin_chest]
@@ -69,7 +73,7 @@
 			traderOverrides = ["minecraft:butcher-lightmanscurrency:coin_iron", "minecraft:cartographer-lightmanscurrency:coin_iron", "minecraft:farmer-lightmanscurrency:coin_iron", "minecraft:fisherman-lightmanscurrency:coin_iron", "minecraft:fletcher-lightmanscurrency:coin_copper", "minecraft:leatherworker-lightmanscurrency:coin_iron", "minecraft:mason-lightmanscurrency:coin_iron", "minecraft:shepherd-lightmanscurrency:coin_iron"]
 
 	#Loot item customization. Accepts item ids (i.e. lightmanscurrency:coin_copper).
-	#Input 'minecraft:air' to not spawn loot of that tier (so that you can use higher-tier spawn rates without the presence of lower-tier loot).
+	#Leave blank (lootItemT? = "") to not spawn loot of that tier (so that you can use higher-tier spawn rates without the presence of lower-tier loot).
 	[common.loot_customization]
 		#T1 loot item. Used for T1-T6 entity & chest loot drops.
 		lootItemT1 = "lightmanscurrency:coin_copper"

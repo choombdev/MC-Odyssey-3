@@ -51,17 +51,15 @@
 
 	#Inventory Button Settings
 	[client.inventory_buttons]
-		#The x position that the notification & team manager buttons will be placed at in the players inventory.
-		#Range: > -2147483648
+		#The position that the notification & team manager buttons will be placed at in the players inventory.
+		#Range: -1000 ~ 1000
 		buttonX = 152
-		#The x position that the notification & team manager buttons will be placed at in the players inventory.
-		#Range: > -2147483648
+		#Range: -1000 ~ 1000
 		buttonY = 3
-		#The x position that the notification & team manager buttons will be placed at in the players creative inventory.
-		#Range: > -2147483648
+		#The position that the notification & team manager buttons will be placed at in the players creative inventory.
+		#Range: -1000 ~ 1000
 		buttonCreativeX = 171
-		#The y position that the notification & team manager buttons will be placed at in the players creative inventory.
-		#Range: > -2147483648
+		#Range: -1000 ~ 1000
 		buttonCreativeY = 3
 
 	#Notification Settings

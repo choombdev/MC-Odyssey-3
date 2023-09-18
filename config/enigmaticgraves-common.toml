@@ -5,6 +5,8 @@
 	spawnGraveFinder = true
 	#Set to false to disable retrieval by sneaking on top of the grave.
 	sneakRetrieval = true
+	#Should any player be allowed to retrieve anyones graves.
+	allowNonOwnerRetrieval = false
 
 #How the grave data is handled
 [data]
