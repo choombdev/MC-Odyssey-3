@@ -31,8 +31,8 @@ onEvent('jei.hide.items', event => {
 		// Spawn Eggs
 	event.hide('/_spawn_egg$/')
 		// AE2 Facades
-	event.hide(Item.of('ae2:facade').ignoreNBT())
-	event.hide(/^ae2:facade$/)
+	//event.hide(Item.of('ae2:facade').ignoreNBT())
+	//event.hide(/^ae2:facade$/)
 		// Tinker's Construct 
 	event.hide('#tconstruct:modifiable')
 	event.hide(Item.of('tconstruct:potion_bucket').ignoreNBT())
