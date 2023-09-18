@@ -1,16 +1,17 @@
 // This script was made by choombdev for Odyssey 3, reusing it without explicit permission is not allowed.
 onEvent('recipes', event => {
 
- // Add fertilizer compat, mirroring values from the phytogenic insolator
+// Add fertilizer compat, mirroring values from the phytogenic insolator
  let fertilizers = [
-  {id: 'thermal:phytogro', multiplier: 3.0},
-  {id: 'create:tree_fertilizer', multiplier: 2.0},
-  {id: 'thermal:compost', multiplier: 1.75}
- ]
- fertilizers.forEach(fert => {
-  event.recipes.immersiveengineeringFertilizer(fert.id).growthModifier(fert.multiplier)
- })
-
+    {id: 'thermal:phytogro', multiplier: 3.0},
+    {id: 'create:tree_fertilizer', multiplier: 2.0},
+    {id: 'thermal:compost', multiplier: 1.75}
+   ]
+fertilizers.forEach(fert => {
+    event.recipes.immersiveengineeringFertilizer(fert.id).growthModifier(fert.multiplier)
+   })
+  
+  
  // Adding a Kelp recipe
  event.recipes.immersiveengineeringCloche(['minecraft:kelp'], 'minecraft:kelp', "minecraft:blue_ice")
 
