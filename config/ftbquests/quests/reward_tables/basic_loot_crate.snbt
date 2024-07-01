@@ -61,8 +61,8 @@
 				id: "constructionwand:stone_wand"
 				Count: 1b
 				tag: {
-					wand_options: { }
 					Damage: 0
+					wand_options: { }
 				}
 			}
 			weight: 44

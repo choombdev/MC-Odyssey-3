@@ -2326,14 +2326,14 @@
 					item: "occultism:otherstone"
 				}
 				{
-					id: "34A28BAEAF863B0E"
-					type: "item"
-					item: "occultism:otherworld_sapling"
-				}
-				{
 					id: "3F08D5F5962121EE"
 					type: "item"
 					item: "occultism:purified_ink"
+				}
+				{
+					id: "6721DEF2C869907F"
+					type: "item"
+					item: "occultism:otherworld_log"
 				}
 			]
 			rewards: [

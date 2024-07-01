@@ -3201,6 +3201,29 @@
       ],
       "ID": "skeletontrader",
       "OwnerName": "Mr Skellybone"
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "mineshaft2",
+      "Name": "The Mineshaft #2",
+      "OwnerName": "Minecraft",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "mysticalagriculture:redstone_essence",
+            "Count": 64
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 1
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "Auctions": []

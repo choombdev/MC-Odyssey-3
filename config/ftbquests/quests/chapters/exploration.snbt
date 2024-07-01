@@ -327,7 +327,7 @@
 			tasks: [{
 				id: "5FF2A5AE28ABAFEF"
 				type: "item"
-				item: "ob_aquamirae:fin"
+				item: "aquamirae:sharp_bones"
 				count: 4L
 			}]
 			rewards: [{
@@ -345,7 +345,7 @@
 			tasks: [{
 				id: "4A46C69509CB60E2"
 				type: "item"
-				item: "ob_aquamirae:esca"
+				item: "aquamirae:esca"
 			}]
 			rewards: [{
 				id: "5D908063162242F6"
@@ -362,7 +362,7 @@
 			tasks: [{
 				id: "62BCF4B7C406F2B3"
 				type: "item"
-				item: "ob_aquamirae:golden_moth_in_a_jar"
+				item: "aquamirae:golden_moth_in_a_jar"
 			}]
 			rewards: [{
 				id: "0C4EDE4287F07F71"
@@ -377,7 +377,7 @@
 			tasks: [{
 				id: "3F07B4B51B180269"
 				type: "item"
-				item: "ob_aquamirae:shell_horn"
+				item: "aquamirae:shell_horn"
 			}]
 			rewards: [
 				{
@@ -402,13 +402,13 @@
 				id: "2F29645EBB2B1CBA"
 				type: "kill"
 				icon: {
-					id: "ob_aquamirae:three_bolt_helmet"
+					id: "ob_core:paladin_extra_helmet"
 					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-				entity: "ob_aquamirae:captain_cornelia"
+				entity: "aquamirae:captain_cornelia"
 				value: 1L
 			}]
 			rewards: [
@@ -434,7 +434,7 @@
 			tasks: [{
 				id: "193EBE94D88C876D"
 				type: "item"
-				item: "ob_aquamirae:rune_of_the_storm"
+				item: "aquamirae:rune_of_the_storm"
 			}]
 			rewards: [
 				{
@@ -460,7 +460,7 @@
 			tasks: [{
 				id: "47ABB44A0175939E"
 				type: "item"
-				item: "ob_aquamirae:sea_stew"
+				item: "aquamirae:sea_stew"
 			}]
 			rewards: [{
 				id: "095DF949445879A2"
@@ -480,7 +480,7 @@
 					id: "057BD421C2F356B4"
 					type: "item"
 					item: {
-						id: "ob_aquamirae:terrible_helmet"
+						id: "aquamirae:terrible_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -491,7 +491,7 @@
 					id: "17E0870759FAF15B"
 					type: "item"
 					item: {
-						id: "ob_aquamirae:terrible_chestplate"
+						id: "aquamirae:terrible_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -502,7 +502,7 @@
 					id: "210C1283C0547E8F"
 					type: "item"
 					item: {
-						id: "ob_aquamirae:terrible_leggings"
+						id: "aquamirae:terrible_leggings"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -513,7 +513,7 @@
 					id: "0FEEE598A27CFECF"
 					type: "item"
 					item: {
-						id: "ob_aquamirae:terrible_boots"
+						id: "aquamirae:terrible_boots"
 						Count: 1b
 						tag: {
 							Damage: 0

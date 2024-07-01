@@ -13,9 +13,9 @@ onEvent('recipes', event => {
         'NCN',
         'FEF'
     ], {
-        F: 'fluxnetworks:flux_block',
+        F: 'fluxnetworks:flux_core',
         E: 'alltheores:enderium_nugget',
-        N: 'thermal:netherite_dust',
+        N: 'thermal:netherite_nugget',
         C: 'mekanism:basic_control_circuit'
     })
 

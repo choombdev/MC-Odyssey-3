@@ -13,7 +13,7 @@ fertilizers.forEach(fert => {
   
   
  // Adding a Kelp recipe
- event.recipes.immersiveengineeringCloche(['minecraft:kelp'], 'minecraft:kelp', "minecraft:blue_ice")
+ event.recipes.immersiveengineeringCloche(['minecraft:kelp'], 'minecraft:kelp', "minecraft:dirt")
 
 // Adding a Crux recipe for Nether Star Seeds
 event.remove({id: 'indy32:seeds/nether_star_seeds'})
@@ -24,6 +24,10 @@ event.recipes.immersiveengineeringCloche(['mysticalagriculture:nether_star_essen
 event.remove({id: 'indy32:seeds/dragon_egg_seeds'})
 event.remove({id: 'thermalexpansion:machine/insolator/dragon_egg_seeds'})
 event.recipes.immersiveengineeringCloche(['mysticalagriculture:dragon_egg_essence'], 'mysticalagriculture:dragon_egg_seeds', "mysticalagradditions:dragon_egg_crux")
+
+// Adding a Crux recipe for Gaia Seeds
+event.recipes.immersiveengineeringCloche(['mysticalagriculture:gaia_spirit_essence'], 'mysticalagriculture:gaia_spirit_seeds', 'mysticalagradditions:gaia_spirit_crux')
+
 
 // Magical Seeds
 event.recipes.immersiveengineeringCloche(['mysticalagriculture:magical_essence'], 'mysticalagriculture:magical_seeds', "mysticalagriculture:supremium_farmland")

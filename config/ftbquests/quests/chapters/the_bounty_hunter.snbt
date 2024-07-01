@@ -21,7 +21,7 @@
 			tasks: [{
 				id: "3E8F0F190A45149D"
 				type: "kill"
-				icon: "ob_aquamirae:fin"
+				icon: "immersivepetroleum:paraffin_wax"
 				entity: "ob_aquamirae:maw"
 				value: 10L
 			}]
@@ -66,6 +66,13 @@
 		}
 		{
 			title: "Kill: &21x Mother of the Maze"
+			icon: {
+				id: "aquamirae:maze_rose"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 4.5d
 			y: -2.0d
 			shape: "circle"
@@ -696,7 +703,7 @@
 			tasks: [{
 				id: "707F1F3B4A6EDF29"
 				type: "kill"
-				icon: "bygonenether:warped_ender_pearl"
+				icon: "torchmaster:frozen_pearl"
 				entity: "bygonenether:warped_enderman"
 				value: 10L
 			}]

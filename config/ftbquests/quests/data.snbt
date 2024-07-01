@@ -11,21 +11,12 @@
 		Count: 1b
 		tag: {
 			"eccentrictome:mods": {
-				industrialforegoing: {
+				hexcasting: {
 					0: {
 						Count: 1b
 						id: "patchouli:guide_book"
 						tag: {
-							"patchouli:book": "industrialforegoing:industrial_foregoing"
-						}
-					}
-				}
-				storagenetwork: {
-					0: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "storagenetwork:network_book"
+							"patchouli:book": "hexcasting:thehexbook"
 						}
 					}
 				}
@@ -35,51 +26,21 @@
 						id: "powah:book"
 					}
 				}
-				rebornstorage: {
-					0: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "rebornstorage:rs_book"
-						}
-					}
-				}
-				ftbquests: {
-					0: {
-						Count: 1b
-						id: "ftbquests:book"
-					}
-				}
-				pneumaticcraft: {
-					0: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "pneumaticcraft:book"
-						}
-					}
-				}
-				advancedperipherals: {
-					0: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "advancedperipherals:manual"
-						}
-					}
-				}
-				immersiveengineering: {
-					0: {
-						Count: 1b
-						id: "immersiveengineering:manual"
-					}
-				}
 				apotheosis: {
 					0: {
 						Count: 1b
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+				}
+				cyclic: {
+					0: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "cyclic:cyclic_guide_book"
 						}
 					}
 				}
@@ -92,51 +53,27 @@
 						}
 					}
 				}
-				elementalcraft: {
-					0: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "elementalcraft:element_book"
-						}
-					}
-				}
-				productivebees: {
-					0: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "productivebees:guide"
-						}
-					}
-				}
-				extendedcrafting: {
-					0: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "extendedcrafting:guide"
-						}
-					}
-				}
 				byg: {
 					0: {
 						Count: 1b
 						id: "byg:biomepedia"
 					}
 				}
-				ars_nouveau: {
-					0: {
-						Count: 1b
-						id: "ars_nouveau:worn_notebook"
-					}
-				}
-				hexcasting: {
+				twilightforest: {
 					0: {
 						Count: 1b
 						id: "patchouli:guide_book"
 						tag: {
-							"patchouli:book": "hexcasting:thehexbook"
+							"patchouli:book": "twilightforest:guide"
+						}
+					}
+				}
+				industrialforegoing: {
+					0: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
 						}
 					}
 				}
@@ -149,28 +86,58 @@
 						}
 					}
 				}
-				thermal: {
+				advancedperipherals: {
 					0: {
 						Count: 1b
 						id: "patchouli:guide_book"
 						tag: {
-							"patchouli:book": "thermal:guidebook"
+							"patchouli:book": "advancedperipherals:manual"
 						}
 					}
 				}
-				twilightforest: {
+				storagenetwork: {
 					0: {
 						Count: 1b
 						id: "patchouli:guide_book"
 						tag: {
-							"patchouli:book": "twilightforest:guide"
+							"patchouli:book": "storagenetwork:network_book"
 						}
 					}
 				}
-				integrateddynamics: {
+				elementalcraft: {
 					0: {
 						Count: 1b
-						id: "integrateddynamics:on_the_dynamics_of_integration"
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "elementalcraft:element_book"
+						}
+					}
+				}
+				ars_nouveau: {
+					0: {
+						Count: 1b
+						id: "ars_nouveau:worn_notebook"
+					}
+				}
+				ftbquests: {
+					0: {
+						Count: 1b
+						id: "ftbquests:book"
+					}
+				}
+				productivebees: {
+					0: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+				}
+				immersiveengineering: {
+					0: {
+						Count: 1b
+						id: "immersiveengineering:manual"
 					}
 				}
 				laserio: {
@@ -182,21 +149,54 @@
 						}
 					}
 				}
+				extendedcrafting: {
+					0: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "extendedcrafting:guide"
+						}
+					}
+				}
+				rebornstorage: {
+					0: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "rebornstorage:rs_book"
+						}
+					}
+				}
+				pneumaticcraft: {
+					0: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "pneumaticcraft:book"
+						}
+					}
+				}
+				integrateddynamics: {
+					0: {
+						Count: 1b
+						id: "integrateddynamics:on_the_dynamics_of_integration"
+					}
+				}
+				thermal: {
+					0: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+				}
 				mysticalagriculture: {
 					0: {
 						Count: 1b
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "mysticalagriculture:guide"
-						}
-					}
-				}
-				cyclic: {
-					0: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "cyclic:cyclic_guide_book"
 						}
 					}
 				}
